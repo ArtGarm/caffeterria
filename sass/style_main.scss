@@ -1,1 +1,16 @@
+/* header */
 
+.header-top{background-color: #fff;
+    .mbox{min-height: 60rem;}
+}
+.header-logo{position: absolute;left: 50%;top: 50%;transform:translate(-50%,-50%);
+    a{text-decoration: none;}
+}
+.header-basket-icon{float: right;}
+.header-telefone{float: left;
+    a{text-decoration: none;font-size: 18rem;color:#2a2a2b;font-weight: 700;
+        span{color:#d10019;}
+    }
+}
+
+/* /header */
