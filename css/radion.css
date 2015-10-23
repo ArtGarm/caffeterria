@@ -49,3 +49,29 @@
 .massonry .massonry_item.item_8 {
   width: 25%;
 }
+
+/*red circle-hit*/
+.red_circle {
+  text-align: center;
+}
+
+.red_circle .red_circle_wrap {
+  display: inline-block;
+  height: 65px;
+  width: 65px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #d10019;
+  margin-top: -32px;
+  border: 2px solid white;
+}
+
+.red_circle .red_circle_wrap span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14rem;
+  font-weight: 300;
+  display: block;
+  padding-top: 19px;
+}
