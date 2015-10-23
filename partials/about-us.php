@@ -3,7 +3,7 @@
         <div class="about-us-align">
             <div class="about-title"><span>уютное кафе в центре москвы "кафетеррия"</span></div>
             <div class="img-wrapp">
-                <img src="images/about.jpg" alt="">
+                <a href="#"><img src="images/about.jpg" alt=""></a>
 
             </div>
             <div class="about-text">

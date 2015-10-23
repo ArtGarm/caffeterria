@@ -2,18 +2,19 @@
 /*ебаут ас))))*/
 .about-us-wrapper .about-us-align .about-title {
   text-align: center;
-  margin-bottom: 82px;
+  margin-bottom: 85px;
 }
 
 .about-us-wrapper .about-us-align .about-title span {
   font-family: 'Merel';
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 20rem;
+  font-size: 19rem;
+  letter-spacing: 1px;
 }
 
 .about-us-wrapper .about-us-align .img-wrapp {
-  margin-bottom: 63px;
+  margin-bottom: 60px;
 }
 
 .about-us-wrapper .about-us-align .about-text {
@@ -30,18 +31,27 @@
 /*special*/
 .special-wrapper .special-align .special-title {
   text-align: center;
-  margin-bottom: 82px;
+  margin-bottom: 85px;
 }
 
 .special-wrapper .special-align .special-title span {
   font-family: 'Merel';
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 20rem;
+  font-size: 19rem;
+  letter-spacing: 1px;
 }
 
 .special-wrapper .special-align .img-wrapp {
-  margin-bottom: 63px;
+  margin-bottom: 79px;
+}
+
+.special-wrapper .special-align .img-wrapp .img-drop {
+  display: inline-block;
+}
+
+.special-wrapper .special-align .img-wrapp .img-menu {
+  margin-right: 19px;
 }
 
 /*/special*/
