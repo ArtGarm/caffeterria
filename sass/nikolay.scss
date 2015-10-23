@@ -1,28 +1,29 @@
 /*ебаут ас))))*/
-.about-us-wrapper{
-    .about-us-align{
-        .about-title{
-            span{}
-        }
-        .img-wrapp{
-            .img-ctrl{
-                .img-text-block{
-                    .text-logo{
-                        img{}
-                    }
-                    .text-box{
-                        .text-box-title{
-                            span{}
-                        }
-                        .text-box-desc{
-                            span{}
-                        }
-                    }
-                }
+    .about-us-wrapper{
+        .about-us-align{
+            .about-title{text-align: center;     margin-bottom: 82px;
+                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 20rem;}
+            }
+            .img-wrapp{margin-bottom: 63px;}
+            .about-text{text-align: center;
+                span{font-family: 'Merel';font-weight: 500; font-size: 14rem;}
             }
         }
     }
-}
-
 
 /*/ебаут ас))))*/
+/*special*/
+    .special-wrapper{
+        .special-align{
+            .special-title{text-align: center;     margin-bottom: 82px;
+                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 20rem;}
+            }
+            .img-wrapp{margin-bottom: 63px;
+                .img-menu{}
+                .img-tort{}
+            }
+        }
+    }
+
+
+/*/special*/
