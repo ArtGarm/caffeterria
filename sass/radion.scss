@@ -15,3 +15,11 @@
         &.item_8{width: 25%;}
     }
 }
+
+
+/*red circle-hit*/
+.red_circle{text-align: center;
+    .red_circle_wrap{display: inline-block;height: 65px;width: 65px;border-radius: 50%;background-color: $red;
+        span{}
+    }
+}

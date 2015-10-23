@@ -6,6 +6,13 @@
                 <div class="massonry_item_img">
                     <img src="images/massonry_item_img_1.jpg" alt="">
                 </div>
+                <div class="massonry_item_text">
+                    <div class="red_circle">
+                        <div class="red_circle_wrap">
+                            <span>Хит</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="massonry_item item_2">
                 <div class="massonry_item_img ">
