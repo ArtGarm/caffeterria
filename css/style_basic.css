@@ -7,11 +7,7 @@
   overflow: hidden;
 }
 
-
-
-
 .cfix {
-
   content: '';
   display: block;
   height: 0;
@@ -28,8 +24,6 @@
   overflow: hidden;
 }
 
-
-
 .jfix:after {
   content: '';
   display: inline-block;
@@ -45,9 +39,7 @@
   vertical-align: middle;
 }
 
-
 .vfix:before {
-
   content: '';
   height: 100%;
   width: 0;
@@ -70,12 +62,10 @@ html {
 
 body {
   min-height: 100%;
-
-  min-width: 1280px;
-
-  font-family: arial,sans-serif;
+  min-width: 320px;
+  font-family: "Merel",sans-serif;
   background: #fff;
-  color: #3d3d3d;
+  color: #000000;
   position: relative;
 }
 
@@ -130,7 +120,7 @@ p {
 /* /base typo*/
 /* wraps styling*/
 .mbox {
-  width: 1024px;
+  width: 1280px;
   margin: 0 auto;
   position: relative;
   z-index: 1;
