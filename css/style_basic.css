@@ -7,7 +7,11 @@
   overflow: hidden;
 }
 
-.cfix:after {
+
+
+
+.cfix {
+
   content: '';
   display: block;
   height: 0;
@@ -24,7 +28,9 @@
   overflow: hidden;
 }
 
-.jfix-after:after {
+
+
+.jfix:after {
   content: '';
   display: inline-block;
   width: 100%;
@@ -39,7 +45,9 @@
   vertical-align: middle;
 }
 
-.vfix-before:before {
+
+.vfix:before {
+
   content: '';
   height: 100%;
   width: 0;
@@ -62,7 +70,9 @@ html {
 
 body {
   min-height: 100%;
-  min-width: 960px;
+
+  min-width: 1280px;
+
   font-family: arial,sans-serif;
   background: #fff;
   color: #3d3d3d;
