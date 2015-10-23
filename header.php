@@ -10,14 +10,10 @@
 
 	<title></title>
 
-	<!--<link rel="stylesheet" href="css/bootstrap.css" media="all" />
-	<link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />-->
 
 	<link rel="stylesheet" type="text/css" href="css/style_basic.css" media="all" />
 
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
-
-
 
 	<!--<link rel="stylesheet" href="css/tuesdayAnimate.css" media='all' />-->
 
@@ -56,6 +52,10 @@
 	<link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
 	<script src="js/slick.js" type="text/javascript"></script>
 <!-- sliders -->
+
+<!-- masonry -->
+<script src="js/masonry.pkgd.min.js"></script>
+<!-- /masonry -->
 
 <!-- jScrollPane -->
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
