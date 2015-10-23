@@ -134,14 +134,15 @@
 					<?}?>
 				</div>
 
-				<div class="header-basket-icon">
-					<div class="header-basket">
+				<div class="header-basket-main">
+					<div class="header-basket-icon active">
 						<img src="images/header-basket-icon.png" alt="" />
-						<span class="header-basket-value active">2</span>
+						<span class="header-basket-value">2</span>
 					</div>
 					<div class="header-basket-form">
+						<div class="close-form"></div>
 						<form>
-
+							<div class="form-title">2 Товара на <span>1 290</span> Р</div>
 						</form>
 					</div>
 				</div>

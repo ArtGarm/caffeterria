@@ -1,6 +1,7 @@
 /* header */
 .header-top {
   background-color: #fff;
+  padding: 10rem 0 10rem 0;
 }
 
 .header-top .mbox {
@@ -28,6 +29,7 @@
 
 .header-telefone {
   float: left;
+  padding-top: 15rem;
 }
 
 .header-telefone a {
@@ -35,10 +37,57 @@
   font-size: 18rem;
   color: #2a2a2b;
   font-weight: 700;
+  -webkit-transition: color 300ms ease;
+  -moz-transition: color 300ms ease;
+  -o-transition: color 300ms ease;
+  transition: color 300ms ease;
 }
 
 .header-telefone a span {
   color: #d10019;
+  -webkit-transition: color 300ms ease;
+  -moz-transition: color 300ms ease;
+  -o-transition: color 300ms ease;
+  transition: color 300ms ease;
+}
+
+.header-telefone a:hover {
+  color: orange;
+}
+
+.header-telefone a:hover span {
+  color: orange;
+}
+
+.header-basket-main {
+  padding-top: 20rem;
+  float: right;
+}
+
+.header-basket-main .header-basket-icon {
+  position: relative;
+}
+
+.header-basket-main .header-basket-icon .header-basket-value {
+  width: 24rem;
+  height: 24rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #d10019;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13rem;
+  display: none;
+  position: absolute;
+  left: 100%;
+  bottom: 100%;
+}
+
+.header-basket-main .header-basket-icon.active .header-basket-value {
+  display: block;
 }
 
 /* /header */
