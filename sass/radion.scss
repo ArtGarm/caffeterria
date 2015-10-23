@@ -1,5 +1,13 @@
 @import 'variables';
 
+
+/*button*/
+.look_and_buy{font-weight: bold;text-transform: uppercase;font-size: 12rem;background-color: $salat;color: #fff;text-decoration: none;width: 220px;display: inline-block;padding: 24px 0px;vertical-align: middle;line-height: 12rem;transition:all linear .2s;border-radius:3px;
+    &:hover{text-decoration: none;color: white;
+        span{text-shadow:0px 0px 1px #fff;}
+    }
+    span{line-height: 12rem;vertical-align: text-top;transition:all linear .2s;}
+}
 /*massonry*/
 .massonry{
     .massonry_wrap{
@@ -16,12 +24,24 @@
         &.item_7{width: 50%;}
         &.item_8{width: 25%;}
     }
+    .massonry_item_text{text-align: center;}
+    .massonry_item_text_desc{text-align: center;font-weight: bold;font-size: 14rem;text-transform: uppercase;padding-top: 11px;}
+    .massonry_item_text_subdesc{font-size: 24rem;text-align: center;font-weight: bold;
+        span{font-size: 14rem;font-weight: normal;}
+    }
+    .massonry_item_text_descnotsample{text-align: center;font-size: 16rem;padding-top: 15px;}
+    .massonry_item_img{
+        &.img-centered{text-align: center;position: relative;
+            img{display: inline-block;}
+        }
+        .img-centered-text{font-size: 72rem;text-align: center;line-height: 60rem;position: absolute;top: 0;left: 0;right: 0;
+        }
+    }
 }
-
 
 /*red circle-hit*/
 .red_circle{text-align: center;
-    .red_circle_wrap{display: inline-block;height: 65px;width: 65px;border-radius: 50%;background-color: $red;
-        span{}
+    .red_circle_wrap{display: inline-block;height: 65px;width: 65px;border-radius: 50%;background-color: $red;margin-top: -32px;border:2px solid white;
+        span{text-transform:uppercase;color: white;font-size: 14rem;font-weight: 300;display: block;padding-top: 19px;}
     }
 }

@@ -1,5 +1,45 @@
 /* variables */
 /* /variables */
+/*button*/
+.look_and_buy {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12rem;
+  background-color: #29e694;
+  color: #fff;
+  text-decoration: none;
+  width: 220px;
+  display: inline-block;
+  padding: 24px 0px;
+  vertical-align: middle;
+  line-height: 12rem;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.look_and_buy:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.look_and_buy:hover span {
+  text-shadow: 0px 0px 1px #fff;
+}
+
+.look_and_buy span {
+  line-height: 12rem;
+  vertical-align: text-top;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
 /*massonry*/
 .massonry .massonry_wrap:after {
   content: '';
@@ -52,6 +92,54 @@
   width: 25%;
 }
 
+.massonry .massonry_item_text {
+  text-align: center;
+}
+
+.massonry .massonry_item_text_desc {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14rem;
+  text-transform: uppercase;
+  padding-top: 11px;
+}
+
+.massonry .massonry_item_text_subdesc {
+  font-size: 24rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.massonry .massonry_item_text_subdesc span {
+  font-size: 14rem;
+  font-weight: normal;
+}
+
+.massonry .massonry_item_text_descnotsample {
+  text-align: center;
+  font-size: 16rem;
+  padding-top: 15px;
+}
+
+.massonry .massonry_item_img.img-centered {
+  text-align: center;
+  position: relative;
+}
+
+.massonry .massonry_item_img.img-centered img {
+  display: inline-block;
+}
+
+.massonry .massonry_item_img .img-centered-text {
+  font-size: 72rem;
+  text-align: center;
+  line-height: 60rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 /*red circle-hit*/
 .red_circle {
   text-align: center;
@@ -65,4 +153,15 @@
   -moz-border-radius: 50%;
   border-radius: 50%;
   background-color: #d10019;
+  margin-top: -32px;
+  border: 2px solid white;
+}
+
+.red_circle .red_circle_wrap span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14rem;
+  font-weight: 300;
+  display: block;
+  padding-top: 19px;
 }

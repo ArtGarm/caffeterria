@@ -1,0 +1,158 @@
+.header-slider-wrap {
+  max-width: 1500rem;
+  margin: 0 auto;
+}
+
+.header-slider-wrap .header-slider-wrap-main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content {
+  position: relative;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white {
+  position: absolute;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1 {
+  font-size: 100rem;
+  font-family: "PFDinTextCondPro", sans-serif;
+  font-weight: 100;
+  color: #2a2a2b;
+  text-transform: uppercase;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1 span {
+  font-weight: 300;
+  color: #d10019;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h2 {
+  font-family: "Merel", sans-serif;
+  font-size: 18rem;
+  font-style: normal;
+  color: #737478;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h3 {
+  font-family: "Merel", sans-serif;
+  font-size: 18rem;
+  font-weight: 700;
+  color: #737478;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a {
+  text-decoration: none;
+  max-width: 230px;
+  width: 16%;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a .button-fast {
+  border: 1rem solid #d10019;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  border-radius: 3rem;
+  background-color: #d10019;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-style: "Merel";
+  font-weight: 700;
+  font-size: 12rem;
+  padding: 20rem;
+  display: inline-block;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .counter {
+  font-size: 50rem;
+  color: #737478;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black {
+  position: absolute;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1 {
+  font-size: 150rem;
+  font-family: "SavoyeLetPlain", sans-serif;
+  font-weight: normal;
+  color: #7b4537;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1 span {
+  color: #ffffff;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h2 {
+  font-family: "Merel", sans-serif;
+  font-size: 18rem;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h3 {
+  font-family: "Merel", sans-serif;
+  font-size: 18rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast {
+  border: 1rem solid #ffffff;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  border-radius: 3rem;
+  background-color: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-style: "Merel";
+  font-weight: 700;
+  font-size: 12rem;
+  padding: 20rem;
+  display: inline-block;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black .counter {
+  font-size: 50rem;
+  color: #ffffff;
+}
+
+.header-slider-wrap .header-slider-wrap-main .slick-dots {
+  position: absolute;
+  margin-bottom: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.header-slider-wrap .header-slider-wrap-main .slick-dots li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.header-slider-wrap .header-slider-wrap-main .slick-dots li:last-child {
+  margin-right: 0;
+}
+
+.header-slider-wrap .header-slider-wrap-main .slick-dots li button {
+  font-size: 0;
+  border: 2px solid #fff;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+
+.header-slider-wrap .header-slider-wrap-main .slick-dots li button:focus {
+  outline: none;
+}
+
+.header-slider-wrap .header-slider-wrap-main .slick-dots li:hover button, .header-slider-wrap .header-slider-wrap-main .slick-dots li.slick-active button {
+  background-color: #fff;
+}

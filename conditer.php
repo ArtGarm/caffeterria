@@ -2,6 +2,6 @@
 
         <? partial('conditier'); ?>
 
-        <? partial('conditier-chose'); ?>
+        <? partial('conditer-choise'); ?>
 
     </div>
