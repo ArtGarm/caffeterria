@@ -78,6 +78,10 @@
   padding-left: 15px;
 }
 
+.cond-wrapp .cond-align .cond-block a {
+  text-decoration: none;
+}
+
 .cond-wrapp .cond-align .cond-block:nth-child(3) {
   padding-left: 41px;
 }
