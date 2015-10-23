@@ -1,3 +1,5 @@
+/* variables */
+/* /variables */
 /*massonry*/
 .massonry .massonry_wrap:after {
   content: '';
@@ -5,12 +7,19 @@
   clear: both;
 }
 
+.massonry .massonry_item_sizer {
+  width: 25%;
+}
+
 .massonry .massonry_item {
-  outline: 1px solid red;
+  float: left;
+  width: 25%;
+  margin-bottom: 10px;
 }
 
 .massonry .massonry_item.item_1 {
   width: 50%;
+  height: 410px;
 }
 
 .massonry .massonry_item.item_2 {
@@ -41,4 +50,30 @@
 
 .massonry .massonry_item.item_8 {
   width: 25%;
+}
+
+/*red circle-hit*/
+.red_circle {
+  text-align: center;
+}
+
+.red_circle .red_circle_wrap {
+  display: inline-block;
+  height: 65px;
+  width: 65px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #d10019;
+  margin-top: -32px;
+  border: 2px solid white;
+}
+
+.red_circle .red_circle_wrap span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14rem;
+  font-weight: 300;
+  display: block;
+  padding-top: 19px;
 }
