@@ -1,4 +1,6 @@
 /* helping adds*/
+*{box-sizing:border-box;}
+
 .clear{clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;}
 .cfix{content: '';display: block;height: 0;font-size: 1px;line-height: 1px;overflow: hidden;clear: both;}
 .juster{display:inline-block;width:100%;height:0;overflow:hidden;}

@@ -1,0 +1,55 @@
+/*ебаут ас))))*/
+    .about-us-wrapper{
+        .about-us-align{
+            .about-title{text-align: center;     margin-bottom: 85px;
+                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size:  19rem;letter-spacing: 1px;}
+            }
+            .img-wrapp{margin-bottom: 60px;}
+            .about-text{text-align: center;
+                span{font-family: 'Merel';font-weight: 500; font-size: 14rem;}
+            }
+        }
+    }
+
+/*/ебаут ас))))*/
+/*special*/
+    .special-wrapper{
+        .special-align{
+            .special-title{text-align: center;     margin-bottom: 85px;
+                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 19rem;letter-spacing: 1px;}
+            }
+            .img-wrapp{margin-bottom: 79px;
+                .img-drop{display: inline-block;}
+                .img-menu{margin-right: 19px;}
+                .img-tort{}
+
+            }
+        }
+    }
+
+
+/*/special*/
+
+/*conditer -choise*/
+
+        .cond-wrapp{
+            .cond-align{
+                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 24rem;letter-spacing: 5px; color:#303030;}
+                .cond-title{width:100%; text-align: center; padding-bottom: 147px;
+
+                }
+                .cond-block{display: inline-block;max-width:49%;text-align: center;    padding-left: 15px;
+                    a{text-decoration: none;}
+                    &:nth-child(3){    padding-left: 41px;}
+                    .img-block{padding-bottom: 41px;}
+                    .title-block{padding-bottom: 31px;
+                        span{font-size: 14rem;letter-spacing: 3px;}
+                    }
+                    .text-block{width:69%; display: inline-block;
+                        span{font-weight:500; text-transform:none;font-size: 14rem;letter-spacing: 1px;line-height: 30px;}
+                    }
+                }
+            }
+        }
+
+/*/conditer -choise*/
