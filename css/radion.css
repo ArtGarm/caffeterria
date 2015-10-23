@@ -5,12 +5,19 @@
   clear: both;
 }
 
+.massonry .massonry_item_sizer {
+  width: 25%;
+}
+
 .massonry .massonry_item {
-  outline: 1px solid red;
+  float: left;
+  width: 25%;
+  margin-bottom: 10px;
 }
 
 .massonry .massonry_item.item_1 {
   width: 50%;
+  height: 410px;
 }
 
 .massonry .massonry_item.item_2 {

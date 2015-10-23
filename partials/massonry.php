@@ -1,6 +1,7 @@
 <div class="massonry">
     <div class="mbox">
-        <div class="massonry_wrap cfix">
+        <div class="massonry_wrap">
+            <div class="massonry_item_sizer"></div>
             <div class="massonry_item item_1">
                 <div class="massonry_item_img">
                     <img src="images/massonry_item_img_1.jpg" alt="">
