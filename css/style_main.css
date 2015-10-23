@@ -1,0 +1,44 @@
+/* header */
+.header-top {
+  background-color: #fff;
+}
+
+.header-top .mbox {
+  min-height: 60rem;
+}
+
+.header-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.header-logo a {
+  text-decoration: none;
+}
+
+.header-basket-icon {
+  float: right;
+}
+
+.header-telefone {
+  float: left;
+}
+
+.header-telefone a {
+  text-decoration: none;
+  font-size: 18rem;
+  color: #2a2a2b;
+  font-weight: 700;
+}
+
+.header-telefone a span {
+  color: #d10019;
+}
+
+/* /header */

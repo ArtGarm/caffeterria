@@ -10,10 +10,9 @@
 
 	<title></title>
 
+	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
 
 	<link rel="stylesheet" type="text/css" href="css/style_basic.css" media="all" />
-
-	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
 
 	<!--<link rel="stylesheet" href="css/tuesdayAnimate.css" media='all' />-->
 
@@ -123,7 +122,40 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<header class="header">
-		<div class="mbox">
+		<div class="header-top">
+			<div class="mbox">
+				<div class="header-logo">
+					<? if($act!='index' && $act!='none'){ ?>
+						<a href="#">
+							<img src="images/header-logo.png" alt="" />
+						</a>
+					<?}else{?>
+						<img src="images/header-logo.png" alt="" />
+					<?}?>
+				</div>
 
+				<div class="header-basket-icon">
+					<div class="header-basket">
+						<img src="images/header-basket-icon.png" alt="" />
+						<span class="header-basket-value active">2</span>
+					</div>
+					<div class="header-basket-form">
+						<form>
+
+						</form>
+					</div>
+				</div>
+
+				<div class="header-telefone">
+					<a href="tel:+7(495)7302440">
+						+7 <span>(495)</span> 730-24-40
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="mbox">
+
+			</div>
 		</div>
 	</header>
