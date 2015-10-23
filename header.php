@@ -142,7 +142,49 @@
 					<div class="header-basket-form">
 						<div class="close-form"></div>
 						<form>
-							<div class="form-title">2 Товара на <span>1 290</span> Р</div>
+							<div class="form-title">2 Товара на <span></span> Р</div>
+							<div class="header-basket-form-main">
+								<div class="header-basket-form-row">
+									<div class="header-basket-row-title">
+										Макаруны ассорти / 450 г
+									</div>
+									<div class="header-basket-row-info">
+										<div class="header-basket-row-value">
+											<span class="header-basket-row-price">99 Р</span>
+											<div class="header-basket-row-input">
+												<input type="text" value="1" name="item_1" />
+											</div>
+										</div>
+										<div class="header-basket-row-item-sum">
+											<span></span> P
+										</div>
+									</div>
+								</div>
+								<div class="header-basket-form-row">
+									<div class="header-basket-row-title">
+										Итальянская паста “Карбонара” с тунцом и креветками, в сливочном соусе
+									</div>
+									<div class="header-basket-row-info">
+										<div class="header-basket-row-value">
+											<span class="header-basket-row-price">399 Р</span>
+											<div class="header-basket-row-input">
+												<input type="text" value="1" name="item_1" />
+											</div>
+										</div>
+										<div class="header-basket-row-item-sum">
+											<span></span> P
+										</div>
+									</div>
+								</div>
+								<div class="header-basket-form-row submit">
+									<div class="header-basket-all-sum">
+										<span></span> P
+									</div>
+									<div class="header-basket-submit-button">
+										<button type="submit">оформить заказ</button>
+									</div>
+								</div>
+							</div>
 						</form>
 					</div>
 				</div>
