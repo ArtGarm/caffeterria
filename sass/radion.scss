@@ -1,6 +1,8 @@
 /*massonry*/
 .massonry{
-    .massonry_wrap{}
+    .massonry_wrap{
+        &:after{content: '';display: block;clear: both;}
+    }
     .massonry_item{outline:1px solid red;
         &.item_1{width: 50%;}
         &.item_2{width: 50%;height: 475px;}

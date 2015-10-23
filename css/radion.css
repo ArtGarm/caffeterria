@@ -1,4 +1,10 @@
 /*massonry*/
+.massonry .massonry_wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .massonry .massonry_item {
   outline: 1px solid red;
 }
