@@ -14,6 +14,7 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white {
   position: absolute;
+  width: 100%;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1 {
@@ -22,6 +23,8 @@
   font-weight: 100;
   color: #2a2a2b;
   text-transform: uppercase;
+  padding: 87rem 87rem 0rem 104rem;
+  margin-bottom: 0rem;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1 span {
@@ -34,6 +37,7 @@
   font-size: 18rem;
   font-style: normal;
   color: #737478;
+  padding: 0px 108rem 49rem 111rem;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h3 {
@@ -41,6 +45,7 @@
   font-size: 18rem;
   font-weight: 700;
   color: #737478;
+  padding: 1rem 100rem 112rem 110rem;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a {
@@ -60,17 +65,25 @@
   font-style: "Merel";
   font-weight: 700;
   font-size: 12rem;
-  padding: 20rem;
+  padding: 23rem;
   display: inline-block;
+  margin-left: 110rem;
+  letter-spacing: 4rem;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .counter {
-  font-size: 50rem;
-  color: #737478;
+  font-size: 30rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: -128rem;
+  right: 105rem;
+  font-style: "Merel";
+  font-weight: 900;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black {
   position: absolute;
+  width: 100%;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1 {
@@ -78,6 +91,8 @@
   font-family: "SavoyeLetPlain", sans-serif;
   font-weight: normal;
   color: #7b4537;
+  padding: 37rem 87rem 0rem 104rem;
+  margin-bottom: 0rem;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1 span {
@@ -89,6 +104,8 @@
   font-size: 18rem;
   font-style: normal;
   color: #ffffff;
+  padding: 0px 108rem 49rem 111rem;
+  margin-top: 0rem;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h3 {
@@ -96,6 +113,13 @@
   font-size: 18rem;
   font-weight: 700;
   color: #ffffff;
+  padding: 1rem 100rem 87rem 110rem;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a {
+  text-decoration: none;
+  max-width: 230px;
+  width: 16%;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast {
@@ -111,25 +135,34 @@
   font-size: 12rem;
   padding: 20rem;
   display: inline-block;
+  margin-left: 110rem;
+  letter-spacing: 4rem;
+  margin-left: 110rem;
+  letter-spacing: 4rem;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black .counter {
   font-size: 50rem;
-  color: #ffffff;
+  color: #aaa7a6;
+  font-size: 30rem;
+  font-style: "Merel";
+  font-weight: 900;
+  position: absolute;
+  bottom: -129rem;
+  right: 105rem;
 }
 
 .header-slider-wrap .header-slider-wrap-main .slick-dots {
   position: absolute;
   margin-bottom: 50px;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 17rem;
+  right: 183px;
   text-align: center;
 }
 
 .header-slider-wrap .header-slider-wrap-main .slick-dots li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 13px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .slick-dots li:last-child {
