@@ -437,18 +437,18 @@
   position: static;
 }
 
-.header-bottom .header-bottom-nav ul {
+.header-bottom .header-bottom-nav > ul {
   display: table;
   width: 100%;
 }
 
-.header-bottom .header-bottom-nav ul li {
+.header-bottom .header-bottom-nav > ul > li {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.header-bottom .header-bottom-nav ul li a {
+.header-bottom .header-bottom-nav > ul > li > a {
   text-decoration: none;
   font-size: 13rem;
   font-weight: 700;
@@ -464,7 +464,7 @@
   transition: background-color 300ms ease;
 }
 
-.header-bottom .header-bottom-nav ul li:hover a {
+.header-bottom .header-bottom-nav > ul > li:hover a {
   background-color: #d10019;
 }
 
@@ -472,6 +472,8 @@
   position: absolute;
   left: 0;
   right: 0;
+  display: none;
+  background-color: #fff;
 }
 
 /* /header */
