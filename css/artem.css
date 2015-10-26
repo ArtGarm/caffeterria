@@ -56,6 +56,8 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a .button-fast {
   border: 1rem solid #d10019;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
   border-radius: 3rem;
   background-color: #d10019;
   color: #ffffff;
@@ -122,6 +124,8 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast {
   border: 1rem solid #ffffff;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
   border-radius: 3rem;
   background-color: none;
   color: #ffffff;
@@ -171,6 +175,8 @@
   padding: 0;
   margin: 0;
   background-color: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 12px;
   height: 12px;

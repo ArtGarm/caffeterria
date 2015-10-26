@@ -45,7 +45,7 @@
                 <div class="massonry_item_img">
                     <img src="images/massonry_item_img_3.png" alt="">
                 </div>
-                <div class="massonry_item_text absolute white">
+<!--                 <div class="massonry_item_text absolute white">
                     <div class="massonry_item_fs_18">
                         Более
                     </div>
@@ -59,7 +59,7 @@
                     <div class="massonry_item_text_subdesc">
                         от 239&nbsp;Р
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="massonry_item item_4">
                 <div class="massonry_item_img">
@@ -69,12 +69,12 @@
                     <div class="massonry_item_4_img">
                         <img src="images/massonry_item_img_4_1.png" alt="">
                     </div>
-                    <div class="massonry_item_fs_16">
+<!--                     <div class="massonry_item_fs_16">
                         <span>Рожденственское печенье</span>
                     </div>
                     <div class="massonry_item_text_subdesc">
                         129&nbsp;Р&nbsp;<span>/100 гр.</span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="massonry_item item_5">
@@ -97,7 +97,7 @@
                 <div class="massonry_item_img">
                     <img src="images/massonry_item_img_6.png" alt="">
                 </div>
-                <div class="massonry_item_text absolute white padding">
+<!--                 <div class="massonry_item_text absolute white padding">
                     <div class="massonry_item_pink">
                         <div class="massonry_item_Savoye">
                             <p>Бесплатная</p>
@@ -110,13 +110,13 @@
                             <span>от</span>&nbsp;1000&nbsp;Р
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="massonry_item item_7">
                 <div class="massonry_item_img">
                     <img src="images/massonry_item_img_7.png" alt="">
                 </div>
-                <div class="massonry_item_text absolute white padding">
+<!--                 <div class="massonry_item_text absolute white padding">
                     <div class="massonry_item_fs_24">
                         <p>Когда на улице холодно, а</p>
                         <p>в душе тепло</p>
@@ -130,13 +130,13 @@
                     <div class="massonry_item_subdescription">
                         натуральный бадьян, корица, гвоздика и мускатный орех
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="massonry_item item_8">
                 <div class="massonry_item_img">
                     <img src="images/massonry_item_img_8.png" alt="">
                 </div>
-                <div class="massonry_item_text absolute white padding">
+<!--                 <div class="massonry_item_text absolute white padding">
                     <div class="massonry_item_fs_16">
                         <p>Пончики для любого</p>
                         <p>настроения</p>
@@ -144,7 +144,7 @@
                     <div class="massonry_item_text_subdesc">
                         79&nbsp;Р&nbsp;<span>/1 шт.</span>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
