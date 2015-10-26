@@ -72,6 +72,11 @@
 }
 
 /*massonry*/
+.massonry .massonry_wrap {
+  padding-bottom: 60px;
+  padding-top: 65px;
+}
+
 .massonry .massonry_wrap:after {
   content: '';
   display: block;
@@ -152,6 +157,15 @@
 
 .massonry .massonry_item.item_8 .massonry_item_img img {
   display: inline-block;
+}
+
+.massonry .massonry_item.item_8 .massonry_item_text.absolute {
+  margin-right: 0;
+}
+
+.massonry .massonry_item.item_8 .massonry_item_fs_16 {
+  padding-top: 37%;
+  font-weight: bold;
 }
 
 .massonry .massonry_item_text {

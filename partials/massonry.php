@@ -136,6 +136,15 @@
                 <div class="massonry_item_img">
                     <img src="images/massonry_item_img_8.png" alt="">
                 </div>
+                <div class="massonry_item_text absolute white padding">
+                    <div class="massonry_item_fs_16">
+                        <p>Пончики для любого</p>
+                        <p>настроения</p>
+                    </div>
+                    <div class="massonry_item_text_subdesc">
+                        79&nbsp;Р&nbsp;<span>/1 шт.</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
