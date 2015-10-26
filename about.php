@@ -1,13 +1,19 @@
     <div class="main">
 
-        <? partial('about-title'); ?>
 
-        <div class="breadcrumbs about">
-            <div class="breadcrumbs-align">
+
+        <div class="title-photo about">
+            <div class="title-photo-align">
                 <div class="bread-img"><img src="images/braed-about.jpg" alt=""></div>
             </div>
         </div>
-
+        <div class="breadcrumbs about">
+            <div class="crumps-align">
+                <a href=""><span>Главная/</span></a>
+                <a href=""><span>Меню</span></a>
+                <span>Популярные блюда</span>
+            </div>
+        </div>
         <div class="title">
 
         </div>

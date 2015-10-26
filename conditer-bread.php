@@ -4,14 +4,17 @@
 
         <div class="blur-wrap">
 
-            <div class="breadcrumbs conditer-bread">
-                <div class="breadcrumbs-align">
+            <div class="title-photo conditer-bread">
+                <div class="title-photo-align">
                     <div class="bread-img"><img src="images/braed-conditer-bread.jpg" alt=""></div>
                 </div>
             </div>
-
-            <div class="title">
-
+            <div class="breadcrumbs conditer-bread">
+                <div class="crumps-align">
+                    <a href="#"><span>Главная/</span></a>
+                    <a href="#"><span>Меню</span></a>
+                    <span>Популярные блюда</span>
+                </div>
             </div>
 
             <? partial('conditer-bread-text'); ?>

@@ -54,16 +54,37 @@
     .massonry{
         .massonry_item{float: left;width: 25%;margin-bottom: 10px;position: relative;padding-right: 10px;
             &.item_1{width: 50%;height: 190px;}
-            &.item_2{width: 50%;height: 290px;position: relative;}
-            &.item_5{width: 50%;height: 225px;}
+            &.item_2{width: 50%;height: 253px;position: relative;}
+            &.item_5{width: 50%;height: 190px;}
         }
     }
+    .massonry .massonry_item_text_descnotsample{font-size: 12rem;}
 }
 @media screen and (max-width: 767px){
 
 }
 @media screen and (max-width: 666px){
+    /*masonry index page*/
+    .massonry{
+        .massonry_wrap{padding-bottom: 30px;padding-top: 25px;
+        }
+        .massonry_item_sizer{width: 100%;}
+        .massonry_item{float: none;width: 25%;margin-bottom: 10px;position: relative;padding-right: 0px;
+            &.item_1{width: 100%;height: auto;}
+            &.item_2{width: 100%;height: auto;position: relative;}
+            &.item_3{width: 100%;}
+            &.item_4{width: 100%;}
+            &.item_5{width: 100%;height: auto;}
+            &.item_6{width: 100%;}
+            &.item_7{width: 100%;}
 
+            .massonry_item_img{text-align: center;
+                img{display: inline-block;}
+            }
+            .massonry_item_text {padding-bottom: 33px;}
+        }
+        .massonry_item.item_8 {width: 100%;}
+    }
 }
 @media screen and (max-width: 479px){
 

@@ -113,23 +113,22 @@
 }
 
 /*/conditer -choise*/
-/*breadcrumps*/
-.breadcrumbs {
+/*title photo*/
+.title-photo {
   width: 1500px;
   margin: 0 auto;
 }
 
-/*send*/
-.send {
-  padding-bottom: 100px;
+.title-photo.send {
+  padding-bottom: 166px;
 }
 
-.send .breadcrumbs-align {
+.title-photo.send .title-photo-align {
   position: relative;
   text-align: center;
 }
 
-.send .breadcrumbs-align span {
+.title-photo.send .title-photo-align span {
   color: #fff;
   font-size: 24rem;
   font-family: 'Merel';
@@ -137,46 +136,46 @@
   line-height: 30px;
 }
 
-.send .breadcrumbs-align .bread-img {
+.title-photo.send .title-photo-align .bread-img {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.send .breadcrumbs-align .bread-text {
+.title-photo.send .title-photo-align .bread-text {
   position: relative;
   padding: 89px 145px 40px;
 }
 
-.send .breadcrumbs-align .bread-text span {
+.title-photo.send .title-photo-align .bread-text span {
   font-size: 18rem;
 }
 
-.send .breadcrumbs-align .bread-phone {
+.title-photo.send .title-photo-align .bread-phone {
   position: relative;
   padding: 27px 145px 40px;
 }
 
-.send .breadcrumbs-align .bread-phone span {
+.title-photo.send .title-photo-align .bread-phone span {
   font-size: 48rem;
   font-weight: 700;
   letter-spacing: 8.5px;
 }
 
-.send .breadcrumbs-align .bred-min {
+.title-photo.send .title-photo-align .bred-min {
   position: relative;
   padding: 59px 145px 52px;
 }
 
-.send .breadcrumbs-align .bread-price-wrapp {
+.title-photo.send .title-photo-align .bread-price-wrapp {
   position: relative;
 }
 
-.send .breadcrumbs-align .bread-price-wrapp a {
+.title-photo.send .title-photo-align .bread-price-wrapp a {
   text-decoration: none;
 }
 
-.send .breadcrumbs-align .bread-price-wrapp .bread-price {
+.title-photo.send .title-photo-align .bread-price-wrapp .bread-price {
   padding: 28px 0 0;
   background-color: #d10019;
   border-radius: 50%;
@@ -186,12 +185,12 @@
   left: calc(50% - 46px);
 }
 
-.send .breadcrumbs-align .bread-price-wrapp .bread-price span {
+.title-photo.send .title-photo-align .bread-price-wrapp .bread-price span {
   font-weight: 700;
 }
 
 /*/send*/
-/*/breadcrumps*/
+/*/title foto*/
 /*send*/
 .send-content-wrapp .send-align {
   text-align: center;
@@ -209,13 +208,23 @@
   color: #d10019;
 }
 
+.send-content-wrapp .send-align .send-title {
+  padding-bottom: 120px;
+}
+
 .send-content-wrapp .send-align .send-title span {
   font-weight: 700;
   text-transform: uppercase;
 }
 
+.send-content-wrapp .send-align .diag-wrap {
+  padding-bottom: 111px;
+}
+
 .send-content-wrapp .send-align .diag-wrap .send-item {
-  width: 24%;
+  width: -webkit-calc(25% - 4px);
+  width: -moz-calc(25% - 4px);
+  width: calc(25% - 4px);
   display: inline-block;
   text-align: center;
   vertical-align: top;
@@ -242,6 +251,7 @@
   width: 141px;
   height: 141px;
   display: inline-block;
+  padding-top: 43px;
 }
 
 .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img span {
@@ -251,13 +261,26 @@
   text-transform: uppercase;
 }
 
+.send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-text {
+  padding-top: 28px;
+}
+
 .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-text span {
   font-size: 18rem;
   color: #2f3030;
 }
 
+.send-content-wrapp .send-align .send-text1 {
+  padding: 0 272px;
+}
+
 .send-content-wrapp .send-align .send-text1 span {
   font-size: 18rem;
+  line-height: 30rem;
+}
+
+.send-content-wrapp .send-align .send-text2 {
+  padding-top: 38px;
 }
 
 .send-content-wrapp .send-align .send-text2 span {
@@ -266,4 +289,58 @@
   color: #ccc;
 }
 
+.send-content-wrapp .send-align .send-text3 {
+  padding-top: 35px;
+}
+
+.send-content-wrapp .send-align .send-text3 span {
+  line-height: 30rem;
+}
+
+.send-content-wrapp .send-align .send-text4 {
+  padding-top: 36px;
+}
+
+.send-content-wrapp .send-align .send-text5 {
+  padding-top: 42px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding: 22px 0 52px;
+}
+
+.title .title-text {
+  font-size: 29rem;
+  font-family: "Merel";
+  font-weight: 700;
+  padding: 10rem 10% 10rem 10%;
+  text-transform: uppercase;
+  letter-spacing: 3rem;
+}
+
 /*/send*/
+/**breadcrumps*/
+.breadcrumbs {
+  width: 100%;
+}
+
+.breadcrumbs .crumps-align {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.breadcrumbs .crumps-align a {
+  text-decoration: none;
+}
+
+.breadcrumbs .crumps-align span {
+  font-family: 'Merel';
+  font-weight: 400;
+  font-size: 13rem;
+  color: #919294;
+  letter-spacing: 0.5px;
+}
+
+/*/breadcrumps*/

@@ -29,7 +29,10 @@
 .look_and_buy span {
   line-height: 12rem;
   vertical-align: text-top;
-  transition: all linear .2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
   position: relative;
 }
 
@@ -46,6 +49,8 @@
   display: inline-block;
   height: 65px;
   width: 65px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   background-color: #d10019;
   margin-top: -32px;
@@ -82,6 +87,16 @@
   width: 25%;
   margin-bottom: 15px;
   position: relative;
+}
+
+.massonry .massonry_item > a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .massonry .massonry_item.item_1 {
@@ -204,6 +219,9 @@
   top: 75px;
   right: -45px;
   -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
