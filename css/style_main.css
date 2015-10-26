@@ -63,10 +63,6 @@
   text-decoration: none;
 }
 
-.header-basket-icon {
-  float: right;
-}
-
 .header-telefone {
   float: left;
   padding-top: 15rem;
@@ -106,6 +102,7 @@
 
 .header-basket-main .header-basket-icon {
   position: relative;
+  cursor: pointer;
 }
 
 .header-basket-main .header-basket-icon .header-basket-value {
@@ -128,6 +125,14 @@
 
 .header-basket-main .header-basket-icon.active .header-basket-value {
   display: block;
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+}
+
+.header-basket-main .header-basket-icon.active:hover .header-basket-value {
+  background-color: orange;
 }
 
 .header-basket-form {
@@ -140,6 +145,7 @@
   -webkit-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
+  display: none;
 }
 
 .header-basket-form:before {
