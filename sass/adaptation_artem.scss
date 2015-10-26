@@ -8,23 +8,63 @@
 
 }
 @media screen and (max-width: 1280px){
-
+.slick-slide img { max-width: none ;  margin-left: 50%;transform:translate3d(-60%,0,0);-webkit-transform:translate3d(-60%,0,0); }
+   .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1{ margin-top: 0; font-size: 82rem;  padding: 48rem 88rem 0rem 70rem; }
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1{ margin-top: 0; font-size: 100rem; padding: 48rem 88rem 0rem 70rem; }
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h2 {
+     font-size: 18rem;     padding: 0px 108rem 6rem 72rem;}
+     .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h2 {
+     font-size: 18rem;     padding: 0px 108rem 6rem 72rem;}
+    .header-slider-wrap .header-slider-wrap-main .slick-dots{position: absolute;margin-bottom: 50px;bottom: 17rem;    right: 80%; text-align: center;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h3 { padding: 8rem 100rem 120rem 72rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h3 { padding: 8rem 100rem 120rem 72rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a .button-fast {margin-left: 74rem; }
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast {margin-left: 74rem; }
 }
 @media screen and (max-width: 1024px){
 
 }
 @media screen and (max-width: 992px){
+   .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1{ margin-top: 0; font-size: 64rem;  padding: 48rem 88rem 0rem 70rem; }
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1{ margin-top: 0; font-size: 84rem; padding: 48rem 88rem 0rem 70rem; }
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h2 {
+     font-size: 14rem;     padding: 0px 108rem 6rem 72rem;}
+     .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h2 {
+     font-size: 14rem;     padding: 0px 108rem 6rem 72rem;}
+    .header-slider-wrap .header-slider-wrap-main .slick-dots{position: absolute;margin-bottom: 50px;bottom: 17rem;    right: 80%; text-align: center;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h3 { padding: 8rem 100rem 120rem 72rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h3 { padding: 8rem 100rem 120rem 72rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a .button-fast {margin-left: 74rem; }
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast {margin-left: 74rem; }
 
 }
 @media screen and (max-width: 767px){
 
 }
 @media screen and (max-width: 666px){
+.slick-slide img { max-width: none ;  margin-left: 50%;transform:translate3d(-60%,0,0);-webkit-transform:translate3d(-70%,0,0); }
+.header-slider-wrap .header-slider-wrap-main .slick-dots {right: 75%; }
 
 }
 @media screen and (max-width: 479px){
+    .header-slider-wrap .header-slider-wrap-main .slick-dots {right: 60%; }
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast { margin-left: 30rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a .button-fast { margin-left: 30rem;}
 
 }
 @media screen and (max-width: 320px){
+    .header-slider-wrap .header-slider-wrap-main .slick-dots {right: 57%; }
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1 {     padding: 43rem 0rem 0rem 30rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h2 {
+        padding: 0px 108rem 6rem 30rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h3 {
+        padding: 0px 108rem 6rem 30rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a .button-fast { margin-left: 30rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1 {     padding: 43rem 0rem 0rem 30rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h2 {
+        padding: 0px 108rem 6rem 30rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h3 {
+        padding: 0px 108rem 6rem 30rem;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast { margin-left: 30rem;}
 
 }

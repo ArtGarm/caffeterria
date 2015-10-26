@@ -141,7 +141,9 @@
   top: 100%;
   width: 305rem;
   background-color: #fff;
+
   padding: 25rem 20rem 20rem 20rem;
+
   -webkit-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
@@ -299,9 +301,11 @@
   width: 44rem;
   height: 28rem;
   border: 2rem solid #e6e6e6;
+
   -webkit-border-radius: 6rem;
   -moz-border-radius: 6rem;
   border-radius: 6rem;
+
   vertical-align: middle;
   text-align: center;
   font-size: 14rem;
