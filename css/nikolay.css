@@ -286,10 +286,30 @@
   line-height: 30rem;
 }
 
+.send-content-wrapp .send-align .send-text2 {
+  padding-top: 38px;
+}
+
 .send-content-wrapp .send-align .send-text2 span {
   font-weight: 700;
   font-size: 72.35rem;
   color: #ccc;
+}
+
+.send-content-wrapp .send-align .send-text3 {
+  padding-top: 35px;
+}
+
+.send-content-wrapp .send-align .send-text3 span {
+  line-height: 30rem;
+}
+
+.send-content-wrapp .send-align .send-text4 {
+  padding-top: 36px;
+}
+
+.send-content-wrapp .send-align .send-text5 {
+  padding-top: 42px;
 }
 
 /*/send*/

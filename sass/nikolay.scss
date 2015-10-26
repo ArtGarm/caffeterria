@@ -115,10 +115,14 @@
             .send-text1{padding: 0 272px;
                 span{font-size: 18rem;line-height: 30rem;}
             }
-            .send-text2{span{font-weight: 700;font-size: 72.35rem;color: #ccc;}}
-            .send-text3{span{}}
-            .send-text4{span{}}
-            .send-text5{span{}}
+            .send-text2{padding-top: 38px;
+                span{font-weight: 700;font-size: 72.35rem;color: #ccc;}
+            }
+            .send-text3{padding-top: 35px;
+                span{line-height: 30rem;}
+            }
+            .send-text4{ padding-top: 36px;}
+            .send-text5{    padding-top: 42px;}
         }
     }
 

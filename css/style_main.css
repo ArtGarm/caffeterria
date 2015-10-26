@@ -16,6 +16,9 @@
   text-transform: uppercase;
   font-size: 14rem;
   cursor: pointer;
+  -webkit-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+  -moz-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+  -o-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
   transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
 }
 
