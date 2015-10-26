@@ -1,3 +1,115 @@
 @charset "UTF-8";
 /*ебаут ас))))*/
+.about-us-wrapper .about-us-align .about-title {
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.about-us-wrapper .about-us-align .about-title span {
+  font-family: 'Merel';
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 19rem;
+  letter-spacing: 1px;
+}
+
+.about-us-wrapper .about-us-align .img-wrapp {
+  margin-bottom: 60px;
+}
+
+.about-us-wrapper .about-us-align .about-text {
+  text-align: center;
+}
+
+.about-us-wrapper .about-us-align .about-text span {
+  font-family: 'Merel';
+  font-weight: 500;
+  font-size: 14rem;
+}
+
 /*/ебаут ас))))*/
+/*special*/
+.special-wrapper .special-align .special-title {
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.special-wrapper .special-align .special-title span {
+  font-family: 'Merel';
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 19rem;
+  letter-spacing: 1px;
+}
+
+.special-wrapper .special-align .img-wrapp {
+  margin-bottom: 79px;
+}
+
+.special-wrapper .special-align .img-wrapp .img-drop {
+  display: inline-block;
+}
+
+.special-wrapper .special-align .img-wrapp .img-menu {
+  margin-right: 19px;
+}
+
+/*/special*/
+/*conditer -choise*/
+.cond-wrapp .cond-align span {
+  font-family: 'Merel';
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 24rem;
+  letter-spacing: 5px;
+  color: #303030;
+}
+
+.cond-wrapp .cond-align .cond-title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 147px;
+}
+
+.cond-wrapp .cond-align .cond-block {
+  display: inline-block;
+  max-width: 49%;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.cond-wrapp .cond-align .cond-block a {
+  text-decoration: none;
+}
+
+.cond-wrapp .cond-align .cond-block:nth-child(3) {
+  padding-left: 41px;
+}
+
+.cond-wrapp .cond-align .cond-block .img-block {
+  padding-bottom: 41px;
+}
+
+.cond-wrapp .cond-align .cond-block .title-block {
+  padding-bottom: 31px;
+}
+
+.cond-wrapp .cond-align .cond-block .title-block span {
+  font-size: 14rem;
+  letter-spacing: 3px;
+}
+
+.cond-wrapp .cond-align .cond-block .text-block {
+  width: 69%;
+  display: inline-block;
+}
+
+.cond-wrapp .cond-align .cond-block .text-block span {
+  font-weight: 500;
+  text-transform: none;
+  font-size: 14rem;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+/*/conditer -choise*/

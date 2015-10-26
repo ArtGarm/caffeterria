@@ -10,10 +10,9 @@
 
 	<title></title>
 
+	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
 
 	<link rel="stylesheet" type="text/css" href="css/style_basic.css" media="all" />
-
-	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
 
 	<!--<link rel="stylesheet" href="css/tuesdayAnimate.css" media='all' />-->
 
@@ -123,7 +122,85 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<header class="header">
-		<div class="mbox">
+		<div class="header-top">
+			<div class="mbox">
+				<div class="header-logo">
+					<? if($act!='index' && $act!='none'){ ?>
+						<a href="#">
+							<img src="images/header-logo.png" alt="" />
+						</a>
+					<?}else{?>
+						<img src="images/header-logo.png" alt="" />
+					<?}?>
+				</div>
 
+				<div class="header-basket-main">
+					<div class="header-basket-icon active">
+						<img src="images/header-basket-icon.png" alt="" />
+						<span class="header-basket-value">2</span>
+					</div>
+					<div class="header-basket-form">
+						<div class="close-form"></div>
+						<form>
+							<div class="form-title"><span class="form-title-items-count">2</span> Товара на <span class="form-title-items-sum"></span> Р</div>
+							<div class="header-basket-form-main">
+								<div class="header-basket-form-row">
+									<div class="header-basket-row-title">
+										Макаруны ассорти / 450 г
+									</div>
+									<div class="header-basket-row-info cfix">
+										<div class="header-basket-row-value">
+											<span class="header-basket-row-price" data-price=99>99 Р</span>
+											<div class="header-basket-row-input">
+												<input type="text" value="1" name="item_1" />
+												<span>шт</span>
+											</div>
+										</div>
+										<div class="header-basket-row-item-sum">
+											<span></span> P
+										</div>
+									</div>
+								</div>
+								<div class="header-basket-form-row">
+									<div class="header-basket-row-title">
+										Итальянская паста “Карбонара” с тунцом и креветками, в сливочном соусе
+									</div>
+									<div class="header-basket-row-info cfix">
+										<div class="header-basket-row-value">
+											<span class="header-basket-row-price" data-price=99>399 Р</span>
+											<div class="header-basket-row-input">
+												<input type="text" value="1" name="item_2" />
+												<span>шт</span>
+											</div>
+										</div>
+										<div class="header-basket-row-item-sum">
+											<span></span> P
+										</div>
+									</div>
+								</div>
+								<div class="header-basket-form-row submit">
+									<div class="header-basket-all-sum">
+										<span></span> P
+									</div>
+									<div class="header-basket-submit-button">
+										<button type="submit" class="button">оформить заказ</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="header-telefone">
+					<a href="tel:+7(495)7302440">
+						+7 <span>(495)</span> 730-24-40
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="mbox">
+
+			</div>
 		</div>
 	</header>
