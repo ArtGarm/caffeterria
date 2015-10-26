@@ -11,6 +11,7 @@
 	<title></title>
 
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
 	<link rel="stylesheet" type="text/css" href="css/style_basic.css" media="all" />
 
