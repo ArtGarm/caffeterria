@@ -13,12 +13,7 @@
   padding: 24px 0px;
   vertical-align: middle;
   line-height: 12rem;
-  -webkit-transition: all linear 0.2s;
-  -moz-transition: all linear 0.2s;
-  -o-transition: all linear 0.2s;
-  transition: all linear 0.2s;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
+  transition: all linear .2s;
   border-radius: 3px;
 }
 
@@ -34,10 +29,7 @@
 .look_and_buy span {
   line-height: 12rem;
   vertical-align: text-top;
-  -webkit-transition: all linear 0.2s;
-  -moz-transition: all linear 0.2s;
-  -o-transition: all linear 0.2s;
-  transition: all linear 0.2s;
+  transition: all linear .2s;
 }
 
 /*massonry*/
@@ -149,8 +141,6 @@
   display: inline-block;
   height: 65px;
   width: 65px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   background-color: #d10019;
   margin-top: -32px;
