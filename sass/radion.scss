@@ -25,6 +25,7 @@
     }
     .massonry_item_sizer{width: 25%;}
     .massonry_item{float: left;width: 25%;margin-bottom: 15px;position: relative;
+        &>a{display: block;text-decoration: none;color: inherit;margin: 0;padding: 0;height: 100%;width: 100%;}
         &.item_1{width: 50%;height: 330px;}
         &.item_2{width: 50%;height: 430px;position: relative;}
         &.item_3{width: 25%;}
