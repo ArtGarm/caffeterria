@@ -8,8 +8,21 @@ function massonryInit(){
 
 }
 
-$(document).ready(function(){
+function popUpCatalog(){
+    $('.catalog_pop').fancybox({
+        autoSize:true,
+        openEffect:'elastic',
+        closeEffect:'elastic',
+        padding:0
+    });
 
+    $('.catalog_pop_close').click(function(){
+        $.fancybox.close();
+    });
+}
+
+$(document).ready(function(){
+    popUpCatalog();
 });
 $(window).load(function(){
     if($(window).width() > 666){

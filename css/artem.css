@@ -66,8 +66,6 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a .button-fast {
   border: 1rem solid #d10019;
-  -webkit-border-radius: 3rem;
-  -moz-border-radius: 3rem;
   border-radius: 3rem;
   background-color: #d10019;
   color: #ffffff;
@@ -91,7 +89,6 @@
   width: 1500rem;
   height: 816rem;
   left: 50%;
-  -moz-transform: translate3d(-50%, 0, 0);
   transform: translate3d(-50%, 0, 0);
   -webkit-transform: translate3d(-50%, 0, 0);
   max-width: none;
@@ -140,8 +137,6 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast {
   border: 1rem solid #ffffff;
-  -webkit-border-radius: 3rem;
-  -moz-border-radius: 3rem;
   border-radius: 3rem;
   background-color: none;
   color: #ffffff;
@@ -166,7 +161,6 @@
   width: 1500rem;
   height: 816rem;
   left: 50%;
-  -moz-transform: translate3d(-50%, 0, 0);
   transform: translate3d(-50%, 0, 0);
   -webkit-transform: translate3d(-50%, 0, 0);
   max-width: none;
@@ -195,8 +189,6 @@
   padding: 0;
   margin: 0;
   background-color: transparent;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 12px;
   height: 12px;
@@ -213,7 +205,6 @@
 .slick-slide img {
   max-width: none;
   margin-left: 50%;
-  -moz-transform: translate3d(-50%, 0, 0);
   transform: translate3d(-50%, 0, 0);
   -webkit-transform: translate3d(-50%, 0, 0);
 }

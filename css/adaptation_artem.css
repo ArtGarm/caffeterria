@@ -2,7 +2,6 @@
   .slick-slide img {
     max-width: none;
     margin-left: 50%;
-    -moz-transform: translate3d(-60%, 0, 0);
     transform: translate3d(-60%, 0, 0);
     -webkit-transform: translate3d(-60%, 0, 0);
   }
@@ -89,7 +88,6 @@
   .slick-slide img {
     max-width: none;
     margin-left: 50%;
-    -moz-transform: translate3d(-60%, 0, 0);
     transform: translate3d(-60%, 0, 0);
     -webkit-transform: translate3d(-70%, 0, 0);
   }
