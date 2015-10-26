@@ -327,6 +327,22 @@ function showHideHeaderform(){
     });
 };
 
+function showSecondLevel(){
+    var timer = null;
+    $('.header-bottom-nav>ul>li').hover(
+        function(){
+            var item = $(this);
+            clearSetTimeout(timer);
+            timer = setTimeout(function(){
+                item.find('.second-level').slideDown(300);
+            },0);
+        },
+        function(){
+            //$('.second-level').slideUp(300);
+        }
+    );
+};
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -341,6 +357,7 @@ $(window).load(function(){
     formCount('.header-basket-form-class');
     validate('.header-basket-form-class', {submitFunction:validationCall});
     showHideHeaderform();
+    showSecondLevel();
 
 });
 

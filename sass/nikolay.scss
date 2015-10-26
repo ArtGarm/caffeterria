@@ -55,10 +55,8 @@
 /*/conditer -choise*/
 
 /*title photo*/
-    .title-photo{ width: 1500px;    margin: 0 auto;}
-    /*send*/
-
-            .send{padding-bottom: 166px;
+    .title-photo{ width: 1500px;    margin: 0 auto;
+               &.send{padding-bottom: 166px;
                 .title-photo-align{position: relative; text-align: center;
                     span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
                     .bread-img{position: absolute; top:0; left:0;
@@ -81,6 +79,7 @@
                     }
                 }
             }
+        }
 
     /*/send*/
 /*/title foto*/
@@ -125,19 +124,20 @@
             .send-text5{    padding-top: 42px;}
         }
     }
+    .title{width: 100%; text-align: center;    padding:22px 0 52px;
+        .title-text{font-size: 29rem; font-family:"Merel"; font-weight: 700; padding: 10rem 10% 10rem 10%; text-transform: uppercase; letter-spacing: 3rem;}
+    }
 
 /*/send*/
 /**breadcrumps*/
 .breadcrumbs{width: 100%;
-    .crumps-align{text-align: center;
+    .crumps-align{text-align: center; padding-top: 55px;
         a{text-decoration: none;}
         span{font-family: 'Merel';font-weight: 400;font-size: 13rem; color:#919294;letter-spacing: 0.5px;}
     }
 }
 
-.breadcrumbs{
-    &.about{.crumps-align{padding-top: 56px;}}
-}
+
 
 
 
