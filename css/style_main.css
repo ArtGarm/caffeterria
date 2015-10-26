@@ -3,7 +3,7 @@
 /* buttons styles */
 .button {
   height: 48rem;
-  line-height: 46rem;
+  line-height: 43rem;
   background-color: #d10019;
   text-align: center;
   width: 100%;
@@ -63,10 +63,6 @@
   text-decoration: none;
 }
 
-.header-basket-icon {
-  float: right;
-}
-
 .header-telefone {
   float: left;
   padding-top: 15rem;
@@ -106,6 +102,7 @@
 
 .header-basket-main .header-basket-icon {
   position: relative;
+  cursor: pointer;
 }
 
 .header-basket-main .header-basket-icon .header-basket-value {
@@ -128,6 +125,14 @@
 
 .header-basket-main .header-basket-icon.active .header-basket-value {
   display: block;
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+}
+
+.header-basket-main .header-basket-icon.active:hover .header-basket-value {
+  background-color: orange;
 }
 
 .header-basket-form {
@@ -136,10 +141,13 @@
   top: 100%;
   width: 305rem;
   background-color: #fff;
-  padding: 25rem 20rem 25rem 20rem;
+
+  padding: 25rem 20rem 20rem 20rem;
+
   -webkit-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
+  display: none;
 }
 
 .header-basket-form:before {
@@ -157,8 +165,8 @@
 
 .header-basket-form .close-form {
   position: absolute;
-  right: 5rem;
-  top: 5rem;
+  right: 10rem;
+  top: 14rem;
   width: 10rem;
   height: 10rem;
   cursor: pointer;
@@ -208,7 +216,7 @@
 .header-basket-form .form-title {
   font-size: 16rem;
   color: #1a1a1a;
-  margin-bottom: 15rem;
+  margin-bottom: 25rem;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -220,15 +228,20 @@
 
 .header-basket-form .header-basket-form-row {
   border-top: 1px solid #e6e6e6;
-  padding-top: 10rem;
-  margin-bottom: 10rem;
+  padding-top: 14rem;
+  margin-bottom: 20rem;
+}
+
+.header-basket-form .header-basket-form-row.submit {
+  margin-bottom: 0rem;
 }
 
 .header-basket-form .header-basket-row-title {
   font-size: 14rem;
   color: #1a1a1a;
   font-size: 14rem;
-  margin-bottom: 15rem;
+  line-height: 22rem;
+  margin-bottom: 18rem;
 }
 
 .header-basket-form .header-basket-row-value {
@@ -280,6 +293,7 @@
 
 .header-basket-form .header-basket-row-value .header-basket-row-input {
   display: inline-block;
+  margin-left: 6rem;
 }
 
 .header-basket-form .header-basket-row-value .header-basket-row-input input {
@@ -287,9 +301,11 @@
   width: 44rem;
   height: 28rem;
   border: 2rem solid #e6e6e6;
-  -webkit-border-radius: 3rem;
-  -moz-border-radius: 3rem;
-  border-radius: 3rem;
+
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  border-radius: 6rem;
+
   vertical-align: middle;
   text-align: center;
   font-size: 14rem;
@@ -301,7 +317,7 @@
   font-size: 14rem;
   color: #b2b2b2;
   vertical-align: middle;
-  margin-left: 5rem;
+  margin-left: 10rem;
   margin-top: -3rem;
 }
 
@@ -317,11 +333,16 @@
 .header-basket-form .header-basket-all-sum {
   text-align: center;
   padding-top: 10rem;
-  margin-bottom: 10rem;
+  margin-bottom: 32rem;
   font-weight: 700;
   color: #d10019;
   font-size: 30rem;
   text-transform: uppercase;
+}
+
+.header-basket-form .header-basket-submit-button button.button {
+  letter-spacing: 2.6rem;
+  font-weight: 700;
 }
 
 .call_success {

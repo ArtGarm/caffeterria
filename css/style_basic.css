@@ -126,7 +126,8 @@ p {
 /* /base typo*/
 /* wraps styling*/
 .mbox {
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   z-index: 1;
