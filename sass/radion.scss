@@ -1,5 +1,11 @@
 @import 'variables';
-
+/*fancybox style*/
+.fancybox-close{background: none;outline: none;top: 0;right: 0;
+    &:after{position: absolute;width: 20px;height: 3px;background-color: #cccccc;content: "";transform: rotate(45deg);top: 15px;right:7px;}
+    &:before{position: absolute;width: 20px;height: 3px;background-color: #cccccc;content: "";transform: rotate(135deg);top:15px;right:7px;}
+}
+.fancybox-skin{border-radius: 0px;}
+/*/fancybox style*/
 
 /*button*/
 .look_and_buy{font-weight: bold;text-transform: uppercase;font-size: 12rem;background-color: $salat;color: #fff;text-decoration: none;width: 220px;display: inline-block;padding: 24px 0px;vertical-align: middle;line-height: 12rem;transition:all linear .2s;border-radius:3px;
@@ -77,3 +83,34 @@
     .massonry_item_pink{background-color: #e28892;height: 100%;}
 }
 
+/*catalog pop*/
+.catalog_pop_wrap{
+    .catalog_pop_table{display: table;}
+    .catalog_pop_cell{display: table-cell;width: 50%;vertical-align: middle;position: relative;z-index: 1;
+        &.left{background-color: #ccf5f3;}
+        &.right{text-align: center;padding: 45px 10px;color: #000;}
+    }
+    .catalog_pop_title{font-size: 14rem;font-weight: bold;padding-bottom: 25px;text-transform: uppercase;}
+    .catalog_pop_subtitle{font-size: 13rem;padding-bottom: 75px;line-height: 24rem;}
+    .catalog_pop_price{padding-bottom: 80px;font-size: 24rem;font-weight: bold;
+        span{font-size: 14rem;font-weight: normal;}
+    }
+    .catalog_pop_button{
+        .button{max-width: 210px;margin: 0 auto;text-decoration: none;margin-bottom: 20px;}
+        .catalog_pop_close{height: 48rem;line-height: 43rem;text-align: center;width: 100%;display: inline-block;border-radius: 5rem;color: #e6e6e6;border: 2px solid #e6e6e6;text-transform: uppercase;font-size: 14rem;cursor: pointer;transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;max-width: 210px;margin: 0 auto;text-decoration: none;
+            &:hover{border: 2px solid transparent;background-color: #e6e6e6;color: #fff;}
+        }
+    }
+    .catalog_pop_img{text-align: center;
+        img{display: inline-block;}
+    }
+    .catalog_pop_cell_wrap{
+    }
+    .catalog_pop_mas{position: absolute;background-color: $red;height: 75px;width: 75px;border-radius: 50%;top:30px;left: 30px;font-weight: bold;
+         p{color: white;font-size: 18rem;text-align: center;padding-top: 20px;padding-left: 5px;}
+    }
+    .catalog_pop_kkal{position: absolute;background-color: #ccf5f3;border:3px solid $red;height: 73px;width: 73px;border-radius: 50%;top: 110px;left: 30px;padding-top: 12px;
+        p{font-size: 18rem;text-align: center;padding-top: 2px;color: $red;font-weight: bold;line-height: 15rem;}
+    }
+
+}
