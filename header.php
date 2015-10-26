@@ -141,10 +141,14 @@
 					</div>
 					<div class="header-basket-form">
 						<div class="close-form"></div>
-						<form>
-							<div class="form-title"><span class="form-title-items-count">2</span> Товара на <span class="form-title-items-sum"></span> Р</div>
+						<form class="header-basket-form-class">
+							<div class="form-title">
+								<span class="form-title-items-count"></span>
+								<span class="form-title-items-text"></span>
+								<span class="form-title-items-sum"></span> Р
+								</div>
 							<div class="header-basket-form-main">
-								<div class="header-basket-form-row">
+								<div class="header-basket-form-row form-row form-row-summing">
 									<div class="header-basket-row-title">
 										Макаруны ассорти / 450 г
 									</div>
@@ -152,35 +156,35 @@
 										<div class="header-basket-row-value">
 											<span class="header-basket-row-price" data-price=99>99 Р</span>
 											<div class="header-basket-row-input">
-												<input type="text" value="1" name="item_1" />
+												<input type="text" value="1" name="item_1" required="required" />
 												<span>шт</span>
 											</div>
 										</div>
 										<div class="header-basket-row-item-sum">
-											<span></span> P
+											<span class="line-sum">0</span> P
 										</div>
 									</div>
 								</div>
-								<div class="header-basket-form-row">
+								<div class="header-basket-form-row form-row form-row-summing">
 									<div class="header-basket-row-title">
 										Итальянская паста “Карбонара” с тунцом и креветками, в сливочном соусе
 									</div>
 									<div class="header-basket-row-info cfix">
 										<div class="header-basket-row-value">
-											<span class="header-basket-row-price" data-price=99>399 Р</span>
+											<span class="header-basket-row-price" data-price=399>399 Р</span>
 											<div class="header-basket-row-input">
-												<input type="text" value="1" name="item_2" />
+												<input type="text" value="1" name="item_2" required="required" />
 												<span>шт</span>
 											</div>
 										</div>
 										<div class="header-basket-row-item-sum">
-											<span></span> P
+											<span class="line-sum">0</span> P
 										</div>
 									</div>
 								</div>
-								<div class="header-basket-form-row submit">
+								<div class="header-basket-form-row form-row submit">
 									<div class="header-basket-all-sum">
-										<span></span> P
+										<span class="form-sum"></span> P
 									</div>
 									<div class="header-basket-submit-button">
 										<button type="submit" class="button">оформить заказ</button>

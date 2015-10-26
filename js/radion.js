@@ -8,8 +8,8 @@ function massonryInit(){
 }
 
 $(document).ready(function(){
-    massonryInit();
+
 });
 $(window).load(function(){
-
+    massonryInit();
 });
