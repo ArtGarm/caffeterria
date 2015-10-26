@@ -47,6 +47,8 @@
 /* /about caffe */
 /* actions */
 .action-content-wrap .action-content .action-block {
+  width: -webkit-calc(50% - 10px);
+  width: -moz-calc(50% - 10px);
   width: calc(50% - 10px);
   float: left;
   position: relative;
