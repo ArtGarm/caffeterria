@@ -3,7 +3,7 @@
 /* buttons styles */
 .button {
   height: 48rem;
-  line-height: 48rem;
+  line-height: 46rem;
   background-color: #d10019;
   text-align: center;
   width: 100%;
@@ -12,10 +12,24 @@
   -moz-border-radius: 5rem;
   border-radius: 5rem;
   color: #fff;
+  border: 2px solid transparent;
   text-transform: uppercase;
   font-size: 14rem;
-  border: none;
   cursor: pointer;
+  -webkit-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+  -moz-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+  -o-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+  transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+}
+
+.button:hover {
+  background-color: #FFF;
+  border-color: #d10019;
+  color: #d10019;
+}
+
+.button:focus {
+  outline: none;
 }
 
 /* /buttons styles */
@@ -194,13 +208,14 @@
 .header-basket-form .form-title {
   font-size: 16rem;
   color: #1a1a1a;
-  margin-bottom: 15px;
+  margin-bottom: 15rem;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 700;
 }
 
-.header-basket-form .form-title span {
-  font-weight: 700;
+.header-basket-form .form-title .form-title-items-text {
+  font-weight: 400;
 }
 
 .header-basket-form .header-basket-form-row {
@@ -210,9 +225,9 @@
 }
 
 .header-basket-form .header-basket-row-title {
-  font-size: 14px;
+  font-size: 14rem;
   color: #1a1a1a;
-  font-size: 14px;
+  font-size: 14rem;
   margin-bottom: 15rem;
 }
 
@@ -237,8 +252,8 @@
   top: 56%;
   position: absolute;
   display: block;
-  width: 10px;
-  height: 1px;
+  width: 10rem;
+  height: 1rem;
   background-color: #000;
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -307,6 +322,23 @@
   color: #d10019;
   font-size: 30rem;
   text-transform: uppercase;
+}
+
+.call_success {
+  padding: 30px 40px 30px 40px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.call_success .call_success-title {
+  font-size: 36rem;
+  font-weight: 700;
+  margin-bottom: 20rem;
+  text-transform: uppercase;
+}
+
+.call_success .call_success-text {
+  font-size: 26rem;
 }
 
 /* /header */
