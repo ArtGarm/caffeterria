@@ -45,3 +45,11 @@
     }
 }
 .slick-slide img { max-width: none ;  margin-left: 50%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0); }
+
+.wrap-text{ background-color: #f5f8fa;
+    .convert-text{ text-align: center;
+        p{font-size: 24rem; font-family:"Merel"; font-weight: 700; }
+        h1{font-family:"Merel"; font-weight: 400; font-size: 14rem; }
+    }
+
+}

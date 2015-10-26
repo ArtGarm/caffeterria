@@ -2,7 +2,7 @@ function sliderTop(){
     $('.header-slider-wrap-main').slick({
         infinite:true,
         arrows:false,
-        autoplay:false, // true,
+        autoplay: true,
         autoplaySpeed:3000,
         fade:true,
         cssEase:'linear',
