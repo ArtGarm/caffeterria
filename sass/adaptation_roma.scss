@@ -11,10 +11,55 @@
 
 }
 @media screen and (max-width: 1024px){
+	/* about caffe */
+	.about-caffe-wrap{
+		.mbox{max-width: 888px; width: 100%;
+			.about-caffe{
+				p{font-size: 13rem;word-spacing: -1rem;line-height: 1.7;margin-bottom: 40px;
+					span{display: inline;word-spacing: -1rem;}
+				}
+				.text-justify{line-height: 1.9;word-spacing: -1rem;margin-bottom: 63px;
+					span{text-align: center;}
+				}
+				.differend-font{font-size: 27rem;
+					span{font-size: 37.5rem;}
+				}
+			}
+		}
+	}
+	/* /about caffe */
+
+		/* actions */
+
+	.action-content-wrap{
+		.mbox{ width: 100%; max-width: 888px;
+			.action-block{width: calc(50% - 10px);float: left;position: relative;margin-bottom: 20px;
+				&.action1{float: left;}
+				&.action2{float: right;}
+				&.action3{width: 100%;}
+				img{max-width: 100%;}
+			}
+		}
+	}
+
+	/* /actions */
+	/* catalog-nav */
+
+	.catalog-nav-wrap{display: none;}
+
+	/* /catalog-nav */
 
 }
 @media screen and (max-width: 992px){
+	.about-caffe-wrap{
+		.mbox{max-width: 100%;padding: 0px 20px;}
+	}
 
+	.action-content-wrap{
+		.mbox{max-width: 100%;
+			.action-block{margin-bottom: 5%;}
+		}
+	}
 }
 @media screen and (max-width: 767px){
 
@@ -23,7 +68,7 @@
 
 }
 @media screen and (max-width: 479px){
-
+.action-block{width: calc(50% - 10px);}
 }
 @media screen and (max-width: 320px){
 
