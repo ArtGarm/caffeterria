@@ -54,11 +54,13 @@
     -o-border-image: url(../images/vawe.png) 10 0 repeat;
     border-image: url(../images/vawe.png) 10 0 fill repeat;
     .convert-text{ text-align: center;
-        p{font-size: 24rem; font-family:"Merel"; font-weight: 700; padding: 10rem 10% 10rem 10%; text-transform: uppercase; letter-spacing: 5rem; }
-        h1{font-family:"Merel"; font-weight: 400; font-size: 14rem; padding: 26rem 7% 0rem 7%; line-height: 29rem; margin-bottom: 0rem;
+        p{font-size: 24rem; font-family:"Merel"; font-weight: 700; padding: 36rem 10% 20rem 10%; text-transform: uppercase; letter-spacing: 5rem; }
+        h1{font-family:"Merel"; font-weight: 400; font-size: 14rem; padding: 28rem 7% 0rem 7%; line-height: 29rem; margin-bottom: 0rem;
         }
-        &:last-child{margin-bottom: 60rem;}
+        &:last-child{margin-bottom: 65rem;}
 
     }
 
 }
+.conditer-stock{background-color:#f5f8fa; }
+.conditer-bread{background-color:#f5f8fa;}

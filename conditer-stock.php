@@ -16,9 +16,6 @@
                     <span>Популярные блюда</span>
                 </div>
         </div>
-        <div class="title">
-
-        </div>
 
         <? partial('conditer-stock-text'); ?>
 
