@@ -464,7 +464,7 @@
   transition: background-color 300ms ease;
 }
 
-.header-bottom .header-bottom-nav > ul > li:hover a {
+.header-bottom .header-bottom-nav > ul > li:hover > a {
   background-color: #d10019;
 }
 
@@ -474,6 +474,60 @@
   right: 0;
   display: none;
   background-color: #fff;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #ededed;
+}
+
+.header-bottom .second-level-img {
+  float: right;
+  max-width: 315rem;
+}
+
+.header-bottom .second-level-menu {
+  margin-right: 325rem;
+}
+
+.header-bottom .second-level-menu-table {
+  display: table;
+  width: 100%;
+}
+
+.header-bottom .second-level-menu-table .second-level-menu-row {
+  display: table-row;
+}
+
+.header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col {
+  display: table-cell;
+  text-align: left;
+}
+
+.header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col .second-level-title {
+  font-size: 12rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col li {
+  margin-bottom: 20px;
+}
+
+.header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col li:last-child {
+  margin-bottom: 0;
+}
+
+.header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col li a {
+  text-decoration: none;
+  font-size: 13rem;
+  color: #000;
+  -webkit-transition: color 300ms ease;
+  -moz-transition: color 300ms ease;
+  -o-transition: color 300ms ease;
+  transition: color 300ms ease;
+}
+
+.header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col li a:hover {
+  color: #d10019;
 }
 
 /* /header */
