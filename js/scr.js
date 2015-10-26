@@ -328,17 +328,12 @@ function showHideHeaderform(){
 };
 
 function showSecondLevel(){
-    var timer = null;
     $('.header-bottom-nav>ul>li').hover(
-        function(){
-            var item = $(this);
-            clearSetTimeout(timer);
-            timer = setTimeout(function(){
-                item.find('.second-level').slideDown(300);
-            },0);
+        function() {
+            $(this).find( ".second-level").stop().slideDown(300);
         },
-        function(){
-            //$('.second-level').slideUp(300);
+        function() {
+            $(this).find( ".second-level").stop().slideUp(300);
         }
     );
 };
