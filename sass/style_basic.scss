@@ -42,7 +42,7 @@ p{margin:0;}
 
 /* wraps styling*/
 
-.mbox{width:1280px;margin:0 auto;position:relative;z-index:1;}
+.mbox{max-width:1280px;width:100%;margin:0 auto;position:relative;z-index:1;}
 .mbox:after{content:"";clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display:block;}
 
 /* /wraps styling*/
