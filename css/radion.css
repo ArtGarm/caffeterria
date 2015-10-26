@@ -94,6 +94,16 @@
   position: relative;
 }
 
+.massonry .massonry_item > a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .massonry .massonry_item.item_1 {
   width: 50%;
   height: 330px;
