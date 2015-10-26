@@ -240,7 +240,7 @@
   font-size: 24rem;
   font-family: "Merel";
   font-weight: 700;
-  padding: 10rem 10% 10rem 10%;
+  padding: 36rem 10% 20rem 10%;
   text-transform: uppercase;
   letter-spacing: 5rem;
 }
@@ -249,11 +249,19 @@
   font-family: "Merel";
   font-weight: 400;
   font-size: 14rem;
-  padding: 26rem 7% 0rem 7%;
+  padding: 28rem 7% 0rem 7%;
   line-height: 29rem;
   margin-bottom: 0rem;
 }
 
 .wrap-text .convert-text:last-child {
-  margin-bottom: 60rem;
+  margin-bottom: 65rem;
+}
+
+.conditer-stock {
+  background-color: #f5f8fa;
+}
+
+.conditer-bread {
+  background-color: #f5f8fa;
 }

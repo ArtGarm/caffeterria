@@ -1,5 +1,14 @@
     <div class="main">
+        <div class="breadcrumbs send">
+                <div class="crumps-align">
+                    <a href="#"><span>Главная/</span></a>
 
+                    <span>Доставка</span>
+                </div>
+        </div>
+        <div class="title">
+            <div class="title-text"><span>доставка</span></div>
+        </div>
         <div class="title-photo send">
             <div class="title-photo-align">
                 <div class="bread-img"><img src="images/braed-send.jpg" alt=""></div>
@@ -12,9 +21,7 @@
             </div>
         </div>
 
-        <div class="title">
 
-        </div>
 
         <? partial('send-title'); ?>
 
