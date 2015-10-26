@@ -77,7 +77,7 @@ function oneHeightItems(){
 		block.css('height', height);
 	}
 
-	oneHeight($('.oneHeight'));
+	oneHeight($('.oneHeight:not(.action-item)'));
 }
 
 function validate(form, options){
