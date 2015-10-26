@@ -5,11 +5,15 @@ function massonryInit(){
         columnWidth: '.massonry_item_sizer',
         //"gutter": 1
     });
+
 }
 
 $(document).ready(function(){
 
 });
 $(window).load(function(){
-    massonryInit();
+    if($(window).width() > 666){
+         massonryInit();
+    }
+
 });

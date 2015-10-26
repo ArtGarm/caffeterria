@@ -98,6 +98,7 @@
 .header-basket-main {
   padding-top: 20rem;
   float: right;
+  margin-right: 24rem;
 }
 
 .header-basket-main .header-basket-icon {
@@ -356,6 +357,121 @@
 
 .call_success .call_success-text {
   font-size: 26rem;
+}
+
+.sendwich-icon {
+  display: none;
+  width: 30rem;
+  height: 30rem;
+  padding-top: 12rem;
+  cursor: pointer;
+}
+
+.sendwich-icon span {
+  display: inline-block;
+  width: 100%;
+  height: 3rem;
+  background-color: #000;
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  position: relative;
+}
+
+.sendwich-icon span:before, .sendwich-icon span:after {
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  height: 3rem;
+  background-color: #000;
+  left: 0;
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition: left 300ms ease, -webkit-transform 300ms ease;
+  -moz-transition: left 300ms ease, -moz-transform 300ms ease;
+  -o-transition: left 300ms ease, -o-transform 300ms ease;
+  transition: left 300ms ease, transform 300ms ease;
+}
+
+.sendwich-icon span:before {
+  top: -12rem;
+}
+
+.sendwich-icon span:after {
+  bottom: -15rem;
+}
+
+.sendwich-icon.active span {
+  background-color: transparent;
+}
+
+.sendwich-icon.active:before {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  left: 1rem;
+}
+
+.sendwich-icon.active:after {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 1rem;
+}
+
+.header-bottom {
+  position: relative;
+  background-color: #1a1a1a;
+}
+
+.header-bottom .mbox {
+  position: static;
+}
+
+.header-bottom .header-bottom-nav ul {
+  display: table;
+  width: 100%;
+}
+
+.header-bottom .header-bottom-nav ul li {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header-bottom .header-bottom-nav ul li a {
+  text-decoration: none;
+  font-size: 13rem;
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  line-height: 44px;
+  text-transform: uppercase;
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+}
+
+.header-bottom .header-bottom-nav ul li:hover a {
+  background-color: #d10019;
+}
+
+.header-bottom .header-bottom-nav .second-level {
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 /* /header */
