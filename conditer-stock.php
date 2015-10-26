@@ -4,8 +4,8 @@
 
     <div class="blur-wrap">
 
-        <div class="breadcrumbs conditer-stock">
-                <div class="breadcrumbs-align">
+        <div class="title-photo conditer-stock">
+                <div class="title-photo-align">
                     <div class="bread-img"><img src="images/braed-conditer-stock.jpg" alt=""></div>
                 </div>
         </div>
