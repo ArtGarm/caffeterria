@@ -9,7 +9,13 @@
                     <div class="bread-img"><img src="images/braed-conditer-stock.jpg" alt=""></div>
                 </div>
         </div>
-
+        <div class="breadcrumbs conditer-stock">
+                <div class="crumps-align">
+                    <a href="#"><span>Главная/</span></a>
+                    <a href="#"><span>Меню</span></a>
+                    <span>Популярные блюда</span>
+                </div>
+        </div>
         <div class="title">
 
         </div>
