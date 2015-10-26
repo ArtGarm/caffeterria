@@ -21,7 +21,7 @@ function inputNumber(block) {
 	$('input', block).keyup(function() {
 		$inputNum = $(this);
 		if ($inputNum.val == '' || $inputNum.val() == 0) {
-			$inputNum.val('');
+			$inputNum.val('1');
 		}
 	});
 }
@@ -236,6 +236,69 @@ function animationBlock(item){
     checkForAnimate();
 }
 
+function formCount(form){
+
+    var formMain = $(form);
+
+    function sumingItems(formMain){
+
+        var itemsLength = formMain.find('.form-row-summing').length;
+        var titleText;
+        var allSum = 0;
+
+        formMain.find('.form-row-summing').each(function(){
+            allSum = allSum + parseInt($(this).find('.line-sum').text());
+        });
+
+        if(itemsLength == 1){
+            titleText = " Товар на ";
+        }
+        else if (itemsLength > 1 && itemsLength < 5){
+            titleText = "Товара на ";
+        }
+        else{
+            titleText = " Товаров на ";
+        }
+
+        formMain.find('.form-title .form-title-items-count').text(itemsLength);
+        formMain.find('.form-title .form-title-items-text').text(titleText);
+        formMain.find('.form-title .form-title-items-sum').text(gap(allSum.toString()));
+        formMain.find('.form-sum').text(allSum);
+
+    };
+
+    function sumingLine(line){
+
+        var linePrice = parseInt(line.find('[data-price]').data('price'));
+        var lineCount = parseInt(line.find('input').val());
+
+        var lineSum = linePrice * lineCount;
+        line.find('.line-sum').text(lineSum);
+
+        sumingItems(formMain);
+
+    };
+
+    formMain.find('.form-row-summing').each(function() {
+
+        sumingLine($(this));
+
+    });
+
+    formMain.find('.form-row-summing input').keyup(function(){
+
+        var parentLine = $(this).parents('.form-row-summing');
+
+        sumingLine(parentLine);
+
+    });
+
+}
+
+function gap(strval) {
+  return strval.replace(/\d(?=(?:\d{3})+\b)/g, "$&" +' ');
+}
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -246,7 +309,9 @@ $(document).ready(function() {
 
 $(window).load(function(){
 
-
+    inputNumber('.header-basket-row-input');
+    formCount('.header-basket-form-class');
+    validate('.header-basket-form-class', {submitFunction:validationCall});
 
 });
 
