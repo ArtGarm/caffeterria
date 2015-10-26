@@ -77,7 +77,7 @@ function oneHeightItems(){
 		block.css('height', height);
 	}
 
-	oneHeight($('.oneHeight'));
+	oneHeight($('.oneHeight:not(.action-item)'));
 }
 
 function validate(form, options){
@@ -328,6 +328,17 @@ function showHideHeaderform(){
     });
 };
 
+function showSecondLevel(){
+    $('.header-bottom-nav>ul>li').hover(
+        function() {
+            $(this).find( ".second-level").stop().slideDown(300);
+        },
+        function() {
+            $(this).find( ".second-level").stop().slideUp(300);
+        }
+    );
+};
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -342,6 +353,7 @@ $(window).load(function(){
     formCount('.header-basket-form-class');
     validate('.header-basket-form-class', {submitFunction:validationCall});
     showHideHeaderform();
+    showSecondLevel();
 
 });
 

@@ -113,23 +113,22 @@
 }
 
 /*/conditer -choise*/
-/*breadcrumps*/
+/*title photo*/
 .title-photo {
   width: 1500px;
   margin: 0 auto;
 }
 
-/*send*/
-.send {
+.title-photo.send {
   padding-bottom: 166px;
 }
 
-.send .title-photo-align {
+.title-photo.send .title-photo-align {
   position: relative;
   text-align: center;
 }
 
-.send .title-photo-align span {
+.title-photo.send .title-photo-align span {
   color: #fff;
   font-size: 24rem;
   font-family: 'Merel';
@@ -137,65 +136,61 @@
   line-height: 30px;
 }
 
-.send .title-photo-align .bread-img {
+.title-photo.send .title-photo-align .bread-img {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.send .title-photo-align .bread-text {
+.title-photo.send .title-photo-align .bread-text {
   position: relative;
   padding: 89px 145px 40px;
 }
 
-.send .title-photo-align .bread-text span {
+.title-photo.send .title-photo-align .bread-text span {
   font-size: 18rem;
 }
 
-.send .title-photo-align .bread-phone {
+.title-photo.send .title-photo-align .bread-phone {
   position: relative;
   padding: 27px 145px 40px;
 }
 
-.send .title-photo-align .bread-phone span {
+.title-photo.send .title-photo-align .bread-phone span {
   font-size: 48rem;
   font-weight: 700;
   letter-spacing: 8.5px;
 }
 
-.send .title-photo-align .bred-min {
+.title-photo.send .title-photo-align .bred-min {
   position: relative;
   padding: 59px 145px 52px;
 }
 
-.send .title-photo-align .bread-price-wrapp {
+.title-photo.send .title-photo-align .bread-price-wrapp {
   position: relative;
 }
 
-.send .title-photo-align .bread-price-wrapp a {
+.title-photo.send .title-photo-align .bread-price-wrapp a {
   text-decoration: none;
 }
 
-.send .title-photo-align .bread-price-wrapp .bread-price {
+.title-photo.send .title-photo-align .bread-price-wrapp .bread-price {
   padding: 28px 0 0;
   background-color: #d10019;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 92px;
   height: 92px;
   position: absolute;
-  left: -webkit-calc(50% - 46px);
-  left: -moz-calc(50% - 46px);
   left: calc(50% - 46px);
 }
 
-.send .title-photo-align .bread-price-wrapp .bread-price span {
+.title-photo.send .title-photo-align .bread-price-wrapp .bread-price span {
   font-weight: 700;
 }
 
 /*/send*/
-/*/breadcrumps*/
+/*/title foto*/
 /*send*/
 .send-content-wrapp .send-align {
   text-align: center;
@@ -252,8 +247,6 @@
 }
 
 .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 141px;
   height: 141px;
@@ -312,4 +305,42 @@
   padding-top: 42px;
 }
 
+.title {
+  width: 100%;
+  text-align: center;
+  padding: 22px 0 52px;
+}
+
+.title .title-text {
+  font-size: 29rem;
+  font-family: "Merel";
+  font-weight: 700;
+  padding: 10rem 10% 10rem 10%;
+  text-transform: uppercase;
+  letter-spacing: 3rem;
+}
+
 /*/send*/
+/**breadcrumps*/
+.breadcrumbs {
+  width: 100%;
+}
+
+.breadcrumbs .crumps-align {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.breadcrumbs .crumps-align a {
+  text-decoration: none;
+}
+
+.breadcrumbs .crumps-align span {
+  font-family: 'Merel';
+  font-weight: 400;
+  font-size: 13rem;
+  color: #919294;
+  letter-spacing: 0.5px;
+}
+
+/*/breadcrumps*/

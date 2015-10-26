@@ -41,3 +41,58 @@
 }
 
 /* /catalog-nav */
+
+
+/* catalog-content */
+
+.catalog-content{
+	.catalog-item{display: inline-block; width: calc(25% - 16rem);margin-right: 20px;vertical-align: top;position: relative; min-height: 444px;
+		.catalog-item-img{
+			img{max-width: 100%;}
+		}
+		.catalog-item-text{position: absolute;bottom: 95px;width: 100%;text-align: center;
+			.catalog-item-desc{
+				p{font-size: 14rem; font-family: 'Merel'; font-weight: 700; text-align: center;text-transform: uppercase;letter-spacing: 1rem;}
+			}
+			.catalog-item-price{padding-top: 10px;
+				p{font-size: 14rem; font-family: 'Merel';text-align: center;
+					b{font-size: 24rem; font-weight: 700;}
+					span{text-transform: lowercase;}
+				}
+			}
+		}
+		.add-to-cart{position: absolute; bottom: 27px; text-align: center; width: 100%;letter-spacing: 2rem; opacity: 0; transition: opacity 300ms ease; -webkit-transition: opacity 300ms ease; -moz-transition: opacity 300ms ease; -ms-transition: opacity 300ms ease;
+			a{background-color: #D10019; text-transform: uppercase; font-family: 'Merel';font-weight: 700;font-size: 10rem;color: #fff;text-decoration: none;padding: 13px 28px;border-radius: 5px;}
+		}
+		&.large-item{ width: calc(50% - 10rem);}
+		&.action-item{
+			.catalog-item-text{top: 38%;right: 1%;width: 50%;height: 62%;
+				.catalog-item-desc{margin-bottom: 10px;
+					p{color: #fff;}
+				}
+				.catalog-item-price{
+					p{color: #fff;}
+				}
+				.action-text{bottom: 35px;box-sizing: border-box;padding: 0px 40px;line-height: 2;position: absolute;
+					p{color: #fff; font-family: 'Merel'; font-size: 13rem}
+				}
+			}
+			.add-to-cart{bottom: 25%; right: -24%;}
+		}
+		&:hover{.add-to-cart{opacity: 1;}}
+	}
+}
+
+
+.row3{
+	.catalog-item{
+		&:nth-child(3n){margin-right: 0px!important}
+	}
+}
+
+.row4{
+	.catalog-item{
+		&:nth-child(4n){margin-right: 0px!important}
+	}
+}
+/* /catalog-content */

@@ -11,6 +11,7 @@
 	<title></title>
 
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
 	<link rel="stylesheet" type="text/css" href="css/style_basic.css" media="all" />
 
@@ -212,13 +213,13 @@
 					<ul>
 						<li>
 							<a href="#">О нас</a>
-						</li>
-						<li>
-							<a href="#">меню</a>
 							<div class="second-level">
 
 								<div class="mbox">
-									<div class="second-level-wrap">
+									<div class="second-level-wrap cfix">
+										<div class="second-level-img">
+											<img src="images/second-level-menu.png" alt="" />
+										</div>
 										<div class="second-level-menu">
 											<div class="second-level-menu-wrap">
 												<div class="second-level-menu-table">
@@ -282,8 +283,82 @@
 												</div>
 											</div>
 										</div>
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<li>
+							<a href="#">меню</a>
+							<div class="second-level">
+
+								<div class="mbox">
+									<div class="second-level-wrap cfix">
 										<div class="second-level-img">
 											<img src="images/second-level-menu.png" alt="" />
+										</div>
+										<div class="second-level-menu">
+											<div class="second-level-menu-wrap">
+												<div class="second-level-menu-table">
+													<div class="second-level-menu-row">
+														<div class="second-level-menu-col">
+															<div class="second-level-title">ЕДА</div>
+															<div class="second-level-list">
+																<ul>
+																	<li><a href="#">Завтраки</a></li>
+																	<li><a href="#">Топпинги / сладкие топпинги</a></li>
+																	<li><a href="#">Сэндвичи</a></li>
+																	<li><a href="#">Супы</a></li>
+																	<li><a href="#">Салаты и закуски</a></li>
+																	<li><a href="#">Основные блюда и гарниры</a></li>
+																	<li><a href="#">Паста</a></li>
+																	<li><a href="#">Пицца</a></li>
+																	<li><a href="#">Соусы</a></li>
+																</ul>
+															</div>
+														</div>
+														<div class="second-level-menu-col">
+															<div class="second-level-title">НАПИТКИ</div>
+															<div class="second-level-list">
+																<ul>
+																	<li><a href="#">Кофе и шоколад</a></li>
+																	<li><a href="#">Холодный кофе</a></li>
+																	<li><a href="#">Чай</a></li>
+																	<li><a href="#">Безалкогольные напитки</a></li>
+																	<li><a href="#">Горячие безалкогольные напитки</a></li>
+																	<li><a href="#">Соки и лимонады</a></li>
+																	<li><a href="#">Свежевыжатые соки</a></li>
+																	<li><a href="#">Молочные коктейли</a></li>
+																</ul>
+															</div>
+														</div>
+														<div class="second-level-menu-col">
+															<div class="second-level-title">КОНДИТЕРСКАЯ</div>
+															<div class="second-level-list">
+																<ul>
+																	<li><a href="#">Пирожные и торты</a></li>
+																	<li><a href="#">Муссы</a></li>
+																	<li><a href="#">Сладкие пироги</a></li>
+																	<li><a href="#">Печенье</a></li>
+																	<li><a href="#">Сладости</a></li>
+																	<li><a href="#">Мороженое и сорбеты</a></li>
+																</ul>
+															</div>
+														</div>
+														<div class="second-level-menu-col">
+															<div class="second-level-title">ПЕКАРНЯ</div>
+															<div class="second-level-list">
+																<ul>
+																	<li><a href="#">Хлеб</a></li>
+																	<li><a href="#">Круассаны</a></li>
+																	<li><a href="#">Выпечка</a></li>
+																	<li><a href="#">Пироги и кексы</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
