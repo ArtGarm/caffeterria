@@ -20,7 +20,7 @@
 
 /*massonry*/
 .massonry{
-    .massonry_wrap{
+    .massonry_wrap{padding-bottom: 60px;padding-top: 65px;
         &:after{content: '';display: block;clear: both;}
     }
     .massonry_item_sizer{width: 25%;}
@@ -41,6 +41,8 @@
             .massonry_item_img{text-align: center;
                 img{display: inline-block;}
             }
+            .massonry_item_text.absolute{margin-right: 0;}
+            .massonry_item_fs_16{padding-top: 37%;font-weight: bold;}
         }
     }
     .massonry_item_text{text-align: center;

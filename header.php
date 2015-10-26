@@ -135,9 +135,9 @@
 				</div>
 
 				<div class="header-basket-main">
-					<div class="header-basket-icon active">
+					<div class="header-basket-icon">
 						<img src="images/header-basket-icon.png" alt="" />
-						<span class="header-basket-value">2</span>
+						<span class="header-basket-value"></span>
 					</div>
 					<div class="header-basket-form">
 						<div class="close-form"></div>
@@ -146,7 +146,7 @@
 								<span class="form-title-items-count"></span>
 								<span class="form-title-items-text"></span>
 								<span class="form-title-items-sum"></span> Р
-								</div>
+							</div>
 							<div class="header-basket-form-main">
 								<div class="header-basket-form-row form-row form-row-summing">
 									<div class="header-basket-row-title">

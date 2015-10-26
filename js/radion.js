@@ -3,7 +3,7 @@ function massonryInit(){
         itemSelector: '.massonry_item',
         percentPosition: true,
         columnWidth: '.massonry_item_sizer',
-        // "gutter": 1
+        //"gutter": 1
     });
 }
 
