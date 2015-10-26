@@ -6,42 +6,73 @@
     &:hover{text-decoration: none;color: white;
         span{text-shadow:0px 0px 1px #fff;}
     }
-    span{line-height: 12rem;vertical-align: text-top;transition:all linear .2s;}
-}
-/*massonry*/
-.massonry{
-    .massonry_wrap{
-        &:after{content: '';display: block;clear: both;}
-    }
-    .massonry_item_sizer{width: 25%;}
-    .massonry_item{float: left;width: 25%;margin-bottom: 10px;
-        &.item_1{width: 50%;height: 410px;}
-        &.item_2{width: 50%;height: 475px;}
-        &.item_3{width: 25%;}
-        &.item_4{width: 25%;}
-        &.item_5{width: 50%;height: 365px;}
-        &.item_6{width: 25%;}
-        &.item_7{width: 50%;}
-        &.item_8{width: 25%;}
-    }
-    .massonry_item_text{text-align: center;}
-    .massonry_item_text_desc{text-align: center;font-weight: bold;font-size: 14rem;text-transform: uppercase;padding-top: 11px;}
-    .massonry_item_text_subdesc{font-size: 24rem;text-align: center;font-weight: bold;
-        span{font-size: 14rem;font-weight: normal;}
-    }
-    .massonry_item_text_descnotsample{text-align: center;font-size: 16rem;padding-top: 15px;}
-    .massonry_item_img{
-        &.img-centered{text-align: center;position: relative;
-            img{display: inline-block;}
-        }
-        .img-centered-text{font-size: 72rem;text-align: center;line-height: 60rem;position: absolute;top: 0;left: 0;right: 0;
-        }
+    span{line-height: 12rem;vertical-align: text-top;transition:all linear .2s;position: relative;
+        &:active{top: 2px;}
     }
 }
-
 /*red circle-hit*/
 .red_circle{text-align: center;
     .red_circle_wrap{display: inline-block;height: 65px;width: 65px;border-radius: 50%;background-color: $red;margin-top: -32px;border:2px solid white;
         span{text-transform:uppercase;color: white;font-size: 14rem;font-weight: 300;display: block;padding-top: 19px;}
     }
 }
+
+
+/*massonry*/
+.massonry{
+    .massonry_wrap{padding-bottom: 60px;padding-top: 65px;
+        &:after{content: '';display: block;clear: both;}
+    }
+    .massonry_item_sizer{width: 25%;}
+    .massonry_item{float: left;width: 25%;margin-bottom: 15px;position: relative;
+        &.item_1{width: 50%;height: 330px;}
+        &.item_2{width: 50%;height: 430px;position: relative;}
+        &.item_3{width: 25%;}
+        &.item_4{width: 25%;}
+        &.item_5{width: 50%;height: 330px;}
+        &.item_6{width: 25%;}
+        &.item_7{width: 50%;
+            .massonry_item_text{text-align: left;}
+            .massonry_item_text_subdesc{text-align: left;}
+            .massonry_item_fs_14{padding-top: 23px;padding-bottom: 9px;text-transform: uppercase;}
+            .massonry_item_subdescription{position: absolute;bottom:27px;right: 21px;font-size: 12rem;}
+        }
+        &.item_8{width: 25%;
+            .massonry_item_img{text-align: center;
+                img{display: inline-block;}
+            }
+            .massonry_item_text.absolute{margin-right: 0;}
+            .massonry_item_fs_16{padding-top: 37%;font-weight: bold;}
+        }
+    }
+    .massonry_item_text{text-align: center;
+        &.absolute{position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin-right: 15px;};
+        &.white{color: #fff;}
+        &.padding{padding: 30px;}
+        .look_and_buy{margin-top: 40px;}
+        .massonry_item_mini_text{position: absolute;left: 0;right: 0;text-align: center;padding: 0 2%;color: #a4a6ab;font-size: 12rem;bottom: 8%;}
+        .massonry_item_rotate_text{font-family: "Merel";font-size: 14rem;color: #a4a6ab;font-weight: bold;text-transform: uppercase;position: absolute;top: 75px;right: -45px;transform: rotate(-90deg);}
+        .massonry_item_fs_18{font-size: 18rem;text-transform: uppercase;font-weight: bold;padding-top: 32px;}
+        .massonry_item_fs_140{font-size: 140rem;font-weight: 700;line-height: 113rem;}
+        .massonry_item_fs_12{font-size: 12rem;text-transform: uppercase;font-weight: bold;padding-top: 47px;padding-bottom: 20px;}
+        .massonry_item_fs_14{font-size: 14rem;}
+        .massonry_item_fs_16{font-size: 16rem;text-transform: uppercase;}
+        .massonry_item_4_img{padding-top: 41%;padding-bottom: 10%;}
+        .massonry_item_Savoye{font-family: "SavoyeLetPlain";font-style: italic;font-size: 41rem;line-height: 38rem;padding-top: 52%;padding-bottom: 23px;}
+        .massonry_item_fs_24{font-size: 24rem;text-align: left;text-transform: uppercase;font-weight: bold;}
+    }
+    .massonry_item_text_desc{text-align: center;font-weight: bold;font-size: 14rem;text-transform: uppercase;padding-top: 11px;}
+    .massonry_item_text_subdesc{font-size: 24rem;text-align: center;font-weight: bold;
+        span{font-size: 14rem;font-weight: normal;}
+    }
+    .massonry_item_text_descnotsample{text-align: center;font-size: 16rem;padding-top: 15px;padding-bottom: 23px;}
+    .massonry_item_img{
+        &.img-centered{text-align: center;position: relative;
+            img{display: inline-block;}
+        }
+        .img-centered-text{font-size: 51rem;text-align: center;line-height: 43rem;position: absolute;top: 0;left: 0;right: 0;font-family: "SavoyeLetPlain";font-style: italic;padding-top: 51px;
+        }
+    }
+    .massonry_item_pink{background-color: #e28892;height: 100%;}
+}
+
