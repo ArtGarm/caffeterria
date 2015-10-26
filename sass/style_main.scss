@@ -27,7 +27,7 @@
         }
     }
 }
-.header-basket-main{padding-top: 20rem;float:right;
+.header-basket-main{padding-top: 20rem;float:right;margin-right: 24rem;
     .header-basket-icon{position: relative;cursor: pointer;
         .header-basket-value{width: 24rem;height: 24rem;border-radius: 50%;background-color: $red;text-align: center;line-height: 20px;color:#fff;font-weight: 700;font-size: 13rem;display: none;position: absolute;left: 100%;bottom:100%;}
         &.active{
