@@ -2,16 +2,13 @@
 	<div class="mbox">
 		<div class="action-content">
 			<div class="action-block action1">
-				<h2>Три Булки</h2>
-				<p>каждая третья булка в подарок</p>
+				<img src="images/action1.jpg" alt=""/>
 			</div>
 			<div class="action-block action2">
-				<h2>Ягодный бум!</h2>
-				<p><span>скидка 80%</span> на все ягодные продукты</p>
+				<img src="images/action2.jpg" alt=""/>
 			</div>
 			<div class="action-block action3">
-				<h2>Yyyy Macarons</h2>
-				<p>сколько покупаешь, столько получаешь в подарок</p>
+				<img src="images/action3.jpg" alt=""/>
 			</div>
 		</div>
 	</div>
