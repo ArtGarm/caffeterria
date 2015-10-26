@@ -12,6 +12,16 @@
   position: relative;
 }
 
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .counter {
+  font-size: 30rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: 56rem;
+  right: 110rem;
+  font-style: "Merel";
+  font-weight: 900;
+}
+
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white {
   position: absolute;
   width: 100%;
@@ -71,14 +81,10 @@
   letter-spacing: 4rem;
 }
 
-.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .counter {
-  font-size: 30rem;
-  color: #ffffff;
-  position: absolute;
-  bottom: -128rem;
-  right: 105rem;
-  font-style: "Merel";
-  font-weight: 900;
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a:hover, .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a:focus, .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a:active {
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black {
@@ -133,7 +139,7 @@
   font-style: "Merel";
   font-weight: 700;
   font-size: 12rem;
-  padding: 20rem;
+  padding: 23rem;
   display: inline-block;
   margin-left: 110rem;
   letter-spacing: 4rem;
@@ -141,15 +147,10 @@
   letter-spacing: 4rem;
 }
 
-.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black .counter {
-  font-size: 50rem;
-  color: #aaa7a6;
-  font-size: 30rem;
-  font-style: "Merel";
-  font-weight: 900;
-  position: absolute;
-  bottom: -129rem;
-  right: 105rem;
+.header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a:hover, .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a:focus, .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a:active {
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 .header-slider-wrap .header-slider-wrap-main .slick-dots {

@@ -2,6 +2,7 @@
     .header-slider-wrap-main{ width: 100%; overflow: hidden;
         .header-slider-item{
             .conteiner-content{ position: relative;
+                .counter{font-size: 30rem; color:#ffffff; position: absolute; bottom: 56rem; right: 110rem; font-style: "Merel"; font-weight: 900; }
                 .content-box-white{ position: absolute; width: 100%;
                     h1{ font-size: 100rem; font-family: "PFDinTextCondPro", sans-serif; font-weight: 100; color: #2a2a2b;text-transform: uppercase;padding: 87rem 87rem 0rem 104rem; margin-bottom: 0rem;
                         span{font-weight: 300; color:#d10019; }
@@ -11,7 +12,8 @@
                     a{ text-decoration: none; max-width: 230px; width: 16%;
                         .button-fast{ border: 1rem solid #d10019; border-radius: 3rem; background-color:#d10019; color: #ffffff; text-transform: uppercase; font-style: "Merel"; font-weight: 700; font-size: 12rem; padding: 23rem; display: inline-block;     margin-left: 110rem; letter-spacing: 4rem;}
                     }
-                    .counter{font-size: 30rem; color:#ffffff; position: absolute; bottom: -128rem; right: 105rem; font-style: "Merel"; font-weight: 900; }
+                     a:hover, a:focus, a:active {text-decoration: none; border: none; outline: none;}
+
                 }
                 .content-box-black{ position: absolute;width: 100%;
                     h1{ font-size: 150rem; font-family: "SavoyeLetPlain", sans-serif; font-weight: normal; color: #7b4537; padding: 37rem 87rem 0rem 104rem; margin-bottom: 0rem;
@@ -20,9 +22,10 @@
                     h2{font-family: "Merel", sans-serif; font-size: 18rem; font-style: normal; color:#ffffff; padding: 0px 108rem 49rem 111rem; margin-top: 0rem;}
                     h3{font-family: "Merel", sans-serif; font-size: 18rem; font-weight: 700; color:#ffffff; padding: 1rem 100rem 87rem 110rem;}
                     a{text-decoration: none; max-width: 230px; width: 16%;
-                        .button-fast{ border: 1rem solid #ffffff; border-radius: 3rem; background-color:none; color: #ffffff; text-transform: uppercase; font-style: "Merel"; font-weight: 700; font-size: 12rem; padding: 20rem; display: inline-block; margin-left: 110rem; letter-spacing: 4rem; margin-left: 110rem; letter-spacing: 4rem;}
+                        .button-fast{ border: 1rem solid #ffffff; border-radius: 3rem; background-color:none; color: #ffffff; text-transform: uppercase; font-style: "Merel"; font-weight: 700; font-size: 12rem; padding: 23rem; display: inline-block; margin-left: 110rem; letter-spacing: 4rem; margin-left: 110rem; letter-spacing: 4rem;}
                     }
-                    .counter{font-size: 50rem;  color:#aaa7a6;font-size: 30rem; font-style: "Merel"; font-weight: 900;  position: absolute; bottom: -129rem; right: 105rem; }
+                    a:hover, a:focus, a:active {text-decoration: none; border: none; outline: none;}
+
                 }
             }
         }
