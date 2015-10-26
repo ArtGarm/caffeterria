@@ -53,3 +53,34 @@
         }
 
 /*/conditer -choise*/
+
+/*breadcrumps*/
+    .breadcrumbs{ width: 1500px;    margin: 0 auto;}
+    /*send*/
+
+            .send{
+                .breadcrumbs-align{position: relative; text-align: center;
+                    span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
+                    .bread-img{position: absolute; top:0; left:0;
+                        img{}
+                    }
+                    .bread-text{position: relative; padding: 89px 145px 40px;
+                        span{ font-size: 18rem;}
+                    }
+                    .bread-phone{position: relative; padding: 27px 145px 40px;
+                        span{font-size: 48rem;font-weight: 700;    letter-spacing: 8.5px;}
+                    }
+                    .bred-min{position: relative; padding: 59px 145px 52px;
+                        span{}
+                    }
+                    .bread-price-wrapp{position: relative;
+                        a{text-decoration: none;}
+                        .bread-price{padding: 28px 0 0;background-color: #d10019; border-radius: 50%;width:92px; height:92px; position: absolute;left:calc(50% - 46px);
+                            span{font-weight: 700;}
+                        }
+                    }
+                }
+            }
+
+    /*/send*/
+/*/breadcrumps*/

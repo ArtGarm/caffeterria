@@ -1,0 +1,147 @@
+/* variables */
+/* /variables */
+@media screen and (max-width: 1024px) {
+  .look_and_buy {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11rem;
+    background-color: #29e694;
+    color: #fff;
+    text-decoration: none;
+    width: 160px;
+    display: inline-block;
+    padding: 18px 0px;
+    vertical-align: middle;
+    line-height: 12rem;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .look_and_buy:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .look_and_buy:hover span {
+    text-shadow: 0px 0px 1px #fff;
+  }
+  .look_and_buy span {
+    line-height: 12rem;
+    vertical-align: text-top;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    position: relative;
+  }
+  .look_and_buy span:active {
+    top: 2px;
+  }
+  .red_circle {
+    text-align: center;
+  }
+  .red_circle .red_circle_wrap {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #d10019;
+    margin-top: -24px;
+    border: 2px solid white;
+  }
+  .red_circle .red_circle_wrap span {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12rem;
+    font-weight: 300;
+    display: block;
+    padding-top: 13px;
+  }
+  /*masonry index page*/
+  .massonry .massonry_wrap {
+    padding-bottom: 60px;
+    padding-top: 65px;
+  }
+  .massonry .massonry_wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .massonry .massonry_item_sizer {
+    width: 25%;
+  }
+  .massonry .massonry_item {
+    float: left;
+    width: 25%;
+    margin-bottom: 10px;
+    position: relative;
+    padding-right: 10px;
+  }
+  .massonry .massonry_item.item_1 {
+    width: 50%;
+    height: 217px;
+  }
+  .massonry .massonry_item.item_2 {
+    width: 50%;
+    height: 290px;
+    position: relative;
+  }
+  .massonry .massonry_item.item_3 {
+    width: 25%;
+  }
+  .massonry .massonry_item.item_4 {
+    width: 25%;
+  }
+  .massonry .massonry_item.item_5 {
+    width: 50%;
+    height: 225px;
+  }
+  .massonry .massonry_item.item_6 {
+    width: 25%;
+  }
+  .massonry .massonry_item.item_7 {
+    width: 50%;
+  }
+  .massonry .massonry_item_img .img-centered-text {
+    font-size: 31rem;
+    line-height: 29rem;
+    padding-top: 36px;
+  }
+  .massonry .massonry_item_img.img-centered img {
+    width: 20%;
+  }
+  .massonry .massonry_item_text_descnotsample {
+    text-align: center;
+    font-size: 13rem;
+    padding: 0 4%;
+    padding-top: 13px;
+    padding-bottom: 23px;
+  }
+  .massonry .massonry_item_text .look_and_buy {
+    margin-top: 0;
+  }
+  .massonry .massonry_item_text .massonry_item_mini_text {
+    font-size: 11rem;
+    bottom: 4%;
+  }
+  .massonry .massonry_item_text .massonry_item_rotate_text {
+    top: 43px;
+    right: -48px;
+    font-size: 11rem;
+  }
+  .massonry .massonry_item_text_desc {
+    font-size: 12rem;
+    padding-top: 11px;
+  }
+  .massonry .massonry_item_text_subdesc {
+    font-size: 15rem;
+  }
+  .massonry .massonry_item_text_subdesc span {
+    font-size: 12rem;
+  }
+}

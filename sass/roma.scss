@@ -1,0 +1,35 @@
+/* about caffe */
+
+.about-caffe-wrap{
+	.about-caffe{
+		p{font-size: 14rem; font-family: Merel;margin-bottom: 64px;text-align: justify;text-align-last: center;word-spacing: -4rem;    line-height: 1.6;
+			span{text-align: center;width: 100%;display: inline-block;    word-spacing: 0rem;}
+		}
+		.text-justify{text-align: justify;text-align-last: center;word-spacing: -1px;line-height: 1.75;margin-bottom: 147px;
+			span{text-align: center;width: 100%;display: inline-block;}
+		}
+		.differend-font{font-size: 52rem;font-family: 'SavoyeLetPlain', sans-serif;text-align: center;color: #675034;
+			span{font-size: 72rem;font-family: 'SavoyeLetPlain', sans-serif;}
+		}
+	}
+}
+
+/* /about caffe */
+
+/* actions */
+
+.action-content-wrap{
+	.action-content{
+		.action-block{width: calc(50% - 10px);float: left;position: relative;min-height: 630px;height: 100%;margin-bottom: 20px;
+			h2{font-size: 122rem;font-family: 'SavoyeLetPlain', sans-serif;text-align: center;color: #fff;margin: 0;}
+			p{font-size: 62rem;font-family: 'SavoyeLetPlain', sans-serif;text-align: center;color: #fff;
+				span{width: 100%;display: inline-block;}
+			}
+			&.action1{background-image: url(../images/action1.jpg);background-repeat: no-repeat;float: left;}
+			&.action2{background-image: url(../images/action2.jpg);background-repeat: no-repeat;float: right;}
+			&.action3{background-image: url(../images/action3.jpg);background-repeat: no-repeat;width: 100%;min-height: 400px;height: 100%;}
+		}
+	}
+}
+
+/* /actions */
