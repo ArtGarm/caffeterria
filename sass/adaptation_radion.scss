@@ -1,3 +1,4 @@
+@import 'variables';
 @media screen and (max-width: 1920px){
 
 }
@@ -11,10 +12,52 @@
 
 }
 @media screen and (max-width: 1024px){
+    .look_and_buy{font-size: 11rem;width: 160px;padding: 15px 0px;line-height: 12rem;
+        span{line-height: 12rem;
+        }
+    }
+    .red_circle{text-align: center;
+        .red_circle_wrap{display: inline-block;height: 45px;width: 45px;border-radius: 50%;background-color: $red;margin-top: -24px;border:2px solid white;
+            span{text-transform:uppercase;color: white;font-size: 12rem;font-weight: 300;display: block;padding-top: 13px;}
+        }
+    }
+    /*masonry index page*/
+    .massonry{
+        .massonry_wrap{padding-bottom: 30px;padding-top: 25px;
+        }
+        .massonry_item_sizer{width: 25%;}
+        .massonry_item{float: left;width: 25%;margin-bottom: 10px;position: relative;padding-right: 10px;
+            &.item_1{width: 50%;height: 217px;}
+            &.item_2{width: 50%;height: 290px;position: relative;}
+            &.item_3{width: 25%;}
+            &.item_4{width: 25%;}
+            &.item_5{width: 50%;height: 225px;}
+            &.item_6{width: 25%;}
+            &.item_7{width: 50%;}
+        }
+    }
+
+    .massonry .massonry_item_img .img-centered-text{font-size: 31rem;line-height: 29rem;padding-top: 36px;}
+    .massonry .massonry_item_img.img-centered img{width: 20%;}
+    .massonry .massonry_item_text_descnotsample {text-align: center;font-size: 13rem;padding: 0 4%;padding-top: 13px;padding-bottom: 23px;}
+    .massonry .massonry_item_text .look_and_buy{margin-top: 0;}
+    .massonry .massonry_item_text .massonry_item_mini_text{font-size: 11rem;bottom: 4%;}
+    .massonry .massonry_item_text .massonry_item_rotate_text{top: 43px;right: -48px;font-size: 11rem;}
+
+    .massonry .massonry_item_text_desc{font-size: 12rem;padding-top: 11px;}
+    .massonry .massonry_item_text_subdesc {font-size: 15rem;}
+    .massonry .massonry_item_text_subdesc span {font-size: 12rem;}
 
 }
 @media screen and (max-width: 992px){
-
+    /*masonry index page*/
+    .massonry{
+        .massonry_item{float: left;width: 25%;margin-bottom: 10px;position: relative;padding-right: 10px;
+            &.item_1{width: 50%;height: 190px;}
+            &.item_2{width: 50%;height: 290px;position: relative;}
+            &.item_5{width: 50%;height: 225px;}
+        }
+    }
 }
 @media screen and (max-width: 767px){
 

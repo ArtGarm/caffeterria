@@ -9,10 +9,9 @@
                         <h2>Нежный сливочный бисквит c шоколадной крошкой, с воздушным <br /> суфле  и дикой аргентинской вишней.</h2>
                         <h3> 134 ГР. / 92 ККАЛ </h3>
                         <a href="#">  <div class="button-fast"> быстрая покупка </div></a>
-                        <div class="counter"> 01 </div>
-
                     </div>
                     <img src="images/slider-image1.jpg" alt="" />
+                    <div class="counter"> 01 </div>
                 </div>
             </div>
             <div class="header-slider-item">
@@ -22,9 +21,9 @@
                         <h2>Нежный сливочный бисквит c шоколадной крошкой, с воздушным <br /> суфле и дикой аргентинской вишней.</h2>
                         <h3> 134 ГР. / 92 ККАЛ </h3>
                         <a href="#">  <div class="button-fast"> быстрая покупка </div></a>
-                        <div class="counter">  </div>
                     </div>
                     <img src="images/slider-image2.jpg" alt="" />
+                    <div class="counter">  </div>
                 </div>
             </div>
             <div class="header-slider-item">
@@ -34,9 +33,9 @@
                         <h2>Нежный сливочный бисквит c шоколадной крошкой, с воздушным <br /> суфле и дикой аргентинской вишней.</h2>
                         <h3> 134 ГР. / 92 ККАЛ </h3>
                         <a href="#">  <div class="button-fast"> быстрая покупка </div></a>
-                        <div class="counter">  </div>
                     </div>
                     <img src="images/slider-image1.jpg" alt="" />
+                    <div class="counter">  </div>
                 </div>
             </div>
             <div class="header-slider-item">
@@ -46,12 +45,11 @@
                         <h2>Нежный сливочный бисквит c шоколадной крошкой, с воздушным <br /> суфле и дикой аргентинской вишней.</h2>
                         <h3> 134 ГР. / 92 ККАЛ </h3>
                         <a href="#">  <div class="button-fast"> быстрая покупка </div></a>
-                        <div class="counter">  </div>
                     </div>
                     <img src="images/slider-image2.jpg" alt="" />
+                    <div class="counter">  </div>
                </div>
             </div>
-
         </div>
     </div>
 
