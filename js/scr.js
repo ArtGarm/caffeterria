@@ -265,6 +265,12 @@ function formCount(form){
         formMain.find('.form-title .form-title-items-sum').text(gap(allSum.toString()));
         formMain.find('.form-sum').text(allSum);
 
+        if(formMain.is('.header-basket-form-class') && itemsLength!=0){
+            var parent = formMain.parents('.header-basket-main');
+            parent.find('.header-basket-icon').addClass('active');
+            parent.find('.header-basket-value').text(itemsLength);
+        }
+
     };
 
     function sumingLine(line){

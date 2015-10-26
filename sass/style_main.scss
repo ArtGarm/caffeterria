@@ -2,7 +2,7 @@
 
 /* buttons styles */
 
-.button{height: 48rem;line-height: 46rem;background-color: $red;text-align: center;width: 100%;display: inline-block;border-radius: 5rem;color:#fff;border:2px solid transparent;text-transform: uppercase;font-size: 14rem;cursor: pointer;transition:background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+.button{height: 48rem;line-height: 43rem;background-color: $red;text-align: center;width: 100%;display: inline-block;border-radius: 5rem;color:#fff;border:2px solid transparent;text-transform: uppercase;font-size: 14rem;cursor: pointer;transition:background-color 300ms ease, color 300ms ease, border-color 300ms ease;
     &:hover{background-color: #FFF;border-color: $red;color:$red;}
     &:focus{outline:none;}
 }
@@ -37,9 +37,9 @@
     }
 }
 
-.header-basket-form{position: absolute;right: 0;top: 100%;width: 305rem;background-color: #fff;padding:25rem 20rem 25rem 20rem;box-shadow: 0 4rem 30rem 0 rgba(0,0,0, .18);display: none;
+.header-basket-form{position: absolute;right: 0;top: 100%;width: 305rem;background-color: #fff;padding:25rem 20rem 20rem 20rem;box-shadow: 0 4rem 30rem 0 rgba(0,0,0, .18);display: none;
     &:before{content: '';position: absolute;display: block;width: 0;height: 0;border-width: 7.5rem 5rem;border-style:solid;border-color: transparent #fff #fff transparent;bottom: 100%;right: 0;}
-    .close-form{position: absolute;right: 5rem;top: 5rem;width: 10rem;height: 10rem;cursor: pointer;
+    .close-form{position: absolute;right: 10rem;top: 14rem;width: 10rem;height: 10rem;cursor: pointer;
         &:before, &:after{content: '';display: block;position: absolute;width: 12rem;height: 2rem;background-color:#b3b3b3;transform-origin:0 50%;left: 1rem;transition: ease 300ms background-color;}
         &:before{top: 0;transform:rotate(45deg);}
         &:after{bottom:0;transform:rotate(-45deg);}
@@ -47,24 +47,29 @@
             &:before, &:after{background-color: $orange;}
         }
     }
-    .form-title{font-size: 16rem;color:#1a1a1a;margin-bottom: 15rem;text-transform: uppercase;text-align: center;font-weight: 700;
+    .form-title{font-size: 16rem;color:#1a1a1a;margin-bottom: 25rem;text-transform: uppercase;text-align: center;font-weight: 700;
         .form-title-items-text{font-weight: 400;}
     }
-    .header-basket-form-row{border-top: 1px solid #e6e6e6;padding-top: 10rem;margin-bottom: 10rem;}
-    .header-basket-row-title{font-size: 14rem;color:#1a1a1a;font-size: 14rem;margin-bottom: 15rem;}
+    .header-basket-form-row{border-top: 1px solid #e6e6e6;padding-top: 14rem;margin-bottom: 20rem;
+        &.submit{margin-bottom: 0rem;}
+    }
+    .header-basket-row-title{font-size: 14rem;color:#1a1a1a;font-size: 14rem;line-height:22rem;margin-bottom: 18rem;}
     .header-basket-row-value{float: left;
         .header-basket-row-price{display: inline-block;vertical-align: middle;font-size: 16rem;color:#1a1a1a;font-weight:700;position: relative;padding-right: 20rem;
             &:after, &:before{content:'';display: block;right: 5rem;top: 56%;position: absolute;display: block;width: 10rem;height: 1rem;background-color: #000;transform-origin:50% 50%;}
             &:after{transform:rotate(45deg);}
             &:before{transform:rotate(-45deg);}
         }
-        .header-basket-row-input{display: inline-block;
-            input{display: inline-block;width: 44rem;height: 28rem;border:2rem solid #e6e6e6;border-radius: 3rem;vertical-align: middle;text-align: center;font-size: 14rem;color:#1a1a1a;}
-            span{display: inline-block;font-size: 14rem;color:#b2b2b2;vertical-align: middle;margin-left: 5rem;margin-top: -3rem;}
+        .header-basket-row-input{display: inline-block;margin-left: 6rem;
+            input{display: inline-block;width: 44rem;height: 28rem;border:2rem solid #e6e6e6;border-radius: 6rem;vertical-align: middle;text-align: center;font-size: 14rem;color:#1a1a1a;}
+            span{display: inline-block;font-size: 14rem;color:#b2b2b2;vertical-align: middle;margin-left: 10rem;margin-top: -3rem;}
         }
     }
     .header-basket-row-item-sum{float: right;font-size: 16rem;font-weight: 700;text-align: right;text-transform: uppercase;color:$red;}
-    .header-basket-all-sum{text-align: center;padding-top: 10rem;margin-bottom: 10rem;font-weight: 700;color:$red;font-size:30rem;text-transform: uppercase;}
+    .header-basket-all-sum{text-align: center;padding-top: 10rem;margin-bottom: 32rem;font-weight: 700;color:$red;font-size:30rem;text-transform: uppercase;}
+    .header-basket-submit-button{
+        button.button{letter-spacing: 2.6rem;font-weight: 700;}
+    }
 }
 
 .call_success{padding: 30px 40px 30px 40px;color:#1a1a1a;text-align: center;

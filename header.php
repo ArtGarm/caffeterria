@@ -135,9 +135,9 @@
 				</div>
 
 				<div class="header-basket-main">
-					<div class="header-basket-icon active">
+					<div class="header-basket-icon">
 						<img src="images/header-basket-icon.png" alt="" />
-						<span class="header-basket-value">2</span>
+						<span class="header-basket-value"></span>
 					</div>
 					<div class="header-basket-form">
 						<div class="close-form"></div>
