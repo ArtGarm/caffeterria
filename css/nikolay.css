@@ -326,10 +326,16 @@
   letter-spacing: 3rem;
 }
 
+.title.contacts .title-text {
+  font-size: 24rem;
+}
+
 /*/send*/
 /**breadcrumps*/
 .breadcrumbs {
   width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .breadcrumbs .crumps-align {
@@ -350,3 +356,72 @@
 }
 
 /*/breadcrumps*/
+/*contacts**/
+.contact-wrapp .contact-align .contact-item {
+  background-color: #fafa00;
+  max-width: -webkit-calc(50% - 5px);
+  max-width: -moz-calc(50% - 5px);
+  max-width: calc(50% - 5px);
+  display: inline-block;
+}
+
+.contact-wrapp .contact-align .contact-item span {
+  font-family: 'Merel';
+  font-weight: 500;
+  color: #303030;
+  font-size: 18rem;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align {
+  text-align: center;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-name span {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-addres span {
+  font-weight: 400;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-phone {
+  display: inline-block;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-phone i {
+  background-image: url("../images/cont-phone.png");
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-clock {
+  display: inline-block;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-clock i {
+  background-image: url("../images/cont-clock.png");
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-butt a {
+  background-color: #d10019;
+  margin: 0 auto;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-butt a span {
+  color: #fff;
+}
+
+/*/contacts**/

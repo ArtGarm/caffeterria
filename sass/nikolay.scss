@@ -126,11 +126,12 @@
     }
     .title{width: 100%; text-align: center;    padding:22px 0 52px;
         .title-text{font-size: 29rem; font-family:"Merel"; font-weight: 700; padding: 10rem 10% 10rem 10%; text-transform: uppercase; letter-spacing: 3rem;}
+        &.contacts{.title-text{font-size: 24rem;}}
     }
 
 /*/send*/
 /**breadcrumps*/
-.breadcrumbs{width: 100%;
+.breadcrumbs{width: 100%; max-width: 1500px; margin: 0 auto;
     .crumps-align{text-align: center; padding-top: 55px;
         a{text-decoration: none;}
         span{font-family: 'Merel';font-weight: 400;font-size: 13rem; color:#919294;letter-spacing: 0.5px;}
@@ -142,3 +143,38 @@
 
 
 /*/breadcrumps*/
+
+
+/*contacts**/
+            .contact-wrapp{
+                .contact-align{
+                    .contact-item{background-color: #fafa00; max-width:calc(50% - 5px); display: inline-block;
+                        span{font-family: 'Merel';font-weight: 500; color: #303030; font-size: 18rem;}
+                        .item-align{ text-align: center;
+                            .item-img{img{}}
+                            .item-name{span{font-weight: 700;text-transform: uppercase;}}
+                            .item-addres{span{font-weight: 400;}}
+                            .item-icons{
+                                .icon-phone{display: inline-block;
+                                    i{background-image: url('../images/cont-phone.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;}
+                                    span{}
+                                }
+                                .icon-clock{display: inline-block;
+                                    i{background-image: url('../images/cont-clock.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;}
+                                    span{}
+                                }
+                            }
+                            .item-butt{
+                                a{background-color: #d10019;margin:0 auto; text-decoration: none; display: block; width:200px; height: 48px; text-align: center; text-transform: uppercase;
+                                    span{color:#fff;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+
+/*/contacts**/
