@@ -77,7 +77,7 @@ function oneHeightItems(){
 		block.css('height', height);
 	}
 
-	oneHeight($('.oneHeight'));
+	oneHeight($('.oneHeight:not(.action-item)'));
 }
 
 function validate(form, options){
@@ -187,6 +187,7 @@ function validationCall(form){
         $.fancybox.open("#call_success",{
             padding:0,
             fitToView:false,
+            closeBtn:false,
             wrapCSS:"call-popup",
             autoSize:true,
             afterClose: function(){
@@ -328,17 +329,12 @@ function showHideHeaderform(){
 };
 
 function showSecondLevel(){
-    var timer = null;
     $('.header-bottom-nav>ul>li').hover(
-        function(){
-            var item = $(this);
-            clearSetTimeout(timer);
-            timer = setTimeout(function(){
-                item.find('.second-level').slideDown(300);
-            },0);
+        function() {
+            $(this).find( ".second-level").stop().slideDown(300);
         },
-        function(){
-            //$('.second-level').slideUp(300);
+        function() {
+            $(this).find( ".second-level").stop().slideUp(300);
         }
     );
 };
