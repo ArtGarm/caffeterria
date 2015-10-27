@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /*ебаут ас))))*/
+.about-us-wrapper {
+  padding-bottom: 93px;
+}
+
 .about-us-wrapper .about-us-align .about-title {
   text-align: center;
   margin-bottom: 85px;
