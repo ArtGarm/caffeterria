@@ -126,7 +126,9 @@
     }
     .title{width: 100%; text-align: center;    padding:22px 0 52px;
         .title-text{font-size: 29rem; font-family:"Merel"; font-weight: 700; padding: 10rem 10% 10rem 10%; text-transform: uppercase; letter-spacing: 3rem;}
-        &.contacts{.title-text{font-size: 24rem;}}
+        &.contacts{
+            .title-text{font-size: 24rem;padding-top: 24px;letter-spacing: 5rem;padding-bottom: 23px;}
+        }
     }
 
 /*/send*/
@@ -147,26 +149,31 @@
 
 /*contacts**/
             .contact-wrapp{
-                .contact-align{
-                    .contact-item{background-color: #fafa00; max-width:calc(50% - 5px); display: inline-block;
+                .contact-align{padding-bottom:63px;
+                    .contact-item{background-color: #fafafa; max-width:calc(50% - 5px); display: inline-block; padding-bottom: 54px;margin-bottom:18px;
+                        &:nth-child(1),&:nth-child(3){ margin-right: 19px;}
                         span{font-family: 'Merel';font-weight: 500; color: #303030; font-size: 18rem;}
                         .item-align{ text-align: center;
-                            .item-img{img{}}
-                            .item-name{span{font-weight: 700;text-transform: uppercase;}}
-                            .item-addres{span{font-weight: 400;}}
-                            .item-icons{
-                                .icon-phone{display: inline-block;
-                                    i{background-image: url('../images/cont-phone.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;}
+                            .item-img{padding-bottom: 39px;}
+                            .item-name{padding-bottom: 12px;
+                                span{font-weight: 700;text-transform: uppercase;letter-spacing: 3.5rem;}
+                            }
+                            .item-addres{padding-bottom: 48px;
+                                span{font-weight: 400;}
+                            }
+                            .item-icons{padding-bottom: 48px;
+                                .icon-phone{display: inline-block;padding:0 47px 0 20px;
+                                    i{background-image: url('../images/cont-phone.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 9px;}
                                     span{}
                                 }
                                 .icon-clock{display: inline-block;
-                                    i{background-image: url('../images/cont-clock.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;}
+                                    i{background-image: url('../images/cont-clock.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 20px;}
                                     span{}
                                 }
                             }
                             .item-butt{
-                                a{background-color: #d10019;margin:0 auto; text-decoration: none; display: block; width:200px; height: 48px; text-align: center; text-transform: uppercase;
-                                    span{color:#fff;}
+                                a{background-color: #d10019;margin:0 auto; text-decoration: none; display: block; width:200px; height: 48px; text-align: center; text-transform: uppercase;padding-top: 15px;
+                                    span{color:#fff;font-weight: 400; letter-spacing: 1px;font-size: 14rem;}
                                 }
                             }
                         }
