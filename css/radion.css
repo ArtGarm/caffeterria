@@ -1,6 +1,10 @@
 /* variables */
 /* /variables */
 /*fancybox style*/
+.fancybox-inner {
+  overflow: hidden !important;
+}
+
 .fancybox-close {
   background: none;
   outline: none;
@@ -79,7 +83,10 @@
 .look_and_buy span {
   line-height: 12rem;
   vertical-align: text-top;
-  transition: all linear .2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
   position: relative;
 }
 
@@ -96,6 +103,8 @@
   display: inline-block;
   height: 65px;
   width: 65px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   background-color: #d10019;
   margin-top: -32px;
@@ -264,6 +273,9 @@
   top: 75px;
   right: -45px;
   -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
