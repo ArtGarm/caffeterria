@@ -1,19 +1,37 @@
 function loadmore(){
     $('.load-more a').click(function(e){
+    	var datapage = $(this).attr('data-page'); 
         var parent = $('.catalog-items');
-        var offSetHeight =  ruber + parent.height();
-                    $.ajax({
-                url : 'partials/addCatalogitem.php',
-
-                success : function(data){
-                    $('.catalog-items').append(data);
-                    oneHeightItems();
-                    }    
-            });
-         e.preventDefault();
+        if (datapage == 'catalog') {
+        	$.ajax({
+	        	url : 'partials/addCatalogitem.php',	
+	        	success : function(data){
+	            $('.catalog-items').append(data);
+	            oneHeightItems();
+        		}
+    		});
+    	}
+    	else if (datapage == 'bread'){
+    		$.ajax({
+	        	url : 'partials/addBreaditem.php',	
+	        	success : function(data){
+	            $('.catalog-items').append(data);
+	            oneHeightItems();
+	        	}
+	    	});
+    	}
+    	else{
+    		$.ajax({
+	        	url : 'partials/addMalinaitem.php',	
+	        	success : function(data){
+	            $('.catalog-items').append(data);
+	            oneHeightItems();
+	        	}
+	    	});
+    	}
+        e.preventDefault();
     });
 }
-
 
 
 function popUpCatalogimg(){

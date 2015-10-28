@@ -17,7 +17,7 @@
 		                    </div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -42,7 +42,7 @@
 		                    </div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -67,7 +67,7 @@
 		                    </div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -89,7 +89,7 @@
 							</div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -109,7 +109,7 @@
 							</div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -134,7 +134,7 @@
 		                    </div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -154,7 +154,7 @@
 							</div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -176,7 +176,7 @@
 							</div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -196,7 +196,7 @@
 							</div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -216,7 +216,7 @@
 							</div>
 						</div>
 						<div class="catalog-item-text">
-		                    <div class="catalog-item-desc">
+		                    <div class="catalog-item-desc oneHeight">
 		                    	<p>итальянская паста болоньезе</p>
 		                    </div>
 		                    <div class="catalog-item-price">
@@ -235,7 +235,7 @@
 			<div class="load-more-items">
 				<div class="load-more-wrap cfix">
 					<div class="load-more">
-						<a href="">Показать ещё</a>
+						<a href="#" data-page="catalog">Показать ещё</a>
 					</div>
 				</div>
 			</div>
