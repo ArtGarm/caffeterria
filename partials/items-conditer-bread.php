@@ -116,8 +116,8 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/item7.jpg" class="loop">
-                                    <img src="images/item6.jpg" alt=""/>
+                                <a href="images/bread_item_6.jpg" class="loop">
+                                    <img src="images/bread_item_6.jpg" alt=""/>
                                 </a>
                             </div>
                             <div class="red_circle">
@@ -128,10 +128,10 @@
                         </div>
                         <div class="catalog-item-text">
                             <div class="catalog-item-desc">
-                                <p>итальянская паста болоньезе</p>
+                                <p>Хлеб тостерный</p>
                             </div>
                             <div class="catalog-item-price">
-                                <p><b>279 P</b> / 350 <span>гр.</span></p>
+                                <p><b>499 P</b> / 400 <span>гр.</span></p>
                             </div>
                         </div>
                         <div class="add-to-cart">
@@ -141,17 +141,17 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/item7.jpg" class="loop">
-                                    <img src="images/item7.jpg" alt=""/>
+                                <a href="images/bread_item_7.jpg" class="loop">
+                                    <img src="images/bread_item_7.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>
                         <div class="catalog-item-text">
                             <div class="catalog-item-desc">
-                                <p>итальянская паста болоньезе</p>
+                                <p>хлеб братиславский</p>
                             </div>
                             <div class="catalog-item-price">
-                                <p><b>279 P</b> / 350 <span>гр.</span></p>
+                                <p><b>149 P</b> / 100 <span>гр.</span></p>
                             </div>
                         </div>
                         <div class="add-to-cart">
@@ -163,17 +163,17 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/item7.jpg" class="loop">
-                                    <img src="images/item4.jpg" alt=""/>
+                                <a href="images/bread_item_8.jpg" class="loop">
+                                    <img src="images/bread_item_8.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>
                         <div class="catalog-item-text">
                             <div class="catalog-item-desc">
-                                <p>итальянская паста болоньезе</p>
+                                <p>Булачки к завтраку</p>
                             </div>
                             <div class="catalog-item-price">
-                                <p><b>279 P</b> / 350 <span>гр.</span></p>
+                                <p><b>79 P</b> / 100 <span>гр.</span></p>
                             </div>
                         </div>
                         <div class="add-to-cart">
@@ -183,17 +183,17 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/item7.jpg" class="loop">
-                                    <img src="images/item5.jpg" alt=""/>
+                                <a href="images/bread_item_9.jpg" class="loop">
+                                    <img src="images/bread_item_9.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>
                         <div class="catalog-item-text">
                             <div class="catalog-item-desc">
-                                <p>итальянская паста болоньезе</p>
+                                <p>немецкий хлеб</p>
                             </div>
                             <div class="catalog-item-price">
-                                <p><b>279 P</b> / 350 <span>гр.</span></p>
+                                <p><b>399 P</b> / 100 <span>гр.</span></p>
                             </div>
                         </div>
                         <div class="add-to-cart">
@@ -203,22 +203,17 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/item7.jpg" class="loop">
-                                    <img src="images/item6.jpg" alt=""/>
+                                <a href="images/bread_item_10.jpg" class="loop">
+                                    <img src="images/bread_item_10.jpg" alt=""/>
                                 </a>
-                            </div>
-                            <div class="red_circle">
-                                <div class="red_circle_wrap">
-                                    <span>20%</span>
-                                </div>
                             </div>
                         </div>
                         <div class="catalog-item-text">
                             <div class="catalog-item-desc">
-                                <p>итальянская паста болоньезе</p>
+                                <p>Французский багет</p>
                             </div>
                             <div class="catalog-item-price">
-                                <p><b>279 P</b> / 350 <span>гр.</span></p>
+                                <p><b>79 P</b> / 100 <span>гр.</span></p>
                             </div>
                         </div>
                         <div class="add-to-cart">
@@ -228,17 +223,17 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/item7.jpg" class="loop">
-                                    <img src="images/item7.jpg" alt=""/>
+                                <a href="images/bread_item_11.jpg" class="loop">
+                                    <img src="images/bread_item_11.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>
                         <div class="catalog-item-text">
                             <div class="catalog-item-desc">
-                                <p>итальянская паста болоньезе</p>
+                                <p>Батон косичка с тмином</p>
                             </div>
                             <div class="catalog-item-price">
-                                <p><b>279 P</b> / 350 <span>гр.</span></p>
+                                <p><b>399 P</b> / 100 <span>гр.</span></p>
                             </div>
                         </div>
                         <div class="add-to-cart">
@@ -250,7 +245,7 @@
             <div class="load-more-items">
                 <div class="load-more-wrap cfix">
                     <div class="load-more">
-                        <a href="">Показать ещё</a>
+                        <a href="" data-page="bread">Показать ещё</a>
                     </div>
                 </div>
             </div>
