@@ -9,8 +9,8 @@
         </div>
         <div class="breadcrumbs catalog">
             <div class="crumps-align">
-                <a href="#"><span>Главная/</span></a>
-                <a href="#"><span>Меню</span></a>
+                <a href="#"><span>Главная</span></a><span>/</span>
+                <a href="#"><span>Меню</span></a><span>/</span>
                 <span>Популярные блюда</span>
             </div>
         </div>

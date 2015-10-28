@@ -5,7 +5,27 @@
 
 }
 @media screen and (max-width: 1366px){
-
+    /*send*/
+         .title-photo{
+                .title-photo-align{
+                    span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
+                    .bread-text{position: relative; padding: 6% 12% 4.4%;
+                        span{ font-size: 18rem;}
+                    }
+                    .bread-phone{position: relative; padding: 0 12% 6.6%;
+                        span{font-size: 48rem;font-weight: 700;    letter-spacing: 8.5px;}
+                    }
+                    .bred-min{position: relative; padding: 0 12% 3.5%;}
+                    .bread-price-wrapp{position: relative;
+                        a{text-decoration: none;}
+                        .bread-price{padding: 28px 0 0;background-color: #d10019; border-radius: 50%;width:92px; height:92px; position: absolute;left:calc(50% - 46px);
+                            span{font-weight: 700;}
+                        }
+                    }
+                }
+            }
+        }
+    /*/send*/
 }
 @media screen and (max-width: 1280px){
 
