@@ -1,8 +1,8 @@
-<div class="catalog-content-wrap conditer-stock-page">
+<div class="catalog-content-wrap conditer-bread-page">
     <div class="mbox">
         <div class="catalog-content">
             <div class="catalog-item-title">
-                <span>торты в наличие</span>
+                <span>Хлебно-булочные изделия</span>
             </div>
             <div class="catalog-items cfix">
                 <div class="row3">
