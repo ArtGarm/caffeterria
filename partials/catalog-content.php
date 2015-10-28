@@ -235,7 +235,7 @@
 			<div class="load-more-items">
 				<div class="load-more-wrap cfix">
 					<div class="load-more">
-						<a href="">Показать ещё</a>
+						<a href="#" data-page="catalog">Показать ещё</a>
 					</div>
 				</div>
 			</div>
