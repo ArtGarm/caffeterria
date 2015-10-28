@@ -17,6 +17,8 @@
     display: inline-block;
     height: 45px;
     width: 45px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     background-color: #d10019;
     margin-top: -24px;
@@ -188,5 +190,44 @@
   }
   .massonry .massonry_item.item_8 {
     width: 100%;
+  }
+  /*catalog pop*/
+  .catalog_pop_wrap .catalog_pop_cell {
+    display: block;
+    width: 100%;
+  }
+  .catalog_pop_wrap .catalog_pop_subtitle {
+    padding-bottom: 19px;
+  }
+  .catalog_pop_wrap .catalog_pop_cell.right {
+    padding: 19px 10px;
+  }
+  .catalog_pop_wrap .catalog_pop_price {
+    padding-bottom: 30px;
+  }
+  .catalog_pop_wrap .catalog_pop_img {
+    padding: 10px 0px;
+  }
+  .catalog_pop_wrap .catalog_pop_mas {
+    top: 15px;
+    left: 15px;
+  }
+  .catalog_pop_wrap .catalog_pop_kkal {
+    top: 100px;
+    left: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /*catalog pop*/
+  .catalog_pop_wrap .catalog_pop_cell.right {
+    padding: 14px 10px;
+  }
+  .catalog_pop_wrap .catalog_pop_title {
+    padding-bottom: 12px;
+  }
+  .catalog_pop_wrap .catalog_pop_subtitle {
+    padding-bottom: 14px;
+    line-height: 18rem;
   }
 }
