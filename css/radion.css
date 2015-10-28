@@ -1,6 +1,10 @@
 /* variables */
 /* /variables */
 /*fancybox style*/
+.fancybox-inner {
+  overflow: hidden !important;
+}
+
 .fancybox-close {
   background: none;
   outline: none;
