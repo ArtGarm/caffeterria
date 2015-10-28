@@ -8,8 +8,6 @@
   text-align: center;
   width: 100%;
   display: inline-block;
-  -webkit-border-radius: 5rem;
-  -moz-border-radius: 5rem;
   border-radius: 5rem;
   color: #fff;
   border: 2px solid transparent;
@@ -42,6 +40,8 @@
 .header-top {
   background-color: #fff;
   padding: 10rem 0 10rem 0;
+  position: relative;
+  z-index: 1;
 }
 
 .header-top .mbox {
@@ -53,9 +53,6 @@
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -73,17 +70,11 @@
   font-size: 18rem;
   color: #2a2a2b;
   font-weight: 700;
-  -webkit-transition: color 300ms ease;
-  -moz-transition: color 300ms ease;
-  -o-transition: color 300ms ease;
   transition: color 300ms ease;
 }
 
 .header-telefone a span {
   color: #d10019;
-  -webkit-transition: color 300ms ease;
-  -moz-transition: color 300ms ease;
-  -o-transition: color 300ms ease;
   transition: color 300ms ease;
 }
 
@@ -99,6 +90,7 @@
   padding-top: 20rem;
   float: right;
   margin-right: 24rem;
+  position: relative;
 }
 
 .header-basket-main .header-basket-icon {
@@ -109,8 +101,6 @@
 .header-basket-main .header-basket-icon .header-basket-value {
   width: 24rem;
   height: 24rem;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   background-color: #d10019;
   text-align: center;
@@ -126,9 +116,6 @@
 
 .header-basket-main .header-basket-icon.active .header-basket-value {
   display: block;
-  -webkit-transition: background-color 300ms ease;
-  -moz-transition: background-color 300ms ease;
-  -o-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
 }
 
@@ -143,10 +130,9 @@
   width: 305rem;
   background-color: #fff;
   padding: 25rem 20rem 20rem 20rem;
-  -webkit-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
-  -moz-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   display: none;
+  margin-top: 15rem;
 }
 
 .header-basket-form:before {
@@ -179,32 +165,20 @@
   height: 2rem;
   background-color: #b3b3b3;
   -webkit-transform-origin: 0 50%;
-  -moz-transform-origin: 0 50%;
-  -ms-transform-origin: 0 50%;
-  -o-transform-origin: 0 50%;
   transform-origin: 0 50%;
   left: 1rem;
-  -webkit-transition: ease 300ms background-color;
-  -moz-transition: ease 300ms background-color;
-  -o-transition: ease 300ms background-color;
   transition: ease 300ms background-color;
 }
 
 .header-basket-form .close-form:before {
   top: 0;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .header-basket-form .close-form:after {
   bottom: 0;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
@@ -268,25 +242,16 @@
   height: 1rem;
   background-color: #000;
   -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
 
 .header-basket-form .header-basket-row-value .header-basket-row-price:after {
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .header-basket-form .header-basket-row-value .header-basket-row-price:before {
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
@@ -300,8 +265,6 @@
   width: 44rem;
   height: 28rem;
   border: 2rem solid #e6e6e6;
-  -webkit-border-radius: 6rem;
-  -moz-border-radius: 6rem;
   border-radius: 6rem;
   vertical-align: middle;
   text-align: center;
@@ -361,16 +324,21 @@
 
 .sendwich-icon {
   display: none;
-  width: 30rem;
-  height: 30rem;
-  padding-top: 12rem;
+  width: 18rem;
+  height: 18rem;
+  padding-top: 7rem;
   cursor: pointer;
+  position: absolute;
+  right: 15rem;
+  top: -webkit-calc(50% - 12.5rem);
+  top: -moz-calc(50% - 12.5rem);
+  top: calc(50% - 12.5rem);
 }
 
 .sendwich-icon span {
   display: inline-block;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   background-color: #000;
   -webkit-transition: background-color 300ms ease;
   -moz-transition: background-color 300ms ease;
@@ -384,7 +352,7 @@
   display: block;
   width: 100%;
   position: absolute;
-  height: 3rem;
+  height: 4rem;
   background-color: #000;
   left: 0;
   -webkit-transform-origin: 0 50%;
@@ -392,32 +360,44 @@
   -ms-transform-origin: 0 50%;
   -o-transform-origin: 0 50%;
   transform-origin: 0 50%;
-  -webkit-transition: left 300ms ease, -webkit-transform 300ms ease;
-  -moz-transition: left 300ms ease, -moz-transform 300ms ease;
-  -o-transition: left 300ms ease, -o-transform 300ms ease;
-  transition: left 300ms ease, transform 300ms ease;
+  -webkit-transition: left 300ms ease, -webkit-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -moz-transition: left 300ms ease, -moz-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -o-transition: left 300ms ease, -o-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  transition: left 300ms ease, transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
 }
 
 .sendwich-icon span:before {
-  top: -12rem;
+  top: -7rem;
 }
 
 .sendwich-icon span:after {
-  bottom: -15rem;
+  bottom: -7rem;
 }
 
 .sendwich-icon.active span {
   background-color: transparent;
 }
 
-.sendwich-icon.active:before {
+.sendwich-icon.active span:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 2rem;
+  top: -6rem;
+}
+
+.sendwich-icon.active span:after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  left: 1rem;
+  left: 2rem;
+  bottom: -7rem;
 }
+
 
 .sendwich-icon.active:after {
   -webkit-transform: rotate(45deg);
@@ -431,6 +411,7 @@
 .header-bottom {
   position: relative;
   background-color: #1a1a1a;
+  z-index: 0;
 }
 
 .header-bottom .mbox {

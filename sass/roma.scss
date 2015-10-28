@@ -91,18 +91,21 @@
 			.add-to-cart{opacity: 1;}
 		}
 	}
-	.load-more-items{
-		.load-more-wrap{width: 100%;height: 70px;text-align: center;position: relative;
-			&:before{width: 45%;display: block;content: '';width: 45%;height: 2px;position: absolute;left: 0;top: -50%;background-color: #ccc;}
-			&:after{width: 45%;display: block;content: '';width: 45%;height: 2px;position: absolute;right: 0;top: -50%;background-color: #ccc;}
-			.load-more{display: inline-block;
-				a{font-size: 12rem;	font-family: 'Merel'; font-weight: 700; color: #ccc; letter-spacing: 1rem;width: 65px;position: relative;text-decoration: none;text-transform: uppercase;
-					&:before{background-image: url(../images/loadmore.png);background-repeat: no-repeat;width: 65px;height: 65px; display: block;content: '';position: absolute;top: -65px;left: 50%;transform: translateX(-50%);}
-				}
+}
+
+
+.load-more-items{
+	.load-more-wrap{width: 100%;height: 70px;text-align: center;position: relative;
+		&:before{width: 45%;display: block;content: '';width: 45%;height: 2px;position: absolute;left: 0;top: -50%;background-color: #ccc;}
+		&:after{width: 45%;display: block;content: '';width: 45%;height: 2px;position: absolute;right: 0;top: -50%;background-color: #ccc;}
+		.load-more{display: inline-block;
+			a{font-size: 12rem;	font-family: 'Merel'; font-weight: 700; color: #ccc; letter-spacing: 1rem;width: 65px;position: relative;text-decoration: none;text-transform: uppercase;
+				&:before{background-image: url(../images/loadmore.png);background-repeat: no-repeat;width: 65px;height: 65px; display: block;content: '';position: absolute;top: -65px;left: 50%;transform: translateX(-50%);}
 			}
 		}
 	}
 }
+
 
 .catalog-items{margin-bottom: 100px;
 	.row3{margin-bottom: 20px;
@@ -110,7 +113,7 @@
 			&:nth-child(3n){margin-right: 0px!important}
 		}
 	}
-	.row4{display: none;margin-bottom: 20px;
+	.row4{margin-bottom: 20px;
 		.catalog-item{
 			&:nth-child(4n){margin-right: 0px!important}
 		}
