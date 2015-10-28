@@ -53,13 +53,21 @@
   max-width: 1112px;
   left: 50%;
   -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
   transform: translateX(-50%);
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
   background-size: 100%;
 }
 
 /* /about caffe */
 /* actions */
 .action-content-wrap .action-block {
+  width: -webkit-calc(50% - 10px);
+  width: -moz-calc(50% - 10px);
   width: calc(50% - 10px);
   float: left;
   position: relative;
@@ -114,6 +122,7 @@
   color: #303030;
   text-decoration: none;
   text-transform: uppercase;
+  -o-transition: color 500ms ease;
   transition: color 500ms ease;
   -webkit-transition: color 500ms ease;
   -moz-transition: color 500ms ease;
@@ -152,6 +161,9 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 49px;
   height: 48px;
@@ -428,6 +440,9 @@
   top: -65px;
   left: 50%;
   -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
