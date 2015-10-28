@@ -230,8 +230,6 @@
 }
 
 .send-content-wrapp .send-align .diag-wrap .send-item {
-  width: -webkit-calc(25% - 4px);
-  width: -moz-calc(25% - 4px);
   width: calc(25% - 4px);
   display: inline-block;
   text-align: center;

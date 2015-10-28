@@ -13,9 +13,6 @@
     left: 0;
     top: 10rem;
     -webkit-transform: translate(0, 0);
-    -moz-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    -o-transform: translate(0, 0);
     transform: translate(0, 0);
     float: left;
   }
@@ -57,35 +54,21 @@
     left: 50%;
     bottom: 10rem;
     background-color: #000;
-    -webkit-transition: -webkit-transform 300ms ease, background-color 300ms ease;
-    -moz-transition: -moz-transform 300ms ease, background-color 300ms ease;
-    -o-transition: -o-transform 300ms ease, background-color 300ms ease;
+    transition: -webkit-transform 300ms ease, background-color 300ms ease;
     transition: transform 300ms ease, background-color 300ms ease;
   }
   .header-bottom .header-bottom-nav > ul > li.second-level-wrap:before {
     margin-left: -7rem;
     -webkit-transform-origin: 0 50%;
-    -moz-transform-origin: 0 50%;
-    -ms-transform-origin: 0 50%;
-    -o-transform-origin: 0 50%;
     transform-origin: 0 50%;
     -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
   .header-bottom .header-bottom-nav > ul > li.second-level-wrap:after {
     margin-left: -4rem;
     -webkit-transform-origin: 100% 50%;
-    -moz-transform-origin: 100% 50%;
-    -ms-transform-origin: 100% 50%;
-    -o-transform-origin: 100% 50%;
     transform-origin: 100% 50%;
     -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
   .header-bottom .header-bottom-nav > ul > li.second-level-wrap > a {
@@ -109,16 +92,10 @@
   }
   .header-bottom .header-bottom-nav > ul > li.second-level-wrap.active:before {
     -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
   .header-bottom .header-bottom-nav > ul > li.second-level-wrap.active:after {
     -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
   .header-bottom .second-level-img {
@@ -145,8 +122,6 @@
   .header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col {
     display: inline-block;
     vertical-align: top;
-    width: -webkit-calc(33.33% - 1rem);
-    width: -moz-calc(33.33% - 1rem);
     width: calc(33.33% - 1rem);
     text-align: center;
     margin-bottom: 20rem;
@@ -163,8 +138,6 @@
 @media screen and (max-width: 666px) {
   /* header */
   .header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col {
-    width: -webkit-calc(50% - 1rem);
-    width: -moz-calc(50% - 1rem);
     width: calc(50% - 1rem);
   }
   /* header */
