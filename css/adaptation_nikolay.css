@@ -1,0 +1,114 @@
+@media screen and (max-width: 1366px) {
+  /*send*/
+  .title-photo.send .title-photo-align .bread-phone {
+    padding: 0 12% 6%;
+  }
+  .title-photo.send .title-photo-align .bread-phone span {
+    font-size: 30.72rem;
+    letter-spacing: 5.5px;
+  }
+  /*/send*/
+}
+
+@media screen and (max-width: 1280px) {
+  /*send*/
+  .title-photo.send .title-photo-align .bread-text span {
+    font-size: 11.52rem;
+    line-height: 19px;
+  }
+  /*/send*/
+}
+
+@media screen and (max-width: 1024px) {
+  /*send*/
+  .title-photo.send {
+    padding-bottom: 48px;
+  }
+  .title-photo.send .title-photo-align .bred-min {
+    padding: 0 12% 2.5%;
+  }
+  .title-photo.send .title-photo-align .bred-min span {
+    font-size: 15.36rem;
+  }
+  /*/send*/
+}
+
+@media screen and (max-width: 992px) {
+  /*send*/
+  .breadcrumbs {
+    display: none;
+  }
+  .title.send {
+    display: none;
+  }
+  .title-photo.send .title-photo-align .bread-price-wrapp .bread-price {
+    padding: 12px 0 0;
+    width: 60px;
+    height: 60px;
+    left: calc(50% - 33px);
+  }
+  .title-photo.send .title-photo-align .bread-price-wrapp .bread-price span {
+    font-size: 15.36rem;
+  }
+  .send-content-wrapp .send-align span {
+    font-size: 11rem;
+  }
+  .send-content-wrapp .send-align .title {
+    display: block;
+    padding: 22px 0 45px;
+  }
+  .send-content-wrapp .send-align .title span {
+    font-size: 16rem;
+    font-family: "Merel";
+    font-weight: 700;
+    padding: 10rem 10% 45px;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+  }
+  .send-content-wrapp .send-align .send-title {
+    padding-bottom: 75px;
+  }
+  .send-content-wrapp .send-align .send-title span {
+    font-size: 11rem;
+  }
+  .send-content-wrapp .send-align .diag-wrap {
+    padding-bottom: 70px;
+  }
+  .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img {
+    width: 90px;
+    height: 90px;
+    padding-top: 27px;
+  }
+  .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img span {
+    font-size: 19.2rem;
+  }
+  .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-text {
+    padding-top: 18px;
+  }
+  .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-text span {
+    font-size: 12rem;
+  }
+  .send-content-wrapp .send-align .send-text1 span {
+    font-size: 12rem;
+    line-height: 20rem;
+  }
+  .send-content-wrapp .send-align .send-text2 {
+    padding-top: 22px;
+  }
+  .send-content-wrapp .send-align .send-text2 span {
+    font-size: 46.35rem;
+  }
+  .send-content-wrapp .send-align .send-text3 {
+    padding: 23px 10% 0;
+  }
+  .send-content-wrapp .send-align .send-text3 span {
+    line-height: 20rem;
+  }
+  .send-content-wrapp .send-align .send-text4 {
+    padding-top: 20px;
+  }
+  .send-content-wrapp .send-align .send-text5 {
+    padding-top: 24px;
+  }
+  /*/send*/
+}

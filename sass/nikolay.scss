@@ -83,6 +83,7 @@
 
     .send-content-wrapp{
         .send-align{text-align: center; padding-bottom: 92px;
+            .title{display:none;}
             span{font-family: 'Merel';font-weight: 400;font-size: 14rem; color:#2d2d2e;
                 b{font-weight: 400;color:#d10019;}
             }
@@ -105,7 +106,7 @@
                     }
                 }
             }
-            .send-text1{padding: 0 272px;
+            .send-text1{padding: 0 20%;
                 span{font-size: 18rem;line-height: 30rem;}
             }
             .send-text2{padding-top: 38px;

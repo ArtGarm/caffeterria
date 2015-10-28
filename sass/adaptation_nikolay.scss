@@ -7,33 +7,92 @@
 @media screen and (max-width: 1366px){
     /*send*/
          .title-photo{
+             &.send{
                 .title-photo-align{
-                    span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
-                    .bread-text{position: relative; padding: 6% 12% 4.4%;
-                        span{ font-size: 18rem;}
+                    .bread-phone{ padding: 0 12% 6%;
+                         span{font-size: 30.72rem;letter-spacing: 5.5px;}
                     }
-                    .bread-phone{position: relative; padding: 0 12% 6.6%;
-                        span{font-size: 48rem;font-weight: 700;    letter-spacing: 8.5px;}
-                    }
-                    .bred-min{position: relative; padding: 0 12% 3.5%;}
-                    .bread-price-wrapp{position: relative;
-                        a{text-decoration: none;}
-                        .bread-price{padding: 28px 0 0;background-color: #d10019; border-radius: 50%;width:92px; height:92px; position: absolute;left:calc(50% - 46px);
-                            span{font-weight: 700;}
-                        }
+                }
+            }
+        }
+
+    /*/send*/
+}
+@media screen and (max-width: 1280px){
+     /*send*/
+       .title-photo{
+            &.send{
+                .title-photo-align{
+                    .bread-text{span{ font-size: 11.52rem;line-height: 19px;}}
+                }
+            }
+        }
+    /*/send*/
+}
+@media screen and (max-width: 1024px){
+    /*send*/
+    .title-photo{
+            &.send{padding-bottom: 48px;
+                .title-photo-align{
+                    .bred-min{    padding: 0 12% 2.5%;
+                        span{font-size: 15.36rem;}
                     }
                 }
             }
         }
     /*/send*/
 }
-@media screen and (max-width: 1280px){
-
-}
-@media screen and (max-width: 1024px){
-
-}
 @media screen and (max-width: 992px){
+    /*send*/
+    .breadcrumbs{display: none;}
+    .title{
+        &.send{display: none;}
+    }
+    .title-photo{
+            &.send{
+                .title-photo-align{
+                    .bread-price-wrapp{
+                        .bread-price{padding: 12px 0 0;width:60px; height:60px;left: calc(50% - 33px);
+                            span{font-size: 15.36rem;}
+                        }
+                    }
+                }
+            }
+        }
+    .send-content-wrapp{
+        .send-align{
+            span{ font-size: 11rem;}
+            .title{display: block; padding: 22px 0 45px;
+                span{font-size: 16rem; font-family:"Merel"; font-weight: 700; padding: 10rem 10% 45px; text-transform: uppercase; letter-spacing: 1rem;}
+            }
+            .send-title{    padding-bottom: 75px;
+                span{font-size: 11rem;}
+            }
+            .diag-wrap{    padding-bottom: 70px;
+                .send-item{
+                   .item-align{
+                        .item-img{ width: 90px; height: 90px; padding-top: 27px;
+                            span{font-size: 19.2rem;}
+                        }
+                        .item-text{padding-top: 18px;
+                            span{font-size: 12rem;}
+                        }
+                    }
+                }
+            }
+            .send-text1{span{font-size: 12rem;line-height:20rem;}
+            }
+            .send-text2{padding-top: 22px;
+                span{font-size: 46.35rem;}
+            }
+            .send-text3{    padding: 23px 10% 0;
+                span{line-height: 20rem;}
+            }
+            .send-text4{ padding-top: 20px;}
+            .send-text5{    padding-top: 24px;}
+        }
+    }
+    /*/send*/
 
 }
 @media screen and (max-width: 767px){
