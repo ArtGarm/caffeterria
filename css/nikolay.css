@@ -370,6 +370,8 @@
 
 .contact-wrapp .contact-align .contact-item {
   background-color: #fafafa;
+  max-width: -webkit-calc(50% - 5px);
+  max-width: -moz-calc(50% - 5px);
   max-width: calc(50% - 5px);
   display: inline-block;
   padding-bottom: 54px;

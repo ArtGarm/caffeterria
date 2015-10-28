@@ -25,17 +25,31 @@
 
 }
 @media screen and (max-width: 992px){
-   .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1{ margin-top: 0; font-size: 64rem;  padding: 48rem 88rem 0rem 70rem; }
-    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1{ margin-top: 0; font-size: 84rem; padding: 48rem 88rem 0rem 70rem; }
-    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h2 {
-     font-size: 14rem;     padding: 0px 108rem 6rem 72rem;}
-     .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h2 {
-     font-size: 14rem;     padding: 0px 108rem 6rem 72rem;}
+   .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content {
+        .content-box-white{
+            h1{ margin-top: 0; font-size: 64rem;  padding: 48rem 88rem 0rem 70rem; }
+            h2 { font-size: 14rem;     padding: 0px 108rem 6rem 72rem;}
+            h3 { padding: 8rem 100rem 120rem 72rem;}
+            a .button-fast {margin-left: 74rem; }
+        }
+        .content-box-black{
+            h1{ margin-top: 0; font-size: 84rem; padding: 48rem 88rem 0rem 70rem; }
+            h2 {font-size: 14rem;     padding: 0px 108rem 6rem 72rem;}
+            h3 { padding: 8rem 100rem 120rem 72rem;}
+            a .button-fast {margin-left: 74rem; }
+        }
+    }
     .header-slider-wrap .header-slider-wrap-main .slick-dots{position: absolute;margin-bottom: 50px;bottom: 17rem;    right: 80%; text-align: center;}
-    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h3 { padding: 8rem 100rem 120rem 72rem;}
-    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h3 { padding: 8rem 100rem 120rem 72rem;}
-    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a .button-fast {margin-left: 74rem; }
-    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast {margin-left: 74rem; }
+
+    .footer-wrapp-main{background-color:#292929;
+        .foot-grad{display: none;}
+            .main-block{
+            .convert-adress{ display: none;}
+            .header-place{ display: none;}
+            .socials-head{ }
+        }
+    }
+    .navi-wrapp-main{ display: none;}
 
 }
 @media screen and (max-width: 767px){
