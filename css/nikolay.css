@@ -60,6 +60,10 @@
 
 /*/special*/
 /*conditer -choise*/
+.cond-wrapp .cond-align {
+  padding: 126px 0 183px;
+}
+
 .cond-wrapp .cond-align span {
   font-family: 'Merel';
   font-weight: 700;
@@ -119,8 +123,9 @@
 /*/conditer -choise*/
 /*title photo*/
 .title-photo {
-  width: 1500px;
+  max-width: 1500px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .title-photo.send {
@@ -148,7 +153,7 @@
 
 .title-photo.send .title-photo-align .bread-text {
   position: relative;
-  padding: 89px 145px 40px;
+  padding: 6% 12% 4.4%;
 }
 
 .title-photo.send .title-photo-align .bread-text span {
@@ -157,7 +162,7 @@
 
 .title-photo.send .title-photo-align .bread-phone {
   position: relative;
-  padding: 27px 145px 40px;
+  padding: 0 12% 6.6%;
 }
 
 .title-photo.send .title-photo-align .bread-phone span {
@@ -168,7 +173,7 @@
 
 .title-photo.send .title-photo-align .bred-min {
   position: relative;
-  padding: 59px 145px 52px;
+  padding: 0 12% 3.5%;
 }
 
 .title-photo.send .title-photo-align .bread-price-wrapp {
@@ -182,14 +187,10 @@
 .title-photo.send .title-photo-align .bread-price-wrapp .bread-price {
   padding: 28px 0 0;
   background-color: #d10019;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 92px;
   height: 92px;
   position: absolute;
-  left: -webkit-calc(50% - 46px);
-  left: -moz-calc(50% - 46px);
   left: calc(50% - 46px);
 }
 
@@ -202,6 +203,7 @@
 /*send*/
 .send-content-wrapp .send-align {
   text-align: center;
+  padding-bottom: 92px;
 }
 
 .send-content-wrapp .send-align span {
@@ -253,8 +255,6 @@
 }
 
 .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 141px;
   height: 141px;
@@ -368,8 +368,6 @@
 
 .contact-wrapp .contact-align .contact-item {
   background-color: #fafafa;
-  max-width: -webkit-calc(50% - 5px);
-  max-width: -moz-calc(50% - 5px);
   max-width: calc(50% - 5px);
   display: inline-block;
   padding-bottom: 54px;

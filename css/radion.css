@@ -19,9 +19,6 @@
   background-color: #cccccc;
   content: "";
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
   top: 15px;
   right: 7px;
@@ -34,17 +31,12 @@
   background-color: #cccccc;
   content: "";
   -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
   transform: rotate(135deg);
   top: 15px;
   right: 7px;
 }
 
 .fancybox-skin {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
   border-radius: 0px;
 }
 
@@ -62,12 +54,7 @@
   padding: 24px 0px;
   vertical-align: middle;
   line-height: 12rem;
-  -webkit-transition: all linear 0.2s;
-  -moz-transition: all linear 0.2s;
-  -o-transition: all linear 0.2s;
-  transition: all linear 0.2s;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
+  transition: all linear .2s;
   border-radius: 3px;
 }
 
@@ -435,17 +422,12 @@
   text-align: center;
   width: 100%;
   display: inline-block;
-  -webkit-border-radius: 5rem;
-  -moz-border-radius: 5rem;
   border-radius: 5rem;
   color: #e6e6e6;
   border: 2px solid #e6e6e6;
   text-transform: uppercase;
   font-size: 14rem;
   cursor: pointer;
-  -webkit-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
-  -moz-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
-  -o-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
   transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
   max-width: 210px;
   margin: 0 auto;
@@ -471,8 +453,6 @@
   background-color: #d10019;
   height: 75px;
   width: 75px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   top: 30px;
   left: 30px;
@@ -493,8 +473,6 @@
   border: 3px solid #d10019;
   height: 73px;
   width: 73px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   top: 110px;
   left: 30px;

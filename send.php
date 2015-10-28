@@ -1,7 +1,7 @@
     <div class="main">
         <div class="breadcrumbs send">
                 <div class="crumps-align">
-                    <a href="#"><span>Главная/</span></a>
+                    <a href="#"><span>Главная</span></a><span>/</span>
 
                     <span>Доставка</span>
                 </div>
