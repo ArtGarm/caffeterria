@@ -17,6 +17,8 @@
     display: inline-block;
     height: 45px;
     width: 45px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     background-color: #d10019;
     margin-top: -24px;
