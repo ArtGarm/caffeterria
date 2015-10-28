@@ -25,6 +25,7 @@
   .header-bottom {
     display: none;
     background-color: #fff;
+    border-top: 1px solid #ededed;
   }
   .header-bottom .mbox {
     max-width: none;
