@@ -73,20 +73,21 @@
 // end texter
 
 // footer
-.mbox{ max-width: 1280rem; width: 100%; margin: 0 auto;
-    .main-block{ text-align: center;background-color:#fbfcfd;
-        .header-place{  padding-top: 87rem; padding-bottom: 20rem;  font-family:"Merel", sans-serif; font-weight: 700; text-transform: uppercase; font-size: 18rem; letter-spacing: 2rem; color: #000000; }
-        .convert-adress{  width: 100%; padding-top: 45rem; margin-bottom: 0rem;
+    .footer-wrapp-main{width: 100%; max-width: 1500px;background-color:#fbfcfd;margin: 0 auto;}
+    .navi-wrapp-main{width: 100%; max-width: 1500px;background-color: #f5f7fa;margin: 0 auto;}
+    .main-block{ text-align: center;
+        .header-place{  padding-top: 76rem; padding-bottom: 20rem;  font-family:"Merel", sans-serif; font-weight: 700; text-transform: uppercase; font-size: 18rem; letter-spacing: 2rem; color: #000000; }
+        .convert-adress{  width: 100%; padding-top: 45rem; margin-bottom: 0rem; text-align: justify;
             .adress{display: inline-block; width: 23%; vertical-align: top;text-transform: uppercase;  font-weight: 500; font-family:"Merel", sans-serif; font-size: 11rem; color: #000000; }
         }
-        .socials-head{ max-width: 200rem; padding-top: 62rem; padding-bottom: 62rem; margin: 0 auto;
-            p{color: #aaacad; text-transform: uppercase;font-family:"Merel", sans-serif; font-weight: 700;font-size: 11rem; padding-bottom: 32rem; margin-bottom: 0rem; }
+        .socials-head{ max-width: 200rem; padding-top: 69rem; padding-bottom: 57rem; margin: 0 auto;
+            p{color: #aaacad; text-transform: uppercase;font-family:"Merel", sans-serif; font-weight: 700;font-size: 11rem; padding-bottom: 32rem; margin-bottom: 0rem; letter-spacing: 1px;}
             img{display: inline-block; height: 32rem; width: 32rem;  margin: 0 5%; }
         }
 
 
     }
-    nav{background-color: #f5f7fa; text-align: center; padding-top: 28rem; padding-bottom: 27rem;
+    nav{ text-align: center; padding-top: 28rem; padding-bottom: 27rem;
         ul li{display: inline-block; width: 14%; margin-left: -4rem;
             &:first-child{margin-left: 0;}
             a{color: #919294; font-family: "Merel", sans-serif; font-weight: 500; font-size: 12rem;text-transform: uppercase; text-decoration: none;}
@@ -94,5 +95,6 @@
 
         }
     }
-}
+.mbox{ max-width: 1280rem; display: block; margin: 0 auto;}
+.foot-grad{width: 100%; height: 4px;background: linear-gradient(#e0e0e0, #f6f6f6);-webkit-background: linear-gradient(#e0e0e0, #f6f6f6);-o-background: linear-gradient(#e0e0e0, #f6f6f6);-moz-background: linear-gradient(#e0e0e0, #f6f6f6);}
 // end footer

@@ -77,7 +77,8 @@ function oneHeightItems(){
 		block.css('height', height);
 	}
 
-	oneHeight($('.oneHeight:not(.action-item)'));
+	oneHeight($('.catalog-item.oneHeight:not(.action-item)'));
+    oneHeight($('.catalog-item-desc.oneHeight'));
 }
 
 function validate(form, options){
@@ -187,7 +188,6 @@ function validationCall(form){
         $.fancybox.open("#call_success",{
             padding:0,
             fitToView:false,
-            closeBtn:false,
             wrapCSS:"call-popup",
             autoSize:true,
             afterClose: function(){

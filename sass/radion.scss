@@ -1,5 +1,8 @@
 @import 'variables';
 /*fancybox style*/
+.fancybox-inner {
+    overflow: hidden !important;
+}
 .fancybox-close{background: none;outline: none;top: 0;right: 0;
     &:after{position: absolute;width: 20px;height: 3px;background-color: #cccccc;content: "";transform: rotate(45deg);top: 15px;right:7px;}
     &:before{position: absolute;width: 20px;height: 3px;background-color: #cccccc;content: "";transform: rotate(135deg);top:15px;right:7px;}
@@ -113,4 +116,9 @@
         p{font-size: 18rem;text-align: center;padding-top: 2px;color: $red;font-weight: bold;line-height: 15rem;}
     }
 
+}
+
+/*conditer-bread-page*/
+.catalog-item-title{
+    color: #303030;padding: 85px 0px;font-size: 18rem;text-transform: uppercase;text-align: center;
 }

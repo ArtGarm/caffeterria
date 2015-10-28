@@ -265,19 +265,26 @@
   background-color: #f5f8fa;
 }
 
-.mbox {
-  max-width: 1280rem;
+.footer-wrapp-main {
   width: 100%;
+  max-width: 1500px;
+  background-color: #fbfcfd;
   margin: 0 auto;
 }
 
-.mbox .main-block {
-  text-align: center;
-  background-color: #fbfcfd;
+.navi-wrapp-main {
+  width: 100%;
+  max-width: 1500px;
+  background-color: #f5f7fa;
+  margin: 0 auto;
 }
 
-.mbox .main-block .header-place {
-  padding-top: 87rem;
+.main-block {
+  text-align: center;
+}
+
+.main-block .header-place {
+  padding-top: 76rem;
   padding-bottom: 20rem;
   font-family: "Merel", sans-serif;
   font-weight: 700;
@@ -287,13 +294,14 @@
   color: #000000;
 }
 
-.mbox .main-block .convert-adress {
+.main-block .convert-adress {
   width: 100%;
   padding-top: 45rem;
   margin-bottom: 0rem;
+  text-align: justify;
 }
 
-.mbox .main-block .convert-adress .adress {
+.main-block .convert-adress .adress {
   display: inline-block;
   width: 23%;
   vertical-align: top;
@@ -304,14 +312,14 @@
   color: #000000;
 }
 
-.mbox .main-block .socials-head {
+.main-block .socials-head {
   max-width: 200rem;
-  padding-top: 62rem;
-  padding-bottom: 62rem;
+  padding-top: 69rem;
+  padding-bottom: 57rem;
   margin: 0 auto;
 }
 
-.mbox .main-block .socials-head p {
+.main-block .socials-head p {
   color: #aaacad;
   text-transform: uppercase;
   font-family: "Merel", sans-serif;
@@ -319,33 +327,33 @@
   font-size: 11rem;
   padding-bottom: 32rem;
   margin-bottom: 0rem;
+  letter-spacing: 1px;
 }
 
-.mbox .main-block .socials-head img {
+.main-block .socials-head img {
   display: inline-block;
   height: 32rem;
   width: 32rem;
   margin: 0 5%;
 }
 
-.mbox nav {
-  background-color: #f5f7fa;
+nav {
   text-align: center;
   padding-top: 28rem;
   padding-bottom: 27rem;
 }
 
-.mbox nav ul li {
+nav ul li {
   display: inline-block;
   width: 14%;
   margin-left: -4rem;
 }
 
-.mbox nav ul li:first-child {
+nav ul li:first-child {
   margin-left: 0;
 }
 
-.mbox nav ul li a {
+nav ul li a {
   color: #919294;
   font-family: "Merel", sans-serif;
   font-weight: 500;
@@ -354,6 +362,21 @@
   text-decoration: none;
 }
 
-.mbox nav ul li a:hover, .mbox nav ul li a:active, .mbox nav ul li a:focus, .mbox nav ul li a:visited {
+nav ul li a:hover, nav ul li a:active, nav ul li a:focus, nav ul li a:visited {
   text-decoration: none;
+}
+
+.mbox {
+  max-width: 1280rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.foot-grad {
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(#e0e0e0, #f6f6f6);
+  -webkit-background: linear-gradient(#e0e0e0, #f6f6f6);
+  -o-background: linear-gradient(#e0e0e0, #f6f6f6);
+  -moz-background: linear-gradient(#e0e0e0, #f6f6f6);
 }

@@ -42,6 +42,8 @@
 .header-top {
   background-color: #fff;
   padding: 10rem 0 10rem 0;
+  position: relative;
+  z-index: 1;
 }
 
 .header-top .mbox {
@@ -99,6 +101,7 @@
   padding-top: 20rem;
   float: right;
   margin-right: 24rem;
+  position: relative;
 }
 
 .header-basket-main .header-basket-icon {
@@ -147,6 +150,7 @@
   -moz-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
   display: none;
+  margin-top: 15rem;
 }
 
 .header-basket-form:before {
@@ -361,16 +365,21 @@
 
 .sendwich-icon {
   display: none;
-  width: 30rem;
-  height: 30rem;
-  padding-top: 12rem;
+  width: 18rem;
+  height: 18rem;
+  padding-top: 7rem;
   cursor: pointer;
+  position: absolute;
+  right: 15rem;
+  top: -webkit-calc(50% - 12.5rem);
+  top: -moz-calc(50% - 12.5rem);
+  top: calc(50% - 12.5rem);
 }
 
 .sendwich-icon span {
   display: inline-block;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   background-color: #000;
   -webkit-transition: background-color 300ms ease;
   -moz-transition: background-color 300ms ease;
@@ -384,7 +393,7 @@
   display: block;
   width: 100%;
   position: absolute;
-  height: 3rem;
+  height: 4rem;
   background-color: #000;
   left: 0;
   -webkit-transform-origin: 0 50%;
@@ -392,45 +401,52 @@
   -ms-transform-origin: 0 50%;
   -o-transform-origin: 0 50%;
   transform-origin: 0 50%;
-  -webkit-transition: left 300ms ease, -webkit-transform 300ms ease;
-  -moz-transition: left 300ms ease, -moz-transform 300ms ease;
-  -o-transition: left 300ms ease, -o-transform 300ms ease;
-  transition: left 300ms ease, transform 300ms ease;
+  -webkit-transition: left 300ms ease, -webkit-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -moz-transition: left 300ms ease, -moz-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -o-transition: left 300ms ease, -o-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  transition: left 300ms ease, transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
 }
 
 .sendwich-icon span:before {
-  top: -12rem;
+  top: -7rem;
 }
 
 .sendwich-icon span:after {
-  bottom: -15rem;
+  bottom: -7rem;
 }
 
 .sendwich-icon.active span {
   background-color: transparent;
 }
 
-.sendwich-icon.active:before {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  left: 1rem;
-}
-
-.sendwich-icon.active:after {
+.sendwich-icon.active span:before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  left: 1rem;
+  left: 2rem;
+  top: -6rem;
+}
+
+.sendwich-icon.active span:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  left: 2rem;
+  bottom: -7rem;
+}
+
+.sendwich-icon.show {
+  display: block;
 }
 
 .header-bottom {
   position: relative;
   background-color: #1a1a1a;
+  z-index: 0;
 }
 
 .header-bottom .mbox {
