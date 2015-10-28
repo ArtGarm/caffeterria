@@ -10,12 +10,12 @@
         <div class="breadcrumbs contacts">
                 <div class="crumps-align">
                     <a href="#"><span>Главная/</span></a>
-                    <a href="#"><span>Меню</span></a>
+                    <a href="#"><span>Меню/</span></a>
                     <span>Популярные блюда</span>
                 </div>
             </div>
-        <div class="title">
-
+        <div class="title contacts">
+            <div class="title-text"><span>контакты</span></div>
         </div>
 
         <? partial('contacts-content'); ?>

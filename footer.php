@@ -1,8 +1,8 @@
 	<div class="footer_placeholder"></div>
 	<footer class="footer">
-		<div class="mbox">
-			
-		</div>
+
+		<? partial('footer-main'); ?>
+
 	</footer>
 </body>
 </html>

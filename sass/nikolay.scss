@@ -1,5 +1,5 @@
 /*ебаут ас))))*/
-    .about-us-wrapper{
+    .about-us-wrapper{padding-bottom: 93px;
         .about-us-align{
             .about-title{text-align: center;     margin-bottom: 85px;
                 span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size:  19rem;letter-spacing: 1px;}
@@ -126,11 +126,14 @@
     }
     .title{width: 100%; text-align: center;    padding:22px 0 52px;
         .title-text{font-size: 29rem; font-family:"Merel"; font-weight: 700; padding: 10rem 10% 10rem 10%; text-transform: uppercase; letter-spacing: 3rem;}
+        &.contacts{
+            .title-text{font-size: 24rem;padding-top: 24px;letter-spacing: 5rem;padding-bottom: 23px;}
+        }
     }
 
 /*/send*/
 /**breadcrumps*/
-.breadcrumbs{width: 100%;
+.breadcrumbs{width: 100%; max-width: 1500px; margin: 0 auto;
     .crumps-align{text-align: center; padding-top: 55px;
         a{text-decoration: none;}
         span{font-family: 'Merel';font-weight: 400;font-size: 13rem; color:#919294;letter-spacing: 0.5px;}
@@ -142,3 +145,43 @@
 
 
 /*/breadcrumps*/
+
+
+/*contacts**/
+            .contact-wrapp{
+                .contact-align{padding-bottom:63px;
+                    .contact-item{background-color: #fafafa; max-width:calc(50% - 5px); display: inline-block; padding-bottom: 54px;margin-bottom:18px;
+                        &:nth-child(1),&:nth-child(3){ margin-right: 19px;}
+                        span{font-family: 'Merel';font-weight: 500; color: #303030; font-size: 18rem;}
+                        .item-align{ text-align: center;
+                            .item-img{padding-bottom: 39px;}
+                            .item-name{padding-bottom: 12px;
+                                span{font-weight: 700;text-transform: uppercase;letter-spacing: 3.5rem;}
+                            }
+                            .item-addres{padding-bottom: 48px;
+                                span{font-weight: 400;}
+                            }
+                            .item-icons{padding-bottom: 48px;
+                                .icon-phone{display: inline-block;padding:0 47px 0 20px;
+                                    i{background-image: url('../images/cont-phone.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 9px;}
+                                    span{}
+                                }
+                                .icon-clock{display: inline-block;
+                                    i{background-image: url('../images/cont-clock.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 20px;}
+                                    span{}
+                                }
+                            }
+                            .item-butt{
+                                a{background-color: #d10019;margin:0 auto; text-decoration: none; display: block; width:200px; height: 48px; text-align: center; text-transform: uppercase;padding-top: 15px;
+                                    span{color:#fff;font-weight: 400; letter-spacing: 1px;font-size: 14rem;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+
+/*/contacts**/
