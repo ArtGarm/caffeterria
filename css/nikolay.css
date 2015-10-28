@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /*ебаут ас))))*/
+.about-us-wrapper {
+  padding-bottom: 93px;
+}
+
 .about-us-wrapper .about-us-align .about-title {
   text-align: center;
   margin-bottom: 85px;
@@ -178,10 +182,14 @@
 .title-photo.send .title-photo-align .bread-price-wrapp .bread-price {
   padding: 28px 0 0;
   background-color: #d10019;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 92px;
   height: 92px;
   position: absolute;
+  left: -webkit-calc(50% - 46px);
+  left: -moz-calc(50% - 46px);
   left: calc(50% - 46px);
 }
 
@@ -245,6 +253,8 @@
 }
 
 .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 141px;
   height: 141px;
@@ -318,10 +328,19 @@
   letter-spacing: 3rem;
 }
 
+.title.contacts .title-text {
+  font-size: 24rem;
+  padding-top: 24px;
+  letter-spacing: 5rem;
+  padding-bottom: 23px;
+}
+
 /*/send*/
 /**breadcrumps*/
 .breadcrumbs {
   width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .breadcrumbs .crumps-align {
@@ -342,3 +361,106 @@
 }
 
 /*/breadcrumps*/
+/*contacts**/
+.contact-wrapp .contact-align {
+  padding-bottom: 63px;
+}
+
+.contact-wrapp .contact-align .contact-item {
+  background-color: #fafafa;
+  max-width: -webkit-calc(50% - 5px);
+  max-width: -moz-calc(50% - 5px);
+  max-width: calc(50% - 5px);
+  display: inline-block;
+  padding-bottom: 54px;
+  margin-bottom: 18px;
+}
+
+.contact-wrapp .contact-align .contact-item:nth-child(1), .contact-wrapp .contact-align .contact-item:nth-child(3) {
+  margin-right: 19px;
+}
+
+.contact-wrapp .contact-align .contact-item span {
+  font-family: 'Merel';
+  font-weight: 500;
+  color: #303030;
+  font-size: 18rem;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align {
+  text-align: center;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-img {
+  padding-bottom: 39px;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-name {
+  padding-bottom: 12px;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-name span {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3.5rem;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-addres {
+  padding-bottom: 48px;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-addres span {
+  font-weight: 400;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-icons {
+  padding-bottom: 48px;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-phone {
+  display: inline-block;
+  padding: 0 47px 0 20px;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-phone i {
+  background-image: url("../images/cont-phone.png");
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 9px;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-clock {
+  display: inline-block;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-clock i {
+  background-image: url("../images/cont-clock.png");
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-butt a {
+  background-color: #d10019;
+  margin: 0 auto;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.contact-wrapp .contact-align .contact-item .item-align .item-butt a span {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 14rem;
+}
+
+/*/contacts**/

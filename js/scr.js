@@ -187,6 +187,7 @@ function validationCall(form){
         $.fancybox.open("#call_success",{
             padding:0,
             fitToView:false,
+            closeBtn:false,
             wrapCSS:"call-popup",
             autoSize:true,
             afterClose: function(){

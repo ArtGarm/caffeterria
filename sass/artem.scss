@@ -1,3 +1,5 @@
+// slider
+
 .header-slider-wrap{ max-width: 1500rem;margin: 0 auto;
     .header-slider-wrap-main{ width: 100%; overflow: hidden;
         .header-slider-item{
@@ -23,7 +25,7 @@
                     h2{font-family: "Merel", sans-serif; font-size: 18rem; font-style: normal; color:#ffffff; padding: 0px 108rem 49rem 111rem; margin-top: 0rem;}
                     h3{font-family: "Merel", sans-serif; font-size: 18rem; font-weight: 700; color:#ffffff; padding: 1rem 100rem 87rem 110rem;}
                     a{text-decoration: none; max-width: 230px; width: 16%;
-                        .button-fast{ border: 1rem solid #ffffff; border-radius: 3rem; background-color:none; color: #ffffff; text-transform: uppercase; font-style: "Merel"; font-weight: 700; font-size: 12rem; padding: 23rem; display: inline-block; margin-left: 110rem; letter-spacing: 4rem; margin-left: 110rem; letter-spacing: 4rem;}
+                        .button-fast{ border: 1rem solid #ffffff; border-radius: 3rem; background-color:none; color: #ffffff; text-transform: uppercase; font-style: "Merel"; font-weight: 700; font-size: 12rem; padding: 23rem; display: inline-block; margin-left: 110rem; letter-spacing: 4rem; margin-left: 110rem; }
                     }
                     a:hover, a:focus, a:active {text-decoration: none; border: none; outline: none;}
                     img{width: 1500rem; height: 816rem; left: 50%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0); max-width: none;}
@@ -46,6 +48,9 @@
 }
 .slick-slide img { max-width: none ;  margin-left: 50%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0); }
 
+// end slider
+
+// texter
 .wrap-text{ background-color: #f5f8fa; max-width: 1500rem; width: 100%; margin: 0 auto;
     border-style: solid;
     border-width: 0px 0px 10px;
@@ -64,3 +69,32 @@
 }
 .conditer-stock{background-color:#f5f8fa; }
 .conditer-bread{background-color:#f5f8fa;}
+
+// end texter
+
+// footer
+    .footer-wrapp-main{width: 100%; max-width: 1500px;background-color:#fbfcfd;margin: 0 auto;}
+    .navi-wrapp-main{width: 100%; max-width: 1500px;background-color: #f5f7fa;margin: 0 auto;}
+    .main-block{ text-align: center;
+        .header-place{  padding-top: 76rem; padding-bottom: 20rem;  font-family:"Merel", sans-serif; font-weight: 700; text-transform: uppercase; font-size: 18rem; letter-spacing: 2rem; color: #000000; }
+        .convert-adress{  width: 100%; padding-top: 45rem; margin-bottom: 0rem; text-align: justify;
+            .adress{display: inline-block; width: 23%; vertical-align: top;text-transform: uppercase;  font-weight: 500; font-family:"Merel", sans-serif; font-size: 11rem; color: #000000; }
+        }
+        .socials-head{ max-width: 200rem; padding-top: 69rem; padding-bottom: 57rem; margin: 0 auto;
+            p{color: #aaacad; text-transform: uppercase;font-family:"Merel", sans-serif; font-weight: 700;font-size: 11rem; padding-bottom: 32rem; margin-bottom: 0rem; letter-spacing: 1px;}
+            img{display: inline-block; height: 32rem; width: 32rem;  margin: 0 5%; }
+        }
+
+
+    }
+    nav{ text-align: center; padding-top: 28rem; padding-bottom: 27rem;
+        ul li{display: inline-block; width: 14%; margin-left: -4rem;
+            &:first-child{margin-left: 0;}
+            a{color: #919294; font-family: "Merel", sans-serif; font-weight: 500; font-size: 12rem;text-transform: uppercase; text-decoration: none;}
+            a:hover, a:active, a:focus, a:visited {text-decoration: none; }
+
+        }
+    }
+.mbox{ max-width: 1280rem; display: block; margin: 0 auto;}
+.foot-grad{width: 100%; height: 4px;background: linear-gradient(#e0e0e0, #f6f6f6);-webkit-background: linear-gradient(#e0e0e0, #f6f6f6);-o-background: linear-gradient(#e0e0e0, #f6f6f6);-moz-background: linear-gradient(#e0e0e0, #f6f6f6);}
+// end footer
