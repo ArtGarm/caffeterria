@@ -262,7 +262,11 @@
 }
 
 .catalog-content .catalog-item.action-item .catalog-item-text .action-text {
+<<<<<<< HEAD
+  bottom: 35px;
+=======
   bottom: 0;
+>>>>>>> 05909f9e33be14208da385b6ae7a1f8b349e2c48
   box-sizing: border-box;
   line-height: 2;
   position: absolute;

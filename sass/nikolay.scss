@@ -21,8 +21,6 @@
             .img-wrapp{margin-bottom: 79px;
                 .img-drop{display: inline-block;}
                 .img-menu{margin-right: 19px;}
-                .img-tort{}
-
             }
         }
     }
@@ -33,7 +31,7 @@
 /*conditer -choise*/
 
         .cond-wrapp{
-            .cond-align{
+            .cond-align{    padding: 126px 0 183px;
                 span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 24rem;letter-spacing: 5px; color:#303030;}
                 .cond-title{width:100%; text-align: center; padding-bottom: 147px;
 
@@ -55,22 +53,18 @@
 /*/conditer -choise*/
 
 /*title photo*/
-    .title-photo{ width: 1500px;    margin: 0 auto;
+    .title-photo{ max-width: 1500px;    margin: 0 auto; width: 100%;
                &.send{padding-bottom: 166px;
                 .title-photo-align{position: relative; text-align: center;
                     span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
-                    .bread-img{position: absolute; top:0; left:0;
-                        img{}
-                    }
-                    .bread-text{position: relative; padding: 89px 145px 40px;
+                    .bread-img{position: absolute; top:0; left:0;}
+                    .bread-text{position: relative; padding: 6% 12% 4.4%;
                         span{ font-size: 18rem;}
                     }
-                    .bread-phone{position: relative; padding: 27px 145px 40px;
+                    .bread-phone{position: relative; padding: 0 12% 6.6%;
                         span{font-size: 48rem;font-weight: 700;    letter-spacing: 8.5px;}
                     }
-                    .bred-min{position: relative; padding: 59px 145px 52px;
-                        span{}
-                    }
+                    .bred-min{position: relative; padding: 0 12% 3.5%;}
                     .bread-price-wrapp{position: relative;
                         a{text-decoration: none;}
                         .bread-price{padding: 28px 0 0;background-color: #d10019; border-radius: 50%;width:92px; height:92px; position: absolute;left:calc(50% - 46px);
@@ -88,7 +82,7 @@
 /*send*/
 
     .send-content-wrapp{
-        .send-align{text-align: center;
+        .send-align{text-align: center; padding-bottom: 92px;
             span{font-family: 'Merel';font-weight: 400;font-size: 14rem; color:#2d2d2e;
                 b{font-weight: 400;color:#d10019;}
             }
@@ -164,11 +158,9 @@
                             .item-icons{padding-bottom: 48px;
                                 .icon-phone{display: inline-block;padding:0 47px 0 20px;
                                     i{background-image: url('../images/cont-phone.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 9px;}
-                                    span{}
                                 }
                                 .icon-clock{display: inline-block;
                                     i{background-image: url('../images/cont-clock.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 20px;}
-                                    span{}
                                 }
                             }
                             .item-butt{
