@@ -211,7 +211,7 @@
 			<div class="mbox">
 				<div class="header-bottom-nav">
 					<ul>
-						<li>
+						<li class="second-level-wrap">
 							<a href="#">О нас</a>
 							<div class="second-level">
 
@@ -288,7 +288,7 @@
 
 							</div>
 						</li>
-						<li>
+						<li class="second-level-wrap">
 							<a href="#">меню</a>
 							<div class="second-level">
 
