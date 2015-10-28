@@ -1,21 +1,31 @@
 function loadmore(){
-    var currrow = 0;
-    $('.row4').eq(0).show();
     $('.load-more a').click(function(e){
-        currrow +=1;
-        if ($('.row4').length-1 == currrow){
-            $('.load-more-wrap').hide();
-            $('.row4').eq(currrow).show(); 
-        }
-        else{
-            $('.row4').eq(currrow).show();   
-        }
-        e.preventDefault();
+        var parent = $('.catalog-items');
+        var offSetHeight =  ruber + parent.height();
+                    $.ajax({
+                url : 'partials/addCatalogitem.php',
+
+                success : function(data){
+                    $('.catalog-items').append(data);
+                    oneHeightItems();
+                    }    
+            });
+         e.preventDefault();
+    });
+}
+
+
+
+function popUpCatalogimg(){
+    $('.loop').fancybox({
+        autoSize:true,
+        padding:0
     });
 }
 
 $(document).ready(function(){
 	loadmore();
+	popUpCatalogimg();
 });
 
 $(window).load(function(){
