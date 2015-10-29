@@ -209,6 +209,37 @@
     letter-spacing: 1.6px;
   }
   /*about*/
+  /*footer*/
+  .footer-wrapp-main {
+    background-color: #292929;
+  }
+  .footer-wrapp-main .foot-grad {
+    display: none;
+  }
+  .footer-wrapp-main .main-block .header-place {
+    display: none;
+  }
+  .footer-wrapp-main .main-block .convert-adress {
+    display: none;
+  }
+  .footer-wrapp-main .main-block .socials-head {
+    max-width: 100%;
+    padding-top: 34rem;
+    padding-bottom: 39rem;
+  }
+  .footer-wrapp-main .main-block .socials-head p {
+    font-weight: 400;
+    font-size: 14rem;
+    padding-bottom: 37rem;
+  }
+  .footer-wrapp-main .main-block .socials-head .soc-fb {
+    width: 170px;
+    margin: 0 auto;
+  }
+  .navi-wrapp-main {
+    display: none;
+  }
+  /*footer*/
 }
 
 @media screen and (max-width: 800px) {
