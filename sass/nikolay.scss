@@ -18,9 +18,9 @@
             .special-title{text-align: center;     margin-bottom: 85px;
                 span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 19rem;letter-spacing: 1px;}
             }
-            .img-wrapp{margin-bottom: 79px;
-                .img-drop{display: inline-block;}
-                .img-menu{margin-right: 19px;}
+            .img-wrapp{margin-bottom: 60px;
+                .img-drop{display: inline-block;width: 49%;}
+                .img-menu{    margin-right: calc(2% - 1px);}
             }
         }
     }
@@ -54,7 +54,7 @@
 
 /*title photo*/
     .title-photo{ max-width: 1500px;    margin: 0 auto; width: 100%;
-               &.send{padding-bottom: 166px;
+        &.send{padding-bottom: 166px;
                 .title-photo-align{position: relative; text-align: center;
                     span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
                     .bread-img{position: absolute; top:0; left:0;}
@@ -82,7 +82,8 @@
 /*send*/
 
     .send-content-wrapp{
-        .send-align{text-align: center; padding-bottom: 92px;
+        .send-align{text-align: center; padding-bottom: 15%;
+            .title{display:none;}
             span{font-family: 'Merel';font-weight: 400;font-size: 14rem; color:#2d2d2e;
                 b{font-weight: 400;color:#d10019;}
             }
@@ -105,7 +106,7 @@
                     }
                 }
             }
-            .send-text1{padding: 0 272px;
+            .send-text1{padding: 0 17%;
                 span{font-size: 18rem;line-height: 30rem;}
             }
             .send-text2{padding-top: 38px;
@@ -143,8 +144,8 @@
 
 /*contacts**/
             .contact-wrapp{
-                .contact-align{padding-bottom:63px;
-                    .contact-item{background-color: #fafafa; max-width:calc(50% - 5px); display: inline-block; padding-bottom: 54px;margin-bottom:18px;
+                .contact-align{padding-bottom:63px;width:100%;
+                    .contact-item{background-color: #fafafa; width:calc(50% - 15px); display: inline-block; padding-bottom: 54px;margin-bottom:18px;vertical-align: top;
                         &:nth-child(1),&:nth-child(3){ margin-right: 19px;}
                         span{font-family: 'Merel';font-weight: 500; color: #303030; font-size: 18rem;}
                         .item-align{ text-align: center;
@@ -157,14 +158,14 @@
                             }
                             .item-icons{padding-bottom: 48px;
                                 .icon-phone{display: inline-block;padding:0 47px 0 20px;
-                                    i{background-image: url('../images/cont-phone.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 9px;}
+                                    i{background-image: url('../images/cont-phone.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 9px;background-size: cover;}
                                 }
                                 .icon-clock{display: inline-block;
-                                    i{background-image: url('../images/cont-clock.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 20px;}
+                                    i{background-image: url('../images/cont-clock.png'); width: 32px; height: 32px;display: inline-block;vertical-align: top;margin-right: 20px;background-size: cover;}
                                 }
                             }
                             .item-butt{
-                                a{background-color: #d10019;margin:0 auto; text-decoration: none; display: block; width:200px; height: 48px; text-align: center; text-transform: uppercase;padding-top: 15px;
+                                a{background-color: #d10019;margin:0 auto; text-decoration: none; display: block; width:200px; height: 48px; text-align: center; text-transform: uppercase;padding-top: 15px;border-radius: 2px;
                                     span{color:#fff;font-weight: 400; letter-spacing: 1px;font-size: 14rem;}
                                 }
                             }

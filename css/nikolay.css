@@ -47,15 +47,16 @@
 }
 
 .special-wrapper .special-align .img-wrapp {
-  margin-bottom: 79px;
+  margin-bottom: 60px;
 }
 
 .special-wrapper .special-align .img-wrapp .img-drop {
   display: inline-block;
+  width: 49%;
 }
 
 .special-wrapper .special-align .img-wrapp .img-menu {
-  margin-right: 19px;
+  margin-right: calc(2% - 1px);
 }
 
 /*/special*/
@@ -207,7 +208,11 @@
 /*send*/
 .send-content-wrapp .send-align {
   text-align: center;
-  padding-bottom: 92px;
+  padding-bottom: 15%;
+}
+
+.send-content-wrapp .send-align .title {
+  display: none;
 }
 
 .send-content-wrapp .send-align span {
@@ -285,7 +290,7 @@
 }
 
 .send-content-wrapp .send-align .send-text1 {
-  padding: 0 272px;
+  padding: 0 17%;
 }
 
 .send-content-wrapp .send-align .send-text1 span {
@@ -370,16 +375,16 @@
 /*contacts**/
 .contact-wrapp .contact-align {
   padding-bottom: 63px;
+  width: 100%;
 }
 
 .contact-wrapp .contact-align .contact-item {
   background-color: #fafafa;
-  max-width: -webkit-calc(50% - 5px);
-  max-width: -moz-calc(50% - 5px);
-  max-width: calc(50% - 5px);
+  width: calc(50% - 15px);
   display: inline-block;
   padding-bottom: 54px;
   margin-bottom: 18px;
+  vertical-align: top;
 }
 
 .contact-wrapp .contact-align .contact-item:nth-child(1), .contact-wrapp .contact-align .contact-item:nth-child(3) {
@@ -435,6 +440,7 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 9px;
+  background-size: cover;
 }
 
 .contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-clock {
@@ -448,6 +454,7 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
+  background-size: cover;
 }
 
 .contact-wrapp .contact-align .contact-item .item-align .item-butt a {
@@ -460,6 +467,7 @@
   text-align: center;
   text-transform: uppercase;
   padding-top: 15px;
+  border-radius: 2px;
 }
 
 .contact-wrapp .contact-align .contact-item .item-align .item-butt a span {
