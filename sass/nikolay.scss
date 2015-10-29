@@ -55,25 +55,25 @@
 /*title photo*/
     .title-photo{ max-width: 1500px;    margin: 0 auto; width: 100%;
         &.send{padding-bottom: 166px;
-                .title-photo-align{position: relative; text-align: center;
-                    span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
-                    .bread-img{position: absolute; top:0; left:0;}
-                    .bread-text{position: relative; padding: 6% 12% 4.4%;
-                        span{ font-size: 18rem;}
-                    }
-                    .bread-phone{position: relative; padding: 0 12% 6.6%;
-                        span{font-size: 48rem;font-weight: 700;    letter-spacing: 8.5px;}
-                    }
-                    .bred-min{position: relative; padding: 0 12% 3.5%;}
-                    .bread-price-wrapp{position: relative;
-                        a{text-decoration: none;}
-                        .bread-price{padding: 28px 0 0;background-color: #d10019; border-radius: 50%;width:92px; height:92px; position: absolute;left:calc(50% - 46px);
-                            span{font-weight: 700;}
-                        }
+            .title-photo-align{position: relative; text-align: center;
+                span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
+                .bread-img{position: absolute; top:0; left:0;}
+                .bread-text{position: relative; padding: 6% 12% 4.4%;
+                    span{ font-size: 18rem;}
+                }
+                .bread-phone{position: relative; padding: 0 12% 6.6%;
+                    span{font-size: 48rem;font-weight: 700;    letter-spacing: 8.5px;}
+                }
+                .bred-min{position: relative; padding: 0 12% 3.5%;}
+                .bread-price-wrapp{position: relative;
+                    a{text-decoration: none;}
+                    .bread-price{padding: 28px 0 0;background-color: #d10019; border-radius: 50%;width:92px; height:92px; position: absolute;left:calc(50% - 46px);
+                        span{font-weight: 700;}
                     }
                 }
             }
         }
+    }
 
     /*/send*/
 /*/title foto*/
@@ -143,6 +143,7 @@
 
 
 /*contacts**/
+
             .contact-wrapp{
                 .contact-align{padding-bottom:63px;width:100%;
                     .contact-item{background-color: #fafafa; width:calc(50% - 15px); display: inline-block; padding-bottom: 54px;margin-bottom:18px;vertical-align: top;
