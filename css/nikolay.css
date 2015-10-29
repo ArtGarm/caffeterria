@@ -123,6 +123,7 @@
 
 /*/conditer -choise*/
 /*title photo*/
+/*send*/
 .title-photo {
   max-width: 1500px;
   margin: 0 auto;
@@ -188,14 +189,10 @@
 .title-photo.send .title-photo-align .bread-price-wrapp .bread-price {
   padding: 28px 0 0;
   background-color: #d10019;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 92px;
   height: 92px;
   position: absolute;
-  left: -webkit-calc(50% - 46px);
-  left: -moz-calc(50% - 46px);
   left: calc(50% - 46px);
 }
 
@@ -264,8 +261,6 @@
 }
 
 .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 141px;
   height: 141px;
