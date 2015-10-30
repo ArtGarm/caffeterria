@@ -162,7 +162,10 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 100%;
+}
+
+.title-photo.send .title-photo-align .bread-img .bread-img-wrapp img {
+  max-width: none;
 }
 
 .title-photo.send .title-photo-align .bread-text {

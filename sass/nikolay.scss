@@ -59,7 +59,9 @@
             .title-photo-align{position: relative; text-align: center;
                 span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
                 .bread-img{overflow: hidden;    position: absolute;    left: 0;    bottom: 0;    right: 0;    top: 0;
-                    .bread-img-wrapp{position: absolute; top:50%; left:50%;transform:translate(-50%, -50%);width: 100%; }
+                    .bread-img-wrapp{position: absolute; top:50%; left:50%;transform:translate(-50%, -50%);
+                        img{max-width: none;}
+                    }
                 }
                 .bread-text{position: relative; padding: 6% 12% 4.4%;
                     span{ font-size: 18rem;}
