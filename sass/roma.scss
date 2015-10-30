@@ -50,8 +50,8 @@
 /* catalog-content */
 
 .catalog-content{
-	.catalog-item{display: inline-block; width: calc(25% - 16rem);margin-right: 20px;vertical-align: top;position: relative;
-		&.oneHeight.large-item .catalog-item-img .catalog-item-img-wrap .loop:hover:before{left:25%;}
+	.catalog-item{display: inline-block; width: calc(25% - 16rem);margin-right: 20px;vertical-align: top;position: relative;overflow: hidden;
+
 		.catalog-item-img{
 			.catalog-item-img-wrap{position: relative;
 				.loop{display: block;
@@ -79,6 +79,7 @@
 		}
 		&.large-item{ width: calc(50% - 10rem);}
 		&.action-item{position: relative;
+			.catalog-item-img .catalog-item-img-wrap .loop:hover:before{left:25%;}
 			.catalog-item-text{top: 38%;right: 1%;width: 50%;height: 100%;position: absolute;    top: 50%;transform: translate(0%, -50%);
 				.catalog-item-desc{margin-bottom: 10px;
 					p{color: #fff;}
