@@ -35,8 +35,6 @@
     max-width: 888px;
   }
   .action-content-wrap .mbox .action-block {
-    width: -webkit-calc(50% - 10px);
-    width: -moz-calc(50% - 10px);
     width: calc(50% - 10px);
     float: left;
     position: relative;
@@ -77,8 +75,6 @@
 
 @media screen and (max-width: 479px) {
   .action-block {
-    width: -webkit-calc(50% - 10px);
-    width: -moz-calc(50% - 10px);
     width: calc(50% - 10px);
   }
 }

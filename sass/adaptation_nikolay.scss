@@ -34,9 +34,9 @@
 @media screen and (max-width: 1024px){
     /*send*/
         .title-photo{
-                &.send{padding-bottom: 48px;
+                &.send{
                     .title-photo-align{
-                        .bred-min{    padding: 0 12% 2.5%;
+                        .bred-min{    padding: 0 12% 5.5%;
                             span{font-size: 15.36rem;}
                         }
                     }
@@ -172,8 +172,8 @@
         .title-photo{
             &.send{    padding-bottom: 7%;
                 .title-photo-align{
-                    .bread-img{overflow: hidden;left:-12%;
-                        img{width: 112%;max-width: none;}
+                    .bread-img{
+                        img{}
                     }
                     .bread-text{padding: 7% 2% 5.2%;}
                     .bread-phone{ padding: 0 12% 7.5%;}
@@ -239,10 +239,10 @@
            &.send{padding-bottom: 14%;
                .title-photo-align{
                    .bread-text{padding: 2%;}
-                   .bread-phone{
+                   .bread-phone{    padding: 0 12% 1.5%;
                         span{font-size: 24.72rem;line-height: 20rem}
                     }
-                   .bred-min{padding: 0 3% 0.5%;}
+                   .bred-min{padding: 0 3% 4.5%;}
                }
            }
        }

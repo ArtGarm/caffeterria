@@ -55,18 +55,20 @@
 /*title photo*/
     /*send*/
     .title-photo{ max-width: 1500px;    margin: 0 auto; width: 100%;
-        &.send{padding-bottom: 166px;
+        &.send{    padding-bottom: 16%;
             .title-photo-align{position: relative; text-align: center;
                 span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
-                .bread-img{position: absolute; top:0; left:0;}
+                .bread-img{overflow: hidden;    position: absolute;    left: 0;    bottom: 0;    right: 0;    top: 0;
+                    .bread-img-wrapp{position: absolute; top:50%; left:50%;transform:translate(-50%, -50%);width: 100%; }
+                }
                 .bread-text{position: relative; padding: 6% 12% 4.4%;
                     span{ font-size: 18rem;}
                 }
                 .bread-phone{position: relative; padding: 0 12% 6.6%;
                     span{font-size: 48rem;font-weight: 700;    letter-spacing: 8.5px;}
                 }
-                .bred-min{position: relative; padding: 0 12% 3.5%;}
-                .bread-price-wrapp{position: relative;
+                .bred-min{position: relative; padding: 0 12% 6.5%;}
+                .bread-price-wrapp{position: relative;    margin-top: -3%;
                     a{text-decoration: none;}
                     .bread-price{padding: 28px 0 0;background-color: #d10019; border-radius: 50%;width:92px; height:92px; position: absolute;left:calc(50% - 46px);
                         span{font-weight: 700;}
@@ -133,7 +135,9 @@
 /**breadcrumps*/
     .breadcrumbs{width: 100%; max-width: 1500px; margin: 0 auto;
         .crumps-align{text-align: center; padding-top: 55px;
-            a{text-decoration: none;}
+            a{text-decoration: none;
+                &:hover{span{color:#ccc;}}
+            }
             span{font-family: 'Merel';font-weight: 400;font-size: 13rem; color:#919294;letter-spacing: 0.5px;}
         }
     }

@@ -21,11 +21,8 @@
 
 @media screen and (max-width: 1024px) {
   /*send*/
-  .title-photo.send {
-    padding-bottom: 48px;
-  }
   .title-photo.send .title-photo-align .bred-min {
-    padding: 0 12% 2.5%;
+    padding: 0 12% 5.5%;
   }
   .title-photo.send .title-photo-align .bred-min span {
     font-size: 15.36rem;
@@ -45,8 +42,6 @@
     padding: 12px 0 0;
     width: 60px;
     height: 60px;
-    left: -webkit-calc(50% - 33px);
-    left: -moz-calc(50% - 33px);
     left: calc(50% - 33px);
   }
   .title-photo.send .title-photo-align .bread-price-wrapp .bread-price span {
@@ -134,8 +129,6 @@
     padding-bottom: 4.5%;
   }
   .contact-wrapp .contact-align .contact-item {
-    width: -webkit-calc(50% - 8px);
-    width: -moz-calc(50% - 8px);
     width: calc(50% - 8px);
     padding-bottom: 3.5%;
   }
@@ -237,14 +230,6 @@
   .title-photo.send {
     padding-bottom: 7%;
   }
-  .title-photo.send .title-photo-align .bread-img {
-    overflow: hidden;
-    left: -12%;
-  }
-  .title-photo.send .title-photo-align .bread-img img {
-    width: 112%;
-    max-width: none;
-  }
   .title-photo.send .title-photo-align .bread-text {
     padding: 7% 2% 5.2%;
   }
@@ -260,8 +245,6 @@
     padding-bottom: 1.8%;
   }
   .send-content-wrapp .send-align .diag-wrap .send-item {
-    width: -webkit-calc(50% - 4px);
-    width: -moz-calc(50% - 4px);
     width: calc(50% - 4px);
     margin-bottom: 14%;
   }
@@ -337,12 +320,15 @@
   .title-photo.send .title-photo-align .bread-text {
     padding: 2%;
   }
+  .title-photo.send .title-photo-align .bread-phone {
+    padding: 0 12% 1.5%;
+  }
   .title-photo.send .title-photo-align .bread-phone span {
     font-size: 24.72rem;
     line-height: 20rem;
   }
   .title-photo.send .title-photo-align .bred-min {
-    padding: 0 3% 0.5%;
+    padding: 0 3% 4.5%;
   }
   .send-content-wrapp .send-align .diag-wrap {
     width: 100%;
