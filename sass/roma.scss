@@ -35,7 +35,7 @@
 /* catalog-nav */
 
 .catalog-nav-wrap{margin-bottom: 50px;
-	ul{list-style-type: none; padding: 0; text-align: center; 
+	ul{list-style-type: none; padding: 0; text-align: center;
 		li{padding: 0px 28px;display: inline-block;margin-bottom: 15px;
 			a{font-family: 'Merel'; font-size: 12rem; color: #303030; text-decoration: none; text-transform:uppercase; transition: color 500ms ease; -webkit-transition: color 500ms ease; -moz-transition: color 500ms ease; -ms-transition: color 500ms ease;    letter-spacing: 2rem;
 				&:hover{color: #d10019;}
@@ -51,6 +51,7 @@
 
 .catalog-content{
 	.catalog-item{display: inline-block; width: calc(25% - 16rem);margin-right: 20px;vertical-align: top;position: relative;
+		&.oneHeight.large-item .catalog-item-img .catalog-item-img-wrap .loop:hover:before{left:25%;}
 		.catalog-item-img{
 			.catalog-item-img-wrap{position: relative;
 				.loop{display: block;
