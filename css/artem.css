@@ -233,12 +233,6 @@
   max-width: 1500rem;
   width: 100%;
   margin: 0 auto;
-  border-style: solid;
-  border-width: 0px 0px 10px;
-  -moz-border-image: url(../images/vawe.png) 10 0 repeat;
-  -webkit-border-image: url(../images/vawe.png) 10 0 repeat;
-  -o-border-image: url(../images/vawe.png) 10 0 repeat;
-  border-image: url(../images/vawe.png) 10 0 fill repeat;
 }
 
 .wrap-text .convert-text {
