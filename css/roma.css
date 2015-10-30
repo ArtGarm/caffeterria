@@ -293,6 +293,7 @@
   opacity: 1;
 }
 
+
 @media screen and (max-width: 1024px) {
   .add-to-cart {
     opacity: 1 !important;
@@ -375,6 +376,7 @@
     transform: translateX(-50%);
   }
 }
+
 
 .load-more-items .load-more-wrap {
   width: 100%;
