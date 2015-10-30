@@ -1,5 +1,8 @@
 <div class="send-content-wrapp mbox">
     <div class="send-align">
+        <div class="title">
+            <div class="title-text"><span>доставка</span></div>
+        </div>
         <div class="send-title"><span>В данный момент мы доставляем заказы по следующим Округам и районам города Москва</span></div>
         <div class="diag-wrap">
             <div class="send-item">

@@ -6,7 +6,7 @@
                     <span>Доставка</span>
                 </div>
         </div>
-        <div class="title">
+        <div class="title send">
             <div class="title-text"><span>доставка</span></div>
         </div>
         <div class="title-photo send">
@@ -20,10 +20,6 @@
                 </div>
             </div>
         </div>
-
-
-
-        <? partial('send-title'); ?>
 
         <? partial('send-content'); ?>
 
