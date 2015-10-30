@@ -51,13 +51,9 @@
 // end slider
 
 // texter
+
+.blur-wrap{background-color: #f5f8fa; border-style: solid; border-width: 0px 0px 10px; -moz-border-image: url(../images/vawe.png) 10 0 repeat; -webkit-border-image: url(../images/vawe.png) 10 0 repeat;-o-border-image: url(../images/vawe.png) 10 0 repeat; border-image: url(../images/vawe.png) 10 0 fill repeat;}
 .wrap-text{ background-color: #f5f8fa; max-width: 1500rem; width: 100%; margin: 0 auto;
-    border-style: solid;
-    border-width: 0px 0px 10px;
-    -moz-border-image: url(../images/vawe.png) 10 0 repeat;
-    -webkit-border-image: url(../images/vawe.png) 10 0 repeat;
-    -o-border-image: url(../images/vawe.png) 10 0 repeat;
-    border-image: url(../images/vawe.png) 10 0 fill repeat;
     .convert-text{ text-align: center;
         p{font-size: 24rem; font-family:"Merel"; font-weight: 700; padding: 36rem 10% 20rem 10%; text-transform: uppercase; letter-spacing: 5rem; }
         h1{font-family:"Merel"; font-weight: 400; font-size: 14rem; padding: 28rem 7% 0rem 7%; line-height: 29rem; margin-bottom: 0rem;
@@ -73,12 +69,12 @@
 // end texter
 
 // footer
-    .footer-wrapp-main{width: 100%; max-width: 1500px;background-color:#fbfcfd;margin: 0 auto;}
-    .navi-wrapp-main{width: 100%; max-width: 1500px;background-color: #f5f7fa;margin: 0 auto;}
-    .main-block{ text-align: center;
+    .footer-wrapp-main{width: 100%; ;background-color:#fbfcfd;margin: 0 auto;}
+    .navi-wrapp-main{width: 100%; background-color: #f5f7fa;margin: 0 auto;}
+    .main-block{ text-align: center;max-width: 1500px;
         .header-place{  padding-top: 76rem; padding-bottom: 20rem;  font-family:"Merel", sans-serif; font-weight: 700; text-transform: uppercase; font-size: 18rem; letter-spacing: 2rem; color: #000000; }
         .convert-adress{  width: 100%; padding-top: 45rem; margin-bottom: 0rem; text-align: justify;
-            .adress{display: inline-block; width: 23%; vertical-align: top;text-transform: uppercase;  font-weight: 500; font-family:"Merel", sans-serif; font-size: 11rem; color: #000000;    text-align: center; }
+            .adress{display: inline-block; width: 23%; vertical-align: top;text-transform: uppercase;  font-weight: 500; font-family:"Merel", sans-serif; font-size: 11rem; color: #000000; }
         }
         .socials-head{ max-width: 200rem; padding-top: 69rem; padding-bottom: 57rem; margin: 0 auto;
             p{color: #aaacad; text-transform: uppercase;font-family:"Merel", sans-serif; font-weight: 700;font-size: 11rem; padding-bottom: 32rem; margin-bottom: 0rem; letter-spacing: 1px;}
