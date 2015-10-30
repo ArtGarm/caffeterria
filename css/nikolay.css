@@ -56,8 +56,6 @@
 }
 
 .special-wrapper .special-align .img-wrapp .img-menu {
-  margin-right: -webkit-calc(2% - 1px);
-  margin-right: -moz-calc(2% - 1px);
   margin-right: calc(2% - 1px);
 }
 
@@ -163,9 +161,6 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -210,14 +205,10 @@
 .title-photo.send .title-photo-align .bread-price-wrapp .bread-price {
   padding: 28px 0 0;
   background-color: #d10019;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 92px;
   height: 92px;
   position: absolute;
-  left: -webkit-calc(50% - 46px);
-  left: -moz-calc(50% - 46px);
   left: calc(50% - 46px);
 }
 
@@ -263,8 +254,6 @@
 }
 
 .send-content-wrapp .send-align .diag-wrap .send-item {
-  width: -webkit-calc(25% - 4px);
-  width: -moz-calc(25% - 4px);
   width: calc(25% - 4px);
   display: inline-block;
   text-align: center;
@@ -288,8 +277,6 @@
 }
 
 .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   width: 141px;
   height: 141px;
@@ -408,8 +395,6 @@
 
 .contact-wrapp .contact-align .contact-item {
   background-color: #fafafa;
-  width: -webkit-calc(50% - 15px);
-  width: -moz-calc(50% - 15px);
   width: calc(50% - 15px);
   display: inline-block;
   padding-bottom: 54px;
@@ -470,9 +455,6 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 9px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -487,9 +469,6 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -503,8 +482,6 @@
   text-align: center;
   text-transform: uppercase;
   padding-top: 15px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
   border-radius: 2px;
 }
 
