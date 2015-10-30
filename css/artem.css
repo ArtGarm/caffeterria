@@ -321,11 +321,22 @@
   letter-spacing: 1px;
 }
 
-.main-block .socials-head img {
+.main-block .socials-head .soc-fb a {
+  border-radius: 50%;
+  border: solid 1px #ccc;
+  width: 32px;
+  height: 32px;
   display: inline-block;
-  height: 32rem;
-  width: 32rem;
-  margin: 0 5%;
+  vertical-align: top;
+  transition: border 200ms linear;
+}
+
+.main-block .socials-head .soc-fb a:nth-child(1) {
+  margin-right: 17px;
+}
+
+.main-block .socials-head .soc-fb a:hover {
+  border: solid 4px #ccc;
 }
 
 nav {

@@ -78,7 +78,12 @@
         }
         .socials-head{ max-width: 200rem; padding-top: 69rem; padding-bottom: 57rem; margin: 0 auto;
             p{color: #aaacad; text-transform: uppercase;font-family:"Merel", sans-serif; font-weight: 700;font-size: 11rem; padding-bottom: 32rem; margin-bottom: 0rem; letter-spacing: 1px;}
-            img{display: inline-block; height: 32rem; width: 32rem;  margin: 0 5%; }
+           .soc-fb{
+                a{border-radius: 50%;    border: solid 1px #ccc;    width: 32px;    height: 32px;    display: inline-block; vertical-align: top;transition:border 200ms linear;
+                    &:nth-child(1){    margin-right: 17px;}
+                    &:hover{    border: solid 4px #ccc;}
+                }
+           }
         }
 
 
