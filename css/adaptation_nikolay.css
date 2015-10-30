@@ -10,15 +10,6 @@
   /*/send*/
 }
 
-@media screen and (max-width: 1280px) {
-  /*send*/
-  .title-photo.send .title-photo-align .bread-text span {
-    font-size: 11.52rem;
-    line-height: 19px;
-  }
-  /*/send*/
-}
-
 @media screen and (max-width: 1024px) {
   /*send*/
   .title-photo.send .title-photo-align .bred-min {
@@ -37,6 +28,10 @@
   }
   .title.send {
     display: none;
+  }
+  .title-photo.send .title-photo-align .bread-text span {
+    font-size: 11.52rem;
+    line-height: 19px;
   }
   .title-photo.send .title-photo-align .bread-price-wrapp .bread-price {
     padding: 12px 0 0;
@@ -351,6 +346,29 @@
     margin-bottom: 3%;
   }
   /*/special*/
+  /* title foto*/
+  .title-photo.about, .title-photo.action, .title-photo.catalog, .title-photo.conditer, .title-photo.conditer-bread, .title-photo.conditer-stock, .title-photo.contacts {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+  }
+  .title-photo.about .title-photo-align, .title-photo.action .title-photo-align, .title-photo.catalog .title-photo-align, .title-photo.conditer .title-photo-align, .title-photo.conditer-bread .title-photo-align, .title-photo.conditer-stock .title-photo-align, .title-photo.contacts .title-photo-align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .title-photo.about .title-photo-align .bread-img, .title-photo.action .title-photo-align .bread-img, .title-photo.catalog .title-photo-align .bread-img, .title-photo.conditer .title-photo-align .bread-img, .title-photo.conditer-bread .title-photo-align .bread-img, .title-photo.conditer-stock .title-photo-align .bread-img, .title-photo.contacts .title-photo-align .bread-img {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title-photo.about .title-photo-align .bread-img img, .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
+    max-width: none;
+  }
+  .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
+    width: 984rem;
+  }
+  /*/title foto*/
 }
 
 @media screen and (max-width: 479px) {
@@ -368,5 +386,14 @@
   .title-photo.send .title-photo-align .bread-phone span {
     font-size: 16rem;
   }
+  .title-photo.about, .title-photo.action, .title-photo.catalog, .title-photo.conditer, .title-photo.conditer-bread, .title-photo.conditer-stock, .title-photo.contacts {
+    padding-bottom: 70%;
+  }
+  .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
+    width: 711rem;
+  }
   /*/send*/
+  .title {
+    padding: 0 0 52px;
+  }
 }
