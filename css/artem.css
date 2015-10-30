@@ -209,14 +209,18 @@
   -webkit-transform: translate3d(-50%, 0, 0);
 }
 
+.blur-wrap {
+  background-color: #f5f8fa;
+  border-style: solid;
+  border-width: 0px 0px 10px;
+  border-image: url(../images/vawe.png) 10 0 fill repeat;
+}
+
 .wrap-text {
   background-color: #f5f8fa;
   max-width: 1500rem;
   width: 100%;
   margin: 0 auto;
-  border-style: solid;
-  border-width: 0px 0px 10px;
-  border-image: url(../images/vawe.png) 10 0 fill repeat;
 }
 
 .wrap-text .convert-text {
@@ -255,20 +259,19 @@
 
 .footer-wrapp-main {
   width: 100%;
-  max-width: 1500px;
   background-color: #fbfcfd;
   margin: 0 auto;
 }
 
 .navi-wrapp-main {
   width: 100%;
-  max-width: 1500px;
   background-color: #f5f7fa;
   margin: 0 auto;
 }
 
 .main-block {
   text-align: center;
+  max-width: 1500px;
 }
 
 .main-block .header-place {
@@ -298,7 +301,6 @@
   font-family: "Merel", sans-serif;
   font-size: 11rem;
   color: #000000;
-  text-align: center;
 }
 
 .main-block .socials-head {

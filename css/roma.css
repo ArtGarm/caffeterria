@@ -135,6 +135,10 @@
   position: relative;
 }
 
+.catalog-content .catalog-item.oneHeight.large-item .catalog-item-img .catalog-item-img-wrap .loop:hover:before {
+  left: 25%;
+}
+
 .catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap {
   position: relative;
 }
