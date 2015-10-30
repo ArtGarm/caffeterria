@@ -49,3 +49,7 @@ $(document).ready(function(){
 $(window).load(function(){
 	oneHeightItems();
 });
+$(window).resize(function(){
+    oneHeightItems();
+    console.log('resize');
+});

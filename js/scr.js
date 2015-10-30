@@ -76,9 +76,9 @@ function oneHeightItems(){
 		});
 		block.css('height', height);
 	}
-
-	oneHeight($('.catalog-item.oneHeight:not(.action-item)'));
     oneHeight($('.catalog-item-desc.oneHeight'));
+	oneHeight($('.catalog-item.oneHeight:not(.action-item)'));
+    
 }
 
 function validate(form, options){
