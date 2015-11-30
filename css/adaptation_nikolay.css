@@ -4,7 +4,7 @@
     padding: 0 12% 6%;
   }
   .title-photo.send .title-photo-align .bread-phone span {
-    font-size: 30.72rem;
+    font-size: 30.72px;
     letter-spacing: 5.5px;
   }
   /*/send*/
@@ -16,7 +16,7 @@
     padding: 0 12% 5.5%;
   }
   .title-photo.send .title-photo-align .bred-min span {
-    font-size: 15.36rem;
+    font-size: 15.36px;
   }
   /*/send*/
 }
@@ -30,38 +30,40 @@
     display: none;
   }
   .title-photo.send .title-photo-align .bread-text span {
-    font-size: 12rem;
+    font-size: 12px;
     line-height: 19px;
   }
   .title-photo.send .title-photo-align .bread-price-wrapp .bread-price {
     padding: 12px 0 0;
     width: 60px;
     height: 60px;
+    left: -webkit-calc(50% - 33px);
+    left: -moz-calc(50% - 33px);
     left: calc(50% - 33px);
   }
   .title-photo.send .title-photo-align .bread-price-wrapp .bread-price span {
-    font-size: 15.36rem;
+    font-size: 15.36px;
   }
   .send-content-wrapp .send-align span {
-    font-size: 11rem;
+    font-size: 11px;
   }
   .send-content-wrapp .send-align .title {
     display: block;
     padding: 22px 0 45px;
   }
   .send-content-wrapp .send-align .title span {
-    font-size: 16rem;
+    font-size: 16px;
     font-family: "Merel";
     font-weight: 700;
-    padding: 10rem 10% 45px;
+    padding: 10px 10% 45px;
     text-transform: uppercase;
-    letter-spacing: 1rem;
+    letter-spacing: 1px;
   }
   .send-content-wrapp .send-align .send-title {
     padding-bottom: 75px;
   }
   .send-content-wrapp .send-align .send-title span {
-    font-size: 11rem;
+    font-size: 11px;
   }
   .send-content-wrapp .send-align .diag-wrap {
     padding-bottom: 70px;
@@ -72,32 +74,32 @@
     padding-top: 27px;
   }
   .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img span {
-    font-size: 19.2rem;
+    font-size: 19.2px;
   }
   .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-text {
     padding-top: 18px;
   }
   .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-text span {
-    font-size: 12rem;
+    font-size: 12px;
   }
   .send-content-wrapp .send-align .send-text1 {
     padding: 0 7%;
   }
   .send-content-wrapp .send-align .send-text1 span {
-    font-size: 12rem;
-    line-height: 20rem;
+    font-size: 12px;
+    line-height: 20px;
   }
   .send-content-wrapp .send-align .send-text2 {
     padding-top: 22px;
   }
   .send-content-wrapp .send-align .send-text2 span {
-    font-size: 46.35rem;
+    font-size: 46.35px;
   }
   .send-content-wrapp .send-align .send-text3 {
     padding: 23px 10% 0;
   }
   .send-content-wrapp .send-align .send-text3 span {
-    line-height: 20rem;
+    line-height: 20px;
   }
   .send-content-wrapp .send-align .send-text4 {
     padding-top: 20px;
@@ -108,8 +110,8 @@
   /*/send*/
   /*title*/
   .title .title-text {
-    font-size: 16rem;
-    letter-spacing: 3rem;
+    font-size: 16px;
+    letter-spacing: 3px;
   }
   /*/title*/
   /*contacts*/
@@ -117,18 +119,20 @@
     padding: 3% 0 3%;
   }
   .title.contacts .title-text {
-    font-size: 16rem;
-    letter-spacing: 3rem;
+    font-size: 16px;
+    letter-spacing: 3px;
   }
   .contact-wrapp .contact-align {
     padding-bottom: 4.5%;
   }
   .contact-wrapp .contact-align .contact-item {
+    width: -webkit-calc(50% - 8px);
+    width: -moz-calc(50% - 8px);
     width: calc(50% - 8px);
     padding-bottom: 3.5%;
   }
   .contact-wrapp .contact-align .contact-item span {
-    font-size: 12.5rem;
+    font-size: 12.5px;
   }
   .contact-wrapp .contact-align .contact-item:nth-child(1), .contact-wrapp .contact-align .contact-item:nth-child(3) {
     margin-right: 15px;
@@ -140,7 +144,7 @@
     padding-bottom: 2%;
   }
   .contact-wrapp .contact-align .contact-item .item-align .item-name span {
-    letter-spacing: 2.3rem;
+    letter-spacing: 2.3px;
   }
   .contact-wrapp .contact-align .contact-item .item-align .item-addres {
     padding-bottom: 7.5%;
@@ -165,7 +169,7 @@
     padding-top: 10px;
   }
   .contact-wrapp .contact-align .contact-item .item-align .item-butt a span {
-    font-size: 8.33rem;
+    font-size: 8.33px;
     letter-spacing: 2px;
   }
   /*/contacts*/
@@ -174,7 +178,7 @@
     margin-bottom: 6%;
   }
   .special-wrapper .special-align .special-title span {
-    font-size: 16rem;
+    font-size: 16px;
     letter-spacing: 1.6px;
   }
   /*/special*/
@@ -183,7 +187,7 @@
     margin-bottom: 6%;
   }
   .about-us-wrapper .about-us-align .about-title span {
-    font-size: 16rem;
+    font-size: 16px;
     letter-spacing: 1.6px;
   }
   /*/about*/
@@ -202,13 +206,13 @@
   }
   .footer-wrapp-main .main-block .socials-head {
     max-width: 100%;
-    padding-top: 34rem;
-    padding-bottom: 39rem;
+    padding-top: 34px;
+    padding-bottom: 39px;
   }
   .footer-wrapp-main .main-block .socials-head p {
     font-weight: 400;
-    font-size: 14rem;
-    padding-bottom: 37rem;
+    font-size: 14px;
+    padding-bottom: 37px;
   }
   .footer-wrapp-main .main-block .socials-head .soc-fb {
     width: 170px;
@@ -240,6 +244,8 @@
     padding-bottom: 1.8%;
   }
   .send-content-wrapp .send-align .diag-wrap .send-item {
+    width: -webkit-calc(50% - 4px);
+    width: -moz-calc(50% - 4px);
     width: calc(50% - 4px);
     margin-bottom: 14%;
   }
@@ -319,8 +325,8 @@
     padding: 0 12% 1.5%;
   }
   .title-photo.send .title-photo-align .bread-phone span {
-    font-size: 24.72rem;
-    line-height: 20rem;
+    font-size: 24.72px;
+    line-height: 20px;
   }
   .title-photo.send .title-photo-align .bred-min {
     padding: 0 3% 4.5%;
@@ -363,7 +369,7 @@
     max-width: none;
   }
   .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
-    width: 984rem;
+    width: 984px;
   }
   /*/title foto*/
 }
@@ -377,13 +383,13 @@
     padding: 0 12% 0.5%;
   }
   .title-photo.send .title-photo-align .bread-phone span {
-    font-size: 16rem;
+    font-size: 16px;
   }
   .title-photo.about, .title-photo.action, .title-photo.catalog, .title-photo.conditer, .title-photo.conditer-bread, .title-photo.conditer-stock, .title-photo.contacts {
     padding-bottom: 70%;
   }
   .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
-    width: 711rem;
+    width: 711px;
   }
   /*/send*/
   .title {
