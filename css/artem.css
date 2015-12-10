@@ -1,5 +1,5 @@
 .header-slider-wrap {
-  max-width: 1500rem;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -13,11 +13,11 @@
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .counter {
-  font-size: 30rem;
+  font-size: 30px;
   color: #ffffff;
   position: absolute;
-  bottom: 56rem;
-  right: 110rem;
+  bottom: 56px;
+  right: 110px;
   font-style: "Merel";
   font-weight: 900;
 }
@@ -28,13 +28,13 @@
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1 {
-  font-size: 100rem;
+  font-size: 100px;
   font-family: "PFDinTextCondPro", sans-serif;
   font-weight: 100;
   color: #2a2a2b;
   text-transform: uppercase;
-  padding: 87rem 87rem 0rem 104rem;
-  margin-bottom: 0rem;
+  padding: 87px 87px 0px 104px;
+  margin-bottom: 0px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h1 span {
@@ -44,18 +44,18 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h2 {
   font-family: "Merel", sans-serif;
-  font-size: 18rem;
+  font-size: 18px;
   font-style: normal;
   color: #737478;
-  padding: 0px 108rem 49rem 111rem;
+  padding: 0px 108px 49px 111px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white h3 {
   font-family: "Merel", sans-serif;
-  font-size: 18rem;
+  font-size: 18px;
   font-weight: 700;
   color: #737478;
-  padding: 1rem 100rem 112rem 110rem;
+  padding: 1px 100px 112px 110px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a {
@@ -65,20 +65,20 @@
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a .button-fast {
-  border: 1rem solid #d10019;
-  -webkit-border-radius: 3rem;
-  -moz-border-radius: 3rem;
-  border-radius: 3rem;
+  border: 1px solid #d10019;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   background-color: #d10019;
   color: #ffffff;
   text-transform: uppercase;
   font-style: "Merel";
   font-weight: 700;
-  font-size: 12rem;
-  padding: 23rem;
+  font-size: 12px;
+  padding: 23px;
   display: inline-block;
-  margin-left: 110rem;
-  letter-spacing: 4rem;
+  margin-left: 110px;
+  letter-spacing: 4px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a:hover, .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a:focus, .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a:active {
@@ -88,8 +88,8 @@
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white img {
-  width: 1500rem;
-  height: 816rem;
+  width: 1500px;
+  height: 816px;
   left: 50%;
   -moz-transform: translate3d(-50%, 0, 0);
   transform: translate3d(-50%, 0, 0);
@@ -103,12 +103,12 @@
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1 {
-  font-size: 150rem;
+  font-size: 150px;
   font-family: "SavoyeLetPlain", sans-serif;
   font-weight: normal;
   color: #7b4537;
-  padding: 37rem 87rem 0rem 104rem;
-  margin-bottom: 0rem;
+  padding: 37px 87px 0px 104px;
+  margin-bottom: 0px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h1 span {
@@ -117,19 +117,19 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h2 {
   font-family: "Merel", sans-serif;
-  font-size: 18rem;
+  font-size: 18px;
   font-style: normal;
   color: #ffffff;
-  padding: 0px 108rem 49rem 111rem;
-  margin-top: 0rem;
+  padding: 0px 108px 49px 111px;
+  margin-top: 0px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black h3 {
   font-family: "Merel", sans-serif;
-  font-size: 18rem;
+  font-size: 18px;
   font-weight: 700;
   color: #ffffff;
-  padding: 1rem 100rem 87rem 110rem;
+  padding: 1px 100px 87px 110px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a {
@@ -139,21 +139,21 @@
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a .button-fast {
-  border: 1rem solid #ffffff;
-  -webkit-border-radius: 3rem;
-  -moz-border-radius: 3rem;
-  border-radius: 3rem;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   background-color: none;
   color: #ffffff;
   text-transform: uppercase;
   font-style: "Merel";
   font-weight: 700;
-  font-size: 12rem;
-  padding: 23rem;
+  font-size: 12px;
+  padding: 23px;
   display: inline-block;
-  margin-left: 110rem;
-  letter-spacing: 4rem;
-  margin-left: 110rem;
+  margin-left: 110px;
+  letter-spacing: 4px;
+  margin-left: 110px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a:hover, .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a:focus, .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a:active {
@@ -163,8 +163,8 @@
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black img {
-  width: 1500rem;
-  height: 816rem;
+  width: 1500px;
+  height: 816px;
   left: 50%;
   -moz-transform: translate3d(-50%, 0, 0);
   transform: translate3d(-50%, 0, 0);
@@ -175,7 +175,7 @@
 .header-slider-wrap .header-slider-wrap-main .slick-dots {
   position: absolute;
   margin-bottom: 50px;
-  bottom: 17rem;
+  bottom: 17px;
   right: 183px;
   text-align: center;
 }
@@ -230,7 +230,7 @@
 
 .wrap-text {
   background-color: #f5f8fa;
-  max-width: 1500rem;
+  max-width: 1500px;
   width: 100%;
   margin: 0 auto;
 }
@@ -240,25 +240,25 @@
 }
 
 .wrap-text .convert-text p {
-  font-size: 24rem;
+  font-size: 24px;
   font-family: "Merel";
   font-weight: 700;
-  padding: 36rem 10% 20rem 10%;
+  padding: 36px 10% 20px 10%;
   text-transform: uppercase;
-  letter-spacing: 5rem;
+  letter-spacing: 5px;
 }
 
 .wrap-text .convert-text h1 {
   font-family: "Merel";
   font-weight: 400;
-  font-size: 14rem;
-  padding: 28rem 7% 0rem 7%;
-  line-height: 29rem;
-  margin-bottom: 0rem;
+  font-size: 14px;
+  padding: 28px 7% 0px 7%;
+  line-height: 29px;
+  margin-bottom: 0px;
 }
 
 .wrap-text .convert-text:last-child {
-  margin-bottom: 65rem;
+  margin-bottom: 65px;
 }
 
 .conditer-stock {
@@ -287,20 +287,20 @@
 }
 
 .main-block .header-place {
-  padding-top: 76rem;
-  padding-bottom: 20rem;
+  padding-top: 76px;
+  padding-bottom: 20px;
   font-family: "Merel", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 18rem;
-  letter-spacing: 2rem;
+  font-size: 18px;
+  letter-spacing: 2px;
   color: #000000;
 }
 
 .main-block .convert-adress {
   width: 100%;
-  padding-top: 45rem;
-  margin-bottom: 0rem;
+  padding-top: 45px;
+  margin-bottom: 0px;
   text-align: justify;
 }
 
@@ -311,14 +311,14 @@
   text-transform: uppercase;
   font-weight: 500;
   font-family: "Merel", sans-serif;
-  font-size: 11rem;
+  font-size: 11px;
   color: #000000;
 }
 
 .main-block .socials-head {
-  max-width: 200rem;
-  padding-top: 69rem;
-  padding-bottom: 57rem;
+  max-width: 200px;
+  padding-top: 69px;
+  padding-bottom: 57px;
   margin: 0 auto;
 }
 
@@ -327,9 +327,9 @@
   text-transform: uppercase;
   font-family: "Merel", sans-serif;
   font-weight: 700;
-  font-size: 11rem;
-  padding-bottom: 32rem;
-  margin-bottom: 0rem;
+  font-size: 11px;
+  padding-bottom: 32px;
+  margin-bottom: 0px;
   letter-spacing: 1px;
 }
 
@@ -358,14 +358,14 @@
 
 nav {
   text-align: center;
-  padding-top: 28rem;
-  padding-bottom: 27rem;
+  padding-top: 28px;
+  padding-bottom: 27px;
 }
 
 nav ul li {
   display: inline-block;
   width: 14%;
-  margin-left: -4rem;
+  margin-left: -4px;
 }
 
 nav ul li:first-child {
@@ -376,7 +376,7 @@ nav ul li a {
   color: #919294;
   font-family: "Merel", sans-serif;
   font-weight: 500;
-  font-size: 12rem;
+  font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -386,7 +386,7 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:focus, nav ul li a:visited {
 }
 
 .mbox {
-  max-width: 1280rem;
+  max-width: 1280px;
   display: block;
   margin: 0 auto;
 }

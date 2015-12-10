@@ -53,7 +53,7 @@
 .look_and_buy {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 12rem;
+  font-size: 12px;
   background-color: #29e694;
   color: #fff;
   text-decoration: none;
@@ -61,7 +61,7 @@
   display: inline-block;
   padding: 24px 0px;
   vertical-align: middle;
-  line-height: 12rem;
+  line-height: 12px;
   -webkit-transition: all linear 0.2s;
   -moz-transition: all linear 0.2s;
   -o-transition: all linear 0.2s;
@@ -81,7 +81,7 @@
 }
 
 .look_and_buy span {
-  line-height: 12rem;
+  line-height: 12px;
   vertical-align: text-top;
   -webkit-transition: all linear 0.2s;
   -moz-transition: all linear 0.2s;
@@ -114,7 +114,7 @@
 .red_circle .red_circle_wrap span {
   text-transform: uppercase;
   color: white;
-  font-size: 14rem;
+  font-size: 14px;
   font-weight: 300;
   display: block;
   padding-top: 19px;
@@ -203,7 +203,7 @@
   position: absolute;
   bottom: 27px;
   right: 21px;
-  font-size: 12rem;
+  font-size: 12px;
 }
 
 .massonry .massonry_item.item_8 {
@@ -259,13 +259,13 @@
   text-align: center;
   padding: 0 2%;
   color: #a4a6ab;
-  font-size: 12rem;
+  font-size: 12px;
   bottom: 8%;
 }
 
 .massonry .massonry_item_text .massonry_item_rotate_text {
   font-family: "Merel";
-  font-size: 14rem;
+  font-size: 14px;
   color: #a4a6ab;
   font-weight: bold;
   text-transform: uppercase;
@@ -280,20 +280,20 @@
 }
 
 .massonry .massonry_item_text .massonry_item_fs_18 {
-  font-size: 18rem;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 32px;
 }
 
 .massonry .massonry_item_text .massonry_item_fs_140 {
-  font-size: 140rem;
+  font-size: 140px;
   font-weight: 700;
-  line-height: 113rem;
+  line-height: 113px;
 }
 
 .massonry .massonry_item_text .massonry_item_fs_12 {
-  font-size: 12rem;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 47px;
@@ -301,11 +301,11 @@
 }
 
 .massonry .massonry_item_text .massonry_item_fs_14 {
-  font-size: 14rem;
+  font-size: 14px;
 }
 
 .massonry .massonry_item_text .massonry_item_fs_16 {
-  font-size: 16rem;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -317,14 +317,14 @@
 .massonry .massonry_item_text .massonry_item_Savoye {
   font-family: "SavoyeLetPlain";
   font-style: italic;
-  font-size: 41rem;
-  line-height: 38rem;
+  font-size: 41px;
+  line-height: 38px;
   padding-top: 52%;
   padding-bottom: 23px;
 }
 
 .massonry .massonry_item_text .massonry_item_fs_24 {
-  font-size: 24rem;
+  font-size: 24px;
   text-align: left;
   text-transform: uppercase;
   font-weight: bold;
@@ -333,25 +333,25 @@
 .massonry .massonry_item_text_desc {
   text-align: center;
   font-weight: bold;
-  font-size: 14rem;
+  font-size: 14px;
   text-transform: uppercase;
   padding-top: 11px;
 }
 
 .massonry .massonry_item_text_subdesc {
-  font-size: 24rem;
+  font-size: 24px;
   text-align: center;
   font-weight: bold;
 }
 
 .massonry .massonry_item_text_subdesc span {
-  font-size: 14rem;
+  font-size: 14px;
   font-weight: normal;
 }
 
 .massonry .massonry_item_text_descnotsample {
   text-align: center;
-  font-size: 16rem;
+  font-size: 16px;
   padding-top: 15px;
   padding-bottom: 23px;
 }
@@ -366,9 +366,9 @@
 }
 
 .massonry .massonry_item_img .img-centered-text {
-  font-size: 51rem;
+  font-size: 51px;
   text-align: center;
-  line-height: 43rem;
+  line-height: 43px;
   position: absolute;
   top: 0;
   left: 0;
@@ -407,26 +407,26 @@
 }
 
 .catalog_pop_wrap .catalog_pop_title {
-  font-size: 14rem;
+  font-size: 14px;
   font-weight: bold;
   padding-bottom: 25px;
   text-transform: uppercase;
 }
 
 .catalog_pop_wrap .catalog_pop_subtitle {
-  font-size: 13rem;
+  font-size: 13px;
   padding-bottom: 75px;
-  line-height: 24rem;
+  line-height: 24px;
 }
 
 .catalog_pop_wrap .catalog_pop_price {
   padding-bottom: 80px;
-  font-size: 24rem;
+  font-size: 24px;
   font-weight: bold;
 }
 
 .catalog_pop_wrap .catalog_pop_price span {
-  font-size: 14rem;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -438,18 +438,18 @@
 }
 
 .catalog_pop_wrap .catalog_pop_button .catalog_pop_close {
-  height: 48rem;
-  line-height: 43rem;
+  height: 48px;
+  line-height: 43px;
   text-align: center;
   width: 100%;
   display: inline-block;
-  -webkit-border-radius: 5rem;
-  -moz-border-radius: 5rem;
-  border-radius: 5rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   color: #e6e6e6;
   border: 2px solid #e6e6e6;
   text-transform: uppercase;
-  font-size: 14rem;
+  font-size: 14px;
   cursor: pointer;
   -webkit-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
   -moz-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
@@ -489,7 +489,7 @@
 
 .catalog_pop_wrap .catalog_pop_mas p {
   color: white;
-  font-size: 18rem;
+  font-size: 18px;
   text-align: center;
   padding-top: 20px;
   padding-left: 5px;
@@ -510,19 +510,19 @@
 }
 
 .catalog_pop_wrap .catalog_pop_kkal p {
-  font-size: 18rem;
+  font-size: 18px;
   text-align: center;
   padding-top: 2px;
   color: #d10019;
   font-weight: bold;
-  line-height: 15rem;
+  line-height: 15px;
 }
 
 /*conditer-bread-page*/
 .catalog-item-title {
   color: #303030;
   padding: 85px 0px;
-  font-size: 18rem;
+  font-size: 18px;
   text-transform: uppercase;
   text-align: center;
 }

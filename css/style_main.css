@@ -2,19 +2,19 @@
 /* /variables */
 /* buttons styles */
 .button {
-  height: 48rem;
-  line-height: 43rem;
+  height: 48px;
+  line-height: 43px;
   background-color: #d10019;
   text-align: center;
   width: 100%;
   display: inline-block;
-  -webkit-border-radius: 5rem;
-  -moz-border-radius: 5rem;
-  border-radius: 5rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   color: #fff;
   border: 2px solid transparent;
   text-transform: uppercase;
-  font-size: 14rem;
+  font-size: 14px;
   cursor: pointer;
   -webkit-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
   -moz-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
@@ -41,13 +41,13 @@
 
 .header-top {
   background-color: #fff;
-  padding: 10rem 0 10rem 0;
+  padding: 10px 0 10px 0;
   position: relative;
   z-index: 1;
 }
 
 .header-top .mbox {
-  min-height: 60rem;
+  min-height: 60px;
 }
 
 .header-logo {
@@ -67,12 +67,12 @@
 
 .header-telefone {
   float: left;
-  padding-top: 15rem;
+  padding-top: 15px;
 }
 
 .header-telefone a {
   text-decoration: none;
-  font-size: 18rem;
+  font-size: 18px;
   color: #2a2a2b;
   font-weight: 700;
   -webkit-transition: color 300ms ease;
@@ -98,9 +98,9 @@
 }
 
 .header-basket-main {
-  padding-top: 20rem;
+  padding-top: 20px;
   float: right;
-  margin-right: 24rem;
+  margin-right: 24px;
   position: relative;
 }
 
@@ -110,8 +110,8 @@
 }
 
 .header-basket-main .header-basket-icon .header-basket-value {
-  width: 24rem;
-  height: 24rem;
+  width: 24px;
+  height: 24px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -120,7 +120,7 @@
   line-height: 20px;
   color: #fff;
   font-weight: 700;
-  font-size: 13rem;
+  font-size: 13px;
   display: none;
   position: absolute;
   left: 100%;
@@ -143,14 +143,14 @@
   position: absolute;
   right: 0;
   top: 100%;
-  width: 305rem;
+  width: 305px;
   background-color: #fff;
-  padding: 25rem 20rem 20rem 20rem;
-  -webkit-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
-  -moz-box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
-  box-shadow: 0 4rem 30rem 0 rgba(0, 0, 0, 0.18);
+  padding: 25px 20px 20px 20px;
+  -webkit-box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.18);
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.18);
   display: none;
-  margin-top: 15rem;
+  margin-top: 15px;
 }
 
 .header-basket-form:before {
@@ -159,7 +159,7 @@
   display: block;
   width: 0;
   height: 0;
-  border-width: 7.5rem 5rem;
+  border-width: 7.5px 5px;
   border-style: solid;
   border-color: transparent #fff #fff transparent;
   bottom: 100%;
@@ -168,10 +168,10 @@
 
 .header-basket-form .close-form {
   position: absolute;
-  right: 10rem;
-  top: 14rem;
-  width: 10rem;
-  height: 10rem;
+  right: 10px;
+  top: 14px;
+  width: 10px;
+  height: 10px;
   cursor: pointer;
 }
 
@@ -179,15 +179,15 @@
   content: '';
   display: block;
   position: absolute;
-  width: 12rem;
-  height: 2rem;
+  width: 12px;
+  height: 2px;
   background-color: #b3b3b3;
   -webkit-transform-origin: 0 50%;
   -moz-transform-origin: 0 50%;
   -ms-transform-origin: 0 50%;
   -o-transform-origin: 0 50%;
   transform-origin: 0 50%;
-  left: 1rem;
+  left: 1px;
   -webkit-transition: ease 300ms background-color;
   -moz-transition: ease 300ms background-color;
   -o-transition: ease 300ms background-color;
@@ -217,9 +217,9 @@
 }
 
 .header-basket-form .form-title {
-  font-size: 16rem;
+  font-size: 16px;
   color: #1a1a1a;
-  margin-bottom: 25rem;
+  margin-bottom: 25px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -231,20 +231,20 @@
 
 .header-basket-form .header-basket-form-row {
   border-top: 1px solid #e6e6e6;
-  padding-top: 14rem;
-  margin-bottom: 20rem;
+  padding-top: 14px;
+  margin-bottom: 20px;
 }
 
 .header-basket-form .header-basket-form-row.submit {
-  margin-bottom: 0rem;
+  margin-bottom: 0px;
 }
 
 .header-basket-form .header-basket-row-title {
-  font-size: 14rem;
+  font-size: 14px;
   color: #1a1a1a;
-  font-size: 14rem;
-  line-height: 22rem;
-  margin-bottom: 18rem;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 18px;
 }
 
 .header-basket-form .header-basket-row-value {
@@ -254,22 +254,22 @@
 .header-basket-form .header-basket-row-value .header-basket-row-price {
   display: inline-block;
   vertical-align: middle;
-  font-size: 16rem;
+  font-size: 16px;
   color: #1a1a1a;
   font-weight: 700;
   position: relative;
-  padding-right: 20rem;
+  padding-right: 20px;
 }
 
 .header-basket-form .header-basket-row-value .header-basket-row-price:after, .header-basket-form .header-basket-row-value .header-basket-row-price:before {
   content: '';
   display: block;
-  right: 5rem;
+  right: 5px;
   top: 56%;
   position: absolute;
   display: block;
-  width: 10rem;
-  height: 1rem;
+  width: 10px;
+  height: 1px;
   background-color: #000;
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -296,35 +296,35 @@
 
 .header-basket-form .header-basket-row-value .header-basket-row-input {
   display: inline-block;
-  margin-left: 6rem;
+  margin-left: 6px;
 }
 
 .header-basket-form .header-basket-row-value .header-basket-row-input input {
   display: inline-block;
-  width: 44rem;
-  height: 28rem;
-  border: 2rem solid #e6e6e6;
-  -webkit-border-radius: 6rem;
-  -moz-border-radius: 6rem;
-  border-radius: 6rem;
+  width: 44px;
+  height: 28px;
+  border: 2px solid #e6e6e6;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
   vertical-align: middle;
   text-align: center;
-  font-size: 14rem;
+  font-size: 14px;
   color: #1a1a1a;
 }
 
 .header-basket-form .header-basket-row-value .header-basket-row-input span {
   display: inline-block;
-  font-size: 14rem;
+  font-size: 14px;
   color: #b2b2b2;
   vertical-align: middle;
-  margin-left: 10rem;
-  margin-top: -3rem;
+  margin-left: 10px;
+  margin-top: -3px;
 }
 
 .header-basket-form .header-basket-row-item-sum {
   float: right;
-  font-size: 16rem;
+  font-size: 16px;
   font-weight: 700;
   text-align: right;
   text-transform: uppercase;
@@ -333,16 +333,16 @@
 
 .header-basket-form .header-basket-all-sum {
   text-align: center;
-  padding-top: 10rem;
-  margin-bottom: 32rem;
+  padding-top: 10px;
+  margin-bottom: 32px;
   font-weight: 700;
   color: #d10019;
-  font-size: 30rem;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
 .header-basket-form .header-basket-submit-button button.button {
-  letter-spacing: 2.6rem;
+  letter-spacing: 2.6px;
   font-weight: 700;
 }
 
@@ -353,33 +353,33 @@
 }
 
 .call_success .call_success-title {
-  font-size: 36rem;
+  font-size: 36px;
   font-weight: 700;
-  margin-bottom: 20rem;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
 .call_success .call_success-text {
-  font-size: 26rem;
+  font-size: 26px;
 }
 
 .sendwich-icon {
   display: none;
-  width: 18rem;
-  height: 18rem;
-  padding-top: 7rem;
+  width: 18px;
+  height: 18px;
+  padding-top: 7px;
   cursor: pointer;
   position: absolute;
-  right: 15rem;
-  top: -webkit-calc(50% - 12.5rem);
-  top: -moz-calc(50% - 12.5rem);
-  top: calc(50% - 12.5rem);
+  right: 15px;
+  top: -webkit-calc(50% - 12.5px);
+  top: -moz-calc(50% - 12.5px);
+  top: calc(50% - 12.5px);
 }
 
 .sendwich-icon span {
   display: inline-block;
   width: 100%;
-  height: 4rem;
+  height: 4px;
   background-color: #000;
   -webkit-transition: background-color 300ms ease;
   -moz-transition: background-color 300ms ease;
@@ -393,7 +393,7 @@
   display: block;
   width: 100%;
   position: absolute;
-  height: 4rem;
+  height: 4px;
   background-color: #000;
   left: 0;
   -webkit-transform-origin: 0 50%;
@@ -408,11 +408,11 @@
 }
 
 .sendwich-icon span:before {
-  top: -7rem;
+  top: -7px;
 }
 
 .sendwich-icon span:after {
-  bottom: -7rem;
+  bottom: -7px;
 }
 
 .sendwich-icon.active span {
@@ -425,8 +425,8 @@
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  left: 2rem;
-  top: -6rem;
+  left: 2px;
+  top: -6px;
 }
 
 .sendwich-icon.active span:after {
@@ -435,8 +435,8 @@
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  left: 2rem;
-  bottom: -7rem;
+  left: 2px;
+  bottom: -7px;
 }
 
 .sendwich-icon.show {
@@ -466,7 +466,7 @@
 
 .header-bottom .header-bottom-nav > ul > li > a {
   text-decoration: none;
-  font-size: 13rem;
+  font-size: 13px;
   font-weight: 700;
   color: #fff;
   display: inline-block;
@@ -496,11 +496,11 @@
 
 .header-bottom .second-level-img {
   float: right;
-  max-width: 315rem;
+  max-width: 315px;
 }
 
 .header-bottom .second-level-menu {
-  margin-right: 325rem;
+  margin-right: 325px;
 }
 
 .header-bottom .second-level-menu-table {
@@ -518,7 +518,7 @@
 }
 
 .header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col .second-level-title {
-  font-size: 12rem;
+  font-size: 12px;
   font-weight: 700;
   color: #000;
   margin-bottom: 30px;
@@ -534,7 +534,7 @@
 
 .header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col li a {
   text-decoration: none;
-  font-size: 13rem;
+  font-size: 13px;
   color: #000;
   -webkit-transition: color 300ms ease;
   -moz-transition: color 300ms ease;

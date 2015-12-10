@@ -1,10 +1,10 @@
 function loadmore(){
     $('.load-more a').click(function(e){
-    	var datapage = $(this).attr('data-page'); 
+    	var datapage = $(this).attr('data-page');
         var parent = $('.catalog-items');
         if (datapage == 'catalog') {
         	$.ajax({
-	        	url : 'partials/addCatalogitem.php',	
+	        	url : 'partials/addCatalogitem.php',
 	        	success : function(data){
 	            $('.catalog-items').append(data);
 	            oneHeightItems();
@@ -13,7 +13,7 @@ function loadmore(){
     	}
     	else if (datapage == 'bread'){
     		$.ajax({
-	        	url : 'partials/addBreaditem.php',	
+	        	url : 'partials/addBreaditem.php',
 	        	success : function(data){
 	            $('.catalog-items').append(data);
 	            oneHeightItems();
@@ -22,7 +22,7 @@ function loadmore(){
     	}
     	else{
     		$.ajax({
-	        	url : 'partials/addMalinaitem.php',	
+	        	url : 'partials/addMalinaitem.php',
 	        	success : function(data){
 	            $('.catalog-items').append(data);
 	            oneHeightItems();
@@ -51,5 +51,4 @@ $(window).load(function(){
 });
 $(window).resize(function(){
     oneHeightItems();
-    console.log('resize');
 });

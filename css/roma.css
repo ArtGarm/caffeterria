@@ -1,12 +1,12 @@
 /* about caffe */
 .about-caffe-wrap p {
-  font-size: 14rem;
+  font-size: 14px;
   font-family: Merel;
   margin-bottom: 64px;
   text-align: justify;
   -moz-text-align-last: center;
   text-align-last: center;
-  word-spacing: -4rem;
+  word-spacing: -4px;
   line-height: 1.6;
 }
 
@@ -14,7 +14,7 @@
   text-align: center;
   width: 100%;
   display: inline-block;
-  word-spacing: 0rem;
+  word-spacing: 0px;
 }
 
 .about-caffe-wrap .text-justify {
@@ -33,7 +33,7 @@
 }
 
 .about-caffe-wrap .differend-font {
-  font-size: 1rem;
+  font-size: 1px;
   font-family: 'SavoyeLetPlain', sans-serif;
   text-align: center;
   color: transparent;
@@ -118,7 +118,7 @@
 
 .catalog-nav-wrap ul li a {
   font-family: 'Merel';
-  font-size: 12rem;
+  font-size: 12px;
   color: #303030;
   text-decoration: none;
   text-transform: uppercase;
@@ -127,7 +127,7 @@
   -webkit-transition: color 500ms ease;
   -moz-transition: color 500ms ease;
   -ms-transition: color 500ms ease;
-  letter-spacing: 2rem;
+  letter-spacing: 2px;
 }
 
 .catalog-nav-wrap ul li a:hover {
@@ -138,9 +138,9 @@
 /* catalog-content */
 .catalog-content .catalog-item {
   display: inline-block;
-  width: -webkit-calc(25% - 16rem);
-  width: -moz-calc(25% - 16rem);
-  width: calc(25% - 16rem);
+  width: -webkit-calc(25% - 16px);
+  width: -moz-calc(25% - 16px);
+  width: calc(25% - 16px);
   margin-right: 20px;
   vertical-align: top;
   position: relative;
@@ -195,12 +195,12 @@
 }
 
 .catalog-content .catalog-item .catalog-item-text .catalog-item-desc p {
-  font-size: 14rem;
+  font-size: 14px;
   font-family: 'Merel';
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1rem;
+  letter-spacing: 1px;
 }
 
 .catalog-content .catalog-item .catalog-item-text .catalog-item-price {
@@ -208,13 +208,13 @@
 }
 
 .catalog-content .catalog-item .catalog-item-text .catalog-item-price p {
-  font-size: 14rem;
+  font-size: 14px;
   font-family: 'Merel';
   text-align: center;
 }
 
 .catalog-content .catalog-item .catalog-item-text .catalog-item-price p b {
-  font-size: 24rem;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -225,7 +225,7 @@
 .catalog-content .catalog-item .add-to-cart {
   text-align: center;
   width: 100%;
-  letter-spacing: 2rem;
+  letter-spacing: 2px;
   opacity: 0;
   -o-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
@@ -239,7 +239,7 @@
   text-transform: uppercase;
   font-family: 'Merel';
   font-weight: 700;
-  font-size: 10rem;
+  font-size: 10px;
   color: #fff;
   text-decoration: none;
   padding: 13px 28px;
@@ -250,9 +250,9 @@
 }
 
 .catalog-content .catalog-item.large-item {
-  width: -webkit-calc(50% - 10rem);
-  width: -moz-calc(50% - 10rem);
-  width: calc(50% - 10rem);
+  width: -webkit-calc(50% - 10px);
+  width: -moz-calc(50% - 10px);
+  width: calc(50% - 10px);
 }
 
 .catalog-content .catalog-item.action-item {
@@ -302,7 +302,7 @@
 .catalog-content .catalog-item.action-item .catalog-item-text .action-text p {
   color: #fff;
   font-family: 'Merel';
-  font-size: 13rem;
+  font-size: 13px;
 }
 
 .catalog-content .catalog-item.action-item .add-to-cart {
@@ -357,11 +357,11 @@
 }
 
 .load-more-items .load-more-wrap .load-more a {
-  font-size: 12rem;
+  font-size: 12px;
   font-family: 'Merel';
   font-weight: 700;
   color: #ccc;
-  letter-spacing: 1rem;
+  letter-spacing: 1px;
   width: 65px;
   position: relative;
   text-decoration: none;

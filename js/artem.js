@@ -9,8 +9,6 @@ function sliderTop(){
         dots:true,
         pauseOnHover:false,
         onAfterChange: function(slide, index){
-  console.log( $(this).attr('id') );
-  console.log( $(slide).attr('id') );
         }
     });
 
@@ -18,7 +16,6 @@ function sliderTop(){
     $('.header-slider-wrap-main').on('afterChange', function (event, slick, currentSlide, nextSlide)
     {
         $('.counter').text("0"+(currentSlide+1));
-    console.log(currentSlide+1);
     });
 };
 
