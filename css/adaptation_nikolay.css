@@ -235,6 +235,36 @@
     display: none;
   }
   /*/footer*/
+  .cond-wrapp .cond-align span {
+    font-size: 16px;
+    letter-spacing: 3.1px;
+  }
+  .cond-wrapp .cond-align {
+    padding: 51px 0 111px;
+  }
+  .cond-wrapp .cond-align .cond-title {
+    padding-bottom: 86px;
+  }
+  .cond-wrapp .cond-align .cond-block:nth-child(3) {
+    padding-left: 32px;
+  }
+  .cond-wrapp .cond-align .cond-block .text-block {
+    width: 100%;
+  }
+  .title-photo.conditer .logo {
+    -webkit-transform: translate(-39%, -49%);
+    -moz-transform: translate(-39%, -49%);
+    -ms-transform: translate(-39%, -49%);
+    -o-transform: translate(-39%, -49%);
+    transform: translate(-39%, -49%);
+  }
+  .title-photo.conditer .logo img {
+    width: 79%;
+  }
+  .bread-img {
+    overflow: hidden;
+    max-height: 250px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -271,18 +301,22 @@
   /*/send*/
   /*conditer*/
   .cond-wrapp .cond-align {
-    padding: 6.8% 0 4%;
+    padding: 6.8% 0 23px;
   }
   .cond-wrapp .cond-align .cond-title {
-    padding-bottom: 8%;
+    padding-bottom: 7.5%;
   }
   .cond-wrapp .cond-align .cond-block {
     max-width: 100%;
-    padding-bottom: 8%;
+    padding-bottom: 8.5%;
     padding-left: 10px;
   }
   .cond-wrapp .cond-align .cond-block .text-block {
-    width: 60%;
+    width: 54%;
+  }
+  .cond-wrapp .cond-align .cond-block .text-block span {
+    font-weight: 400;
+    letter-spacing: 0;
   }
   .cond-wrapp .cond-align .cond-block:nth-child(3) {
     padding-left: 10px;
@@ -336,6 +370,20 @@
   .special {
     padding: 11px 0;
   }
+  .title-photo.conditer .logo {
+    -webkit-transform: translate(-32%, -49%);
+    -moz-transform: translate(-32%, -49%);
+    -ms-transform: translate(-32%, -49%);
+    -o-transform: translate(-32%, -49%);
+    transform: translate(-32%, -49%);
+  }
+  .title-photo.conditer .logo img {
+    width: 64%;
+  }
+  .bread-img {
+    overflow: hidden;
+    max-height: 200px;
+  }
 }
 
 @media screen and (max-width: 666px) {
@@ -372,30 +420,6 @@
   }
   /*/special*/
   /* title foto*/
-  .title-photo.about, .title-photo.action, .title-photo.catalog, .title-photo.conditer, .title-photo.conditer-bread, .title-photo.conditer-stock, .title-photo.contacts {
-    overflow: hidden;
-    padding-bottom: 50%;
-    position: relative;
-  }
-  .title-photo.about .title-photo-align, .title-photo.action .title-photo-align, .title-photo.catalog .title-photo-align, .title-photo.conditer .title-photo-align, .title-photo.conditer-bread .title-photo-align, .title-photo.conditer-stock .title-photo-align, .title-photo.contacts .title-photo-align {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  }
-  .title-photo.about .title-photo-align .bread-img, .title-photo.action .title-photo-align .bread-img, .title-photo.catalog .title-photo-align .bread-img, .title-photo.conditer .title-photo-align .bread-img, .title-photo.conditer-bread .title-photo-align .bread-img, .title-photo.conditer-stock .title-photo-align .bread-img, .title-photo.contacts .title-photo-align .bread-img {
-    position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  .title-photo.about .title-photo-align .bread-img img, .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
-    max-width: none;
-  }
-  .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
-    width: 984px;
-  }
   /*/title foto*/
 }
 
@@ -410,8 +434,11 @@
   .title-photo.send .title-photo-align .bread-phone span {
     font-size: 16px;
   }
-  .title-photo.about, .title-photo.action, .title-photo.catalog, .title-photo.conditer, .title-photo.conditer-bread, .title-photo.conditer-stock, .title-photo.contacts {
+  .title-photo.about, .title-photo.action, .title-photo.catalog, .title-photo.conditer-bread, .title-photo.conditer-stock, .title-photo.contacts {
     padding-bottom: 70%;
+  }
+  .title-photo.conditer {
+    padding-bottom: 173px;
   }
   .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
     width: 711px;
@@ -441,5 +468,52 @@
   .footer-wrapp-main .main-block .socials-head {
     padding-bottom: 60px;
     padding-top: 26px;
+  }
+  .cond-wrapp .cond-align span {
+    font-size: 14px;
+    letter-spacing: 2.8px;
+  }
+  .cond-wrapp .cond-align {
+    padding: 5px 0 1px;
+  }
+  .cond-wrapp .cond-align .cond-block {
+    padding-left: 0;
+    padding-bottom: 36px;
+  }
+  .cond-wrapp .cond-align .cond-block .img-block {
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 26px;
+  }
+  .cond-wrapp .cond-align .cond-title {
+    padding-bottom: 36px;
+  }
+  .cond-wrapp .cond-align .cond-block .title-block span {
+    font-size: 12px;
+    letter-spacing: 2.5px;
+  }
+  .cond-wrapp .cond-align .cond-block .title-block {
+    padding-bottom: 8px;
+  }
+  .cond-wrapp .cond-align .cond-block .text-block span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .cond-wrapp .cond-align .cond-block:nth-child(3) {
+    padding-left: 0px;
+  }
+  .title-photo.conditer .logo {
+    -webkit-transform: translate(-34.5%, -49%);
+    -moz-transform: translate(-34.5%, -49%);
+    -ms-transform: translate(-34.5%, -49%);
+    -o-transform: translate(-34.5%, -49%);
+    transform: translate(-34.5%, -49%);
+  }
+  .title-photo.conditer .logo img {
+    width: 67%;
+  }
+  .bread-img {
+    overflow: hidden;
+    max-height: 140px;
   }
 }

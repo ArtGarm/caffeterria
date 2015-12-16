@@ -41,7 +41,7 @@
 
 .header-top {
   background-color: #fff;
-  padding: 10px 0 10px 0;
+  padding: 38px 0 39px 0;
   position: relative;
   z-index: 1;
 }
@@ -98,9 +98,9 @@
 }
 
 .header-basket-main {
-  padding-top: 20px;
+  padding-top: 24px;
   float: right;
-  margin-right: 24px;
+  margin-right: 2px;
   position: relative;
 }
 
@@ -150,7 +150,7 @@
   -moz-box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.18);
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.18);
   display: none;
-  margin-top: 15px;
+  margin-top: 21px;
 }
 
 .header-basket-form:before {
@@ -168,8 +168,8 @@
 
 .header-basket-form .close-form {
   position: absolute;
-  right: 10px;
-  top: 14px;
+  right: 9px;
+  top: 12px;
   width: 10px;
   height: 10px;
   cursor: pointer;
@@ -231,7 +231,7 @@
 
 .header-basket-form .header-basket-form-row {
   border-top: 1px solid #e6e6e6;
-  padding-top: 14px;
+  padding-top: 12px;
   margin-bottom: 20px;
 }
 
@@ -239,12 +239,16 @@
   margin-bottom: 0px;
 }
 
+.header-basket-form .header-basket-form-row:nth-last-child(2) .header-basket-row-title {
+  margin-bottom: 24px;
+}
+
 .header-basket-form .header-basket-row-title {
   font-size: 14px;
   color: #1a1a1a;
   font-size: 14px;
   line-height: 22px;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .header-basket-form .header-basket-row-value {
@@ -363,20 +367,90 @@
   font-size: 26px;
 }
 
-.sendwich-icon {
+.sendwich-callback-button {
+  position: absolute;
+  top: 25px;
+  right: 145px;
+  font-size: 12px;
+  cursor: pointer;
+  display: none;
+  color: #808080;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sendwich-callback-button:before, .sendwich-callback-button:after {
+  content: '';
+  display: block;
+  width: 9px;
+  height: 3px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #7f7f7f;
+  position: absolute;
+  right: -webkit-calc(100% + 5px);
+  right: -moz-calc(100% + 5px);
+  right: calc(100% + 5px);
+  top: 50%;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.sendwich-callback-button:after {
+  -webkit-transform: rotate(-45deg) translate(0, -3px);
+  -moz-transform: rotate(-45deg) translate(0, -3px);
+  -ms-transform: rotate(-45deg) translate(0, -3px);
+  -o-transform: rotate(-45deg) translate(0, -3px);
+  transform: rotate(-45deg) translate(0, -3px);
+}
+
+.sendwich-callback-button:before {
+  -webkit-transform: rotate(45deg) translate(0, 3px);
+  -moz-transform: rotate(45deg) translate(0, 3px);
+  -ms-transform: rotate(45deg) translate(0, 3px);
+  -o-transform: rotate(45deg) translate(0, 3px);
+  transform: rotate(45deg) translate(0, 3px);
+}
+
+.sendwich-callback-button.show {
+  display: block;
+}
+
+.sendwich-icon-wrap {
   display: none;
   width: 18px;
   height: 18px;
   padding-top: 7px;
   cursor: pointer;
-  position: absolute;
-  right: 15px;
-  top: -webkit-calc(50% - 12.5px);
-  top: -moz-calc(50% - 12.5px);
-  top: calc(50% - 12.5px);
+  position: fixed;
+  right: 24px;
+  top: 28px;
+  -webkit-transition: right 300ms ease;
+  -moz-transition: right 300ms ease;
+  -o-transition: right 300ms ease;
+  transition: right 300ms ease;
 }
 
-.sendwich-icon span {
+.sendwich-icon-wrap:after {
+  content: '';
+  position: absolute;
+  height: 72px;
+  width: 1px;
+  background-color: transparent;
+  top: -28px;
+  right: -25px;
+}
+
+.sendwich-icon-wrap .sendwich-icon {
+  position: relative;
+}
+
+.sendwich-icon-wrap .sendwich-icon span {
   display: inline-block;
   width: 100%;
   height: 4px;
@@ -388,7 +462,7 @@
   position: relative;
 }
 
-.sendwich-icon span:before, .sendwich-icon span:after {
+.sendwich-icon-wrap .sendwich-icon span:before, .sendwich-icon-wrap .sendwich-icon span:after {
   content: '';
   display: block;
   width: 100%;
@@ -401,25 +475,25 @@
   -ms-transform-origin: 0 50%;
   -o-transform-origin: 0 50%;
   transform-origin: 0 50%;
-  -webkit-transition: left 300ms ease, -webkit-transform 300ms ease,width 300ms ease, top 300ms ease, bottom 300ms ease;
-  -moz-transition: left 300ms ease, -moz-transform 300ms ease,width 300ms ease, top 300ms ease, bottom 300ms ease;
-  -o-transition: left 300ms ease, -o-transform 300ms ease,width 300ms ease, top 300ms ease, bottom 300ms ease;
-  transition: left 300ms ease, transform 300ms ease,width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -webkit-transition: left 300ms ease, -webkit-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -moz-transition: left 300ms ease, -moz-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -o-transition: left 300ms ease, -o-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  transition: left 300ms ease, transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
 }
 
-.sendwich-icon span:before {
+.sendwich-icon-wrap .sendwich-icon span:before {
   top: -7px;
 }
 
-.sendwich-icon span:after {
+.sendwich-icon-wrap .sendwich-icon span:after {
   bottom: -7px;
 }
 
-.sendwich-icon.active span {
+.sendwich-icon-wrap.active span {
   background-color: transparent;
 }
 
-.sendwich-icon.active span:before {
+.sendwich-icon-wrap.active span:before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -429,7 +503,7 @@
   top: -6px;
 }
 
-.sendwich-icon.active span:after {
+.sendwich-icon-wrap.active span:after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
@@ -439,7 +513,7 @@
   bottom: -7px;
 }
 
-.sendwich-icon.show {
+.sendwich-icon-wrap.show {
   display: block;
 }
 
@@ -471,8 +545,8 @@
   color: #fff;
   display: inline-block;
   width: 100%;
-  height: 45px;
-  line-height: 44px;
+  height: 47px;
+  line-height: 47px;
   text-transform: uppercase;
   -webkit-transition: background-color 300ms ease;
   -moz-transition: background-color 300ms ease;
@@ -490,7 +564,7 @@
   right: 0;
   display: none;
   background-color: #fff;
-  padding: 20px 0 20px 0;
+  padding: 35px 0 27px 0;
   border-bottom: 1px solid #ededed;
 }
 
@@ -521,11 +595,12 @@
   font-size: 12px;
   font-weight: 700;
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
+  letter-spacing: 1.2px;
 }
 
 .header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col li {
-  margin-bottom: 20px;
+  margin-bottom: 13px;
 }
 
 .header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col li:last-child {

@@ -56,12 +56,13 @@
                 }
             }
         }
-
+        .title-photo{&.conditer{.logo{transform:translate(-50%, -52%);}}}
 /*/conditer -choise*/
 
 /*title photo*/
     /*send*/
-    .title-photo{ max-width: 1500px;    margin: 0 auto; width: 100%;
+    .title-photo{ max-width: 1500px;    margin: 0 auto; width: 100%; position: relative;
+        .logo{position:absolute; left:50%; top:50%; transform:translate(-50%, -50%);}
         &.send{    padding-bottom: 16%;
             .title-photo-align{position: relative; text-align: center;
                 span{color:#fff; font-size: 24px;font-family: 'Merel';font-weight: 500;line-height: 30px;}
