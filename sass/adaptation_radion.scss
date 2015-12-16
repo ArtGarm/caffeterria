@@ -23,7 +23,7 @@
     }
     /*masonry index page*/
     .massonry{
-        .massonry_wrap{padding-bottom: 30px;padding-top: 25px;
+        .massonry_wrap{padding-bottom: 30px;padding-top: 35px;
         }
         .massonry_item_sizer{width: 25%;}
         .massonry_item{float: left;width: 25%;margin-bottom: 10px;position: relative;padding-right: 10px;
@@ -38,27 +38,80 @@
     }
 
     .massonry .massonry_item_img .img-centered-text{font-size: 31px;line-height: 29px;padding-top: 36px;}
-    .massonry .massonry_item_img.img-centered img{width: 20%;}
-    .massonry .massonry_item_text_descnotsample {text-align: center;font-size: 13px;padding: 0 4%;padding-top: 13px;padding-bottom: 23px;}
+    .massonry .massonry_item_img.img-centered img{width: 48%;}
+    .massonry .massonry_item_text_descnotsample {text-align: center;font-size: 13px;padding: 0 4%;padding-top: 19px;padding-bottom: 27px;}
     .massonry .massonry_item_text .look_and_buy{margin-top: 0;}
     .massonry .massonry_item_text .massonry_item_mini_text{font-size: 11px;bottom: 4%;}
-    .massonry .massonry_item_text .massonry_item_rotate_text{top: 43px;right: -48px;font-size: 11px;}
+    .massonry .massonry_item_text .massonry_item_rotate_text{top: 43px;right: -43px;font-size: 11px;}
 
     .massonry .massonry_item_text_desc{font-size: 12px;padding-top: 11px;}
     .massonry .massonry_item_text_subdesc {font-size: 15px;}
     .massonry .massonry_item_text_subdesc span {font-size: 12px;}
 
+
+    /*popap*/
+    .catalog_pop_wrap .catalog_pop_table{width: 100%;}
+    .popupCatalog{max-width: 960px !important;width: 100% !important;height: 100% !important;max-height: 767px !important;top: 0px !important;
+        .fancybox-skin,.fancybox-outer{height: 100% !important;}
+        .fancybox-inner,.catalog_pop_wrap,.catalog_pop_table{width: 100% !important;height: 100% !important;}
+        #catalog_pop{height: 100% !important;}
+        .catalog_pop_wrap .catalog_pop_cell.right,.catalog_pop_wrap .catalog_pop_cell.left{width: 49%;}
+        .catalog_pop_wrap .catalog_pop_cell.right{vertical-align: top;}
+        .catalog_pop_wrap .catalog_pop_title{padding-top: 52px;font-size: 18px;letter-spacing: 2px;padding-bottom: 37px;}
+        .catalog_pop_subtitle{padding-bottom: 104px;}
+        .catalog_pop_price{font-size: 36px;
+            span{font-size: 24px;}
+        }
+        .catalog_pop_button{padding: 50px 5% 0;
+            a{max-width: 251px !important;height: 66px !important;line-height: 60px !important;margin-bottom: 30px !important;}
+        }
+    }
+    .catalog_pop_wrap {min-width: auto;}
+    .fancybox-close{top: 11px;right: 11px;}
+    .catalog_pop_wrap .catalog_pop_mas{top: 80px;left: 151px;}
+    .catalog_pop_wrap .catalog_pop_kkal{top: 82px;left: 252px;}
+    .catalog_pop_wrap .catalog_pop_img{padding-top: 33px;}
 }
 @media screen and (max-width: 992px){
     /*masonry index page*/
     .massonry{
-        .massonry_item{float: left;width: 25%;margin-bottom: 10px;position: relative;padding-right: 10px;
-            &.item_1{width: 50%;height: 190px;}
-            &.item_2{width: 50%;height: 253px;position: relative;}
-            &.item_5{width: 50%;height: 190px;}
+        .massonry_wrap{padding-bottom: 48px;}
+        .massonry_item{float: none;width: 100%;margin-bottom: 10px;position: relative;padding-right: 0px;margin:0 auto;
+            &.item_1{width: 72%;height: 249px;}
+            &.item_2{width: 69%;height: auto;position: relative;padding-top: 42px;}
+            &.item_3,&.item_4,&.item_6,&.item_8{display: none;}
+            &.item_5{width: 68%;height: auto;padding-top: 63px;}
+            &.item_7{width: 60%;padding-top: 31px;}
+
+            .massonry_item_text_desc{padding-top: 8px;}
+            .massonry_item_rotate_text{display: none;}
+            .massonry_item_text_descnotsample{padding: 0;}
+            .massonry_item_text .massonry_item_mini_text{position: relative;top: 0;padding-top: 28px;}
         }
+        .massonry_item_img.img-centered img{width: 43%;}
+        .massonry_item_text_descnotsample{max-width: 100%;margin-top: 13px;margin-bottom: 39px;}
+        .massonry_item_text_descnotsample{font-size: 12px;}
     }
-    .massonry .massonry_item_text_descnotsample{font-size: 12px;}
+
+    /*popap*/
+    .popupCatalog{max-width: 768px !important;max-height: 960px !important;left: 0px !important;top: 20px !important;
+        .catalog_pop_wrap .catalog_pop_table{display: block;}
+        .catalog_pop_wrap .catalog_pop_cell.right,.catalog_pop_wrap .catalog_pop_cell.left{width: 100%; height: 55%;display: block;}
+        .catalog_pop_wrap .catalog_pop_cell.right{height: 45%;padding: 40px 10px;}
+        .catalog_pop_wrap .catalog_pop_img{padding-top: 88px;}
+        .catalog_pop_wrap .catalog_pop_mas {top: 238px;left: 67px;}
+        .catalog_pop_wrap .catalog_pop_kkal{top: 238px;left: auto;right: 68px;}
+        .catalog_pop_wrap .catalog_pop_title{padding-top: 0;padding-bottom: 23px;}
+        .catalog_pop_subtitle {padding-bottom: 18px;font-size: 15px;letter-spacing: 1px;}
+        .catalog_pop_wrap .catalog_pop_price{padding-bottom: 18px;}
+        .catalog_pop_button{padding: 50px 14% 0;
+            &:after{display: block;clear: both;content: '';}
+            .catalog_pop_close{float: left;}
+            .button{float: right;}
+            a{margin: 0 10px;}
+        }
+        .fancybox-close:before,.fancybox-close:after{background-color: #8a908f;}
+    }
 }
 @media screen and (max-width: 767px){
 
@@ -96,13 +149,49 @@
     .catalog_pop_wrap .catalog_pop_kkal{top: 100px;left: 15px;}
 }
 @media screen and (max-width: 479px){
+    /*popap*/
+    .popupCatalog{max-width: 320px !important;max-height: 623px !important;left: 50% !important;top: 50% !important;transform: translate(-50%, -50%) !important;
+        .catalog_pop_wrap .catalog_pop_img img {max-width: 45%;}
+        .catalog_pop_wrap .catalog_pop_img {padding-top: 32px;}
+        .catalog_pop_wrap .catalog_pop_cell.left {height: 39%;}
+        .catalog_pop_wrap .catalog_pop_cell.right{height: 61%;padding: 7px 5px;}
+        .catalog_pop_wrap .catalog_pop_mas {top: 99px;left: 5px;height: 43px;width: 43px;}
+        .catalog_pop_wrap .catalog_pop_mas p,.catalog_pop_wrap .catalog_pop_kkal p{font-size: 11px;padding-top: 12px;}
+        .catalog_pop_wrap .catalog_pop_kkal{height: 43px;width: 43px;
+            p{padding-top: 0;    line-height: 11px;}
+        }
+        .catalog_pop_wrap .catalog_pop_kkal {top: 99px;right: 20px;padding-top: 7px;}
+        .catalog_pop_wrap .catalog_pop_title{font-size: 14px;}
+        .catalog_pop_wrap .catalog_pop_title{padding-bottom: 10px;}
+        .catalog_pop_wrap .catalog_pop_subtitle{letter-spacing: 0px;font-size: 12px;padding-bottom: 15px;    line-height: 18px;}
+        .catalog_pop_button {padding: 16px 9% 0;}
+        .catalog_pop_button a{margin-bottom: 22px !important}
+    }
+
+    /*masonry index page*/
+    .massonry{
+        .mbox{padding: 0;}
+        .massonry_wrap{padding-bottom: 26px;}
+        .massonry_item{width: 100%;margin-bottom: 10px;position: relative;
+            &.item_1{width: 92%;height: auto;}
+            &.item_2{width: 92%;padding-top: 0px;}
+            &.item_5{width: 92%;padding-top: 0px;}
+            &.item_7{width: 92%;padding-top: 0px;}
+
+            .massonry_item_text_desc{padding-top: 8px;}
+            .massonry_item_rotate_text{display: none;}
+            .massonry_item_text_descnotsample{padding: 0;}
+            .massonry_item_text .massonry_item_mini_text{position: relative;top: 0;padding-top: 28px;}
+        }
+        .massonry_item_img.img-centered img{width: 75%;}
+    }
 
 }
 @media screen and (max-width: 320px){
-    /*catalog pop*/
-    .catalog_pop_wrap .catalog_pop_cell.right {padding: 14px 10px;}
-    .catalog_pop_wrap .catalog_pop_title{padding-bottom: 12px;}
-    .catalog_pop_wrap .catalog_pop_subtitle {padding-bottom: 14px;line-height: 18px;}
+    // /*catalog pop*/
+    // .catalog_pop_wrap .catalog_pop_cell.right {padding: 14px 10px;}
+    // .catalog_pop_wrap .catalog_pop_title{padding-bottom: 12px;}
+    // .catalog_pop_wrap .catalog_pop_subtitle {padding-bottom: 14px;line-height: 18px;}
 
 
 

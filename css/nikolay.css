@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*ебаут ас))))*/
 .about-us-wrapper {
-  padding-bottom: 93px;
+  padding-bottom: 91px;
 }
 
 .about-us-wrapper .about-us-align .about-title {
@@ -13,12 +13,29 @@
   font-family: 'Merel';
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 19rem;
+  font-size: 19px;
   letter-spacing: 1px;
 }
 
 .about-us-wrapper .about-us-align .img-wrapp {
-  margin-bottom: 60px;
+  margin-bottom: 57px;
+  position: relative;
+}
+
+.about-us-wrapper .about-us-align .img-wrapp img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-wrapper .about-us-align .img-wrapp .about-logo {
+  width: 301px;
+  position: absolute;
+  top: -webkit-calc(50% - 27px);
+  top: -moz-calc(50% - 27px);
+  top: calc(50% - 27px);
+  left: -webkit-calc(50% - 150px);
+  left: -moz-calc(50% - 150px);
+  left: calc(50% - 150px);
 }
 
 .about-us-wrapper .about-us-align .about-text {
@@ -27,8 +44,9 @@
 
 .about-us-wrapper .about-us-align .about-text span {
   font-family: 'Merel';
-  font-weight: 500;
-  font-size: 14rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 /*/ебаут ас))))*/
@@ -42,23 +60,35 @@
   font-family: 'Merel';
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 19rem;
+  font-size: 19px;
   letter-spacing: 1px;
+  word-spacing: 1px;
 }
 
 .special-wrapper .special-align .img-wrapp {
-  margin-bottom: 60px;
+  margin-bottom: 79px;
 }
 
 .special-wrapper .special-align .img-wrapp .img-drop {
-  display: inline-block;
-  width: 49%;
+  float: right;
+  width: 49.2%;
+}
+
+.special-wrapper .special-align .img-wrapp .img-drop a {
+  cursor: pointer;
+}
+
+.special-wrapper .special-align .img-wrapp .img-drop a img {
+  width: 100%;
+  height: auto;
 }
 
 .special-wrapper .special-align .img-wrapp .img-menu {
-  margin-right: -webkit-calc(2% - 1px);
-  margin-right: -moz-calc(2% - 1px);
-  margin-right: calc(2% - 1px);
+  float: left;
+}
+
+.special {
+  padding: 4px 0 0;
 }
 
 /*/special*/
@@ -71,7 +101,7 @@
   font-family: 'Merel';
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 24rem;
+  font-size: 24px;
   letter-spacing: 5px;
   color: #303030;
 }
@@ -106,7 +136,7 @@
 }
 
 .cond-wrapp .cond-align .cond-block .title-block span {
-  font-size: 14rem;
+  font-size: 14px;
   letter-spacing: 3px;
 }
 
@@ -118,9 +148,17 @@
 .cond-wrapp .cond-align .cond-block .text-block span {
   font-weight: 500;
   text-transform: none;
-  font-size: 14rem;
+  font-size: 14px;
   letter-spacing: 1px;
   line-height: 30px;
+}
+
+.title-photo.conditer .logo {
+  -webkit-transform: translate(-50%, -52%);
+  -moz-transform: translate(-50%, -52%);
+  -ms-transform: translate(-50%, -52%);
+  -o-transform: translate(-50%, -52%);
+  transform: translate(-50%, -52%);
 }
 
 /*/conditer -choise*/
@@ -130,6 +168,18 @@
   max-width: 1500px;
   margin: 0 auto;
   width: 100%;
+  position: relative;
+}
+
+.title-photo .logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .title-photo.send {
@@ -143,7 +193,7 @@
 
 .title-photo.send .title-photo-align span {
   color: #fff;
-  font-size: 24rem;
+  font-size: 24px;
   font-family: 'Merel';
   font-weight: 500;
   line-height: 30px;
@@ -179,7 +229,7 @@
 }
 
 .title-photo.send .title-photo-align .bread-text span {
-  font-size: 18rem;
+  font-size: 18px;
 }
 
 .title-photo.send .title-photo-align .bread-phone {
@@ -188,7 +238,7 @@
 }
 
 .title-photo.send .title-photo-align .bread-phone span {
-  font-size: 48rem;
+  font-size: 48px;
   font-weight: 700;
   letter-spacing: 8.5px;
 }
@@ -240,7 +290,7 @@
 .send-content-wrapp .send-align span {
   font-family: 'Merel';
   font-weight: 400;
-  font-size: 14rem;
+  font-size: 14px;
   color: #2d2d2e;
 }
 
@@ -299,7 +349,7 @@
 
 .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-img span {
   font-weight: 900;
-  font-size: 30rem;
+  font-size: 30px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -309,7 +359,7 @@
 }
 
 .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-text span {
-  font-size: 18rem;
+  font-size: 18px;
   color: #2f3030;
 }
 
@@ -318,8 +368,8 @@
 }
 
 .send-content-wrapp .send-align .send-text1 span {
-  font-size: 18rem;
-  line-height: 30rem;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .send-content-wrapp .send-align .send-text2 {
@@ -328,7 +378,7 @@
 
 .send-content-wrapp .send-align .send-text2 span {
   font-weight: 700;
-  font-size: 72.35rem;
+  font-size: 72.35px;
   color: #ccc;
 }
 
@@ -337,7 +387,7 @@
 }
 
 .send-content-wrapp .send-align .send-text3 span {
-  line-height: 30rem;
+  line-height: 30px;
 }
 
 .send-content-wrapp .send-align .send-text4 {
@@ -355,18 +405,18 @@
 }
 
 .title .title-text {
-  font-size: 29rem;
+  font-size: 29px;
   font-family: "Merel";
   font-weight: 700;
-  padding: 10rem 10% 10rem 10%;
+  padding: 10px 10% 10px 10%;
   text-transform: uppercase;
-  letter-spacing: 3rem;
+  letter-spacing: 3px;
 }
 
 .title.contacts .title-text {
-  font-size: 24rem;
+  font-size: 24px;
   padding-top: 24px;
-  letter-spacing: 5rem;
+  letter-spacing: 5px;
   padding-bottom: 23px;
 }
 
@@ -394,7 +444,7 @@
 .breadcrumbs .crumps-align span {
   font-family: 'Merel';
   font-weight: 400;
-  font-size: 13rem;
+  font-size: 13px;
   color: #919294;
   letter-spacing: 0.5px;
 }
@@ -425,7 +475,7 @@
   font-family: 'Merel';
   font-weight: 500;
   color: #303030;
-  font-size: 18rem;
+  font-size: 18px;
 }
 
 .contact-wrapp .contact-align .contact-item .item-align {
@@ -443,7 +493,7 @@
 .contact-wrapp .contact-align .contact-item .item-align .item-name span {
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 3.5rem;
+  letter-spacing: 3.5px;
 }
 
 .contact-wrapp .contact-align .contact-item .item-align .item-addres {
@@ -512,7 +562,7 @@
   color: #fff;
   font-weight: 400;
   letter-spacing: 1px;
-  font-size: 14rem;
+  font-size: 14px;
 }
 
 /*/contacts**/

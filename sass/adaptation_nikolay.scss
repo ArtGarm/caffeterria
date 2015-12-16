@@ -136,13 +136,22 @@
 
 
     /*special*/
-        .special-wrapper{.special-align{.special-title{margin-bottom: 6%;span {font-size: 16px;letter-spacing: 1.6px;}}}}
+        .special-wrapper{.special-align{.special-title{margin-bottom: 6.3%;span {font-size: 16px;letter-spacing: 1.6px;}}}}
+        .special-wrapper .special-align .img-wrapp {    margin-bottom: 52px;}
     /*/special*/
 
 
     /*about*/
-        .about-us-wrapper{.about-us-align{.about-title{margin-bottom: 6%;span {font-size: 16px;letter-spacing: 1.6px;}}}}
+        .about-us-wrapper{ padding-bottom: 43px;
+            .about-us-align{
+                .about-title{margin-bottom: 6.3%;span {font-size: 16px;letter-spacing: 1.6px;}}
+                .img-wrapp{margin-bottom: 42px;}
+                .about-text{span{ font-size: 13px;}}
+            }
+        }
+
     /*/about*/
+
 
 
     /*footer*/
@@ -152,13 +161,20 @@
                 .header-place {display: none;}
                 .convert-adress{display: none;}
                 .socials-head{max-width: 100%;padding-top: 34px;padding-bottom: 39px;
-                    p{font-weight: 400;font-size: 14px;padding-bottom: 37px;}
+                    p{font-weight: 400;font-size: 14px;padding-bottom: 37px;letter-spacing: 1.5px;}
                     .soc-fb{width: 170px; margin: 0 auto;}
                 }
             }
         }
         .navi-wrapp-main{display: none;}
     /*/footer*/
+    .cond-wrapp .cond-align span {font-size: 16px;letter-spacing: 3.1px;}
+    .cond-wrapp .cond-align {    padding: 51px 0 111px;}
+    .cond-wrapp .cond-align .cond-title {padding-bottom: 86px;}
+    .cond-wrapp .cond-align .cond-block:nth-child(3) {padding-left: 32px;}
+    .cond-wrapp .cond-align .cond-block .text-block {width: 100%;}
+    .title-photo{&.conditer{.logo{transform:translate(-39%, -49%);img{    width: 79%;}}}}
+    .bread-img{    overflow: hidden;    max-height: 250px;}
 }
 @media screen and (max-width: 800px){
     /*send*/
@@ -188,10 +204,12 @@
 
     /*conditer*/
         .cond-wrapp{
-            .cond-align{padding: 6.8% 0 4%;
-                .cond-title{padding-bottom: 8%;}
-                .cond-block{max-width: 100%;padding-bottom: 8%;padding-left: 10px;
-                    .text-block{    width: 60%;}
+            .cond-align{padding: 6.8% 0 23px;
+                .cond-title{padding-bottom: 7.5%;}
+                .cond-block{max-width: 100%;padding-bottom: 8.5%;padding-left: 10px;
+                    .text-block{    width: 54%;
+                        span{font-weight: 400; letter-spacing: 0;}
+                    }
                     &:nth-child(3) { padding-left: 10px;}
                 }
             }
@@ -222,6 +240,12 @@
             }
         }
     /*/contacts*/
+    .about-us, .special{ .mbox{padding: 0 36px;}}
+    .special-wrapper{.special-align{.special-title{margin-bottom: 8.2%;}}}
+    .about-us{display:none;}
+    .special{ padding: 11px 0;}
+    .title-photo{&.conditer{.logo{transform:translate(-32%, -49%);img{    width: 64%;}}}}
+    .bread-img{    overflow: hidden;    max-height: 200px;}
 }
 @media screen and (max-width: 767px){
 
@@ -275,11 +299,34 @@
                     }
                 }
             }
-            &.about, &.action, &.catalog, &.conditer, &.conditer-bread, &.conditer-stock, &.contacts {padding-bottom: 70%;}
+            &.about, &.action, &.catalog,  &.conditer-bread, &.conditer-stock, &.contacts {padding-bottom: 70%;}
+            &.conditer{padding-bottom: 173px;}
             &.action, &.catalog, &.conditer, &.conditer-bread, &.conditer-stock, &.contacts{.title-photo-align{.bread-img{img{width: 711px;}}}}
         }
     /*/send*/
     .title{padding: 0 0 52px;}
+    .about-us, .special{ .mbox{padding: 0 15px;}}
+    .special-wrapper{
+        .special-align{
+            .special-title{margin-bottom:37px;
+                span{font-size: 12px;letter-spacing: 1.1px;}
+            }
+            .img-wrapp {    margin-bottom: 22px;}
+        }
+    }
+    .footer-wrapp-main .main-block .socials-head p {font-size: 10px; letter-spacing: 1px;    padding-bottom: 30px;}
+    .footer-wrapp-main .main-block .socials-head {    padding-bottom: 60px;padding-top: 26px;}
+    .cond-wrapp .cond-align span {    font-size: 14px;    letter-spacing: 2.8px;}
+    .cond-wrapp .cond-align {    padding: 5px 0 1px;}
+    .cond-wrapp .cond-align .cond-block{padding-left: 0;padding-bottom: 36px;}
+    .cond-wrapp .cond-align .cond-block .img-block {width: 55%; margin: 0 auto;    padding-bottom: 26px;}
+    .cond-wrapp .cond-align .cond-title {    padding-bottom: 36px;}
+    .cond-wrapp .cond-align .cond-block .title-block span {    font-size: 12px;    letter-spacing: 2.5px;}
+    .cond-wrapp .cond-align .cond-block .title-block {    padding-bottom: 8px;}
+    .cond-wrapp .cond-align .cond-block .text-block span {       font-size: 12px;    line-height: 18px;}
+    .cond-wrapp .cond-align .cond-block:nth-child(3) {    padding-left: 0px;}
+    .title-photo{&.conditer{.logo{transform:translate(-34.5%, -49%);img{    width: 67%;}}}}
+    .bread-img{    overflow: hidden;    max-height: 140px;}
 
 }
 @media screen and (max-width: 320px){

@@ -1,12 +1,15 @@
 /*ебаут ас))))*/
-    .about-us-wrapper{padding-bottom: 93px;
+    .about-us-wrapper{padding-bottom: 91px;
         .about-us-align{
             .about-title{text-align: center;     margin-bottom: 85px;
-                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size:  19rem;letter-spacing: 1px;}
+                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size:  19px;letter-spacing: 1px;}
             }
-            .img-wrapp{margin-bottom: 60px;}
+            .img-wrapp{margin-bottom: 57px; position: relative;
+                img{width: 100%; height: auto;}
+                .about-logo{width:301px; position: absolute;    top: calc(50% - 27px);    left: calc(50% - 150px);}
+            }
             .about-text{text-align: center;
-                span{font-family: 'Merel';font-weight: 500; font-size: 14rem;}
+                span{font-family: 'Merel'; font-weight: 400; font-size: 14px; line-height: 24px;}
             }
         }
     }
@@ -16,15 +19,19 @@
     .special-wrapper{
         .special-align{
             .special-title{text-align: center;     margin-bottom: 85px;
-                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 19rem;letter-spacing: 1px;}
+                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 19px;letter-spacing: 1px;    word-spacing: 1px;}
             }
-            .img-wrapp{margin-bottom: 60px;
-                .img-drop{display: inline-block;width: 49%;}
-                .img-menu{    margin-right: calc(2% - 1px);}
+            .img-wrapp{margin-bottom: 79px;
+                .img-drop{float:right; width: 49.2%;
+                    a{cursor:pointer;
+                        img{width: 100%; height: auto;}
+                    }
+                }
+                .img-menu{float:left; }
             }
         }
     }
-
+.special{ padding:4px 0 0;}
 
 /*/special*/
 
@@ -32,7 +39,7 @@
 
         .cond-wrapp{
             .cond-align{    padding: 126px 0 183px;
-                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 24rem;letter-spacing: 5px; color:#303030;}
+                span{font-family: 'Merel';font-weight:700; text-transform:uppercase;font-size: 24px;letter-spacing: 5px; color:#303030;}
                 .cond-title{width:100%; text-align: center; padding-bottom: 147px;
 
                 }
@@ -41,33 +48,34 @@
                     &:nth-child(3){    padding-left: 41px;}
                     .img-block{padding-bottom: 41px;}
                     .title-block{padding-bottom: 31px;
-                        span{font-size: 14rem;letter-spacing: 3px;}
+                        span{font-size: 14px;letter-spacing: 3px;}
                     }
                     .text-block{width:69%; display: inline-block;
-                        span{font-weight:500; text-transform:none;font-size: 14rem;letter-spacing: 1px;line-height: 30px;}
+                        span{font-weight:500; text-transform:none;font-size: 14px;letter-spacing: 1px;line-height: 30px;}
                     }
                 }
             }
         }
-
+        .title-photo{&.conditer{.logo{transform:translate(-50%, -52%);}}}
 /*/conditer -choise*/
 
 /*title photo*/
     /*send*/
-    .title-photo{ max-width: 1500px;    margin: 0 auto; width: 100%;
+    .title-photo{ max-width: 1500px;    margin: 0 auto; width: 100%; position: relative;
+        .logo{position:absolute; left:50%; top:50%; transform:translate(-50%, -50%);}
         &.send{    padding-bottom: 16%;
             .title-photo-align{position: relative; text-align: center;
-                span{color:#fff; font-size: 24rem;font-family: 'Merel';font-weight: 500;line-height: 30px;}
+                span{color:#fff; font-size: 24px;font-family: 'Merel';font-weight: 500;line-height: 30px;}
                 .bread-img{overflow: hidden;    position: absolute;    left: 0;    bottom: 0;    right: 0;    top: 0;
                     .bread-img-wrapp{position: absolute; top:50%; left:50%;transform:translate(-50%, -50%);
                         img{max-width: none;}
                     }
                 }
                 .bread-text{position: relative; padding: 6% 12% 4.4%;
-                    span{ font-size: 18rem;}
+                    span{ font-size: 18px;}
                 }
                 .bread-phone{position: relative; padding: 0 12% 6.6%;
-                    span{font-size: 48rem;font-weight: 700;    letter-spacing: 8.5px;}
+                    span{font-size: 48px;font-weight: 700;    letter-spacing: 8.5px;}
                 }
                 .bred-min{position: relative; padding: 0 12% 6.5%;}
                 .bread-price-wrapp{position: relative;    margin-top: -3%;
@@ -88,7 +96,7 @@
     .send-content-wrapp{
         .send-align{text-align: center; padding-bottom: 15%;
             .title{display:none;}
-            span{font-family: 'Merel';font-weight: 400;font-size: 14rem; color:#2d2d2e;
+            span{font-family: 'Merel';font-weight: 400;font-size: 14px; color:#2d2d2e;
                 b{font-weight: 400;color:#d10019;}
             }
             .send-title{    padding-bottom: 120px;
@@ -102,31 +110,31 @@
                     &:nth-child(4){.item-img{background-color: #cfccff;}}
                     .item-align{
                         .item-img{border-radius: 50%; width: 141px; height: 141px; display: inline-block;padding-top: 43px;
-                            span{font-weight: 900;font-size: 30rem;color:#fff;text-transform: uppercase;}
+                            span{font-weight: 900;font-size: 30px;color:#fff;text-transform: uppercase;}
                         }
                         .item-text{padding-top: 28px;
-                            span{font-size: 18rem;color:#2f3030;}
+                            span{font-size: 18px;color:#2f3030;}
                         }
                     }
                 }
             }
             .send-text1{padding: 0 17%;
-                span{font-size: 18rem;line-height: 30rem;}
+                span{font-size: 18px;line-height: 30px;}
             }
             .send-text2{padding-top: 38px;
-                span{font-weight: 700;font-size: 72.35rem;color: #ccc;}
+                span{font-weight: 700;font-size: 72.35px;color: #ccc;}
             }
             .send-text3{padding-top: 35px;
-                span{line-height: 30rem;}
+                span{line-height: 30px;}
             }
             .send-text4{ padding-top: 36px;}
             .send-text5{    padding-top: 42px;}
         }
     }
     .title{width: 100%; text-align: center;    padding:22px 0 52px;
-        .title-text{font-size: 29rem; font-family:"Merel"; font-weight: 700; padding: 10rem 10% 10rem 10%; text-transform: uppercase; letter-spacing: 3rem;}
+        .title-text{font-size: 29px; font-family:"Merel"; font-weight: 700; padding: 10px 10% 10px 10%; text-transform: uppercase; letter-spacing: 3px;}
         &.contacts{
-            .title-text{font-size: 24rem;padding-top: 24px;letter-spacing: 5rem;padding-bottom: 23px;}
+            .title-text{font-size: 24px;padding-top: 24px;letter-spacing: 5px;padding-bottom: 23px;}
         }
     }
 
@@ -140,7 +148,7 @@
             a{text-decoration: none;
                 &:hover{span{color:#ccc;}}
             }
-            span{font-family: 'Merel';font-weight: 400;font-size: 13rem; color:#919294;letter-spacing: 0.5px;}
+            span{font-family: 'Merel';font-weight: 400;font-size: 13px; color:#919294;letter-spacing: 0.5px;}
         }
     }
 /*/breadcrumps*/
@@ -152,11 +160,11 @@
                 .contact-align{padding-bottom:63px;width:100%;
                     .contact-item{background-color: #fafafa; width:calc(50% - 15px); display: inline-block; padding-bottom: 54px;margin-bottom:18px;vertical-align: top;
                         &:nth-child(1),&:nth-child(3){ margin-right: 19px;}
-                        span{font-family: 'Merel';font-weight: 500; color: #303030; font-size: 18rem;}
+                        span{font-family: 'Merel';font-weight: 500; color: #303030; font-size: 18px;}
                         .item-align{ text-align: center;
                             .item-img{padding-bottom: 39px;}
                             .item-name{padding-bottom: 12px;
-                                span{font-weight: 700;text-transform: uppercase;letter-spacing: 3.5rem;}
+                                span{font-weight: 700;text-transform: uppercase;letter-spacing: 3.5px;}
                             }
                             .item-addres{padding-bottom: 48px;
                                 span{font-weight: 400;}
@@ -171,7 +179,7 @@
                             }
                             .item-butt{
                                 a{background-color: #d10019;margin:0 auto; text-decoration: none; display: block; width:200px; height: 48px; text-align: center; text-transform: uppercase;padding-top: 15px;border-radius: 2px;
-                                    span{color:#fff;font-weight: 400; letter-spacing: 1px;font-size: 14rem;}
+                                    span{color:#fff;font-weight: 400; letter-spacing: 1px;font-size: 14px;}
                                 }
                             }
                         }
