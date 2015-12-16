@@ -276,16 +276,7 @@
         .special-wrapper{.special-align{.img-wrapp{.img-drop{width:100%;margin-bottom: 3%;}}}}
     /*/special*/
     /* title foto*/
-        .title-photo{
-            &.about, &.action, &.catalog, &.conditer, &.conditer-bread, &.conditer-stock, &.contacts {overflow: hidden;padding-bottom: 50%;position: relative;
-                .title-photo-align{    position: absolute;    top: 50%;    left: 50%;
-                    .bread-img{ position: absolute;    transform: translate(-50%,-50%);
-                        img{    max-width: none;}
-                    }
-                }
-            }
-            &.action, &.catalog, &.conditer, &.conditer-bread, &.conditer-stock, &.contacts{.title-photo-align{.bread-img{img{width: 984px;}}}}
-        }
+
     /*/title foto*/
 }
 @media screen and (max-width: 479px){

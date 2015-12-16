@@ -420,30 +420,6 @@
   }
   /*/special*/
   /* title foto*/
-  .title-photo.about, .title-photo.action, .title-photo.catalog, .title-photo.conditer, .title-photo.conditer-bread, .title-photo.conditer-stock, .title-photo.contacts {
-    overflow: hidden;
-    padding-bottom: 50%;
-    position: relative;
-  }
-  .title-photo.about .title-photo-align, .title-photo.action .title-photo-align, .title-photo.catalog .title-photo-align, .title-photo.conditer .title-photo-align, .title-photo.conditer-bread .title-photo-align, .title-photo.conditer-stock .title-photo-align, .title-photo.contacts .title-photo-align {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  }
-  .title-photo.about .title-photo-align .bread-img, .title-photo.action .title-photo-align .bread-img, .title-photo.catalog .title-photo-align .bread-img, .title-photo.conditer .title-photo-align .bread-img, .title-photo.conditer-bread .title-photo-align .bread-img, .title-photo.conditer-stock .title-photo-align .bread-img, .title-photo.contacts .title-photo-align .bread-img {
-    position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  .title-photo.about .title-photo-align .bread-img img, .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
-    max-width: none;
-  }
-  .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
-    width: 984px;
-  }
   /*/title foto*/
 }
 
