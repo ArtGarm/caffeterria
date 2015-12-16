@@ -201,10 +201,6 @@
 						+7 <span>(495)</span> 730-24-40
 					</a>
 				</div>
-
-				<div class="sendwich-icon">
-					<span></span>
-				</div>
 			</div>
 		</div>
 		<div class="header-bottom">
@@ -212,8 +208,8 @@
 				<div class="header-bottom-nav">
 					<ul>
 						<li class="second-level-wrap">
-							<a href="#">О нас</a>
-							<div class="second-level">
+							<a href="#" class="closest-level">О нас</a>
+							<div class="second-level device-second-level">
 
 								<div class="mbox">
 									<div class="second-level-wrap cfix">
@@ -225,8 +221,8 @@
 												<div class="second-level-menu-table">
 													<div class="second-level-menu-row">
 														<div class="second-level-menu-col">
-															<div class="second-level-title">ЕДА</div>
-															<div class="second-level-list">
+															<a href="#" class="second-level-title closest-level">ЕДА</a>
+															<div class="second-level-list device-second-level">
 																<ul>
 																	<li><a href="#">Завтраки</a></li>
 																	<li><a href="#">Топпинги / сладкие топпинги</a></li>
@@ -241,8 +237,8 @@
 															</div>
 														</div>
 														<div class="second-level-menu-col">
-															<div class="second-level-title">НАПИТКИ</div>
-															<div class="second-level-list">
+															<a href="#" class="second-level-title closest-level">НАПИТКИ</a>
+															<div class="second-level-list device-second-level">
 																<ul>
 																	<li><a href="#">Кофе и шоколад</a></li>
 																	<li><a href="#">Холодный кофе</a></li>
@@ -256,8 +252,8 @@
 															</div>
 														</div>
 														<div class="second-level-menu-col">
-															<div class="second-level-title">КОНДИТЕРСКАЯ</div>
-															<div class="second-level-list">
+															<a href="#" class="second-level-title closest-level">КОНДИТЕРСКАЯ</a>
+															<div class="second-level-list device-second-level">
 																<ul>
 																	<li><a href="#">Пирожные и торты</a></li>
 																	<li><a href="#">Муссы</a></li>
@@ -269,8 +265,8 @@
 															</div>
 														</div>
 														<div class="second-level-menu-col">
-															<div class="second-level-title">ПЕКАРНЯ</div>
-															<div class="second-level-list">
+															<a href="#" class="second-level-title closest-level">ПЕКАРНЯ</a>
+															<div class="second-level-list device-second-level">
 																<ul>
 																	<li><a href="#">Хлеб</a></li>
 																	<li><a href="#">Круассаны</a></li>
@@ -289,8 +285,8 @@
 							</div>
 						</li>
 						<li class="second-level-wrap">
-							<a href="#">меню</a>
-							<div class="second-level">
+							<a href="#" class="closest-level">меню</a>
+							<div class="second-level device-second-level">
 
 								<div class="mbox">
 									<div class="second-level-wrap cfix">
@@ -302,8 +298,8 @@
 												<div class="second-level-menu-table">
 													<div class="second-level-menu-row">
 														<div class="second-level-menu-col">
-															<div class="second-level-title">ЕДА</div>
-															<div class="second-level-list">
+															<a href="#" class="second-level-title closest-level">ЕДА</a>
+															<div class="second-level-list device-second-level">
 																<ul>
 																	<li><a href="#">Завтраки</a></li>
 																	<li><a href="#">Топпинги / сладкие топпинги</a></li>
@@ -318,8 +314,8 @@
 															</div>
 														</div>
 														<div class="second-level-menu-col">
-															<div class="second-level-title">НАПИТКИ</div>
-															<div class="second-level-list">
+															<a href="#" class="second-level-title closest-level">НАПИТКИ</a>
+															<div class="second-level-list device-second-level">
 																<ul>
 																	<li><a href="#">Кофе и шоколад</a></li>
 																	<li><a href="#">Холодный кофе</a></li>
@@ -333,8 +329,8 @@
 															</div>
 														</div>
 														<div class="second-level-menu-col">
-															<div class="second-level-title">КОНДИТЕРСКАЯ</div>
-															<div class="second-level-list">
+															<a href="#" class="second-level-title closest-level">КОНДИТЕРСКАЯ</a>
+															<div class="second-level-list device-second-level">
 																<ul>
 																	<li><a href="#">Пирожные и торты</a></li>
 																	<li><a href="#">Муссы</a></li>
@@ -346,8 +342,8 @@
 															</div>
 														</div>
 														<div class="second-level-menu-col">
-															<div class="second-level-title">ПЕКАРНЯ</div>
-															<div class="second-level-list">
+															<a href="#" class="second-level-title closest-level">ПЕКАРНЯ</a>
+															<div class="second-level-list device-second-level">
 																<ul>
 																	<li><a href="#">Хлеб</a></li>
 																	<li><a href="#">Круассаны</a></li>
@@ -382,6 +378,12 @@
 						</li>
 					</ul>
 				</div>
+				<div class="sendwich-icon-wrap">
+					<div class="sendwich-icon">
+						<span></span>
+					</div>
+				</div>
+				<div class="sendwich-callback-button">вернуться НАЗАД</div>
 			</div>
 		</div>
 	</header>
