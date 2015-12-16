@@ -1,4 +1,8 @@
 /* about caffe */
+.about-caffe-wrap {
+  padding-bottom: 125px;
+}
+
 .about-caffe-wrap p {
   font-size: 14px;
   font-family: Merel;
@@ -23,7 +27,7 @@
   text-align-last: center;
   word-spacing: -1px;
   line-height: 1.75;
-  margin-bottom: 147px;
+  margin-bottom: 156px;
 }
 
 .about-caffe-wrap .text-justify span {
@@ -61,6 +65,17 @@
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
+}
+
+.about-caffe-wrap .about-caffe-title {
+  text-align: center;
+  color: #303030;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 38px;
+  padding-bottom: 70px;
 }
 
 /* /about caffe */

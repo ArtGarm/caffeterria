@@ -1,15 +1,15 @@
 /* about caffe */
-
-.about-caffe-wrap{
+.about-caffe-wrap{padding-bottom: 125px;
 	p{font-size: 14px; font-family: Merel;margin-bottom: 64px;text-align: justify;text-align-last: center;word-spacing: -4px;    line-height: 1.6;
 		span{text-align: center;width: 100%;display: inline-block;    word-spacing: 0px;}
 	}
-	.text-justify{text-align: justify;text-align-last: center;word-spacing: -1px;line-height: 1.75;margin-bottom: 147px;
+	.text-justify{text-align: justify;text-align-last: center;word-spacing: -1px;line-height: 1.75;margin-bottom: 156px;
 		span{text-align: center;width: 100%;display: inline-block;}
 	}
 	.differend-font{font-size: 1px;font-family: 'SavoyeLetPlain', sans-serif;text-align: center;color: transparent;position: relative;height: 116px;
 		&:before{display: block;content: ''; position: absolute; background-image: url(../images/testimg.png); background-repeat: no-repeat;top: 0px; width: 100%;height: 116px; max-width: 1112px;left: 50%;transform: translateX(-50%);    background-size: 100%;}
 	}
+	.about-caffe-title{text-align: center;color: #303030;font-size: 24px;text-transform: uppercase;font-weight: bold;letter-spacing: 3px;padding-top: 38px;padding-bottom: 70px;}
 }
 
 
