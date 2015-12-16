@@ -75,6 +75,7 @@
 @media screen and (max-width: 992px){
     /*masonry index page*/
     .massonry{
+        .massonry_wrap{padding-bottom: 48px;}
         .massonry_item{float: none;width: 100%;margin-bottom: 10px;position: relative;padding-right: 0px;margin:0 auto;
             &.item_1{width: 72%;height: 249px;}
             &.item_2{width: 69%;height: auto;position: relative;padding-top: 42px;}
@@ -89,8 +90,8 @@
         }
         .massonry_item_img.img-centered img{width: 43%;}
         .massonry_item_text_descnotsample{max-width: 100%;margin-top: 13px;margin-bottom: 39px;}
+        .massonry_item_text_descnotsample{font-size: 12px;}
     }
-    .massonry .massonry_item_text_descnotsample{font-size: 12px;}
 
     /*popap*/
     .popupCatalog{max-width: 768px !important;max-height: 960px !important;left: 0px !important;top: 20px !important;
@@ -166,6 +167,25 @@
         .catalog_pop_button {padding: 16px 9% 0;}
         .catalog_pop_button a{margin-bottom: 22px !important}
     }
+
+    /*masonry index page*/
+    .massonry{
+        .mbox{padding: 0;}
+        .massonry_wrap{padding-bottom: 26px;}
+        .massonry_item{width: 100%;margin-bottom: 10px;position: relative;
+            &.item_1{width: 92%;height: auto;}
+            &.item_2{width: 92%;padding-top: 0px;}
+            &.item_5{width: 92%;padding-top: 0px;}
+            &.item_7{width: 92%;padding-top: 0px;}
+
+            .massonry_item_text_desc{padding-top: 8px;}
+            .massonry_item_rotate_text{display: none;}
+            .massonry_item_text_descnotsample{padding: 0;}
+            .massonry_item_text .massonry_item_mini_text{position: relative;top: 0;padding-top: 28px;}
+        }
+        .massonry_item_img.img-centered img{width: 75%;}
+    }
+
 }
 @media screen and (max-width: 320px){
     // /*catalog pop*/

@@ -35,7 +35,7 @@ function checkMassonry(){
         }
 
         if($(window).width() <= 992){
-         $('.massonry_item,.massonry_wrap').removeAttr("style");
+         $('.massonry_item, .massonry_wrap').removeAttr("style");
         }
     });
 }
