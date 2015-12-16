@@ -174,7 +174,7 @@
     .cond-wrapp .cond-align .cond-block:nth-child(3) {padding-left: 32px;}
     .cond-wrapp .cond-align .cond-block .text-block {width: 100%;}
     .title-photo{&.conditer{.logo{transform:translate(-39%, -49%);img{    width: 79%;}}}}
-    .bread-img{    overflow: hidden;    max-height: 250px;}
+    .bread-img1{    overflow: hidden;    max-height: 250px;}
 }
 @media screen and (max-width: 800px){
     /*send*/
@@ -245,7 +245,7 @@
     .about-us{display:none;}
     .special{ padding: 11px 0;}
     .title-photo{&.conditer{.logo{transform:translate(-32%, -49%);img{    width: 64%;}}}}
-    .bread-img{    overflow: hidden;    max-height: 200px;}
+    .bread-img1{    overflow: hidden;    max-height: 200px;}
 }
 @media screen and (max-width: 767px){
 
@@ -304,7 +304,7 @@
     .cond-wrapp .cond-align .cond-block .text-block span {       font-size: 12px;    line-height: 18px;}
     .cond-wrapp .cond-align .cond-block:nth-child(3) {    padding-left: 0px;}
     .title-photo{&.conditer{.logo{transform:translate(-34.5%, -49%);img{    width: 67%;}}}}
-    .bread-img{    overflow: hidden;    max-height: 140px;}
+    .bread-img1{    overflow: hidden;    max-height: 140px;}
 
 }
 @media screen and (max-width: 320px){
