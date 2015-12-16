@@ -424,25 +424,6 @@
 }
 
 @media screen and (max-width: 479px) {
-  /*send*/
-  .title-photo.send .title-photo-align .bread-text {
-    padding: 1% 3% 1%;
-  }
-  .title-photo.send .title-photo-align .bread-phone {
-    padding: 0 12% 0.5%;
-  }
-  .title-photo.send .title-photo-align .bread-phone span {
-    font-size: 16px;
-  }
-  .title-photo.about, .title-photo.action, .title-photo.catalog, .title-photo.conditer-bread, .title-photo.conditer-stock, .title-photo.contacts {
-    padding-bottom: 70%;
-  }
-  .title-photo.conditer {
-    padding-bottom: 173px;
-  }
-  .title-photo.action .title-photo-align .bread-img img, .title-photo.catalog .title-photo-align .bread-img img, .title-photo.conditer .title-photo-align .bread-img img, .title-photo.conditer-bread .title-photo-align .bread-img img, .title-photo.conditer-stock .title-photo-align .bread-img img, .title-photo.contacts .title-photo-align .bread-img img {
-    width: 711px;
-  }
   /*/send*/
   .title {
     padding: 0 0 52px;
