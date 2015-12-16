@@ -1,16 +1,19 @@
 // slider
-
-.header-slider-wrap{ max-width: 1500px;margin: 0 auto;
+.box-white-fixer{background-color: #eef1f8; }
+.box-block-fixer{background-color: #231610; }
+.header-slider-wrap{ max-width: 1500px;margin: 0 auto;position: relative;
+    .buton-scroll{position: absolute; bottom: 20px; left: calc(50% - 12px); width: 24px; height: 38px; background-image: url(../images/scroller.png); display: none;}
+    .buton-scroll:hover{cursor: pointer;}
     .header-slider-wrap-main{ width: 100%; overflow: hidden;
         .header-slider-item{
             .conteiner-content{ position: relative;
                 .counter{font-size: 30px; color:#ffffff; position: absolute; bottom: 56px; right: 110px; font-style: "Merel"; font-weight: 900; }
                 .content-box-white{ position: absolute; z-index: 2;
-                    h1{ font-size: 100px; font-family: "PFDinTextCondPro", sans-serif; font-weight: 100; color: #2a2a2b;text-transform: uppercase;padding: 87px 87px 0px 104px; margin-bottom: 0px;
+                    .h1{ font-size: 100px; font-family: "PFDinTextCondPro", sans-serif; font-weight: 100; color: #2a2a2b;text-transform: uppercase;padding: 87px 87px 0px 104px; margin-bottom: 0px;
                         span{font-weight: 300; color:#d10019; }
                     }
-                    h2{font-family: "Merel", sans-serif; font-size: 18px; font-style: normal; color:#737478;     padding: 0px 108px 49px 111px;}
-                    h3{font-family: "Merel", sans-serif; font-size: 18px; font-weight: 700; color:#737478; padding: 1px 100px 112px 110px;}
+                    .h2{font-family: "Merel", sans-serif; font-size: 18px; font-style: normal; color:#737478;max-width: 660px;;padding: 0px 108px 49px 111px;}
+                    .h3{font-family: "Merel", sans-serif; font-size: 18px; font-weight: 700; color:#737478; padding: 1px 100px 112px 110px;}
                     a{ text-decoration: none; max-width: 230px; width: 16%;
                         .button-fast{ border: 1px solid #d10019; border-radius: 3px; background-color:#d10019; color: #ffffff; text-transform: uppercase; font-style: "Merel"; font-weight: 700; font-size: 12px; padding: 23px; display: inline-block;     margin-left: 110px; letter-spacing: 4px;}
                     }
@@ -19,11 +22,11 @@
 
                 }
                 .content-box-black{ position: absolute; z-index: 2;
-                    h1{ font-size: 150px; font-family: "SavoyeLetPlain", sans-serif; font-weight: normal; color: #7b4537; padding: 37px 87px 0px 104px; margin-bottom: 0px;
+                    .h1{ font-size: 150px; font-family: "SavoyeLetPlain", sans-serif; font-weight: normal; color: #7b4537; padding: 37px 87px 0px 104px; margin-bottom: 0px;
                         span{ color:#ffffff; }
                     }
-                    h2{font-family: "Merel", sans-serif; font-size: 18px; font-style: normal; color:#ffffff; padding: 0px 108px 49px 111px; margin-top: 0px;}
-                    h3{font-family: "Merel", sans-serif; font-size: 18px; font-weight: 700; color:#ffffff; padding: 1px 100px 87px 110px;}
+                    .h2{font-family: "Merel", sans-serif; font-size: 18px; font-style: normal; color:#ffffff; padding: 0px 108px 49px 111px; margin-top: 0px; max-width: 660px;}
+                    .h3{font-family: "Merel", sans-serif; font-size: 18px; font-weight: 700; color:#ffffff; padding: 1px 100px 87px 110px;}
                     a{text-decoration: none; max-width: 230px; width: 16%;
                         .button-fast{ border: 1px solid #ffffff; border-radius: 3px; background-color:none; color: #ffffff; text-transform: uppercase; font-style: "Merel"; font-weight: 700; font-size: 12px; padding: 23px; display: inline-block; margin-left: 110px; letter-spacing: 4px; margin-left: 110px; }
                     }
@@ -73,11 +76,11 @@
     .navi-wrapp-main{width: 100%; background-color: #f5f7fa;margin: 0 auto;}
     .main-block{ text-align: center;max-width: 1500px;
         .header-place{  padding-top: 76px; padding-bottom: 20px;  font-family:"Merel", sans-serif; font-weight: 700; text-transform: uppercase; font-size: 18px; letter-spacing: 2px; color: #000000; }
-        .convert-adress{  width: 100%; padding-top: 45px; margin-bottom: 0px; text-align: justify;
+        .convert-adress{  width: 100%; padding-top: 47px; margin-bottom: 0px; text-align: justify;
             .adress{display: inline-block; width: 23%; vertical-align: top;text-transform: uppercase;  font-weight: 500; font-family:"Merel", sans-serif; font-size: 11px; color: #000000; }
         }
-        .socials-head{ max-width: 200px; padding-top: 69px; padding-bottom: 57px; margin: 0 auto;
-            p{color: #aaacad; text-transform: uppercase;font-family:"Merel", sans-serif; font-weight: 700;font-size: 11px; padding-bottom: 32px; margin-bottom: 0px; letter-spacing: 1px;}
+        .socials-head{ max-width: 200px; padding-top: 67px; padding-bottom: 57px; margin: 0 auto;
+            p{color: #aaacad; text-transform: uppercase;font-family:"Merel", sans-serif; font-weight: 500;font-size: 11px; padding-bottom: 32px; margin-bottom: 0px; letter-spacing: 1px;}
            .soc-fb{
                 a{border-radius: 50%;    border: solid 1px #ccc;    width: 32px;    height: 32px;    display: inline-block; vertical-align: top;transition:border 200ms linear;
                     &:nth-child(1){    margin-right: 17px;}
@@ -88,7 +91,7 @@
 
 
     }
-    nav{ text-align: center; padding-top: 28px; padding-bottom: 27px;
+    nav{ text-align: center; padding-top: 28px; padding-bottom: 29px;
         ul li{display: inline-block; width: 14%; margin-left: -4px;
             &:first-child{margin-left: 0;}
             a{color: #919294; font-family: "Merel", sans-serif; font-weight: 500; font-size: 12px;text-transform: uppercase; text-decoration: none;}
