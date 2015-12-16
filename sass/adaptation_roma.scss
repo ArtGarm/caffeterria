@@ -12,8 +12,14 @@
 }
 @media screen and (max-width: 1024px){
 	/* about caffe */
+	.title-photo{
+		&.about{max-height: 250px;overflow: hidden;}
+	}
+	.breadcrumbs{
+		&.about{display: none;}
+	}
 	.about-caffe-wrap{
-		.mbox{max-width: 888px; width: 100%;
+		.mbox{max-width: 934px; width: 100%;
 			.about-caffe{
 				p{font-size: 13px;word-spacing: -1px;line-height: 1.7;margin-bottom: 40px;
 					span{display: inline;word-spacing: -1px;}
@@ -23,9 +29,11 @@
 				}
 				.differend-font{font-size: 27px;
 					span{font-size: 37.5px;}
+					&:before{width: 88%;height: 71px;background-size: 90%;background-position: center center;}
 				}
 			}
 		}
+		.about-caffe-title{font-size: 21px;padding-top: 45px;padding-bottom: 46px;}
 	}
 	/* /about caffe */
 
@@ -51,14 +59,19 @@
 	.add-to-cart{opacity: 1!important;}
 }
 @media screen and (max-width: 992px){
-	.about-caffe-wrap{
-		.mbox{max-width: 100%;padding: 0px 20px;}
-	}
-
 	.action-content-wrap{
 		.mbox{max-width: 100%;
 			.action-block{margin-bottom: 5%;}
 		}
+	}
+	/* about caffe */
+	.about-caffe-wrap{padding-bottom: 20px;
+		.mbox{max-width: 100%;padding: 0px 20px;}
+		.about-caffe-title{font-size: 19px;padding-top: 50px;padding-bottom: 45px;}
+		.mbox .about-caffe p{margin-bottom: 51px;}
+		.mbox .about-caffe .text-justify{margin-bottom: 47px;}
+		.mbox .about-caffe .differend-font:before{width: 109%;height: 79px;}
+		.mbox .about-caffe .differend-font{margin-bottom: 0;}
 	}
 }
 @media screen and (max-width: 768px){

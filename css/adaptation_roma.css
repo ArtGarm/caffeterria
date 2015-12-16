@@ -1,7 +1,14 @@
 @media screen and (max-width: 1024px) {
   /* about caffe */
+  .title-photo.about {
+    max-height: 250px;
+    overflow: hidden;
+  }
+  .breadcrumbs.about {
+    display: none;
+  }
   .about-caffe-wrap .mbox {
-    max-width: 888px;
+    max-width: 934px;
     width: 100%;
   }
   .about-caffe-wrap .mbox .about-caffe p {
@@ -27,6 +34,20 @@
   }
   .about-caffe-wrap .mbox .about-caffe .differend-font span {
     font-size: 37.5px;
+  }
+  .about-caffe-wrap .mbox .about-caffe .differend-font:before {
+    width: 88%;
+    height: 71px;
+    -webkit-background-size: 90% 90%;
+    -moz-background-size: 90%;
+    -o-background-size: 90%;
+    background-size: 90%;
+    background-position: center center;
+  }
+  .about-caffe-wrap .about-caffe-title {
+    font-size: 21px;
+    padding-top: 45px;
+    padding-bottom: 46px;
   }
   /* /about caffe */
   /* actions */
@@ -66,15 +87,37 @@
 }
 
 @media screen and (max-width: 992px) {
-  .about-caffe-wrap .mbox {
-    max-width: 100%;
-    padding: 0px 20px;
-  }
   .action-content-wrap .mbox {
     max-width: 100%;
   }
   .action-content-wrap .mbox .action-block {
     margin-bottom: 5%;
+  }
+  /* about caffe */
+  .about-caffe-wrap {
+    padding-bottom: 20px;
+  }
+  .about-caffe-wrap .mbox {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .about-caffe-wrap .about-caffe-title {
+    font-size: 19px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+  .about-caffe-wrap .mbox .about-caffe p {
+    margin-bottom: 51px;
+  }
+  .about-caffe-wrap .mbox .about-caffe .text-justify {
+    margin-bottom: 47px;
+  }
+  .about-caffe-wrap .mbox .about-caffe .differend-font:before {
+    width: 109%;
+    height: 79px;
+  }
+  .about-caffe-wrap .mbox .about-caffe .differend-font {
+    margin-bottom: 0;
   }
 }
 
