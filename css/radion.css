@@ -123,7 +123,7 @@
 /*massonry*/
 .massonry .massonry_wrap {
   padding-bottom: 60px;
-  padding-top: 65px;
+  padding-top: 80px;
 }
 
 .massonry .massonry_wrap:after {
@@ -139,7 +139,7 @@
 .massonry .massonry_item {
   float: left;
   width: 25%;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   position: relative;
 }
 
@@ -270,8 +270,8 @@
   font-weight: bold;
   text-transform: uppercase;
   position: absolute;
-  top: 75px;
-  right: -45px;
+  top: 59px;
+  right: -58px;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
@@ -352,8 +352,8 @@
 .massonry .massonry_item_text_descnotsample {
   text-align: center;
   font-size: 16px;
-  padding-top: 15px;
-  padding-bottom: 23px;
+  padding-top: 30px;
+  padding-bottom: 2px;
 }
 
 .massonry .massonry_item_img.img-centered {
@@ -363,6 +363,7 @@
 
 .massonry .massonry_item_img.img-centered img {
   display: inline-block;
+  padding-top: 5px;
 }
 
 .massonry .massonry_item_img .img-centered-text {
@@ -384,6 +385,10 @@
 }
 
 /*catalog pop*/
+.catalog_pop_wrap {
+  min-width: 740px;
+}
+
 .catalog_pop_wrap .catalog_pop_table {
   display: table;
 }
@@ -398,12 +403,14 @@
 
 .catalog_pop_wrap .catalog_pop_cell.left {
   background-color: #ccf5f3;
+  width: 51%;
 }
 
 .catalog_pop_wrap .catalog_pop_cell.right {
   text-align: center;
   padding: 45px 10px;
   color: #000;
+  width: 49%;
 }
 
 .catalog_pop_wrap .catalog_pop_title {
@@ -415,7 +422,7 @@
 
 .catalog_pop_wrap .catalog_pop_subtitle {
   font-size: 13px;
-  padding-bottom: 75px;
+  padding-bottom: 60px;
   line-height: 24px;
 }
 

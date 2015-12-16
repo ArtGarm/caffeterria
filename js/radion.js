@@ -13,7 +13,8 @@ function popUpCatalog(){
         autoSize:true,
         openEffect:'elastic',
         closeEffect:'elastic',
-        padding:0
+        padding:0,
+        wrapCSS:" popupCatalog"
     });
 
     $('.catalog_pop_close').click(function(){
@@ -25,7 +26,7 @@ $(document).ready(function(){
     popUpCatalog();
 });
 $(window).load(function(){
-    if($(window).width() > 666){
+    if($(window).width() > 768){
          massonryInit();
     }
 
