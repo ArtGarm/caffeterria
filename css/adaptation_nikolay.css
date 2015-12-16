@@ -175,20 +175,32 @@
   /*/contacts*/
   /*special*/
   .special-wrapper .special-align .special-title {
-    margin-bottom: 6%;
+    margin-bottom: 6.3%;
   }
   .special-wrapper .special-align .special-title span {
     font-size: 16px;
     letter-spacing: 1.6px;
   }
+  .special-wrapper .special-align .img-wrapp {
+    margin-bottom: 52px;
+  }
   /*/special*/
   /*about*/
+  .about-us-wrapper {
+    padding-bottom: 43px;
+  }
   .about-us-wrapper .about-us-align .about-title {
-    margin-bottom: 6%;
+    margin-bottom: 6.3%;
   }
   .about-us-wrapper .about-us-align .about-title span {
     font-size: 16px;
     letter-spacing: 1.6px;
+  }
+  .about-us-wrapper .about-us-align .img-wrapp {
+    margin-bottom: 42px;
+  }
+  .about-us-wrapper .about-us-align .about-text span {
+    font-size: 13px;
   }
   /*/about*/
   /*footer*/
@@ -213,6 +225,7 @@
     font-weight: 400;
     font-size: 14px;
     padding-bottom: 37px;
+    letter-spacing: 1.5px;
   }
   .footer-wrapp-main .main-block .socials-head .soc-fb {
     width: 170px;
@@ -311,6 +324,18 @@
     padding: 0 4% 0 0;
   }
   /*/contacts*/
+  .about-us .mbox, .special .mbox {
+    padding: 0 36px;
+  }
+  .special-wrapper .special-align .special-title {
+    margin-bottom: 8.2%;
+  }
+  .about-us {
+    display: none;
+  }
+  .special {
+    padding: 11px 0;
+  }
 }
 
 @media screen and (max-width: 666px) {
@@ -394,5 +419,27 @@
   /*/send*/
   .title {
     padding: 0 0 52px;
+  }
+  .about-us .mbox, .special .mbox {
+    padding: 0 15px;
+  }
+  .special-wrapper .special-align .special-title {
+    margin-bottom: 37px;
+  }
+  .special-wrapper .special-align .special-title span {
+    font-size: 12px;
+    letter-spacing: 1.1px;
+  }
+  .special-wrapper .special-align .img-wrapp {
+    margin-bottom: 22px;
+  }
+  .footer-wrapp-main .main-block .socials-head p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+  }
+  .footer-wrapp-main .main-block .socials-head {
+    padding-bottom: 60px;
+    padding-top: 26px;
   }
 }

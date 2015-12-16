@@ -136,13 +136,22 @@
 
 
     /*special*/
-        .special-wrapper{.special-align{.special-title{margin-bottom: 6%;span {font-size: 16px;letter-spacing: 1.6px;}}}}
+        .special-wrapper{.special-align{.special-title{margin-bottom: 6.3%;span {font-size: 16px;letter-spacing: 1.6px;}}}}
+        .special-wrapper .special-align .img-wrapp {    margin-bottom: 52px;}
     /*/special*/
 
 
     /*about*/
-        .about-us-wrapper{.about-us-align{.about-title{margin-bottom: 6%;span {font-size: 16px;letter-spacing: 1.6px;}}}}
+        .about-us-wrapper{ padding-bottom: 43px;
+            .about-us-align{
+                .about-title{margin-bottom: 6.3%;span {font-size: 16px;letter-spacing: 1.6px;}}
+                .img-wrapp{margin-bottom: 42px;}
+                .about-text{span{ font-size: 13px;}}
+            }
+        }
+
     /*/about*/
+
 
 
     /*footer*/
@@ -152,7 +161,7 @@
                 .header-place {display: none;}
                 .convert-adress{display: none;}
                 .socials-head{max-width: 100%;padding-top: 34px;padding-bottom: 39px;
-                    p{font-weight: 400;font-size: 14px;padding-bottom: 37px;}
+                    p{font-weight: 400;font-size: 14px;padding-bottom: 37px;letter-spacing: 1.5px;}
                     .soc-fb{width: 170px; margin: 0 auto;}
                 }
             }
@@ -222,6 +231,10 @@
             }
         }
     /*/contacts*/
+    .about-us, .special{ .mbox{padding: 0 36px;}}
+    .special-wrapper{.special-align{.special-title{margin-bottom: 8.2%;}}}
+    .about-us{display:none;}
+    .special{ padding: 11px 0;}
 }
 @media screen and (max-width: 767px){
 
@@ -280,7 +293,17 @@
         }
     /*/send*/
     .title{padding: 0 0 52px;}
-
+    .about-us, .special{ .mbox{padding: 0 15px;}}
+    .special-wrapper{
+        .special-align{
+            .special-title{margin-bottom:37px;
+                span{font-size: 12px;letter-spacing: 1.1px;}
+            }
+            .img-wrapp {    margin-bottom: 22px;}
+        }
+    }
+    .footer-wrapp-main .main-block .socials-head p {font-size: 10px; letter-spacing: 1px;    padding-bottom: 30px;}
+    .footer-wrapp-main .main-block .socials-head {    padding-bottom: 60px;padding-top: 26px;}
 }
 @media screen and (max-width: 320px){
 
