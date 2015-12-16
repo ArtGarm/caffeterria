@@ -191,20 +191,48 @@
     margin: 0 auto;
   }
   .massonry .massonry_item.item_1 {
-    width: 50%;
-    height: 190px;
+    width: 72%;
+    height: 249px;
   }
   .massonry .massonry_item.item_2 {
-    width: 50%;
-    height: 253px;
+    width: 69%;
+    height: auto;
     position: relative;
+    padding-top: 42px;
   }
   .massonry .massonry_item.item_3, .massonry .massonry_item.item_4, .massonry .massonry_item.item_6, .massonry .massonry_item.item_8 {
     display: none;
   }
   .massonry .massonry_item.item_5 {
-    width: 50%;
-    height: 190px;
+    width: 68%;
+    height: auto;
+    padding-top: 63px;
+  }
+  .massonry .massonry_item.item_7 {
+    width: 60%;
+    padding-top: 31px;
+  }
+  .massonry .massonry_item .massonry_item_text_desc {
+    padding-top: 8px;
+  }
+  .massonry .massonry_item .massonry_item_rotate_text {
+    display: none;
+  }
+  .massonry .massonry_item .massonry_item_text_descnotsample {
+    padding: 0;
+  }
+  .massonry .massonry_item .massonry_item_text .massonry_item_mini_text {
+    position: relative;
+    top: 0;
+    padding-top: 28px;
+  }
+  .massonry .massonry_item_img.img-centered img {
+    width: 43%;
+  }
+  .massonry .massonry_item_text_descnotsample {
+    max-width: 100%;
+    margin-top: 13px;
+    margin-bottom: 39px;
   }
   .massonry .massonry_item_text_descnotsample {
     font-size: 12px;

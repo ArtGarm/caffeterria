@@ -75,7 +75,7 @@
     .massonry_item_text_subdesc{font-size: 24px;text-align: center;font-weight: bold;
         span{font-size: 14px;font-weight: normal;}
     }
-    .massonry_item_text_descnotsample{text-align: center;font-size: 16px;padding-top: 30px;padding-bottom: 2px;}
+    .massonry_item_text_descnotsample{text-align: center;font-size: 16px;padding-top: 30px;padding-bottom: 2px;max-width: 450px;margin: 0 auto;}
     .massonry_item_img{
         &.img-centered{text-align: center;position: relative;
             img{display: inline-block;padding-top: 5px;}
