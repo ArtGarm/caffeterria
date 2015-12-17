@@ -1,5 +1,6 @@
 <div class="catalog-content-wrap">
 	<div class="mbox">
+
 		<div class="catalog-content">
 			<div class="catalog-items cfix">
 				<div class="row3">
@@ -105,7 +106,7 @@
 							<div class="catalog-item-img-wrap">
 								<a href="images/item7.jpg" class="loop">
 									<img src="images/item5.jpg" alt=""/>
-								</a>	
+								</a>
 							</div>
 						</div>
 						<div class="catalog-item-text">

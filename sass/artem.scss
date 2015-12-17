@@ -59,7 +59,8 @@
 .wrap-text{ background-color: #f5f8fa; max-width: 1500px; width: 100%; margin: 0 auto;
     .convert-text{ text-align: center;
         p{font-size: 24px; font-family:"Merel"; font-weight: 700; padding: 36px 10% 20px 10%; text-transform: uppercase; letter-spacing: 5px; }
-        h1{font-family:"Merel"; font-weight: 400; font-size: 14px; padding: 28px 7% 0px 7%; line-height: 29px; margin-bottom: 0px;
+        .h1{font-family:"Merel"; font-weight: 400; font-size: 14px; padding: 28px 5% 0px 5%; line-height: 26px; margin-bottom: 0px;
+            &:last-child{padding-top: 22px;line-height: 24px;}
         }
         &:last-child{margin-bottom: 65px;}
 
@@ -68,6 +69,11 @@
 }
 .conditer-stock{background-color:#f5f8fa; }
 .conditer-bread{background-color:#f5f8fa;}
+
+.breadcrumbs.conditer-stock + .wrap-text{
+    .convert-text .h1{line-height: 29px;}
+    .convert-text .h1:last-child{line-height: 30px;padding-top: 29px;}
+}
 
 // end texter
 

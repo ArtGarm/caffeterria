@@ -1,5 +1,8 @@
 <div class="action-content-wrap">
 	<div class="mbox">
+		<div class="action-title">
+			Акции и скидки
+		</div>
 		<div class="action-content">
 			<div class="action-block action1">
 				<a href="#">

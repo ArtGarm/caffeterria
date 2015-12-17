@@ -14,10 +14,6 @@
                 <span>Популярные блюда</span>
             </div>
     </div>
-    <div class="title">
-
-    </div>
-
     <? partial('action-content'); ?>
 
     <? partial('special'); ?>
