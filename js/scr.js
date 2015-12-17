@@ -391,9 +391,11 @@ function showSecondLevelDevices(){
     });
 
     $(document).on('click', '.closest-level', function(e){
-        e.preventDefault();
-        $(this).parent().find('>.device-second-level').addClass('show');
-        $('.sendwich-callback-button').addClass('show');
+        if($(window).width()<1025){
+            e.preventDefault();
+            $(this).parent().find('>.device-second-level').addClass('show');
+            $('.sendwich-callback-button').addClass('show');
+        }
     });
 
     /*

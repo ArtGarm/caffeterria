@@ -120,7 +120,7 @@
     .second-level-menu-table{display: table;width: 100%;
         .second-level-menu-row{display: table-row;
             .second-level-menu-col{display: table-cell;text-align: left;
-                .second-level-title{font-size: 12px;font-weight: 700;color:#000;margin-bottom: 22px;letter-spacing: 1.2px;}
+                .second-level-title{font-size: 12px;font-weight: 700;color:#000;margin-bottom: 22px;letter-spacing: 1.2px;display: block;text-decoration: none;}
                 li{margin-bottom: 13px;
                     &:last-child{margin-bottom: 0;}
                     a{text-decoration: none;font-size:13px;color:#000;transition:color 300ms ease;
