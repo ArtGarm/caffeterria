@@ -76,9 +76,10 @@ function oneHeightItems(){
 		});
 		block.css('height', height);
 	}
+    if($(window).width()>480){
     oneHeight($('.catalog-item-desc.oneHeight'));
 	oneHeight($('.catalog-item.oneHeight:not(.action-item)'));
-
+    }
 }
 
 function validate(form, options){
@@ -391,9 +392,11 @@ function showSecondLevelDevices(){
     });
 
     $(document).on('click', '.closest-level', function(e){
-        e.preventDefault();
-        $(this).parent().find('>.device-second-level').addClass('show');
-        $('.sendwich-callback-button').addClass('show');
+        if($(window).width()<1025){
+            e.preventDefault();
+            $(this).parent().find('>.device-second-level').addClass('show');
+            $('.sendwich-callback-button').addClass('show');
+        }
     });
 
     /*

@@ -275,13 +275,18 @@
   letter-spacing: 5px;
 }
 
-.wrap-text .convert-text h1 {
+.wrap-text .convert-text .h1 {
   font-family: "Merel";
   font-weight: 400;
   font-size: 14px;
-  padding: 28px 7% 0px 7%;
-  line-height: 29px;
+  padding: 28px 5% 0px 5%;
+  line-height: 26px;
   margin-bottom: 0px;
+}
+
+.wrap-text .convert-text .h1:last-child {
+  padding-top: 22px;
+  line-height: 24px;
 }
 
 .wrap-text .convert-text:last-child {
@@ -294,6 +299,15 @@
 
 .conditer-bread {
   background-color: #f5f8fa;
+}
+
+.breadcrumbs.conditer-stock + .wrap-text .convert-text .h1 {
+  line-height: 29px;
+}
+
+.breadcrumbs.conditer-stock + .wrap-text .convert-text .h1:last-child {
+  line-height: 30px;
+  padding-top: 29px;
 }
 
 .footer-wrapp-main {

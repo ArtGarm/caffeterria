@@ -384,15 +384,15 @@
   content: '';
   display: block;
   width: 9px;
-  height: 3px;
+  height: 2px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
   background-color: #7f7f7f;
   position: absolute;
-  right: -webkit-calc(100% + 5px);
-  right: -moz-calc(100% + 5px);
-  right: calc(100% + 5px);
+  right: -webkit-calc(100% + 13px);
+  right: -moz-calc(100% + 13px);
+  right: calc(100% + 13px);
   top: 50%;
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -475,10 +475,10 @@
   -ms-transform-origin: 0 50%;
   -o-transform-origin: 0 50%;
   transform-origin: 0 50%;
-  -webkit-transition: left 300ms ease, -webkit-transform 300ms ease,width 300ms ease, top 300ms ease, bottom 300ms ease;
-  -moz-transition: left 300ms ease, -moz-transform 300ms ease,width 300ms ease, top 300ms ease, bottom 300ms ease;
-  -o-transition: left 300ms ease, -o-transform 300ms ease,width 300ms ease, top 300ms ease, bottom 300ms ease;
-  transition: left 300ms ease, transform 300ms ease,width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -webkit-transition: left 300ms ease, -webkit-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -moz-transition: left 300ms ease, -moz-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  -o-transition: left 300ms ease, -o-transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
+  transition: left 300ms ease, transform 300ms ease, width 300ms ease, top 300ms ease, bottom 300ms ease;
 }
 
 .sendwich-icon-wrap .sendwich-icon span:before {
@@ -597,6 +597,8 @@
   color: #000;
   margin-bottom: 22px;
   letter-spacing: 1.2px;
+  display: block;
+  text-decoration: none;
 }
 
 .header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col li {

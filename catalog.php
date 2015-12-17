@@ -14,10 +14,7 @@
                 <span>Популярные блюда</span>
             </div>
         </div>
-        <div class="title">
-
-        </div>
-
+        <div class="catalog-title">Популярные блюда</div>
         <? partial('catalog-nav'); ?>
 
         <? partial('catalog-content'); ?>
