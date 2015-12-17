@@ -6,7 +6,7 @@
                     <span>Доставка</span>
                 </div>
         </div>
-        <div class="title send">
+        <div class="title sender">
             <div class="title-text"><span>доставка</span></div>
         </div>
         <div class="title-photo send">

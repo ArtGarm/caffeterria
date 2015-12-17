@@ -183,7 +183,7 @@
 }
 
 .title-photo.send {
-  padding-bottom: 16%;
+  padding-bottom: 166px;
 }
 
 .title-photo.send .title-photo-align {
@@ -225,7 +225,7 @@
 
 .title-photo.send .title-photo-align .bread-text {
   position: relative;
-  padding: 6% 12% 4.4%;
+  padding: 6% 12% 4.45%;
 }
 
 .title-photo.send .title-photo-align .bread-text span {
@@ -280,7 +280,7 @@
 /*send*/
 .send-content-wrapp .send-align {
   text-align: center;
-  padding-bottom: 15%;
+  padding-bottom: 110px;
 }
 
 .send-content-wrapp .send-align .title {
@@ -364,7 +364,7 @@
 }
 
 .send-content-wrapp .send-align .send-text1 {
-  padding: 0 17%;
+  padding: 0 293px;
 }
 
 .send-content-wrapp .send-align .send-text1 span {
@@ -383,7 +383,7 @@
 }
 
 .send-content-wrapp .send-align .send-text3 {
-  padding-top: 35px;
+  padding: 35px 19px 0;
 }
 
 .send-content-wrapp .send-align .send-text3 span {
@@ -451,16 +451,24 @@
 
 /*/breadcrumps*/
 /*contacts**/
+.main.contact {
+  padding-bottom: 10px;
+}
+
+.title.contacts {
+  padding: 23px 0 53px;
+}
+
 .contact-wrapp .contact-align {
-  padding-bottom: 63px;
+  padding-bottom: 61px;
   width: 100%;
 }
 
 .contact-wrapp .contact-align .contact-item {
   background-color: #fafafa;
-  width: -webkit-calc(50% - 15px);
-  width: -moz-calc(50% - 15px);
-  width: calc(50% - 15px);
+  width: -webkit-calc(50% - 10px);
+  width: -moz-calc(50% - 10px);
+  width: calc(50% - 10px);
   display: inline-block;
   padding-bottom: 54px;
   margin-bottom: 18px;
@@ -483,7 +491,7 @@
 }
 
 .contact-wrapp .contact-align .contact-item .item-align .item-img {
-  padding-bottom: 39px;
+  padding-bottom: 38px;
 }
 
 .contact-wrapp .contact-align .contact-item .item-align .item-name {

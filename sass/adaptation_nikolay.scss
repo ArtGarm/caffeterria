@@ -37,31 +37,33 @@
 @media screen and (max-width: 992px){
     /*send*/
         .breadcrumbs{display: none;}
-        .title{&.send{display: none;}}
+        .title{&.sender{display: none;}}
         .title-photo{
-            &.send{
+            &.send{padding-bottom: 69px;
                 .title-photo-align{
-                    .bread-text{
-                        span{ font-size: 12px;line-height: 19px;}
+                    .bread-text{    padding: 6% 12% 36px;
+                        span{ font-size: 11.52px;line-height: 19px;    letter-spacing: -0.01px;}
                     }
-                    .bread-price-wrapp{
-                        .bread-price{padding: 12px 0 0;width:60px; height:60px;left: calc(50% - 33px);
+                    .bread-price-wrapp{    margin-top: -30px;
+                        .bread-price{padding: 12px 0 0;width:60px; height:60px;left: calc(50% - 31px);
                             span{font-size: 15.36px;}
                         }
                     }
+                    .bred-min {    padding: 0 12% 58px;}
                 }
             }
+            &.contacts{    overflow: hidden;    height: 250px;}
         }
         .send-content-wrapp{
-            .send-align{
+            .send-align{padding-bottom: 97px;
                 span{ font-size: 11px;}
-                .title{display: block; padding: 22px 0 45px;
+                .title{display: block; padding: 22px 0 48px;
                     span{font-size: 16px; font-family:"Merel"; font-weight: 700; padding: 10px 10% 45px; text-transform: uppercase; letter-spacing: 1px;}
                 }
                 .send-title{    padding-bottom: 75px;
                     span{font-size: 11px;}
                 }
-                .diag-wrap{    padding-bottom: 70px;
+                .diag-wrap{        padding: 0 49px 70px;
                     .send-item{
                        .item-align{
                             .item-img{ width: 90px; height: 90px; padding-top: 27px;
@@ -73,13 +75,13 @@
                         }
                     }
                 }
-                .send-text1{padding: 0 7%;
+                .send-text1{    padding: 0 240px;
                     span{font-size: 12px;line-height:20px;}
                 }
                 .send-text2{padding-top: 22px;
                     span{font-size: 46.35px;}
                 }
-                .send-text3{    padding: 23px 10% 0;
+                .send-text3{      padding: 24px 102px 0;
                     span{line-height: 20px;}
                 }
                 .send-text4{ padding-top: 20px;}
@@ -102,15 +104,17 @@
                 .title-text {font-size: 16px;letter-spacing: 3px;}
             }
         }
+        .main.contact{padding-bottom: 12px;.special{.mbox{padding: 0 36px;}}}
         .contact-wrapp{
-            .contact-align{padding-bottom: 4.5%;
-                .contact-item {width: calc(50% - 8px);padding-bottom: 3.5%;
-                    span{font-size: 12.5px;}
+            &.mbox{padding: 0 36px;}
+            .contact-align{padding-bottom: 32px;
+                .contact-item {width: calc(50% - 8px);padding-bottom: 34px; margin-bottom: 17px;
+                    span{font-size: 12.42px;}
                     &:nth-child(1),&:nth-child(3){ margin-right: 15px;}
                     .item-align{
-                        .item-img{padding-bottom: 6.5%;}
+                        .item-img{padding-bottom: 28px;}
                         .item-name{padding-bottom: 2%;
-                            span{letter-spacing: 2.3px;}
+                            span{letter-spacing: 2.45px;}
                         }
                         .item-addres{padding-bottom: 7.5%;}
                         .item-icons{padding-bottom: 7.8%;
@@ -122,7 +126,7 @@
                             }
                         }
                         .item-butt{
-                            a{width: 140px;height: 34px;padding-top: 10px;
+                            a{width: 140px;height: 33px;padding-top: 10px;
                                 span{font-size: 8.33px;letter-spacing: 2px;}
                             }
                         }
@@ -178,25 +182,19 @@
 }
 @media screen and (max-width: 800px){
     /*send*/
-        .title-photo{
-            &.send{    padding-bottom: 7%;
+        .title-photo{ &.send{
                 .title-photo-align{
-                    .bread-img{
-                        img{}
-                    }
-                    .bread-text{padding: 7% 2% 5.2%;}
-                    .bread-phone{ padding: 0 12% 7.5%;}
-                    .bred-min{padding: 0 3% 3.5%;}
+                    .bread-text{    padding: 57px 15px 37px;}
+                    .bread-phone{     padding: 0 0 57px;}
                 }
-            }
-        }
+        }}
         .send-content-wrapp{
-            .send-align{
-                .diag-wrap{width: 56%; margin: 0 auto;  padding-bottom: 1.8%;
+            .send-align{    padding-bottom: 90px;
+                .diag-wrap{width: 56%; margin: 0 auto; padding: 0 0px 14px;
                     .send-item { width: calc(50% - 4px);margin-bottom: 14%;}
                 }
-                .send-text1{padding: 0 17%;}
-                .send-text3{padding: 23px 3% 0;}
+                .send-text1{padding: 0 19%;}
+                .send-text3{    padding: 24px 2% 0;}
             }
         }
     /*/send*/
@@ -219,19 +217,21 @@
 
     /*contacts*/
         .title{
-            &.contacts{padding: 3% 0 4.3%;}
+            &.contacts{    padding: 27px 0 33px;}
         }
+        .main.contact {padding-bottom: 0px;.special{padding: 11px 0 8px;}}
+        .title-photo.contacts {    overflow: hidden;    height: 200px;}
         .contact-wrapp{
-            .contact-align{    padding-bottom: 4.5%;
-                .contact-item {width: 100%;padding-bottom: 1.5%;
+            .contact-align{    padding-bottom: 47px;
+                .contact-item {width: 100%;padding-bottom: 30px; margin-bottom: 0;
                     &:nth-child(1),&:nth-child(3){ margin-right: 0;}
                     .item-align{
                         .item-img{width: 100%;overflow: hidden;height: 188px;
-                            img{    width: 94%;}
+                            img{    width: 100%;}
                         }
-                        .item-name{padding-top: 3.8%;padding-bottom: 1%;}
+                        .item-name{padding-top: 28px;padding-bottom: 8px;}
                         .item-addres{padding-bottom: 4.5%;}
-                        .item-icons{padding-bottom: 4.7%;
+                        .item-icons{padding-bottom: 36px;
                             .icon-phone{padding: 0 4% 0 0;}
                         }
 
@@ -295,7 +295,7 @@
     .footer-wrapp-main .main-block .socials-head p {font-size: 10px; letter-spacing: 1px;    padding-bottom: 30px;}
     .footer-wrapp-main .main-block .socials-head {    padding-bottom: 60px;padding-top: 26px;}
     .cond-wrapp .cond-align span {    font-size: 14px;    letter-spacing: 2.8px;}
-    .cond-wrapp .cond-align {    padding: 5px 0 1px;}
+    .cond-wrapp .cond-align {   padding: 22px 0 1px;}
     .cond-wrapp .cond-align .cond-block{padding-left: 0;padding-bottom: 36px;}
     .cond-wrapp .cond-align .cond-block .img-block {width: 55%; margin: 0 auto;    padding-bottom: 26px;}
     .cond-wrapp .cond-align .cond-title {    padding-bottom: 36px;}
@@ -303,8 +303,46 @@
     .cond-wrapp .cond-align .cond-block .title-block {    padding-bottom: 8px;}
     .cond-wrapp .cond-align .cond-block .text-block span {       font-size: 12px;    line-height: 18px;}
     .cond-wrapp .cond-align .cond-block:nth-child(3) {    padding-left: 0px;}
-    .title-photo{&.conditer{.logo{transform:translate(-34.5%, -49%);img{    width: 67%;}}}}
-    .bread-img1{    overflow: hidden;    max-height: 140px;}
+    .title-photo{&.conditer{.logo{transform:translate(-75.5%, -51%);img{    width: 151%;}}}}
+    .bread-img1{  img{max-width: 165%;}  overflow: hidden;  }
+    .title-photo.send .title-photo-align .bread-text{    padding: 24px 6% 20px; span {    line-height: 18px;}}
+    .title-photo.send .title-photo-align .bread-phone{    padding: 0 12% 35px; span { font-size: 24px;     letter-spacing: 1.5px;}}
+    .title-photo.send .title-photo-align .bred-min span {    font-size: 14px;}
+    .title-photo.send .title-photo-align .bred-min {    padding: 0 3% 52px;}
+    .title-photo.send {    padding-bottom: 48px;}
+    .send-content-wrapp .send-align .title{    padding: 22px 0 7px; span{letter-spacing: 0px;}}
+    .send-content-wrapp .send-align .send-title span {    font-size: 10px;    line-height: 20px;}
+    .send-content-wrapp .send-align .diag-wrap .send-item {width: 100%;    margin-bottom: 27px;}
+    .send-content-wrapp .send-align .send-title {    padding-bottom: 24px;}
+    .send-content-wrapp .send-align .diag-wrap .send-item .item-align .item-text { padding: 18px 10% 0;}
+    .send-content-wrapp .send-align .diag-wrap {padding: 0 0px 11px;}
+    .send-content-wrapp .send-align .send-text1 {    padding: 0 6%; span{line-height: 19px;}}
+    .send-content-wrapp .send-align .send-text2 {    padding-top: 21px;span{    line-height: 48px;}}
+    .send-content-wrapp .send-align .send-text3{padding: 10px 0 0;span {    line-height: 19px;}}
+    .send-content-wrapp .send-align .send-text4 {    padding-top: 22px;}
+    .send-content-wrapp .send-align .send-text4 {    padding-top: 21px;span{line-height: 19px;}}
+    .send-content-wrapp .send-align .send-text5 {    padding-top: 19px;span{line-height: 19px;}}
+    .send-content-wrapp .send-align {    padding-bottom: 37px;}
+    .title-photo.contacts{height: 140px;
+        .bread-img{img{width: 164%;    position: relative; max-width: none;    left: -32%;}}
+    }
+    .title.contacts{padding: 0px 0 26px; .title-text {padding-top: 22px;     padding-bottom: 0px; font-size: 14px;}}
+    .main.contact{.special{.mbox{padding: 0 15px;}}}
+    .contact-wrapp.mbox {    padding: 0 15px;}
+    .contact-wrapp .contact-align .contact-item .item-align .item-img{height: 120px;}
+    .contact-wrapp .contact-align .contact-item .item-align .item-name span {font-size: 11px; letter-spacing: 2.15px;}
+    .contact-wrapp .contact-align .contact-item .item-align .item-name {    padding-top: 14px;padding-bottom: 10px;}
+    .contact-wrapp .contact-align .contact-item .item-align .item-addres span {line-height: 18px;}
+    .contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-clock i,
+    .contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-phone i {     display: block;    margin: 0 auto 6px;}
+    .contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-clock,
+    .contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-phone{padding: 0; width: 100%; margin-bottom: 18px;}
+    .contact-wrapp .contact-align .contact-item .item-align .item-addres {    padding-bottom: 16px;}
+    .contact-wrapp .contact-align .contact-item .item-align .item-icons .icon-clock{margin-bottom: 0;}
+    .contact-wrapp .contact-align .contact-item .item-align .item-icons {    padding-bottom: 28px;}
+    .contact-wrapp .contact-align {    padding-bottom: 0px;}
+    .main.contact .special {    padding: 4px 0 13px;}
+
 
 }
 @media screen and (max-width: 320px){
