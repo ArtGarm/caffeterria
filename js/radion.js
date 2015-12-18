@@ -4,17 +4,20 @@ function massonryInit(){
         percentPosition: true,
         columnWidth: '.massonry_item_sizer'
     };
-    var grid = $('.massonry_wrap').masonry( masonryOptions );
+    var grid = $('.massonry_wrap').masonry();
 
+    $(window).resize(function() {
+        if($(window).width() < 992){
+            grid.masonry('destroy');
+        }
+        if($(window).width() > 992){
+            grid.masonry( masonryOptions );
+        }
+    });
 
-
-    // if($('.massonry_wrap').length){
-    //     $('.massonry_wrap').masonry({
-    //         itemSelector: '.massonry_item',
-    //         percentPosition: true,
-    //         columnWidth: '.massonry_item_sizer'
-    //     });
-    // }
+    if($(window).width() < 992){
+        grid.masonry('destroy');
+    }
 }
 
 function popUpCatalog(){
@@ -30,25 +33,13 @@ function popUpCatalog(){
         $.fancybox.close();
     });
 }
-function checkMassonry(){
-    $(window).resize(function() {
-        // if($(window).width() > 992){
-        //     massonryInit();
-        // }
 
-        if($(window).width() < 992){
-         $('.massonry_item, .massonry_wrap').removeAttr("style");
-        }
-    });
-}
 
 $(document).ready(function(){
-    //checkMassonry();
-    //popUpCatalog();
+
 });
 $(window).load(function(){
-    // if($(window).width() > 992){
-    //      massonryInit();
-    // }
-
+    if($('.massonry_wrap').length){
+         massonryInit();
+    }
 });
