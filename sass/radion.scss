@@ -28,7 +28,7 @@
 
 
 /*massonry*/
-.massonry{
+.massonry{overflow: hidden;
     .massonry_wrap{padding-bottom: 60px;padding-top: 80px;
         &:after{content: '';display: block;clear: both;}
     }
