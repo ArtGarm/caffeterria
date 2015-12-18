@@ -107,7 +107,7 @@
     .mbox{position: static;}
     .header-bottom-nav{
         >ul{display: table;width: 100%;
-            >li{display: table-cell;text-align: center;vertical-align: middle;
+            >li{display: table-cell;text-align: center;vertical-align: middle;width: calc(100% / 7);
                 >a{text-decoration: none;font-size: 13px;font-weight: 700;color:#fff;display: inline-block;width: 100%;height: 47px;line-height: 47px;text-transform: uppercase;transition:background-color 300ms ease;}
                 &:hover>a{background-color:#d10019;}
             }

@@ -1,3 +1,11 @@
+@media screen and (max-width: 1280px) {
+  /* header */
+  .header-top > .mbox {
+    padding: 0 10px;
+  }
+  /* /header */
+}
+
 @media screen and (max-width: 1024px) {
   .mbox {
     width: 100%;
@@ -31,6 +39,9 @@
   }
   .header-top {
     padding: 8px 0 4px 0;
+  }
+  .header-top .mbox {
+    padding: 0;
   }
   .header-basket-main {
     position: fixed;
@@ -218,6 +229,7 @@
   }
   .header-bottom .header-bottom-nav > ul, .header-bottom .header-bottom-nav > ul > li, .header-bottom .header-bottom-nav .second-level-menu-row, .header-bottom .header-bottom-nav .second-level-menu-col {
     display: block !important;
+    width: auto;
   }
   .header-bottom .header-bottom-nav > ul > li > a {
     color: #000;
