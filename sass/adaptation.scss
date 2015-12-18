@@ -34,7 +34,7 @@
             &:after{right: -29px;}
             .header-basket-value{width: 15px;height: 15px;left: calc(100% + 3px);bottom: calc(100% + 7px);font-size: 10px;line-height: 14px;background-color:#fff;color:#d10019;transition:color 300ms ease, background-color 300ms ease;}
         }
-        .header-basket-form{position: fixed;right:-405px;top: 0;display: block;margin-top: 0;height: 100%;overflow:scroll;width: 405px;transition:right 300ms ease, box-shadow 300ms ease;z-index: 1;padding-top:94px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);
+        .header-basket-form{position: fixed;right:-405px;top: 0;display: block;margin-top: 0;height: 100%;overflow-y:scroll;width: 405px;transition:right 300ms ease, box-shadow 300ms ease;z-index: 1;padding-top:94px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);
             &:after{content:'';display: block;position: absolute;top: 0;right:0;left:0;height: 72px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);position:fixed;z-index:2;transition:box-shadow 300ms ease;background-color: #fff;}
             .header-basket-form-row{padding-left: 24px;padding-right: 17px;margin-left: -20px;margin-right:-20px;}
             .close-form{top: 90px;}
@@ -58,16 +58,20 @@
     .sendwich-icon-wrap{display: block;}
 
     .header-bottom{display: block;background-color:#fff;border-top: 1px solid #ededed;position: fixed;right: -405px;width: 405px;transition:right 300ms ease, box-shadow 300ms;top:0;height: 100%;z-index: 1;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);
-
+        &.show{overflow-y:scroll;
+            .header-bottom-nav{
+                &:after{left:calc(100% - 405px);}
+            }
+        }
         .mbox{max-width: none;padding: 0;}
         .header-bottom-nav{padding-top: 72px;
-            &:after{content:'';position: absolute;border-bottom:1px solid #f5f7fa;top: 0;left: 0;right:0;height:72px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);transition:box-shadow 300ms ease;background-color: #fff;}
+            &:after{content:'';position: fixed;border-bottom:1px solid #f5f7fa;top: 0;left: 100%;width: 100%;height:72px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);transition:box-shadow 300ms ease, left 300ms ease;background-color: #fff;}
             >ul, >ul>li, .second-level-menu-row, .second-level-menu-col{display: block!important;}
             >ul>li>a{color:#000;font-size: 14px;transition:background-color 300ms ease;background-color:#fff;border-bottom: 1px solid #f5f7fa;text-align: left;padding-left: 25px;font-size: 14px;letter-spacing:1.5px;min-height: 71px;display: table;width: 100%;
                 span{display: table-cell;vertical-align: middle;}
                 &:hover{background-color: #f5f7fa;}
             }
-            .device-second-level{position: fixed;width: 405px;right: -405px;left:auto;top: 0;height: calc(100% - 72px);overflow:scroll;display: block;top:72px;padding: 0;transition:right 300ms ease;background-color:#fff;
+            .device-second-level{position: fixed;width: 405px;right: -405px;left:auto;top: 0;height: calc(100% - 72px);overflow-y:scroll;display: block;top:72px;padding: 0;transition:right 300ms ease;background-color:#fff;
                 &.show{right: 0;}
             }
         }
@@ -103,6 +107,9 @@
         }
     }
 
+    .sendwich-callback-button.show{display: block;position: fixed;}
+
+
     /* /header */
 
 }
@@ -114,6 +121,11 @@
     .header-bottom.show .sendwich-icon-wrap{right: 340px;}
     .header-basket-main.show{right: 344px;}
     .sendwich-callback-button{right: 115px;}
+    .header-bottom.show{
+        .header-bottom-nav{
+            &:after{left:calc(100% - 385px);}
+        }
+    }
 
     /* /header */
 
@@ -179,6 +191,11 @@
                     .second-level-title{margin-bottom: 0;min-height: 51px;font-size: 13px;}
                     li a{font-size: 13px;min-height: 51px;}
                 }
+            }
+        }
+        &.show{
+            .header-bottom-nav{
+                &:after{left: calc(100% - 273px);}
             }
         }
     }

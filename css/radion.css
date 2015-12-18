@@ -121,6 +121,10 @@
 }
 
 /*massonry*/
+.massonry {
+  overflow: hidden;
+}
+
 .massonry .massonry_wrap {
   padding-bottom: 60px;
   padding-top: 80px;
