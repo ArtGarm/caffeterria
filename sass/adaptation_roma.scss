@@ -149,7 +149,7 @@
 		.about-caffe-title{font-size: 19px;padding-top: 50px;padding-bottom: 45px;}
 		.mbox .about-caffe p{margin-bottom: 51px;}
 		.mbox .about-caffe .text-justify{margin-bottom: 47px;}
-		.mbox .about-caffe .differend-font:before{width: 109%;height: 79px;}
+		.mbox .about-caffe .differend-font:before{width: 94%;height: 79px;}
 		.mbox .about-caffe .differend-font{margin-bottom: 0;}
 	}
 	/*catalog*/
@@ -160,6 +160,7 @@
 		.catalog-content .catalog-item{width: 100%;margin: 0 auto;margin-bottom: 29px;}
 		.catalog-content .catalog-item .catalog-item-text{padding-top: 23px;}
 	}
+	.catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop img{display: block; margin: 0 auto;max-width: 97%;}
 	/*load more*/
 	.load-more-items .load-more-wrap:before{width: 42.3%;left: 8px;top: -66%;}
 	.load-more-items .load-more-wrap:after{width: 42.3%;right: 7px;}
@@ -222,7 +223,7 @@
 		}
 		}
     }
-    .catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop img{    display: block; margin: 0 auto;max-width: 97%;}
+
 }
 
 
