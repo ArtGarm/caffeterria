@@ -1,18 +1,20 @@
 function massonryInit(){
-    $('.massonry_wrap').masonry({
+    var masonryOptions = {
         itemSelector: '.massonry_item',
         percentPosition: true,
         columnWidth: '.massonry_item_sizer'
-    });
+    };
+    var grid = $('.massonry_wrap').masonry( masonryOptions );
 
-    $(window).resize(function() {
-        massonryInit();
 
-        if($(window).width() <= 768){
-         $('.massonry_item').removeAttr("style");
-         console.log('test')
-        }
-    });
+
+    // if($('.massonry_wrap').length){
+    //     $('.massonry_wrap').masonry({
+    //         itemSelector: '.massonry_item',
+    //         percentPosition: true,
+    //         columnWidth: '.massonry_item_sizer'
+    //     });
+    // }
 }
 
 function popUpCatalog(){
@@ -30,23 +32,23 @@ function popUpCatalog(){
 }
 function checkMassonry(){
     $(window).resize(function() {
-        if($(window).width() > 992){
-            massonryInit();
-        }
+        // if($(window).width() > 992){
+        //     massonryInit();
+        // }
 
-        if($(window).width() <= 992){
+        if($(window).width() < 992){
          $('.massonry_item, .massonry_wrap').removeAttr("style");
         }
     });
 }
 
 $(document).ready(function(){
-    checkMassonry();
-    popUpCatalog();
+    //checkMassonry();
+    //popUpCatalog();
 });
 $(window).load(function(){
-    if($(window).width() > 992){
-         massonryInit();
-    }
+    // if($(window).width() > 992){
+    //      massonryInit();
+    // }
 
 });
