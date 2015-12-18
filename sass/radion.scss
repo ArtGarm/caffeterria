@@ -29,7 +29,7 @@
 
 /*massonry*/
 .massonry{overflow: hidden;
-    .massonry_wrap{padding-bottom: 60px;padding-top: 80px;
+    .massonry_wrap{padding-bottom: 60px;padding-top: 80px;margin: 0 auto;
         &:after{content: '';display: block;clear: both;}
     }
     .massonry_item_sizer{width: 25%;}

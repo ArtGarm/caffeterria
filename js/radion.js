@@ -1,6 +1,7 @@
 function massonryInit(){
     var masonryOptions = {
         itemSelector: '.massonry_item',
+        isFitWidth: true,
         percentPosition: true,
         columnWidth: '.massonry_item_sizer'
     };
