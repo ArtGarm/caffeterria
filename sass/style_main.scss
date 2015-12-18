@@ -11,7 +11,7 @@
 
 /* header */
 
-.header{position: relative;z-index: 2;}
+.header{position: relative;z-index: 3;}
 
 .header-top{background-color: #fff;padding:38px 0 39px 0;position: relative;z-index: 1;
     .mbox{min-height: 60px;}
@@ -27,7 +27,7 @@
         }
     }
 }
-.header-basket-main{padding-top: 24px;float:right;margin-right: 2px;position: relative;
+.header-basket-main{padding-top: 24px;float:right;margin-right: 24px;position: relative;
     .header-basket-icon{position: relative;cursor: pointer;
         .header-basket-value{width: 24px;height: 24px;border-radius: 50%;background-color: $red;text-align: center;line-height: 20px;color:#fff;font-weight: 700;font-size: 13px;display: none;position: absolute;left: 100%;bottom:100%;}
         &.active{
@@ -83,7 +83,6 @@
     &:before, &:after{content: '';display: block;width: 9px;height: 2px;border-radius: 50px;background-color: #7f7f7f;position: absolute;right: calc(100% + 13px);top:50%;transform-origin:50% 50%;}
     &:after{transform:rotate(-45deg) translate(0, -3px);}
     &:before{transform:rotate(45deg) translate(0, 3px);}
-    &.show{display: block;}
 }
 .sendwich-icon-wrap{display: none;width: 18px;height: 18px;padding-top:7px;cursor: pointer;position: fixed;right: 24px;top: 28px;transition:right 300ms ease;
     &:after{content: '';position: absolute;height: 72px;width: 1px;background-color: transparent;top:-28px;right: -25px;}

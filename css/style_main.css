@@ -36,7 +36,7 @@
 /* header */
 .header {
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 .header-top {
@@ -100,7 +100,7 @@
 .header-basket-main {
   padding-top: 24px;
   float: right;
-  margin-right: 2px;
+  margin-right: 24px;
   position: relative;
 }
 
@@ -415,10 +415,6 @@
   -ms-transform: rotate(45deg) translate(0, 3px);
   -o-transform: rotate(45deg) translate(0, 3px);
   transform: rotate(45deg) translate(0, 3px);
-}
-
-.sendwich-callback-button.show {
-  display: block;
 }
 
 .sendwich-icon-wrap {
