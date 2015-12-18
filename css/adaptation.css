@@ -90,7 +90,7 @@
     display: block;
     margin-top: 0;
     height: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
     width: 405px;
     -webkit-transition: right 300ms ease, -webkit-box-shadow 300ms ease;
     -moz-transition: right 300ms ease, -moz-box-shadow 300ms ease;
@@ -184,6 +184,14 @@
     -moz-box-shadow: 0 4px 30px 0 transparent;
     box-shadow: 0 4px 30px 0 transparent;
   }
+  .header-bottom.show {
+    overflow-y: scroll;
+  }
+  .header-bottom.show .header-bottom-nav:after {
+    left: -webkit-calc(100% - 405px);
+    left: -moz-calc(100% - 405px);
+    left: calc(100% - 405px);
+  }
   .header-bottom .mbox {
     max-width: none;
     padding: 0;
@@ -193,19 +201,19 @@
   }
   .header-bottom .header-bottom-nav:after {
     content: '';
-    position: absolute;
+    position: fixed;
     border-bottom: 1px solid #f5f7fa;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 100%;
+    width: 100%;
     height: 72px;
     -webkit-box-shadow: 0 4px 30px 0 transparent;
     -moz-box-shadow: 0 4px 30px 0 transparent;
     box-shadow: 0 4px 30px 0 transparent;
-    -webkit-transition: -webkit-box-shadow 300ms ease;
-    -moz-transition: -moz-box-shadow 300ms ease;
-    -o-transition: box-shadow 300ms ease;
-    transition: box-shadow 300ms ease;
+    -webkit-transition: -webkit-box-shadow 300ms ease, left 300ms ease;
+    -moz-transition: -moz-box-shadow 300ms ease, left 300ms ease;
+    -o-transition: box-shadow 300ms ease, left 300ms ease;
+    transition: box-shadow 300ms ease, left 300ms ease;
     background-color: #fff;
   }
   .header-bottom .header-bottom-nav > ul, .header-bottom .header-bottom-nav > ul > li, .header-bottom .header-bottom-nav .second-level-menu-row, .header-bottom .header-bottom-nav .second-level-menu-col {
@@ -244,7 +252,7 @@
     height: -webkit-calc(100% - 72px);
     height: -moz-calc(100% - 72px);
     height: calc(100% - 72px);
-    overflow: scroll;
+    overflow-y: scroll;
     display: block;
     top: 72px;
     padding: 0;
@@ -337,6 +345,10 @@
   .header-bottom.show .sendwich-icon-wrap:after {
     background-color: #f2f2f2;
   }
+  .sendwich-callback-button.show {
+    display: block;
+    position: fixed;
+  }
   /* /header */
 }
 
@@ -354,6 +366,11 @@
   }
   .sendwich-callback-button {
     right: 115px;
+  }
+  .header-bottom.show .header-bottom-nav:after {
+    left: -webkit-calc(100% - 385px);
+    left: -moz-calc(100% - 385px);
+    left: calc(100% - 385px);
   }
   /* /header */
 }
@@ -475,6 +492,11 @@
   .header-bottom .second-level-menu-table .second-level-menu-row .second-level-menu-col li a {
     font-size: 13px;
     min-height: 51px;
+  }
+  .header-bottom.show .header-bottom-nav:after {
+    left: -webkit-calc(100% - 273px);
+    left: -moz-calc(100% - 273px);
+    left: calc(100% - 273px);
   }
   .header-basket-main .header-basket-form, .header-bottom, .header-bottom .header-bottom-nav .device-second-level {
     width: 273px;
