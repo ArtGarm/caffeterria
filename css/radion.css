@@ -128,6 +128,7 @@
 .massonry .massonry_wrap {
   padding-bottom: 60px;
   padding-top: 80px;
+  margin: 0 auto;
 }
 
 .massonry .massonry_wrap:after {
