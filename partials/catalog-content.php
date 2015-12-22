@@ -209,19 +209,22 @@
 	                    </div>
 					</div>
 					<div class="catalog-item oneHeight large-item action-item">
+						<div class="catalog-item-sub-img">
+							<img src="images/smuzi.png" alt="">
+						</div>
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
-									<img src="images/item10.jpg" alt=""/>
+								<a href="images/item10-new.jpg" class="loop">
+									<img src="images/item10-new.jpg" alt=""/>
 								</a>
 							</div>
 						</div>
 						<div class="catalog-item-text">
 		                    <div class="catalog-item-desc oneHeight">
-		                    	<p>итальянская паста болоньезе</p>
+		                    	<p>Смузи из натуральной черники, голубики и банана</p>
 		                    </div>
 		                    <div class="catalog-item-price">
-		                    	<p><b>279 P</b> / 350 <span>гр.</span></p>
+		                    	<p><b>499 P</b> / 400 <span>гр.</span></p>
 		                    </div>
 		                    <div class="action-text">
 		                    	<p>На данное предложение действует акция “Второй бесплатно”</p>

@@ -51,7 +51,7 @@
 
     /*popap*/
     .catalog_pop_wrap .catalog_pop_table{width: 100%;}
-    .popupCatalog{max-width: 960px !important;width: 100% !important;height: 100% !important;max-height: 767px !important;top: 0px !important;
+    .popupCatalog{max-width: 960px !important;width: 100% !important;height: 100% !important;max-height: 767px !important;top: 50% !important;left: 50% !important;transform: translate(-50%, -50%);
         .fancybox-skin,.fancybox-outer{height: 100% !important;}
         .fancybox-inner,.catalog_pop_wrap,.catalog_pop_table{width: 100% !important;height: 100% !important;}
         #catalog_pop{height: 100% !important;}
@@ -91,10 +91,11 @@
         .massonry_item_img.img-centered img{width: 43%;}
         .massonry_item_text_descnotsample{max-width: 100%;margin-top: 13px;margin-bottom: 39px;}
         .massonry_item_text_descnotsample{font-size: 12px;}
+        .massonry_item_img img{padding-right: 0;}
     }
 
     /*popap*/
-    .popupCatalog{max-width: 768px !important;max-height: 960px !important;left: 0px !important;top: 20px !important;
+    .popupCatalog{max-width: 768px !important;max-height: 960px !important;
         .catalog_pop_wrap .catalog_pop_table{display: block;}
         .catalog_pop_wrap .catalog_pop_cell.right,.catalog_pop_wrap .catalog_pop_cell.left{width: 100%; height: 55%;display: block;}
         .catalog_pop_wrap .catalog_pop_cell.right{height: 45%;padding: 40px 10px;}
@@ -104,7 +105,7 @@
         .catalog_pop_wrap .catalog_pop_title{padding-top: 0;padding-bottom: 23px;}
         .catalog_pop_subtitle {padding-bottom: 18px;font-size: 15px;letter-spacing: 1px;}
         .catalog_pop_wrap .catalog_pop_price{padding-bottom: 18px;}
-        .catalog_pop_button{padding: 50px 14% 0;
+        .catalog_pop_button{padding: 50px 5% 0;
             &:after{display: block;clear: both;content: '';}
             .catalog_pop_close{float: left;}
             .button{float: right;}

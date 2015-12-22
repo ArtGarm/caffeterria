@@ -37,7 +37,7 @@ function popUpCatalog(){
 
 
 $(document).ready(function(){
-
+    popUpCatalog();
 });
 $(window).load(function(){
     if($('.massonry_wrap').length){

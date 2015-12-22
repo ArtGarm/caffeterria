@@ -118,7 +118,13 @@
     width: 100% !important;
     height: 100% !important;
     max-height: 767px !important;
-    top: 0px !important;
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   .popupCatalog .fancybox-skin, .popupCatalog .fancybox-outer {
     height: 100% !important;
@@ -240,12 +246,13 @@
   .massonry .massonry_item_text_descnotsample {
     font-size: 12px;
   }
+  .massonry .massonry_item_img img {
+    padding-right: 0;
+  }
   /*popap*/
   .popupCatalog {
     max-width: 768px !important;
     max-height: 960px !important;
-    left: 0px !important;
-    top: 20px !important;
   }
   .popupCatalog .catalog_pop_wrap .catalog_pop_table {
     display: block;
@@ -284,7 +291,7 @@
     padding-bottom: 18px;
   }
   .popupCatalog .catalog_pop_button {
-    padding: 50px 14% 0;
+    padding: 50px 5% 0;
   }
   .popupCatalog .catalog_pop_button:after {
     display: block;

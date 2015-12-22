@@ -86,7 +86,12 @@
 		}
 
 		.catalog-item .add-to-cart a{margin-top: 20px;border-radius: 4px;font-size: 9px;padding: 6px 11px 8px;}
-		.catalog-content .catalog-item.action-item .catalog-item-text{padding-top: 106px;}
+		.catalog-content .catalog-item.action-item{background:transparent;
+			.catalog-item-text{padding: 106px 2% 1%;height: 100%;right: 0%;background-color: #aab2d0;top: 50%;margin-bottom: 0;}
+			.catalog-item-img-wrap{text-align: right;
+				img{display: inline-block !important;}
+			}
+		}
 	}
 	.catalog-content {margin-bottom: -6px;}
 
@@ -215,7 +220,7 @@
 				.catalog-item-price{
 					p{}
 				}
-				.action-text{    bottom: 0;box-sizing: border-box;line-height: 2;position: absolute;padding: 0;
+				.action-text{bottom: 0;box-sizing: border-box;line-height: 2;position: absolute;padding: 0;width: auto!important;
 					p{color: #fff; font-family: 'Merel'; font-size: 13px}
 				}
 			}
@@ -254,8 +259,8 @@
 .catalog-content .catalog-item{width: calc(100% - 1px);}
 	.load-more-items .load-more-wrap:before,.load-more-items .load-more-wrap:after{width: 40%!important;}
 	.catalog-content .catalog-item.action-item .catalog-item-text .action-text{bottom: 85px;}
-	.catalog-content .catalog-item.action-item{padding-bottom: 80px!important;}
-		.catalog-content .catalog-item.action-item .add-to-cart{bottom: 8%;transform: translateX(-50%);}
+	/*.catalog-content .catalog-item.action-item{padding-bottom: 80px!important;}*/
+	.catalog-content .catalog-item.action-item .add-to-cart{bottom: 8%;transform: translateX(-50%);width: 50%;left: auto;right: 0;transform: translateX(0);}
 
 	/*about*/
 	.title-photo{
@@ -282,7 +287,14 @@
 	.catalog-content-wrap .mbox {padding: 0 10px;}
 	.catalog-content-wrap .catalog-content .catalog-item .catalog-item-text {padding-top: 37px;}
 	.catalog-item-desc{height: auto !important;}
-	.catalog-content-wrap .catalog-content .catalog-item.action-item .catalog-item-text{padding-top: 25px;}
+	.catalog-content-wrap .catalog-content .catalog-item.action-item{background-color: #aab2d0;padding-top: 20px;padding-bottom: 20px;
+		.catalog-item-img{width: 100%;position: static;}
+		.catalog-item-text{position: static;width: 100%;transform: translate(0, 0);padding: 20px 2% 1%;}
+		.catalog-item-text .action-text{position: static;}
+		.catalog-item-img-wrap{text-align: center;}
+		.catalog-item-sub-img{display: none;}
+		.add-to-cart{position: static;width: 100%;}
+	}
 	.catalog-content-wrap .catalog-item .add-to-cart a{margin-top: 10px;}
 	.catalog-items {margin-bottom: 115px;}
 
