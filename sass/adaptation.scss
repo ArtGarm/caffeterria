@@ -29,7 +29,7 @@
     .header{position: fixed;top: 0;left:0;right:0;}
 
     .header-telefone{display: none;}
-    .header-logo{position: relative;left: 0;top:10px;transform:translate(0, 0);float: left;max-width: 176px;}
+    .header-logo{position: fixed;left: 0;top:10px;transform:translate(0, 0);float: left;max-width: 176px;top:17px;left:5px;z-index: 5;}
 
     .header-top{padding: 8px 0 4px 0;
         .mbox{padding: 0;}
