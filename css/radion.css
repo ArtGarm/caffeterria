@@ -363,6 +363,10 @@
   margin: 0 auto;
 }
 
+.massonry .massonry_item_img img {
+  padding-right: 15px;
+}
+
 .massonry .massonry_item_img.img-centered {
   text-align: center;
   position: relative;
