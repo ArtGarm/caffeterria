@@ -524,17 +524,14 @@
 }
 
 .header-bottom .header-bottom-nav > ul {
-  display: table;
   width: 100%;
+  text-align: center;
 }
 
 .header-bottom .header-bottom-nav > ul > li {
-  display: table-cell;
+  display: inline-block;
   text-align: center;
   vertical-align: middle;
-  width: -webkit-calc(100% / 7);
-  width: -moz-calc(100% / 7);
-  width: calc(100% / 7);
 }
 
 .header-bottom .header-bottom-nav > ul > li > a {
@@ -547,6 +544,7 @@
   height: 47px;
   line-height: 47px;
   text-transform: uppercase;
+  padding: 0 52px;
   -webkit-transition: background-color 300ms ease;
   -moz-transition: background-color 300ms ease;
   -o-transition: background-color 300ms ease;

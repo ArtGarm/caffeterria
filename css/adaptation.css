@@ -3,6 +3,9 @@
   .header-top > .mbox {
     padding: 0 10px;
   }
+  .header-bottom .header-bottom-nav > ul > li > a {
+    padding: 0 33px;
+  }
   /* /header */
 }
 
