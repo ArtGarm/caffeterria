@@ -77,9 +77,24 @@ function oneHeightItems(){
 		block.css('height', height);
 	}
     if($(window).width()>480){
-    oneHeight($('.catalog-item-desc.oneHeight'));
-	oneHeight($('.catalog-item.oneHeight:not(.action-item)'));
+        oneHeight($('.catalog-item-desc.oneHeight'));
+	   oneHeight($('.catalog-item.oneHeight:not(.action-item)'));
     }
+    if($(window).width()<480){
+        $('.catalog-item-desc.oneHeight').removeAttr('style');
+        $('.catalog-item.oneHeight:not(.action-item)').removeAttr('style');
+    }
+
+    $(window).resize(function() {
+        if($(window).width()>480){
+            oneHeight($('.catalog-item-desc.oneHeight'));
+            oneHeight($('.catalog-item.oneHeight:not(.action-item)'));
+        }
+        if($(window).width()<480){
+            $('.catalog-item-desc.oneHeight').removeAttr('style');
+            $('.catalog-item.oneHeight:not(.action-item)').removeAttr('style');
+        }
+    });
 }
 
 function validate(form, options){
@@ -471,7 +486,6 @@ $(window).load(function(){
 });
 
 $(window).resize(function() {
-
     $('.footer_placeholder').height($('.footer').outerHeight());
 });
 
