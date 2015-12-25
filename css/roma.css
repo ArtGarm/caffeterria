@@ -1,6 +1,6 @@
 /* about caffe */
 .about-caffe-wrap {
-  padding-bottom: 125px;
+  padding-bottom: 139px;
 }
 
 .about-caffe-wrap p {
@@ -135,7 +135,7 @@
 .catalog-nav-wrap ul li {
   padding: 0px 28px;
   display: inline-block;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 
 .catalog-nav-wrap ul li a {
@@ -162,7 +162,7 @@
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 31px;
+  padding-top: 30px;
   font-weight: bold;
   letter-spacing: 3px;
   padding-bottom: 55px;
@@ -333,7 +333,7 @@
   -ms-transform: translate(0%, -50%);
   -o-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
-  padding-top: 116px;
+  padding-top: 152px;
   overflow: hidden;
 }
 
@@ -350,7 +350,7 @@
 }
 
 .catalog-content .catalog-item.action-item .catalog-item-text .action-text {
-  bottom: 0;
+  bottom: 7px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -450,7 +450,7 @@
 }
 
 .catalog-items {
-  margin-bottom: 123px;
+  margin-bottom: 109px;
 }
 
 .catalog-items > div {

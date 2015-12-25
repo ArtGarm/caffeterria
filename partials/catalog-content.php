@@ -221,7 +221,7 @@
 						</div>
 						<div class="catalog-item-text">
 		                    <div class="catalog-item-desc oneHeight">
-		                    	<p>Смузи из натуральной черники, голубики и банана</p>
+		                    	<p>Смузи из натуральной черники</p>
 		                    </div>
 		                    <div class="catalog-item-price">
 		                    	<p><b>499 P</b> / 400 <span>гр.</span></p>

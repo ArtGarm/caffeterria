@@ -406,7 +406,8 @@
   }
   .header-logo {
     width: 41.5%;
-    top: 8px;
+    top: 13px;
+    left: 16px;
   }
   .header-basket-main {
     padding-top: 17px;

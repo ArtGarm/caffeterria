@@ -336,7 +336,7 @@
   /*masonry index page*/
   .massonry .massonry_wrap {
     padding-bottom: 30px;
-    padding-top: 25px;
+    padding-top: 22px;
   }
   .massonry .massonry_item_sizer {
     width: 100%;
@@ -512,7 +512,7 @@
     min-height: 105px;
   }
   .massonry .massonry_item.item_2 .massonry_item_text {
-    padding-bottom: 17px;
+    padding-bottom: 10px;
   }
   .massonry .massonry_item.item_5 {
     width: 92%;
@@ -544,6 +544,7 @@
   .massonry .massonry_item .massonry_item_text_descnotsample {
     padding: 0 4px;
     margin-bottom: 28px;
+    margin-top: 6px;
   }
   .massonry .massonry_item .massonry_item_text .massonry_item_mini_text {
     position: relative;

@@ -102,11 +102,11 @@
   }
   /*catalog*/
   .title-photo.catalog {
-    max-height: 250px;
+    max-height: 252px;
     overflow: hidden;
   }
   .title-photo.catalog img {
-    max-width: 96%;
+    max-width: 100%;
     margin: 0 auto;
     display: block;
   }
@@ -114,16 +114,16 @@
     display: none;
   }
   .catalog-title {
-    font-size: 17px;
+    font-size: 16px;
     padding-top: 52px;
-    letter-spacing: 2px;
+    letter-spacing: 1.6px;
     padding-bottom: 55px;
   }
   .catalog-content-wrap .mbox {
     padding: 0 27px;
   }
   .catalog-content-wrap .catalog-items > div {
-    margin-bottom: 6px;
+    margin-bottom: 12px;
   }
   .catalog-content-wrap .catalog-content .catalog-item.large-item {
     width: -webkit-calc(50% - 14px);
@@ -137,7 +137,7 @@
     margin-right: 14px;
   }
   .catalog-content-wrap .catalog-content .catalog-item .catalog-item-text {
-    padding-top: 36px;
+    padding-top: 39px;
   }
   .catalog-content-wrap .catalog-content .catalog-item .catalog-item-text .catalog-item-desc p {
     font-size: 10px;
@@ -149,7 +149,7 @@
     font-size: 14px;
   }
   .catalog-content-wrap .catalog-item .add-to-cart a {
-    margin-top: 20px;
+    margin-top: 17px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -175,6 +175,9 @@
   }
   .catalog-content {
     margin-bottom: -6px;
+  }
+  .catalog-content .catalog-item.action-item .catalog-item-text .catalog-item-desc {
+    margin: 0 -5px 10px;
   }
   /* conditer bread*/
   .title-photo.conditer-bread {
@@ -256,7 +259,7 @@
   }
   .action-content-wrap .mbox {
     max-width: 100%;
-    padding: 0 37px;
+    padding: 0 29px;
   }
   .action-content-wrap .mbox .action-block {
     margin-bottom: 2%;
@@ -267,7 +270,7 @@
   /* /actions */
   /* about caffe */
   .about-caffe-wrap {
-    padding-bottom: 20px;
+    padding-bottom: 36px;
   }
   .about-caffe-wrap .mbox {
     max-width: 100%;
@@ -279,10 +282,10 @@
     padding-bottom: 45px;
   }
   .about-caffe-wrap .mbox .about-caffe p {
-    margin-bottom: 51px;
+    margin-bottom: 39px;
   }
   .about-caffe-wrap .mbox .about-caffe .text-justify {
-    margin-bottom: 47px;
+    margin-bottom: 69px;
   }
   .about-caffe-wrap .mbox .about-caffe .differend-font:before {
     width: 94%;
@@ -291,7 +294,33 @@
   .about-caffe-wrap .mbox .about-caffe .differend-font {
     margin-bottom: 0;
   }
+  /* about caffe */
+  .about-caffe-wrap .about-caffe-title {
+    padding-bottom: 42px;
+  }
+  .about-caffe-wrap .mbox .about-caffe p {
+    word-spacing: -2px;
+    line-height: 1.8;
+    margin-bottom: 49px;
+  }
+  .about-caffe-wrap .mbox .about-caffe .text-justify {
+    margin-bottom: 31px;
+  }
+  .about-caffe-wrap .mbox .about-caffe .differend-font:before {
+    background-image: url(../images/testimg_new.png);
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 959px) {
   /*catalog*/
+  .catalog-title {
+    letter-spacing: 1.1px;
+    font-size: 14px;
+  }
+  .catalog-items {
+    margin-bottom: 101px;
+  }
   .catalog-content-wrap .catalog-items > div {
     margin-bottom: 0;
   }
@@ -309,22 +338,32 @@
     margin-bottom: 29px;
   }
   .catalog-content-wrap .catalog-content .catalog-item .catalog-item-text {
-    padding-top: 23px;
+    padding-top: 35px;
   }
   .catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop img {
     display: block;
     margin: 0 auto;
     max-width: 97%;
   }
+  .catalog-content-wrap .catalog-item .add-to-cart a {
+    margin-top: 7px;
+  }
+  .catalog-content-wrap .catalog-content .catalog-item.action-item .catalog-item-text {
+    padding: 160px 2% 1%;
+  }
   /*load more*/
+  .load-more-items .load-more-wrap .load-more {
+    margin-top: 7px;
+  }
   .load-more-items .load-more-wrap:before {
-    width: 42.3%;
-    left: 8px;
-    top: -66%;
+    width: 42.8%;
+    left: 3px;
+    top: -55%;
   }
   .load-more-items .load-more-wrap:after {
-    width: 42.3%;
-    right: 7px;
+    width: 43%;
+    right: 1px;
+    top: -56%;
   }
   /* conditer bread*/
   .title-photo.conditer-bread img {
@@ -538,7 +577,7 @@
   .catalog-title {
     font-size: 12px;
     padding-top: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 1.2px;
     padding-bottom: 27px;
   }
   .catalog-content-wrap .mbox {
