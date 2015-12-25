@@ -36,17 +36,18 @@
     .slick-slide img {max-width: none; margin-left: 50%;-moz-transform: translate3d(-57%, -18%, 0);transform: translate3d(-57%, -18%, 0);        -webkit-transform: translate3d(-57%, -18%, 0); }
    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content {
         .content-box-white{
-            .h1{ margin-top: 0; font-size: 64px;  padding: 48px 88px 0px 70px;  }
-            .h2 { font-size: 14px; padding: 7px 108px 6px 72px; max-width: 520px; line-height: 22px;}
-            .h3 { padding: 29px 100px 138px 72px;}
-            a .button-fast {margin-left: 74px;     letter-spacing: 2px;  padding-left: 37px;padding-right: 41px;}
+            .h1{ margin-top: 0; font-size: 64px;  padding: 46px 88px 0px 54px;  }
+            .h2 { font-size: 14px; padding: 6px 108px 6px 58px; max-width: 520px; line-height: 22px;}
+            .h3 { padding: 29px 100px 138px 58px;}
+            a .button-fast {margin-left:59px;letter-spacing: 2px;padding-left: 37px;padding-right: 41px;}
         }
         .content-box-black{
-            .h1{ margin-top: 0; font-size: 84px; padding: 48px 88px 0px 70px; }
-            .h2 {font-size: 14px; padding: 7px 108px 6px 72px; max-width: 520px; line-height: 22px; margin-top: -23px;}
-            .h3 { padding: 29px 100px 138px 72px;}
-            a .button-fast {margin-left: 74px;       letter-spacing: 2px;  padding-left: 37px;padding-right: 41px;}
+            .h1{ margin-top: 0; font-size: 84px; padding: 46px 88px 0px 54px; }
+            .h2 {font-size: 14px; padding: 6px 108px 6px 58px;max-width: 520px;line-height: 22px;margin-top: -23px;}
+            .h3 { padding: 29px 100px 138px 58px;}
+            a .button-fast {margin-left: 59px;letter-spacing: 2px;padding-left: 37px;padding-right: 41px;}
         }
+        .red_circle_slide{display: none;}
     }
     .header-slider-wrap .header-slider-wrap-main .slick-dots{position: absolute;margin-bottom: 50px;bottom: 120px; right: 83.5%; text-align: center;}
 
@@ -63,9 +64,9 @@
 }
 @media screen and (max-width: 768px){
     .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white {z-index: 2; left: calc(50% - 525px/2); text-align: center;}
-    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .h1 {padding: 37px 88px 0px 70px;}
-    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .h2 {padding: 5px 80px 0px; max-width: 520px;line-height: 22px; }
-    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .h3 {padding: 25px 100px 443px 84px;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .h1 {padding: 35px 88px 0px 70px;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .h2 {padding: 5px 80px 0px; max-width: 520px;line-height: 24px; }
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .h3 {padding: 22px 100px 443px 84px;}
     .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black {z-index: 2; left: calc(50% - 525px/2); text-align: center;}
     .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black .h1 {padding: 37px 88px 0px 70px;}
     .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black .h2 {padding: 5px 80px 0px; max-width: 520px;line-height: 22px; }
@@ -77,6 +78,7 @@
     .header-slider-wrap .header-slider-wrap-main .slick-dots { bottom: 54px; width: 100%; right: 0; }
     .slick-slide img { margin-left: 50%; -moz-transform: translate3d(-70%, -8%, 0); transform: translate3d(-70%, -8%, 0);-webkit-transform: translate3d(-70%, -8%, 0);}
     .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .counter { display: none;}
+    .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .red_circle_slide{display: block;top: 31.6%;right: 26%;}
 }
 @media screen and (max-width: 666px){
 .slick-slide img { max-width: none ;  margin-left: 50%;transform:translate3d(-60%,0,0);-webkit-transform:translate3d(-70%,0,0); }

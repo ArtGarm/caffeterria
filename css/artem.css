@@ -7,7 +7,7 @@
 }
 
 .header-slider-wrap {
-  max-width: 1500px;
+  max-width: 1920px;
   margin: 0 auto;
   position: relative;
 }
@@ -58,7 +58,7 @@
   font-weight: 100;
   color: #2a2a2b;
   text-transform: uppercase;
-  padding: 87px 87px 0px 104px;
+  padding: 154px 87px 17px 104px;
   margin-bottom: 0px;
 }
 
@@ -73,7 +73,8 @@
   font-style: normal;
   color: #737478;
   max-width: 660px;
-  padding: 0px 108px 49px 111px;
+  padding: 0px 108px 64px 111px;
+  line-height: 28px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white .h3 {
@@ -81,7 +82,7 @@
   font-size: 18px;
   font-weight: 700;
   color: #737478;
-  padding: 1px 100px 112px 110px;
+  padding: 1px 100px 131px 110px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-white a {
@@ -133,8 +134,9 @@
   font-family: "SavoyeLetPlain", sans-serif;
   font-weight: normal;
   color: #7b4537;
-  padding: 37px 87px 0px 104px;
+  padding: 176px 87px 1px 104px;
   margin-bottom: 0px;
+  line-height: 113px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black .h1 span {
@@ -146,9 +148,10 @@
   font-size: 18px;
   font-style: normal;
   color: #ffffff;
-  padding: 0px 108px 49px 111px;
+  padding: 0px 108px 62px 111px;
   margin-top: 0px;
   max-width: 660px;
+  line-height: 29px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black .h3 {
@@ -156,7 +159,7 @@
   font-size: 18px;
   font-weight: 700;
   color: #ffffff;
-  padding: 1px 100px 87px 110px;
+  padding: 1px 100px 131px 110px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box-black a {
@@ -235,6 +238,37 @@
 
 .header-slider-wrap .header-slider-wrap-main .slick-dots li:hover button, .header-slider-wrap .header-slider-wrap-main .slick-dots li.slick-active button {
   background-color: #fff;
+}
+
+.header-slider-wrap .header-slider-wrap-main .red_circle_slide {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  top: 42%;
+  right: 17%;
+  background-color: #d10019;
+  color: white;
+  overflow: hidden;
+  z-index: 5;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.header-slider-wrap .header-slider-wrap-main .red_circle_slide span {
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -66%);
+  -moz-transform: translate(-50%, -66%);
+  -ms-transform: translate(-50%, -66%);
+  -o-transform: translate(-50%, -66%);
+  transform: translate(-50%, -66%);
+  min-width: 105px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .slick-slide img {
