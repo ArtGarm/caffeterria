@@ -97,6 +97,23 @@
         }
         .fancybox-close:before,.fancybox-close:after{background-color: #8a908f;}
     }
+    .popupCatalog{max-width: 320px !important;max-height: 623px !important;left: 50% !important;top: 50% !important;transform: translate(-50%, -50%) !important;
+        .catalog_pop_wrap .catalog_pop_img img {max-width: 45%;}
+        .catalog_pop_wrap .catalog_pop_img {padding-top: 32px;}
+        .catalog_pop_wrap .catalog_pop_cell.left {height: 39%;}
+        .catalog_pop_wrap .catalog_pop_cell.right{height: 61%;padding: 7px 5px;}
+        .catalog_pop_wrap .catalog_pop_mas {top: 99px;left: 5px;height: 43px;width: 43px;}
+        .catalog_pop_wrap .catalog_pop_mas p,.catalog_pop_wrap .catalog_pop_kkal p{font-size: 11px;padding-top: 12px;}
+        .catalog_pop_wrap .catalog_pop_kkal{height: 43px;width: 43px;
+            p{padding-top: 0;    line-height: 11px;}
+        }
+        .catalog_pop_wrap .catalog_pop_kkal {top: 99px;right: 20px;padding-top: 7px;}
+        .catalog_pop_wrap .catalog_pop_title{font-size: 14px;}
+        .catalog_pop_wrap .catalog_pop_title{padding-bottom: 10px;}
+        .catalog_pop_wrap .catalog_pop_subtitle{letter-spacing: 0px;font-size: 12px;padding-bottom: 15px;    line-height: 18px;}
+        .catalog_pop_button {padding: 16px 9% 0;}
+        .catalog_pop_button a{margin-bottom: 22px !important}
+    }
 }
 @media screen and (max-width: 959px){
     /*masonry index page*/
@@ -158,23 +175,7 @@
 }
 @media screen and (max-width: 479px){
     /*popap*/
-    .popupCatalog{max-width: 320px !important;max-height: 623px !important;left: 50% !important;top: 50% !important;transform: translate(-50%, -50%) !important;
-        .catalog_pop_wrap .catalog_pop_img img {max-width: 45%;}
-        .catalog_pop_wrap .catalog_pop_img {padding-top: 32px;}
-        .catalog_pop_wrap .catalog_pop_cell.left {height: 39%;}
-        .catalog_pop_wrap .catalog_pop_cell.right{height: 61%;padding: 7px 5px;}
-        .catalog_pop_wrap .catalog_pop_mas {top: 99px;left: 5px;height: 43px;width: 43px;}
-        .catalog_pop_wrap .catalog_pop_mas p,.catalog_pop_wrap .catalog_pop_kkal p{font-size: 11px;padding-top: 12px;}
-        .catalog_pop_wrap .catalog_pop_kkal{height: 43px;width: 43px;
-            p{padding-top: 0;    line-height: 11px;}
-        }
-        .catalog_pop_wrap .catalog_pop_kkal {top: 99px;right: 20px;padding-top: 7px;}
-        .catalog_pop_wrap .catalog_pop_title{font-size: 14px;}
-        .catalog_pop_wrap .catalog_pop_title{padding-bottom: 10px;}
-        .catalog_pop_wrap .catalog_pop_subtitle{letter-spacing: 0px;font-size: 12px;padding-bottom: 15px;    line-height: 18px;}
-        .catalog_pop_button {padding: 16px 9% 0;}
-        .catalog_pop_button a{margin-bottom: 22px !important}
-    }
+
 
     /*masonry index page*/
     .massonry{
