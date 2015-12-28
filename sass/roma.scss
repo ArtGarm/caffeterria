@@ -54,6 +54,7 @@
 		.catalog-item-img{
 			.catalog-item-img-wrap{position: relative;
 				.loop{display: block;
+					span{height: 230px;background-size: cover;background-position: center center;display: block;}
 					&:hover {
 						&:before{background-image: url(../images/loop.png);background-repeat: no-repeat;background-position: center center;display: block;position: absolute;top: 50%;left: 50%;transform:translate(-50%,-50%);width: 49px;height: 48px;content: '';}
 					}

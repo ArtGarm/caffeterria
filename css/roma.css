@@ -199,6 +199,16 @@
   display: block;
 }
 
+.catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop span {
+  height: 230px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  display: block;
+}
+
 .catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop:hover:before {
   background-image: url(../images/loop.png);
   background-repeat: no-repeat;

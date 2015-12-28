@@ -10,7 +10,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_1.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_1.jpg);"></span>
                                 </a>
                             </div>
                         </div>
@@ -30,7 +30,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_2.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_2.jpg);"></span>
                                 </a>
                             </div>
                             <div class="red_circle">
@@ -55,7 +55,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_3.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_3.jpg);"></span>
                                 </a>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_4.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_4.jpg);"></span>
                                 </a>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_5.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_5.jpg);"></span>
                                 </a>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_6.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_6.jpg);"></span>
                                 </a>
                             </div>
                             <div class="red_circle">
@@ -142,7 +142,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_7.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_7.jpg);"></span>
                                 </a>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_8.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_8.jpg);"></span>
                                 </a>
                             </div>
                         </div>
@@ -184,7 +184,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_9.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_9.jpg);"></span>
                                 </a>
                             </div>
                         </div>
@@ -204,7 +204,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_10.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_10.jpg);"></span>
                                 </a>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
                                 <a href="#catalog_pop" class="loop">
-                                    <img src="images/bread_item_11.jpg" alt=""/>
+                                    <span style="background-image: url(images/bread_item_11.jpg);"></span>
                                 </a>
                             </div>
                         </div>
