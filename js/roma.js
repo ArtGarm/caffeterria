@@ -39,8 +39,15 @@ function popUpCatalogimg(){
         autoSize:true,
         openEffect:'elastic',
         closeEffect:'elastic',
+        fitToView:true,
         padding:0,
-        wrapCSS:" popupCatalog"
+        wrapCSS:" popupCatalog",
+        beforeLoad:function(){
+            //$('body').addClass('hidden');
+        },
+        afterClose:function(){
+            //$('body').removeClass('hidden');
+        }
     });
 }
 

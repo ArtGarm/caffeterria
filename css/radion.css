@@ -48,6 +48,14 @@
   border-radius: 0px;
 }
 
+.fancybox-lock body {
+  overflow: hidden !important;
+}
+
+.fancybox-overlay-fixed {
+  min-height: 100vh !important;
+}
+
 /*/fancybox style*/
 /*button*/
 .look_and_buy {
@@ -409,10 +417,6 @@
 }
 
 /*catalog pop*/
-.catalog_pop_wrap {
-  min-width: 740px;
-}
-
 .catalog_pop_wrap .catalog_pop_table {
   display: table;
 }

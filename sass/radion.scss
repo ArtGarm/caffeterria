@@ -8,6 +8,9 @@
     &:before{position: absolute;width: 20px;height: 3px;background-color: #cccccc;content: "";transform: rotate(135deg);top:15px;right:7px;}
 }
 .fancybox-skin{border-radius: 0px;}
+.fancybox-lock body {overflow: hidden !important;}
+// .fancybox-lock .fancybox-overlay{overflow: hidden !important;}
+.fancybox-overlay-fixed{min-height: 100vh !important;}
 /*/fancybox style*/
 
 /*button*/
@@ -89,7 +92,7 @@
 }
 
 /*catalog pop*/
-.catalog_pop_wrap{min-width: 740px;
+.catalog_pop_wrap{
     .catalog_pop_table{display: table;}
     .catalog_pop_cell{display: table-cell;width: 50%;vertical-align: middle;position: relative;z-index: 1;
         &.left{background-color: #ccf5f3;width: 51%;}

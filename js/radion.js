@@ -24,10 +24,21 @@ function massonryInit(){
 function popUpCatalog(){
     $('.catalog_pop').fancybox({
         autoSize:true,
+       fitToView:true,
         openEffect:'elastic',
         closeEffect:'elastic',
         padding:0,
-        wrapCSS:" popupCatalog"
+        wrapCSS:" popupCatalog",
+        beforeLoad:function(){
+            //$('body').addClass('hidden');
+        },
+        afterClose:function(){
+            //$('body').removeClass('hidden');
+        },
+        afterShow:function(){
+            $('.fancybox-lock .fancybox-overlay').height($(window).height());
+            console.log('qweqwe')
+        }
     });
 
     $('.catalog_pop_close').click(function(){
