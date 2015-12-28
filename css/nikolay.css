@@ -1,5 +1,4 @@
-@charset "UTF-8";
-/*ебаут ас))))*/
+/*)*/
 .about-us-wrapper {
   padding-bottom: 91px;
 }
@@ -49,8 +48,12 @@
   line-height: 24px;
 }
 
-/*/ебаут ас))))*/
+/*/*/
 /*special*/
+.special .mbox {
+  padding: 0 25px;
+}
+
 .special-wrapper .special-align .special-title {
   text-align: center;
   margin-bottom: 85px;

@@ -4,7 +4,7 @@
 .header-slider-wrap{ max-width: 1920px;margin: 0 auto;position: relative;
     .buton-scroll{position: absolute; bottom: 20px; left: calc(50% - 12px); width: 24px; height: 38px; background-image: url(../images/scroller.png); display: none;}
     .buton-scroll:hover{cursor: pointer;}
-    .header-slider-wrap-main{ width: 100%; overflow: hidden;
+    .header-slider-wrap-main{width: 100%;overflow: hidden;max-height: 812px;
         .header-slider-item{
             .conteiner-content{ position: relative;
                 .counter{font-size: 30px; color:#ffffff; position: absolute; bottom: 56px; right: 110px; font-style: "Merel"; font-weight: 900; }
@@ -84,8 +84,11 @@
     .navi-wrapp-main{width: 100%; background-color: #f5f7fa;margin: 0 auto;}
     .main-block{ text-align: center;max-width: 1500px;
         .header-place{  padding-top: 76px; padding-bottom: 20px;  font-family:"Merel", sans-serif; font-weight: 700; text-transform: uppercase; font-size: 18px; letter-spacing: 2px; color: #000000; }
-        .convert-adress{  width: 100%; padding-top: 47px; margin-bottom: 0px; text-align: justify;
-            .adress{display: inline-block; width: 23%; vertical-align: top;text-transform: uppercase;  font-weight: 500; font-family:"Merel", sans-serif; font-size: 11px; color: #000000; }
+        .convert-adress{  width: 100%; padding-top: 47px; margin-bottom: 0px; text-align: left;
+            .adress{display: inline-block; width: 24%; vertical-align: top;text-transform: uppercase;  font-weight: 500; font-family:"Merel", sans-serif; font-size: 11px; color: #000000;
+                // &:nth-child(2),&:nth-child(3){text-align: center;}
+                // &:nth-child(4){text-align: right;}
+            }
         }
         .socials-head{ max-width: 200px; padding-top: 67px; padding-bottom: 57px; margin: 0 auto;
             p{color: #aaacad; text-transform: uppercase;font-family:"Merel", sans-serif; font-weight: 500;font-size: 11px; padding-bottom: 32px; margin-bottom: 0px; letter-spacing: 1px;}

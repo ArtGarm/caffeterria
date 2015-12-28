@@ -7,7 +7,7 @@
 					<div class="catalog-item oneHeight large-item">
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
+								<a href="#catalog_pop" class="loop">
 									<img src="images/item1.jpg" alt=""/>
 								</a>
 							</div>
@@ -32,8 +32,8 @@
 					<div class="catalog-item oneHeight">
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
-									<img src="images/item2.jpg" alt=""/>
+								<a href="#catalog_pop" class="loop">
+									<img src="images/item2.jpg" alt="" />
 								</a>
 							</div>
 							<div class="red_circle">
@@ -57,8 +57,8 @@
 					<div class="catalog-item oneHeight">
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
-									<img src="images/item3.jpg" alt=""/>
+								<a href="#catalog_pop" class="loop">
+									<img src="images/item3.jpg" alt="" />
 								</a>
 							</div>
 							<div class="red_circle">
@@ -84,8 +84,8 @@
 					<div class="catalog-item oneHeight">
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
-									<img src="images/item4.jpg" alt=""/>
+								<a href="#catalog_pop" class="loop">
+									<img src="images/item4.jpg" alt="" />
 								</a>
 							</div>
 						</div>
@@ -104,8 +104,8 @@
 					<div class="catalog-item oneHeight">
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
-									<img src="images/item5.jpg" alt=""/>
+								<a href="#catalog_pop" class="loop">
+									<img src="images/item5.jpg" alt="" />
 								</a>
 							</div>
 						</div>
@@ -124,8 +124,8 @@
 					<div class="catalog-item oneHeight">
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
-									<img src="images/item6.jpg" alt=""/>
+								<a href="#catalog_pop" class="loop">
+									<img src="images/item6.jpg" alt="" />
 								</a>
 							</div>
 							<div class="red_circle">
@@ -149,8 +149,8 @@
 					<div class="catalog-item oneHeight">
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
-									<img src="images/item7.jpg" alt=""/>
+								<a href="#catalog_pop" class="loop">
+									<img src="images/item7.jpg" alt="" />
 								</a>
 							</div>
 						</div>
@@ -171,8 +171,8 @@
 					<div class="catalog-item oneHeight">
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
-									<img src="images/item8.jpg" alt=""/>
+								<a href="#catalog_pop" class="loop">
+									<img src="images/item8.jpg" alt="" />
 								</a>
 							</div>
 						</div>
@@ -191,8 +191,8 @@
 					<div class="catalog-item oneHeight">
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item7.jpg" class="loop">
-									<img src="images/item9.jpg" alt=""/>
+								<a href="#catalog_pop" class="loop">
+									<img src="images/item9.jpg" alt="" />
 								</a>
 							</div>
 						</div>
@@ -214,7 +214,7 @@
 						</div>
 						<div class="catalog-item-img">
 							<div class="catalog-item-img-wrap">
-								<a href="images/item10-new.jpg" class="loop">
+								<a href="#catalog_pop" class="loop">
 									<img src="images/item10-new.jpg" alt=""/>
 								</a>
 							</div>

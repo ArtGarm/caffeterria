@@ -1,3 +1,9 @@
+@media screen and (max-width: 1180px) {
+  .catalog-content .catalog-item.action-item .catalog-item-text {
+    padding-top: 75px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   /* about caffe */
   .title-photo.about {
@@ -215,7 +221,7 @@
     overflow: hidden;
   }
   .title-photo.conditer-stock img {
-    max-width: 94%;
+    max-width: 100%;
     margin: 0 auto;
     display: block;
   }
@@ -224,6 +230,7 @@
   }
   .breadcrumbs.conditer-stock + .wrap-text .convert-text .h1 {
     line-height: 26px;
+    padding: 28px 2% 0px;
   }
   .breadcrumbs.conditer-stock + .wrap-text .convert-text .h1:last-child {
     line-height: 24px;
@@ -236,9 +243,10 @@
     letter-spacing: 3px;
   }
   .catalog-content-wrap.conditer-stock-page .catalog-item-title {
-    padding: 52px 0px 56px;
-    font-size: 17px;
+    padding: 53px 0px 56px;
+    font-size: 14px;
     font-weight: bold;
+    letter-spacing: 2.9px;
   }
   .catalog-content-wrap.conditer-stock-page .catalog-items {
     margin-bottom: 65px;
@@ -343,7 +351,8 @@
   .catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop img {
     display: block;
     margin: 0 auto;
-    max-width: 97%;
+    width: 97%;
+    max-height: 230px;
   }
   .catalog-content-wrap .catalog-item .add-to-cart a {
     margin-top: 7px;
@@ -351,17 +360,21 @@
   .catalog-content-wrap .catalog-content .catalog-item.action-item .catalog-item-text {
     padding: 160px 2% 1%;
   }
+  .catalog-content-wrap .catalog-content .catalog-item.action-item .catalog-item-img .catalog-item-img-wrap .loop img {
+    width: auto;
+    max-height: 100%;
+  }
   /*load more*/
   .load-more-items .load-more-wrap .load-more {
     margin-top: 7px;
   }
   .load-more-items .load-more-wrap:before {
-    width: 42.8%;
+    width: 50%;
     left: 3px;
     top: -55%;
   }
   .load-more-items .load-more-wrap:after {
-    width: 43%;
+    width: 50%;
     right: 1px;
     top: -56%;
   }
@@ -405,9 +418,10 @@
     padding: 0 35px;
   }
   .catalog-content-wrap.conditer-stock-page .catalog-item-title {
-    padding: 52px 0px 56px;
-    font-size: 17px;
+    padding: 53px 0px 56px;
+    font-size: 14px;
     font-weight: bold;
+    letter-spacing: 2.8px;
   }
   .catalog-content-wrap.conditer-stock-page .catalog-items {
     margin-bottom: 88px;
@@ -459,11 +473,24 @@
     -o-transform: translateX(-28%);
     transform: translateX(-28%);
   }
+  /* conditer stock*/
+  .breadcrumbs.conditer-stock + .wrap-text .convert-text .h1 {
+    line-height: 24px;
+  }
+  .breadcrumbs.conditer-stock + .wrap-text .convert-text .h1:last-child {
+    padding-top: 26px;
+  }
 }
 
 @media screen and (max-width: 666px) {
   .catalog-item-text div {
     width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .catalog-content-wrap .catalog-content .catalog-item.action-item .catalog-item-text {
+    padding: 120px 2% 1%;
   }
 }
 
@@ -561,6 +588,9 @@
   }
   .about-caffe-wrap .differend-font {
     height: 89px;
+  }
+  .about-caffe-wrap .mbox .about-caffe .differend-font:before {
+    background-image: url(../images/testimg_small.png);
   }
   /*catalog*/
   .title-photo.catalog img {
@@ -663,7 +693,7 @@
     font-size: 15px;
     letter-spacing: 1px;
   }
-  /* conditer bread*/
+  /* conditer stock*/
   .title-photo.conditer-stock img {
     max-width: none;
     -webkit-transform: translateX(-50%);
@@ -676,12 +706,12 @@
     max-height: 141px;
   }
   .breadcrumbs.conditer-stock + .wrap-text .convert-text .h1 {
-    line-height: 20px;
-    padding: 15px 2% 0px 2%;
+    line-height: 18.7px;
+    padding: 18px 2% 0px 2%;
   }
   .breadcrumbs.conditer-stock + .wrap-text .convert-text .h1:last-child {
-    line-height: 20px;
-    padding-top: 15px;
+    line-height: 18.5px;
+    padding-top: 17.9px;
   }
   .breadcrumbs.conditer-stock + .wrap-text .convert-text:last-child {
     margin-bottom: 36px;
@@ -690,9 +720,12 @@
     padding: 0 10px;
   }
   .catalog-content-wrap.conditer-stock-page .catalog-item-title {
-    padding: 34px 0px 35px;
-    font-size: 15px;
-    letter-spacing: 1px;
+    padding: 37px 0px 37px;
+    font-size: 14px;
+    letter-spacing: 2.6px;
+  }
+  .catalog-content-wrap.conditer-stock-page .catalog-content {
+    margin-bottom: -25px;
   }
 }
 

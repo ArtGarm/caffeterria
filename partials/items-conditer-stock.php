@@ -9,7 +9,7 @@
                     <div class="catalog-item oneHeight large-item">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item1.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item1.jpg" alt=""/>
                                 </a>
                             </div>
@@ -29,7 +29,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item2.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item2.jpg" alt=""/>
                                 </a>
                             </div>
@@ -54,7 +54,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item3.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item3.jpg" alt=""/>
                                 </a>
                             </div>
@@ -76,7 +76,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item4.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item4.jpg" alt=""/>
                                 </a>
                             </div>
@@ -96,7 +96,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item5.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item5.jpg" alt=""/>
                                 </a>
                             </div>
@@ -116,7 +116,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item6.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item6.jpg" alt=""/>
                                 </a>
                             </div>
@@ -141,7 +141,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item7.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item7.jpg" alt=""/>
                                 </a>
                             </div>
@@ -163,7 +163,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item9.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item9.jpg" alt=""/>
                                 </a>
                             </div>
@@ -183,7 +183,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item9.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item9.jpg" alt=""/>
                                 </a>
                             </div>
@@ -203,7 +203,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item10.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item10.jpg" alt=""/>
                                 </a>
                             </div>
@@ -223,7 +223,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/stock-item10.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/stock-item10.jpg" alt=""/>
                                 </a>
                             </div>

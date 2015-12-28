@@ -2,14 +2,14 @@
     <div class="mbox">
         <div class="catalog-content">
             <div class="catalog-item-title">
-                <span>Хлебно-булочные изделия</span>
+                <span>Хлебо-булочные изделия</span>
             </div>
             <div class="catalog-items cfix">
                 <div class="row3">
                     <div class="catalog-item oneHeight large-item">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_1.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_1.jpg" alt=""/>
                                 </a>
                             </div>
@@ -29,7 +29,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_2.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_2.jpg" alt=""/>
                                 </a>
                             </div>
@@ -54,7 +54,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_3.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_3.jpg" alt=""/>
                                 </a>
                             </div>
@@ -76,7 +76,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_4.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_4.jpg" alt=""/>
                                 </a>
                             </div>
@@ -96,7 +96,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_5.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_5.jpg" alt=""/>
                                 </a>
                             </div>
@@ -116,7 +116,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_6.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_6.jpg" alt=""/>
                                 </a>
                             </div>
@@ -141,7 +141,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_7.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_7.jpg" alt=""/>
                                 </a>
                             </div>
@@ -163,7 +163,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_8.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_8.jpg" alt=""/>
                                 </a>
                             </div>
@@ -183,7 +183,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_9.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_9.jpg" alt=""/>
                                 </a>
                             </div>
@@ -203,7 +203,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_10.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_10.jpg" alt=""/>
                                 </a>
                             </div>
@@ -223,7 +223,7 @@
                     <div class="catalog-item oneHeight">
                         <div class="catalog-item-img">
                             <div class="catalog-item-img-wrap">
-                                <a href="images/bread_item_11.jpg" class="loop">
+                                <a href="#catalog_pop" class="loop">
                                     <img src="images/bread_item_11.jpg" alt=""/>
                                 </a>
                             </div>

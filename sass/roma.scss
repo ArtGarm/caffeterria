@@ -1,5 +1,6 @@
 /* about caffe */
 .about-caffe-wrap{padding-bottom: 139px;
+	.mbox{padding: 0 25px;}
 	p{font-size: 14px; font-family: Merel;margin-bottom: 64px;text-align: justify;text-align-last: center;word-spacing: -4px;    line-height: 1.6;
 		span{text-align: center;width: 100%;display: inline-block;    word-spacing: 0px;}
 	}
@@ -18,6 +19,7 @@
 /* actions */
 
 .action-content-wrap{margin-bottom: 58px;
+	.mbox{padding: 0 25px;}
 	.action-title{text-align: center;color: #303030;font-size: 24px;text-transform: uppercase;font-weight: bold;letter-spacing: 5px;padding-top: 46px;padding-bottom: 76px;}
 	.action-block{width: calc(50% - 10px);float: left;position: relative;margin-bottom: 20px;
 		&.action1{float: left;}
@@ -105,11 +107,11 @@
 .load-more-items{
 	&:after{clear: both;content: '';display: block;}
 	.load-more-wrap{width: 100%;height: 70px;text-align: center;position: relative;
-		&:before{width: 46.3%;display: block;content: '';height: 2px;position: absolute;left: 0;top: -64%;background-color: #ccc;}
-		&:after{width: 46.4%;display: block;content: '';height: 2px;position: absolute;right: 0;top: -66%;background-color: #ccc;}
+		&:before{width: 50%;display: block;content: '';height: 2px;position: absolute;left: 0;top: -64%;background-color: #ccc;}
+		&:after{width: 50%;display: block;content: '';height: 2px;position: absolute;right: 0;top: -66%;background-color: #ccc;}
 		.load-more{display: inline-block;
 			a{font-size: 12px;	font-family: 'Merel'; font-weight: 700; color: #ccc; letter-spacing: 1px;width: 65px;position: relative;text-decoration: none;text-transform: uppercase;
-				&:before{background-image: url(../images/loadmore.png);background-repeat: no-repeat;width: 65px;height: 65px; display: block;content: '';position: absolute;top: -79px;left: 50%;transform: translateX(-50%);}
+				&:before{background-image: url(../images/loadmore.png);background-repeat: no-repeat;width: 65px;height: 65px; display: block;content: '';position: absolute;top: -79px;left: 50%;transform: translateX(-50%);background-color: white;z-index: 10;padding: 0 10px 0 10px;background-position: center center;}
 			}
 		}
 	}
@@ -146,10 +148,13 @@
 		.catalog-items {margin-bottom: 59px;}
 	}
 }
+
+/* catalog stock*/
 .catalog-content-wrap {
 	&.conditer-stock-page{
-		.catalog-item-title{padding: 75px 0px 86px;font-weight: bold;letter-spacing: 4px;}
-		.catalog-items{margin-bottom: 97px;}
+		.catalog-item-title{padding: 70px 0px 86px;font-weight: bold;letter-spacing: 4.2px;}
+		.catalog-items{margin-bottom: 102px;}
+		.catalog-items > div{margin-bottom: 42px;}
 	}
 }
 .catalog-content-wrap.conditer-stock-page + .special{margin-bottom: 11px;}

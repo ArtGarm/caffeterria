@@ -3,6 +3,10 @@
   padding-bottom: 139px;
 }
 
+.about-caffe-wrap .mbox {
+  padding: 0 25px;
+}
+
 .about-caffe-wrap p {
   font-size: 14px;
   font-family: Merel;
@@ -82,6 +86,10 @@
 /* actions */
 .action-content-wrap {
   margin-bottom: 58px;
+}
+
+.action-content-wrap .mbox {
+  padding: 0 25px;
 }
 
 .action-content-wrap .action-title {
@@ -395,7 +403,7 @@
 }
 
 .load-more-items .load-more-wrap:before {
-  width: 46.3%;
+  width: 50%;
   display: block;
   content: '';
   height: 2px;
@@ -406,7 +414,7 @@
 }
 
 .load-more-items .load-more-wrap:after {
-  width: 46.4%;
+  width: 50%;
   display: block;
   content: '';
   height: 2px;
@@ -447,6 +455,10 @@
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
+  background-color: white;
+  z-index: 10;
+  padding: 0 10px 0 10px;
+  background-position: center center;
 }
 
 .catalog-items {
@@ -484,14 +496,19 @@
   margin-bottom: 59px;
 }
 
+/* catalog stock*/
 .catalog-content-wrap.conditer-stock-page .catalog-item-title {
-  padding: 75px 0px 86px;
+  padding: 70px 0px 86px;
   font-weight: bold;
-  letter-spacing: 4px;
+  letter-spacing: 4.2px;
 }
 
 .catalog-content-wrap.conditer-stock-page .catalog-items {
-  margin-bottom: 97px;
+  margin-bottom: 102px;
+}
+
+.catalog-content-wrap.conditer-stock-page .catalog-items > div {
+  margin-bottom: 42px;
 }
 
 .catalog-content-wrap.conditer-stock-page + .special {

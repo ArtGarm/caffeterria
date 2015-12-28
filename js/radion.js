@@ -53,9 +53,27 @@ function worksHeight(item){
         item.removeAttr('style');
     }
 }
-
+// function catalogImage(){
+//     var standart;
+//         if($('.catalog-item-img-wrap').length){
+//             $('.catalog-item-img-wrap .loop img').each(function() {
+//                 standart = $(this).attr('src');
+//                 console.log(standart);
+//             });
+//         }
+//     if($(window).width() <= 768 ){
+//         if($('.catalog-item-img-wrap').length){
+//             $('.catalog-item-img-wrap .loop img').each(function() {
+//                 var mediaImg = $(this).data('media-img');
+//                 if(mediaImg == null) return;
+//                 $(this).attr('src',mediaImg);
+//             });
+//         }
+//     }
+// }
 
 $(document).ready(function(){
+    //catalogImage();
     popUpCatalog();
 });
 $(window).load(function(){

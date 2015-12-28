@@ -31,6 +31,7 @@
 .header-slider-wrap .header-slider-wrap-main {
   width: 100%;
   overflow: hidden;
+  max-height: 812px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content {
@@ -376,12 +377,12 @@
   width: 100%;
   padding-top: 47px;
   margin-bottom: 0px;
-  text-align: justify;
+  text-align: left;
 }
 
 .main-block .convert-adress .adress {
   display: inline-block;
-  width: 23%;
+  width: 24%;
   vertical-align: top;
   text-transform: uppercase;
   font-weight: 500;

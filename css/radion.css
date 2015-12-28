@@ -556,4 +556,15 @@
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 3.9px;
+  font-weight: bold;
+}
+
+.breadcrumbs.conditer-bread + .wrap-text .convert-text .h1:last-child {
+  padding-top: 35px;
+  line-height: 29px;
+}
+
+.conditer-bread-page .catalog-item-title {
+  padding: 80px 0px 85px;
 }

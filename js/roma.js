@@ -37,7 +37,10 @@ function loadmore(){
 function popUpCatalogimg(){
     $('.loop').fancybox({
         autoSize:true,
-        padding:0
+        openEffect:'elastic',
+        closeEffect:'elastic',
+        padding:0,
+        wrapCSS:" popupCatalog"
     });
 }
 
