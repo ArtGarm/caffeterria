@@ -138,6 +138,7 @@
 				<div class="header-basket-main">
 					<div class="header-basket-icon">
 						<img src="images/header-basket-icon.png" alt="" />
+						<span class="header-basket-icon-backface"></span>
 						<span class="header-basket-value"></span>
 					</div>
 					<div class="header-basket-form">
