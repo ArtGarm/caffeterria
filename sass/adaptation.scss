@@ -46,7 +46,8 @@
             &:after{right: -29px;}
             .header-basket-value{width: 15px;height: 15px;left: calc(100% + 3px);bottom: calc(100% + 7px);font-size: 10px;line-height: 14px;background-color:#fff;color:#d10019;transition:color 300ms ease, background-color 300ms ease;}
         }
-        .header-basket-form{position: fixed;right:-405px;top: 0;display: block;margin-top: 0;height: 100%;overflow-y:scroll;width: 405px;transition:right 300ms ease, box-shadow 300ms ease;z-index: 1;padding-top:94px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);
+        .header-basket-form{position: fixed;right:-405px;top: 0;display: block;margin-top: 0;height: 100%;width: 405px;transition:right 300ms ease, box-shadow 300ms ease;z-index: 1;padding-top:94px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);
+            &.scroll{overflow-y:scroll;}
             &:after{content:'';display: block;position: absolute;top: 0;right:0;left:0;height: 72px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);position:fixed;z-index:2;transition:box-shadow 300ms ease;background-color: #fff;}
             .header-basket-form-row{padding-left: 24px;padding-right: 17px;margin-left: -20px;margin-right:-20px;}
             .close-form{top: 90px;}
@@ -130,7 +131,7 @@
     /* header */
 
     .header-basket-main .header-basket-form, .header-bottom, .header-bottom .header-bottom-nav .device-second-level{width: 385px;right: -385px;}
-    .header-bottom.show .sendwich-icon-wrap{right: 340px;}
+    .header-bottom.show .sendwich-icon-wrap{right: 319px;}
     .header-basket-main.show{right: 344px;}
     .sendwich-callback-button{right: 115px;}
     .header-bottom.show{
@@ -176,8 +177,8 @@
         }
     }
 
-    .sendwich-icon-wrap{top: 16px;right: 16px;width: 13px;height: 13px;
-        &:after{height: 48px;top:-16px;right:-17px;}
+    .sendwich-icon-wrap{width: 13px;height: 13px;padding: 20px 16px 15px 17px;
+        &:after{height: 48px;}
         .sendwich-icon{
             span{height: 2px;
                 &:before, &:after{height: 2px;}
@@ -213,7 +214,7 @@
     }
 
     .header-basket-main .header-basket-form, .header-bottom, .header-bottom .header-bottom-nav .device-second-level{width: 273px;right: -273px;}
-    .header-bottom.show .sendwich-icon-wrap{right: 239px;}
+    .header-bottom.show .sendwich-icon-wrap{right: 227px;}
     .header-basket-main.show{right: 231px;}
     .sendwich-callback-button{right: 51px;top:14px;font-size: 11px;}
 
