@@ -16,6 +16,7 @@
     .header-top>.mbox{padding: 0 10px;}
     .header-bottom .header-bottom-nav > ul > li > a{padding: 0 33px;}
 
+
     /* /header */
 
 }
@@ -29,7 +30,9 @@
     .header{position: fixed;top: 0;left:0;right:0;}
 
     .header-telefone{display: none;}
-    .header-logo{position: fixed;left: 0;top:10px;transform:translate(0, 0);float: left;max-width: 176px;top:17px;left:5px;z-index: 5;}
+    .header-logo{position: fixed;left: 0;top:10px;transform:translate(0, 0);float: left;max-width: 176px;top:17px;left:5px;z-index: 5;
+        &.hide, &.hide-by-menu{display: none;}
+    }
 
     .header-top{padding: 8px 0 4px 0;
         .mbox{padding: 0;}
@@ -73,7 +76,7 @@
             }
         }
         .mbox{max-width: none;padding: 0;}
-        .header-bottom-nav{padding-top: 72px;
+        .header-bottom-nav{padding-top: 0;margin-top:72px;//header-top:72px;
             &:after{content:'';position: fixed;border-bottom:1px solid #f5f7fa;top: 0;left: 100%;width: 100%;height:72px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);transition:box-shadow 300ms ease, left 300ms ease;background-color: #fff;}
             >ul, >ul>li, .second-level-menu-row, .second-level-menu-col{display: block!important;width: auto;}
             >ul>li>a{color:#000;font-size: 14px;transition:background-color 300ms ease;background-color:#fff;border-bottom: 1px solid #f5f7fa;text-align: left;padding-left: 25px;font-size: 14px;letter-spacing:1.5px;min-height: 71px;display: table;width: 100%;
@@ -189,7 +192,7 @@
     }
 
     .header-bottom{
-        .header-bottom-nav{padding-top: 48px;
+        .header-bottom-nav{margin-top:48px;//padding-top:48px;
             &>ul>li>a{font-size: 13px;min-height: 51px;}
             .device-second-level{top: 48px;height: calc(100% - 48px);}
             &:after{height: 48px;}
