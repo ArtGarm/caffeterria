@@ -48,7 +48,7 @@
         }
         .header-basket-form{position: fixed;right:-405px;top: 0;display: block;margin-top: 0;height: 100%;width: 405px;transition:right 300ms ease, box-shadow 300ms ease;z-index: 1;padding-top:94px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);
             &.scroll{overflow-y:scroll;}
-            &:after{content:'';display: block;position: absolute;top: 0;right:0;left:0;height: 72px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);position:fixed;z-index:2;transition:box-shadow 300ms ease;background-color: #fff;}
+            &:after{content:'';display: block;position: absolute;top: 0;right:0;left:100%;width:100%;height: 72px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);position:fixed;z-index:2;transition:box-shadow 300ms ease;background-color: #fff;}
             .header-basket-form-row{padding-left: 24px;padding-right: 17px;margin-left: -20px;margin-right:-20px;}
             .close-form{top: 90px;}
             .header-basket-submit-button{text-align: center;
@@ -57,7 +57,7 @@
         }
         &.show{right:363px;
             .header-basket-form{box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.18);
-                &:after{box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.18);}
+                &:after{box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.18);left:0;}
             }
             .header-basket-icon{
                 &:before{left: -21px;}
