@@ -80,12 +80,12 @@
     .call_success-text{font-size: 26px;}
 }
 .sendwich-callback-button{position: absolute;top:25px;right: 145px;font-size: 12px;cursor:pointer;display: none;color:#808080;letter-spacing: 1.5px;font-weight: 700;text-transform: uppercase;
-    .back-icon{display: inline-block;width: 15px;height: 15px;position: relative;vertical-align: middle;
+    .back-icon{display: inline-block;width: 15px;height: 15px;position: relative;vertical-align: top;
         &:before, &:after{content: '';display: block;width: 9px;height: 2px;border-radius: 50px;background-color: #7f7f7f;position: absolute;left:0;transform-origin:50% 50%;}
         &:after{transform:rotate(-45deg) translate(0, -3px);top:calc(50% - 1px);}
         &:before{transform:rotate(45deg) translate(0, 3px);top:calc(50% + 0px);}
     }
-    .back-text{display: inline-block;vertical-align: middle;}
+    .back-text{display: inline-block;vertical-align: top;line-height: 11px;padding-top: 3px;}
 }
 .sendwich-icon-wrap{display: none;width: 18px;height: 18px;padding-top:7px;cursor: pointer;position: fixed;right: 24px;top: 28px;transition:right 300ms ease;
     &:after{content: '';position: absolute;height: 72px;width: 1px;background-color: transparent;top:-28px;right: -25px;}

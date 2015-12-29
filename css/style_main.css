@@ -385,7 +385,7 @@
   width: 15px;
   height: 15px;
   position: relative;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .sendwich-callback-button .back-icon:before, .sendwich-callback-button .back-icon:after {
@@ -430,7 +430,9 @@
 
 .sendwich-callback-button .back-text {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
+  line-height: 11px;
+  padding-top: 3px;
 }
 
 .sendwich-icon-wrap {
