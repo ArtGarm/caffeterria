@@ -144,8 +144,11 @@
     .popupCatalog .catalog_pop_price span {font-size: 18px;}
     .popupCatalog .catalog_pop_wrap .catalog_pop_img {padding-top: 15px;padding-bottom: 15px;}
     .catalog_pop_wrap .catalog_pop_button .catalog_pop_close{margin-bottom: 5px !important;}
-    .hidden{overflow: hidden !important;overflow-y: hidden !important;position: relative;height: 500px !important;}
+    .hidden{overflow: hidden !important;overflow-y: hidden !important;position: relative;}
 
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
+    .hidden{height: 500px !important;}
 }
 @media screen and (max-width: 666px){
     /*masonry index page*/

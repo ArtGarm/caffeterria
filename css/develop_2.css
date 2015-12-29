@@ -214,6 +214,7 @@
 .header-slider-wrap .header-slider-wrap-main .slick-dots li {
   display: inline-block;
   margin-right: 13px;
+  cursor: pointer;
 }
 
 .header-slider-wrap .header-slider-wrap-main .slick-dots li:last-child {
@@ -231,6 +232,7 @@
   border-radius: 50%;
   width: 12px;
   height: 12px;
+  cursor: pointer;
 }
 
 .header-slider-wrap .header-slider-wrap-main .slick-dots li button:focus {
