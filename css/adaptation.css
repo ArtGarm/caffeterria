@@ -85,6 +85,12 @@
   .header-basket-main .header-basket-icon:after {
     right: -29px;
   }
+  .header-basket-main .header-basket-icon .header-basket-icon-backface {
+    top: -32px;
+    left: -22px;
+    right: -28px;
+    bottom: -24px;
+  }
   .header-basket-main .header-basket-icon .header-basket-value {
     width: 15px;
     height: 15px;
@@ -433,6 +439,12 @@
   }
   .header-basket-main .header-basket-icon img {
     max-width: 90%;
+  }
+  .header-basket-main .header-basket-icon .header-basket-icon-backface {
+    top: -17px;
+    left: -13px;
+    right: -14px;
+    bottom: -17px;
   }
   .header-basket-main .header-basket-icon .header-basket-value {
     left: -webkit-calc(100% - 3px);

@@ -44,6 +44,7 @@
             &:before, &:after{content:'';position: absolute;height: 72px;width: 1px;background-color: #f2f2f2;top: -32px;transition:left 300ms ease, right 300ms ease;}
             &:before{left: -23px;}
             &:after{right: -29px;}
+            .header-basket-icon-backface{top: -32px;left: -22px;right: -28px;bottom: -24px;}
             .header-basket-value{width: 15px;height: 15px;left: calc(100% + 3px);bottom: calc(100% + 7px);font-size: 10px;line-height: 14px;background-color:#fff;color:#d10019;transition:color 300ms ease, background-color 300ms ease;}
         }
         .header-basket-form{position: fixed;right:-405px;top: 0;display: block;margin-top: 0;height: 100%;width: 405px;transition:right 300ms ease, box-shadow 300ms ease;z-index: 1;padding-top:94px;box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0);
@@ -163,6 +164,7 @@
             &:before{left:-14px;}
             &:after{right: -15px;}
             img{max-width: 90%;}
+            .header-basket-icon-backface{top:-17px;left:-13px;right: -14px;bottom: -17px;}
             .header-basket-value{left: calc(100% - 3px);bottom: calc(100% - 2px);}
         }
         .header-basket-form{right:-80px;padding-top: 48px;
