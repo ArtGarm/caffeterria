@@ -481,10 +481,10 @@
     height: 2px;
   }
   .sendwich-icon-wrap.active span:before {
-    top: -6px;
+    top: -2px;
   }
   .sendwich-icon-wrap.active span:after {
-    bottom: -3px;
+    bottom: -7px;
   }
   .header-bottom .header-bottom-nav {
     margin-top: 48px;

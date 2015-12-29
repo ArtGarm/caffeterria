@@ -186,8 +186,8 @@
         }
         &.active{
             span{
-                &:before{top:-6px;}
-                &:after{bottom: -3px;}
+                &:before{top:-2px;}
+                &:after{bottom: -7px;}
             }
         }
     }
