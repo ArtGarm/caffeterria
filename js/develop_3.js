@@ -43,10 +43,11 @@ function popUpCatalogimg(){
         padding:0,
         wrapCSS:" popupCatalog",
         beforeLoad:function(){
-            $('body').addClass('hidden');
+            $('body, html, .main').addClass('hidden');
+
         },
         afterClose:function(){
-            $('body').removeClass('hidden');
+            $('body, html, .main').removeClass('hidden');
         }
     });
 }

@@ -6,7 +6,8 @@
     &:before{position: absolute;width: 20px;height: 3px;background-color: #cccccc;content: "";transform: rotate(135deg);top:15px;right:7px;}
 }
 .fancybox-skin{border-radius: 0px;}
-.fancybox-overlay-fixed{min-height: 100vh !important;}
+.fancybox-overlay-fixed{}
+
 /*/fancybox style*/
 
 /*button*/
