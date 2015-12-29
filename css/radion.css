@@ -1,10 +1,6 @@
 /* variables */
 /* /variables */
 /*fancybox style*/
-.fancybox-inner {
-  overflow: hidden !important;
-}
-
 .fancybox-close {
   background: none;
   outline: none;
@@ -46,10 +42,6 @@
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-}
-
-.fancybox-lock body {
-  overflow: hidden !important;
 }
 
 .fancybox-overlay-fixed {
