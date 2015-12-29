@@ -1,15 +1,11 @@
 @import 'variables';
 /*fancybox style*/
-.fancybox-inner {
-    overflow: hidden !important;
-}
+
 .fancybox-close{background: none;outline: none;top: 0;right: 0;
     &:after{position: absolute;width: 20px;height: 3px;background-color: #cccccc;content: "";transform: rotate(45deg);top: 15px;right:7px;}
     &:before{position: absolute;width: 20px;height: 3px;background-color: #cccccc;content: "";transform: rotate(135deg);top:15px;right:7px;}
 }
 .fancybox-skin{border-radius: 0px;}
-.fancybox-lock body {overflow: hidden !important;}
-// .fancybox-lock .fancybox-overlay{overflow: hidden !important;}
 .fancybox-overlay-fixed{min-height: 100vh !important;}
 /*/fancybox style*/
 
