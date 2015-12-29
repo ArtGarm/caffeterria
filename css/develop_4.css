@@ -1,0 +1,566 @@
+/* variables */
+/* /variables */
+/*fancybox style*/
+.fancybox-close {
+  background: none;
+  outline: none;
+  top: 0;
+  right: 0;
+}
+
+.fancybox-close:after {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: #cccccc;
+  content: "";
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 15px;
+  right: 7px;
+}
+
+.fancybox-close:before {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: #cccccc;
+  content: "";
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  top: 15px;
+  right: 7px;
+}
+
+.fancybox-skin {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.fancybox-overlay-fixed {
+  min-height: 100vh !important;
+}
+
+/*/fancybox style*/
+/*button*/
+.look_and_buy {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #29e694;
+  color: #fff;
+  text-decoration: none;
+  width: 220px;
+  display: inline-block;
+  padding: 24px 0px;
+  vertical-align: middle;
+  line-height: 12px;
+  -webkit-transition: all linear .2s;
+  -moz-transition: all linear .2s;
+  -o-transition: all linear .2s;
+  transition: all linear .2s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.look_and_buy:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.look_and_buy:hover span {
+  text-shadow: 0px 0px 1px #fff;
+}
+
+.look_and_buy span {
+  line-height: 12px;
+  vertical-align: text-top;
+  -webkit-transition: all linear .2s;
+  -moz-transition: all linear .2s;
+  -o-transition: all linear .2s;
+  transition: all linear .2s;
+  position: relative;
+}
+
+.look_and_buy span:active {
+  top: 2px;
+}
+
+/*red circle-hit*/
+.red_circle {
+  text-align: center;
+}
+
+.red_circle .red_circle_wrap {
+  display: inline-block;
+  height: 65px;
+  width: 65px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #d10019;
+  margin-top: -32px;
+  border: 2px solid white;
+}
+
+.red_circle .red_circle_wrap span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  display: block;
+  padding-top: 19px;
+}
+
+/*massonry*/
+.massonry {
+  overflow: hidden;
+}
+
+.massonry .massonry_wrap {
+  padding-bottom: 63px;
+  padding-top: 85px;
+  margin: 0 auto;
+}
+
+.massonry .massonry_wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.massonry .massonry_item_sizer {
+  width: 25%;
+}
+
+.massonry .massonry_item {
+  float: left;
+  width: 25%;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.massonry .massonry_item > a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.massonry .massonry_item.item_1 {
+  width: 50%;
+  height: 330px;
+}
+
+.massonry .massonry_item.item_2 {
+  width: 50%;
+  height: 426px;
+  position: relative;
+}
+
+.massonry .massonry_item.item_3 {
+  width: 25%;
+  margin-top: -8.0%;
+}
+
+.massonry .massonry_item.item_4 {
+  width: 25%;
+  margin-top: -8.0%;
+}
+
+.massonry .massonry_item.item_5 {
+  width: 50%;
+  height: 333px;
+}
+
+.massonry .massonry_item.item_6 {
+  width: 25%;
+  margin-top: -7.7%;
+}
+
+.massonry .massonry_item.item_7 {
+  width: 50%;
+}
+
+.massonry .massonry_item.item_7 .massonry_item_text {
+  text-align: left;
+}
+
+.massonry .massonry_item.item_7 .massonry_item_text_subdesc {
+  text-align: left;
+}
+
+.massonry .massonry_item.item_7 .massonry_item_fs_14 {
+  padding-top: 23px;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+}
+
+.massonry .massonry_item.item_7 .massonry_item_subdescription {
+  position: absolute;
+  bottom: 27px;
+  right: 21px;
+  font-size: 12px;
+}
+
+.massonry .massonry_item.item_7 .massonry_item_img img {
+  padding-right: 10px;
+}
+
+.massonry .massonry_item.item_8 {
+  width: 25%;
+  overflow: hidden;
+}
+
+.massonry .massonry_item.item_8 .massonry_item_img {
+  text-align: center;
+}
+
+.massonry .massonry_item.item_8 .massonry_item_img img {
+  display: inline-block;
+  padding-right: 0;
+}
+
+.massonry .massonry_item.item_8 .massonry_item_text.absolute {
+  margin-right: 0;
+}
+
+.massonry .massonry_item.item_8 .massonry_item_fs_16 {
+  padding-top: 37%;
+  font-weight: bold;
+}
+
+.massonry .massonry_item_text {
+  text-align: center;
+}
+
+.massonry .massonry_item_text.absolute {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-right: 15px;
+}
+
+.massonry .massonry_item_text.white {
+  color: #fff;
+}
+
+.massonry .massonry_item_text.padding {
+  padding: 30px;
+}
+
+.massonry .massonry_item_text .look_and_buy {
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.massonry .massonry_item_text .massonry_item_mini_text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 2%;
+  color: #a4a6ab;
+  font-size: 12px;
+  bottom: 7%;
+  z-index: 0;
+}
+
+.massonry .massonry_item_text .massonry_item_rotate_text {
+  font-family: "Merel";
+  font-size: 14px;
+  color: #a4a6ab;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 59px;
+  right: -53px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.massonry .massonry_item_text .massonry_item_fs_18 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 32px;
+}
+
+.massonry .massonry_item_text .massonry_item_fs_140 {
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 113px;
+}
+
+.massonry .massonry_item_text .massonry_item_fs_12 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 47px;
+  padding-bottom: 20px;
+}
+
+.massonry .massonry_item_text .massonry_item_fs_14 {
+  font-size: 14px;
+}
+
+.massonry .massonry_item_text .massonry_item_fs_16 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.massonry .massonry_item_text .massonry_item_4_img {
+  padding-top: 41%;
+  padding-bottom: 10%;
+}
+
+.massonry .massonry_item_text .massonry_item_Savoye {
+  font-family: "SavoyeLetPlain";
+  font-style: italic;
+  font-size: 41px;
+  line-height: 38px;
+  padding-top: 52%;
+  padding-bottom: 23px;
+}
+
+.massonry .massonry_item_text .massonry_item_fs_24 {
+  font-size: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.massonry .massonry_item_text_desc {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 11px;
+}
+
+.massonry .massonry_item_text_subdesc {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.massonry .massonry_item_text_subdesc span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.massonry .massonry_item_text_descnotsample {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 27px;
+  padding-bottom: 2px;
+  max-width: 450px;
+  margin: 0 auto;
+  line-height: 23px;
+}
+
+.massonry .massonry_item_img img {
+  padding-right: 15px;
+}
+
+.massonry .massonry_item_img.img-centered {
+  text-align: center;
+  position: relative;
+}
+
+.massonry .massonry_item_img.img-centered img {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.massonry .massonry_item_img .img-centered-text {
+  font-size: 51px;
+  text-align: center;
+  line-height: 43px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: "SavoyeLetPlain";
+  font-style: italic;
+  padding-top: 51px;
+}
+
+.massonry .massonry_item_pink {
+  background-color: #e28892;
+  height: 100%;
+}
+
+/*catalog pop*/
+.catalog_pop_wrap .catalog_pop_table {
+  display: table;
+}
+
+.catalog_pop_wrap .catalog_pop_cell {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+}
+
+.catalog_pop_wrap .catalog_pop_cell.left {
+  background-color: #ccf5f3;
+  width: 51%;
+}
+
+.catalog_pop_wrap .catalog_pop_cell.right {
+  text-align: center;
+  padding: 45px 10px;
+  color: #000;
+  width: 49%;
+}
+
+.catalog_pop_wrap .catalog_pop_title {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.catalog_pop_wrap .catalog_pop_subtitle {
+  font-size: 13px;
+  padding-bottom: 60px;
+  line-height: 24px;
+}
+
+.catalog_pop_wrap .catalog_pop_price {
+  padding-bottom: 80px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.catalog_pop_wrap .catalog_pop_price span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.catalog_pop_wrap .catalog_pop_button .button {
+  max-width: 210px;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.catalog_pop_wrap .catalog_pop_button .catalog_pop_close {
+  height: 48px;
+  line-height: 43px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #e6e6e6;
+  border: 2px solid #e6e6e6;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+  -moz-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+  -o-transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+  transition: background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+  max-width: 210px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.catalog_pop_wrap .catalog_pop_button .catalog_pop_close:hover {
+  border: 2px solid transparent;
+  background-color: #e6e6e6;
+  color: #fff;
+}
+
+.catalog_pop_wrap .catalog_pop_img {
+  text-align: center;
+}
+
+.catalog_pop_wrap .catalog_pop_img img {
+  display: inline-block;
+}
+
+.catalog_pop_wrap .catalog_pop_mas {
+  position: absolute;
+  background-color: #d10019;
+  height: 75px;
+  width: 75px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  top: 30px;
+  left: 30px;
+  font-weight: bold;
+}
+
+.catalog_pop_wrap .catalog_pop_mas p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.catalog_pop_wrap .catalog_pop_kkal {
+  position: absolute;
+  background-color: #ccf5f3;
+  border: 3px solid #d10019;
+  height: 73px;
+  width: 73px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  top: 110px;
+  left: 30px;
+  padding-top: 12px;
+}
+
+.catalog_pop_wrap .catalog_pop_kkal p {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 2px;
+  color: #d10019;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+/*conditer-bread-page*/
+.catalog-item-title {
+  color: #303030;
+  padding: 85px 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3.9px;
+  font-weight: bold;
+}
+
+.breadcrumbs.conditer-bread + .wrap-text .convert-text .h1:last-child {
+  padding-top: 35px;
+  line-height: 29px;
+}
+
+.conditer-bread-page .catalog-item-title {
+  padding: 80px 0px 85px;
+}
