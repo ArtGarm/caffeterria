@@ -380,7 +380,15 @@
   text-transform: uppercase;
 }
 
-.sendwich-callback-button:before, .sendwich-callback-button:after {
+.sendwich-callback-button .back-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.sendwich-callback-button .back-icon:before, .sendwich-callback-button .back-icon:after {
   content: '';
   display: block;
   width: 9px;
@@ -390,10 +398,7 @@
   border-radius: 50px;
   background-color: #7f7f7f;
   position: absolute;
-  right: -webkit-calc(100% + 13px);
-  right: -moz-calc(100% + 13px);
-  right: calc(100% + 13px);
-  top: 50%;
+  left: 0;
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -401,21 +406,31 @@
   transform-origin: 50% 50%;
 }
 
-.sendwich-callback-button:after {
+.sendwich-callback-button .back-icon:after {
   -webkit-transform: rotate(-45deg) translate(0, -3px);
   -moz-transform: rotate(-45deg) translate(0, -3px);
   -ms-transform: rotate(-45deg) translate(0, -3px);
   -o-transform: rotate(-45deg) translate(0, -3px);
   transform: rotate(-45deg) translate(0, -3px);
-  top: 7px;
+  top: -webkit-calc(50% - 1px);
+  top: -moz-calc(50% - 1px);
+  top: calc(50% - 1px);
 }
 
-.sendwich-callback-button:before {
+.sendwich-callback-button .back-icon:before {
   -webkit-transform: rotate(45deg) translate(0, 3px);
   -moz-transform: rotate(45deg) translate(0, 3px);
   -ms-transform: rotate(45deg) translate(0, 3px);
   -o-transform: rotate(45deg) translate(0, 3px);
   transform: rotate(45deg) translate(0, 3px);
+  top: -webkit-calc(50% + 0px);
+  top: -moz-calc(50% + 0px);
+  top: calc(50% + 0px);
+}
+
+.sendwich-callback-button .back-text {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .sendwich-icon-wrap {

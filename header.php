@@ -629,7 +629,10 @@
 						<span></span>
 					</div>
 				</div>
-				<div class="sendwich-callback-button">вернуться НАЗАД</div>
+				<div class="sendwich-callback-button">
+					<span class="back-icon"></span>
+					<span class="back-text">вернуться НАЗАД</span>
+				</div>
 			</div>
 		</div>
 	</header>
