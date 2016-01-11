@@ -752,11 +752,7 @@
   }
   .catalog-content .catalog-item.action-item .add-to-cart {
     bottom: 8%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
+    /*transform: translateX(-50%);*/
   }
   .catalog-content .catalog-item.action-item .catalog-item-text .action-text {
     bottom: 85px;
