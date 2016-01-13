@@ -15,7 +15,7 @@
                     .h2{font-family: "Merel", sans-serif; font-size: 18px; font-style: normal; color:#737478;max-width: 660px;;padding: 0px 108px 64px 111px;line-height: 28px;}
                     .h3{font-family: "Merel", sans-serif; font-size: 18px; font-weight: 700; color:#737478; padding: 1px 100px 131px 110px;}
                     a{ text-decoration: none; max-width: 230px; width: 16%;
-                        .button-fast{ border: 1px solid #d10019; border-radius: 3px; background-color:#d10019; color: #ffffff; text-transform: uppercase; font-style: "Merel"; font-weight: 700; font-size: 12px; padding: 23px; display: inline-block;     margin-left: 110px; letter-spacing: 4px;}
+                        .button-fast{ border: 1px solid #d10019; border-radius: 3px; background-color:#d10019; color: #ffffff; text-transform: uppercase; font-style: "Merel"; font-weight: 700; font-size: 12px; padding: 23px 40px; display: inline-block;     margin-left: 110px; letter-spacing: 2px;}
                     }
                     a:hover, a:focus, a:active {text-decoration: none; border: none; outline: none;}
                     img{width: 1500px; height: 816px; left: 50%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0); max-width: none ; }
@@ -34,7 +34,7 @@
                 }
             }
         }
-        .slick-dots{position: absolute;margin-bottom: 50px;bottom: 17px; right: 183px;text-align: center;
+        .slick-dots{position: absolute;margin-bottom: 50px;bottom: 17px; right: 100px;text-align: center;
             li{display: inline-block;margin-right: 13px;cursor: pointer;
                 &:last-child{margin-right: 0;}
                 button{font-size: 0;border:2px solid #fff;padding:0;margin:0;background-color: transparent;border-radius: 50%;width: 12px;height: 12px;cursor: pointer;
@@ -45,13 +45,13 @@
                 }
             }
         }
-        .red_circle_slide{height: 120px;width: 120px;position: absolute;top: 42%;right: 17%;background-color: #d10019;color: white;overflow: hidden;z-index: 5;border-radius: 50%;
+        .red_circle_slide{height: 120px;width: 120px;position: absolute;top: 31%;right: 16%;background-color: #d10019;color: white;overflow: hidden;z-index: 5;border-radius: 50%;
             span{font-size: 36px;font-weight: bold;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -66%);min-width: 105px;line-height: 36px;text-align: center;}
         }
 
     }
 }
-.slick-slide img { max-width: none ;  margin-left: 50%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0); }
+.slick-slide img { max-width: none ;  margin-left: 50%;transform:translate3d(-55%, -14%, 0);-webkit-transform:translate3d(-53%, -14%, 0); }
 
 // end slider
 

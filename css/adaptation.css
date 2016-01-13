@@ -118,9 +118,11 @@
     height: 100%;
     width: 405px;
     -webkit-transition: right 300ms ease, -webkit-box-shadow 300ms ease;
-    -moz-transition: right 300ms ease, -moz-box-shadow 300ms ease;
+    transition: right 300ms ease, -webkit-box-shadow 300ms ease;
+    -moz-transition: right 300ms ease, box-shadow 300ms ease, -moz-box-shadow 300ms ease;
     -o-transition: right 300ms ease, box-shadow 300ms ease;
     transition: right 300ms ease, box-shadow 300ms ease;
+    transition: right 300ms ease, box-shadow 300ms ease, -webkit-box-shadow 300ms ease, -moz-box-shadow 300ms ease;
     z-index: 1;
     padding-top: 94px;
     -webkit-box-shadow: 0 4px 30px 0 transparent;
@@ -145,9 +147,11 @@
     position: fixed;
     z-index: 2;
     -webkit-transition: -webkit-box-shadow 300ms ease;
-    -moz-transition: -moz-box-shadow 300ms ease;
+    transition: -webkit-box-shadow 300ms ease;
+    -moz-transition: box-shadow 300ms ease, -moz-box-shadow 300ms ease;
     -o-transition: box-shadow 300ms ease;
     transition: box-shadow 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-box-shadow 300ms ease, -moz-box-shadow 300ms ease;
     background-color: #fff;
   }
   .header-basket-main .header-basket-form .header-basket-form-row {
@@ -204,9 +208,11 @@
     right: -405px;
     width: 405px;
     -webkit-transition: right 300ms ease, -webkit-box-shadow 300ms;
-    -moz-transition: right 300ms ease, -moz-box-shadow 300ms;
+    transition: right 300ms ease, -webkit-box-shadow 300ms;
+    -moz-transition: right 300ms ease, box-shadow 300ms, -moz-box-shadow 300ms;
     -o-transition: right 300ms ease, box-shadow 300ms;
     transition: right 300ms ease, box-shadow 300ms;
+    transition: right 300ms ease, box-shadow 300ms, -webkit-box-shadow 300ms, -moz-box-shadow 300ms;
     top: 0;
     height: 100%;
     z-index: 1;
@@ -241,10 +247,12 @@
     -webkit-box-shadow: 0 4px 30px 0 transparent;
     -moz-box-shadow: 0 4px 30px 0 transparent;
     box-shadow: 0 4px 30px 0 transparent;
-    -webkit-transition: -webkit-box-shadow 300ms ease, left 300ms ease;
-    -moz-transition: -moz-box-shadow 300ms ease, left 300ms ease;
+    -webkit-transition: left 300ms ease, -webkit-box-shadow 300ms ease;
+    transition: left 300ms ease, -webkit-box-shadow 300ms ease;
+    -moz-transition: box-shadow 300ms ease, left 300ms ease, -moz-box-shadow 300ms ease;
     -o-transition: box-shadow 300ms ease, left 300ms ease;
     transition: box-shadow 300ms ease, left 300ms ease;
+    transition: box-shadow 300ms ease, left 300ms ease, -webkit-box-shadow 300ms ease, -moz-box-shadow 300ms ease;
     background-color: #fff;
   }
   .header-bottom .header-bottom-nav > ul, .header-bottom .header-bottom-nav > ul > li, .header-bottom .header-bottom-nav .second-level-menu-row, .header-bottom .header-bottom-nav .second-level-menu-col {
