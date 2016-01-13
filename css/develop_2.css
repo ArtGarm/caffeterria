@@ -1,9 +1,15 @@
 .box-white-fixer {
   background-color: #eef1f8;
+  background-image: url(../images/slider-image1.jpg);
+  width: 100%;
+  height: 815px;
 }
 
 .box-block-fixer {
   background-color: #231610;
+  background-image: url(../images/slider-image2.jpg);
+  width: 100%;
+  height: 815px;
 }
 
 .header-slider-wrap {
@@ -43,7 +49,7 @@
   color: #ffffff;
   position: absolute;
   bottom: 56px;
-  right: 110px;
+  right: 102px;
   font-style: "Merel";
   font-weight: 900;
 }
@@ -206,9 +212,9 @@
 .header-slider-wrap .header-slider-wrap-main .slick-dots {
   position: absolute;
   margin-bottom: 50px;
-  bottom: 17px;
-  right: 100px;
   text-align: center;
+  bottom: 12px;
+  right: 183px;
 }
 
 .header-slider-wrap .header-slider-wrap-main .slick-dots li {
@@ -478,4 +484,9 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:focus, nav ul li a:visited {
   -webkit-background: -webkit-linear-gradient(#e0e0e0, #f6f6f6);
   -o-background: -o-linear-gradient(#e0e0e0, #f6f6f6);
   -moz-background: -moz-linear-gradient(#e0e0e0, #f6f6f6);
+}
+
+.desktop .fancybox-lock body {
+  overflow: hidden !important;
+  padding-right: 17px;
 }

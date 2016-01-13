@@ -1,13 +1,15 @@
 // slider
-.box-white-fixer{background-color: #eef1f8; }
-.box-block-fixer{background-color: #231610; }
+.box-white-fixer{background-color: #eef1f8; background-image: url(../images/slider-image1.jpg); width: 100%; height: 815px; }
+
+
+.box-block-fixer{background-color: #231610; background-image: url(../images/slider-image2.jpg); width: 100%; height: 815px;}
 .header-slider-wrap{ max-width: 1920px;margin: 0 auto;position: relative;
     .buton-scroll{position: absolute; bottom: 20px; left: calc(50% - 12px); width: 24px; height: 38px; background-image: url(../images/scroller.png); display: none;}
     .buton-scroll:hover{cursor: pointer;}
     .header-slider-wrap-main{width: 100%;overflow: hidden;max-height: 812px;
         .header-slider-item{
             .conteiner-content{ position: relative;
-                .counter{font-size: 30px; color:#ffffff; position: absolute; bottom: 56px; right: 110px; font-style: "Merel"; font-weight: 900; }
+                .counter{font-size: 30px; color:#ffffff; position: absolute; bottom: 56px; right: 102px; font-style: "Merel"; font-weight: 900; }
                 .content-box-white{ position: absolute; z-index: 2;
                     .h1{ font-size: 100px; font-family: "PFDinTextCondPro", sans-serif; font-weight: 100; color: #2a2a2b;text-transform: uppercase;padding: 154px 87px 17px 104px; margin-bottom: 0px;
                         span{font-weight: 300; color:#d10019; }
@@ -34,7 +36,7 @@
                 }
             }
         }
-        .slick-dots{position: absolute;margin-bottom: 50px;bottom: 17px; right: 100px;text-align: center;
+        .slick-dots{position: absolute;margin-bottom: 50px;text-align: center; bottom: 12px;right: 183px;
             li{display: inline-block;margin-right: 13px;cursor: pointer;
                 &:last-child{margin-right: 0;}
                 button{font-size: 0;border:2px solid #fff;padding:0;margin:0;background-color: transparent;border-radius: 50%;width: 12px;height: 12px;cursor: pointer;
@@ -113,3 +115,6 @@
 .mbox{ max-width: 1280px; display: block; margin: 0 auto;}
 .foot-grad{width: 100%; height: 4px;background: linear-gradient(#e0e0e0, #f6f6f6);-webkit-background: linear-gradient(#e0e0e0, #f6f6f6);-o-background: linear-gradient(#e0e0e0, #f6f6f6);-moz-background: linear-gradient(#e0e0e0, #f6f6f6);}
 // end footer
+
+
+.desktop .fancybox-lock body { overflow: hidden !important; padding-right: 17px;}

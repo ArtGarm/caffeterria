@@ -344,7 +344,7 @@
     overflow: hidden !important;
     overflow-y: hidden !important;
     position: relative;
-    height: 500px !important;
+    /*height: 500px !important;*/
   }
 }
 

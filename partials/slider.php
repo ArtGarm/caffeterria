@@ -10,7 +10,7 @@
                         <div class="h3"> 134 ГР. / 92 ККАЛ </div>
                         <a href="#">  <div class="button-fast"> быстрая покупка </div></a>
                     </div>
-                    <img src="images/slider-image1.jpg" alt="" />
+                    <!-- <img src="images/slider-image1.jpg" alt="" /> -->
                     <div class="red_circle_slide"><span>999 P</span></div>
                     <div class="counter"> 01 </div>
                 </div>
@@ -23,7 +23,7 @@
                         <div class="h3"> 134 ГР. / 92 ККАЛ </div>
                         <a href="#">  <div class="button-fast"> быстрая покупка </div></a>
                     </div>
-                    <img src="images/slider-image2.jpg" alt="" />
+                    <!--<img src="images/slider-image2.jpg" alt="" /> -->
                     <div class="red_circle_slide"><span>99 P</span></div>
                     <div class="counter">  </div>
                 </div>
@@ -36,7 +36,7 @@
                         <div class="h3"> 134 ГР. / 92 ККАЛ </div>
                         <a href="#">  <div class="button-fast"> быстрая покупка </div></a>
                     </div>
-                    <img src="images/slider-image1.jpg" alt="" />
+                    <!--<img src="images/slider-image1.jpg" alt="" /> -->
                     <div class="red_circle_slide"><span>99 P</span></div>
                     <div class="counter">  </div>
                 </div>
@@ -49,7 +49,7 @@
                         <div class="h3"> 134 ГР. / 92 ККАЛ </div>
                         <a href="#">  <div class="button-fast"> быстрая покупка </div></a>
                     </div>
-                    <img src="images/slider-image2.jpg" alt="" />
+                    <!--<img src="images/slider-image2.jpg" alt="" /> -->
                     <div class="red_circle_slide"><span>99 P</span></div>
                     <div class="counter">  </div>
                </div>
