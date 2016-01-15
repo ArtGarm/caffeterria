@@ -134,6 +134,9 @@
     width: 100%;
     height: 100%;
   }
+  .popupCatalog #catalog_pop {
+    width: 650px;
+  }
   .popupCatalog .catalog_pop_wrap .catalog_pop_cell.right {
     vertical-align: top;
   }
@@ -202,21 +205,21 @@
     display: block;
   }
   .popupCatalog .catalog_pop_wrap .catalog_pop_mas {
-    top: 99px;
+    top: 150px;
     left: 3%;
-    height: 43px;
-    width: 43px;
+    height: 60px;
+    width: 60px;
   }
   .popupCatalog .catalog_pop_wrap .catalog_pop_mas p, .popupCatalog .catalog_pop_wrap .catalog_pop_kkal p {
-    font-size: 11px;
-    padding-top: 12px;
+    font-size: 16px;
+    padding-top: 15px;
   }
   .popupCatalog .catalog_pop_wrap .catalog_pop_kkal {
-    height: 43px;
-    width: 43px;
-    top: 99px;
+    height: 60px;
+    width: 60px;
+    top: 150px;
     right: 3%;
-    padding-top: 7px;
+    padding-top: 13px;
   }
   .popupCatalog .catalog_pop_wrap .catalog_pop_kkal p {
     padding-top: 0;
@@ -235,10 +238,29 @@
     line-height: 18px;
   }
   .popupCatalog .catalog_pop_button {
-    padding: 16px 9% 0;
+    padding: 16px 0% 0;
   }
   .popupCatalog .catalog_pop_button a {
     margin-bottom: 22px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    font-size: 12px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .popupCatalog .catalog_pop_wrap .catalog_pop_button .catalog_pop_close {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    font-size: 12px;
+    border: 2px solid #C1C0C0;
+    color: #C1C0C0;
+  }
+  .popupCatalog .catalog_pop_wrap .catalog_pop_button .catalog_pop_close:hover {
+    background-color: #C1C0C0;
+    color: #fff;
+    border: 2px solid transparent;
   }
 }
 
@@ -344,7 +366,32 @@
     overflow: hidden !important;
     overflow-y: hidden !important;
     position: relative;
-    height: 500px !important;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  .popupCatalog #catalog_pop {
+    width: 100%;
+  }
+  .popupCatalog .catalog_pop_wrap .catalog_pop_kkal {
+    height: 43px;
+    width: 43px;
+    top: 99px;
+    right: 3%;
+    padding-top: 7px;
+  }
+  .popupCatalog .catalog_pop_wrap .catalog_pop_mas {
+    top: 99px;
+    left: 3%;
+    height: 43px;
+    width: 43px;
+  }
+  .popupCatalog .catalog_pop_wrap .catalog_pop_mas p, .popupCatalog .catalog_pop_wrap .catalog_pop_kkal p {
+    font-size: 11px;
+    padding-top: 0px;
+  }
+  .popupCatalog .catalog_pop_wrap .catalog_pop_mas {
+    padding-top: 10px;
   }
 }
 

@@ -14,7 +14,6 @@
   text-align: justify;
   -moz-text-align-last: center;
   text-align-last: center;
-  word-spacing: -4px;
   line-height: 1.6;
 }
 
@@ -26,10 +25,9 @@
 }
 
 .about-caffe-wrap .text-justify {
-  text-align: left;
+  text-align: justify;
   -moz-text-align-last: center;
   text-align-last: center;
-  word-spacing: -1px;
   line-height: 1.75;
   margin-bottom: 156px;
 }
@@ -80,6 +78,10 @@
   letter-spacing: 3px;
   padding-top: 38px;
   padding-bottom: 70px;
+}
+
+.about-caffe-wrap .about-caffe-title + p {
+  letter-spacing: -0.3px;
 }
 
 /* /about caffe */

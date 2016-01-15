@@ -19,17 +19,14 @@
   }
   .about-caffe-wrap .mbox .about-caffe p {
     font-size: 13px;
-    word-spacing: -1px;
     line-height: 1.7;
     margin-bottom: 40px;
   }
   .about-caffe-wrap .mbox .about-caffe p span {
     display: inline;
-    word-spacing: -1px;
   }
   .about-caffe-wrap .mbox .about-caffe .text-justify {
     line-height: 1.9;
-    word-spacing: -1px;
     margin-bottom: 63px;
   }
   .about-caffe-wrap .mbox .about-caffe .text-justify span {
@@ -307,7 +304,6 @@
     padding-bottom: 42px;
   }
   .about-caffe-wrap .mbox .about-caffe p {
-    word-spacing: -2px;
     line-height: 1.8;
     margin-bottom: 49px;
   }
@@ -346,7 +342,13 @@
     margin-bottom: 29px;
   }
   .catalog-content-wrap .catalog-content .catalog-item .catalog-item-text {
-    padding-top: 35px;
+    padding-top: 28px;
+  }
+  .catalog-content-wrap .catalog-content .catalog-item .catalog-item-text.helper-plashka-fix {
+    padding-top: 26px;
+  }
+  .catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop span {
+    height: 160px;
   }
   .catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop img {
     display: block;
@@ -428,6 +430,9 @@
   }
   .catalog-content-wrap.conditer-stock-page .catalog-content {
     margin-bottom: -11px;
+  }
+  .catalog-content-wrap.conditer-stock-page .catalog-items > div {
+    margin-bottom: 0px;
   }
 }
 

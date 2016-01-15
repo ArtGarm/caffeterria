@@ -469,8 +469,8 @@
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  color: #e6e6e6;
-  border: 2px solid #e6e6e6;
+  color: #C1C0C0;
+  border: 2px solid #C1C0C0;
   text-transform: uppercase;
   font-size: 14px;
   cursor: pointer;
@@ -485,7 +485,7 @@
 
 .catalog_pop_wrap .catalog_pop_button .catalog_pop_close:hover {
   border: 2px solid transparent;
-  background-color: #e6e6e6;
+  background-color: #C1C0C0;
   color: #fff;
 }
 

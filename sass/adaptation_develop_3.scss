@@ -10,6 +10,9 @@
 @media screen and (max-width: 1280px){
 
 }
+@media screen and (max-width: 1229px){
+
+}
 @media screen and (max-width: 1180px){
 	.catalog-content .catalog-item.action-item .catalog-item-text{padding-top: 75px;}
 }
@@ -24,10 +27,10 @@
 	.about-caffe-wrap{
 		.mbox{max-width: 934px; width: 100%;
 			.about-caffe{
-				p{font-size: 13px;word-spacing: -1px;line-height: 1.7;margin-bottom: 40px;
-					span{display: inline;word-spacing: -1px;}
+				p{font-size: 13px;line-height: 1.7;margin-bottom: 40px;
+					span{display: inline;}
 				}
-				.text-justify{line-height: 1.9;word-spacing: -1px;margin-bottom: 63px;
+				.text-justify{line-height: 1.9;margin-bottom: 63px;
 					span{text-align: center;}
 				}
 				.differend-font{font-size: 27px;
@@ -165,7 +168,7 @@
 
 	/* about caffe */
 	.about-caffe-wrap .about-caffe-title{padding-bottom: 42px;}
-	.about-caffe-wrap .mbox .about-caffe p{word-spacing: -2px;line-height: 1.8;margin-bottom: 49px;}
+	.about-caffe-wrap .mbox .about-caffe p{line-height: 1.8;margin-bottom: 49px;}
 	.about-caffe-wrap .mbox .about-caffe .text-justify {margin-bottom: 31px;}
 	.about-caffe-wrap .mbox .about-caffe .differend-font:before{background-image: url(../images/testimg_new.png);top: 10px;}
 }
@@ -180,8 +183,10 @@
 		.mbox{padding: 0 27px;}
 		.catalog-content .catalog-item.large-item{width: 100%;margin: 0 auto;margin-bottom: 29px;}
 		.catalog-content .catalog-item{width: 100%;margin: 0 auto;margin-bottom: 29px;}
-		.catalog-content .catalog-item .catalog-item-text{padding-top: 35px;}
+		.catalog-content .catalog-item .catalog-item-text{padding-top: 28px;}
+		.catalog-content .catalog-item .catalog-item-text.helper-plashka-fix{padding-top: 26px;}
 	}
+	.catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop span{height: 160px;}
 	.catalog-content .catalog-item .catalog-item-img .catalog-item-img-wrap .loop img{display: block; margin: 0 auto;width: 97%;max-height: 230px;}
 	.catalog-content-wrap .catalog-item .add-to-cart a{margin-top: 7px;}
 	.catalog-content-wrap .catalog-content .catalog-item.action-item .catalog-item-text{padding: 160px 2% 1%;}
@@ -225,6 +230,7 @@
 			.catalog-item-title{padding: 53px 0px 56px;font-size: 14px;font-weight: bold;letter-spacing: 2.8px;}
 			.catalog-items {margin-bottom: 88px;}
 			.catalog-content {margin-bottom: -11px;}
+			.catalog-items > div {margin-bottom: 0px;}
 		}
 	}
 
